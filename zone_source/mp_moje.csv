@@ -1,0 +1,11 @@
+ignore,code_post_gfx_mp
+ignore,common_mp
+ignore,localized_code_post_gfx_mp
+ignore,localized_common_mp
+col_map_mp,maps/mp/mp_moje.d3dbsp
+rawfile,maps/mp/mp_moje.gsc
+impactfx,mp_moje
+sound,common,mp_moje,!all_mp
+sound,generic,mp_moje,!all_mp
+sound,voiceovers,mp_moje,!all_mp
+sound,multiplayer,mp_moje,!all_mp

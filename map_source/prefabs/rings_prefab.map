@@ -1,0 +1,2393 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"targetname" "rings_1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 -18 8 ) ( -44 -18 0 ) ( -20 -77 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 -9 8 ) ( 47.5 -9 0 ) ( 59.5 54 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 0 8 ) ( 48 0 0 ) ( 48 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 9 8 ) ( 47.5 9 0 ) ( 35.5 72 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 18 8 ) ( 44 18 0 ) ( 20 77 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 27 8 ) ( 40 27 0 ) ( 4 80 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 33.5 8 ) ( 33.5 33.5 0 ) ( -11.5 78.5 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 40 8 ) ( 27 40 0 ) ( -26 76 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 0 ) ( 53 36 8 ) ( 17 89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 44 8 ) ( 18 44 0 ) ( -41 68 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 47.5 8 ) ( 9 47.5 0 ) ( -54 59.5 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 0 ) ( 45 45 8 ) ( 0 90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 48 8 ) ( 0 48 0 ) ( -64 48 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 0 ) ( 36 53 8 ) ( -17 89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 47.5 8 ) ( -9 47.5 0 ) ( -72 35.5 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 0 ) ( 24 59 8 ) ( -35 83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 44 8 ) ( -18 44 0 ) ( -77 20 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 0 ) ( 12 63 8 ) ( -51 75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 40 8 ) ( -27 40 0 ) ( -80 4 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 0 ) ( 0 64 8 ) ( -64 64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 0 ) ( -12 63 8 ) ( -75 51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 33.5 8 ) ( -33.5 33.5 0 ) ( -78.5 -11.5 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 27 8 ) ( -40 27 0 ) ( -76 -26 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 0 ) ( -24 59 8 ) ( -83 35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 0 ) ( -36 53 8 ) ( -89 17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 18 8 ) ( -44 18 0 ) ( -68 -41 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 9 8 ) ( -47.5 9 0 ) ( -59.5 -54 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 0 ) ( -45 45 8 ) ( -90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 0 8 ) ( -48 0 0 ) ( -48 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 0 ) ( -53 36 8 ) ( -89 -17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 0 ) ( -59 24 8 ) ( -83 -35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 -9 8 ) ( -47.5 -9 0 ) ( -35.5 -72 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 0 ) ( -63 12 8 ) ( -75 -51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -27 8 ) ( -40 -27 0 ) ( -4 -80 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 0 ) ( -64 0 8 ) ( -64 -64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 0 ) ( -63 -12 8 ) ( -51 -75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 -33.5 8 ) ( -33.5 -33.5 0 ) ( 11.5 -78.5 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -40 8 ) ( -27 -40 0 ) ( 26 -76 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 0 ) ( -59 -24 8 ) ( -35 -83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 0 ) ( -53 -36 8 ) ( -17 -89 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -44 8 ) ( -18 -44 0 ) ( 41 -68 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 -47.5 8 ) ( -9 -47.5 0 ) ( 54 -59.5 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 0 ) ( -45 -45 8 ) ( 0 -90 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 8 ) ( 0 -48 0 ) ( 64 -48 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -44 8 ) ( 18 -44 0 ) ( 77 -20 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -40 8 ) ( 27 -40 0 ) ( 80 -4 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 -33.5 8 ) ( 33.5 -33.5 0 ) ( 78.5 11.5 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 -27 8 ) ( 40 -27 0 ) ( 76 26 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 0 ) ( 64 0 8 ) ( 64 64 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 0 ) ( 63 12 8 ) ( 51 75 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 0 ) ( 59 24 8 ) ( 35 83 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 0 ) ( 53 -36 8 ) ( 89 17 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 0 ) ( 59 -24 8 ) ( 83 35 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 0 ) ( 63 -12 8 ) ( 75 51 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -18 8 ) ( 44 -18 0 ) ( 68 41 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 64 64 8 ) ( 64 -64 8 ) ( -64 -64 8 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 0 ) ( 64 -64 0 ) ( 64 64 0 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 0 ) ( -36 -53 8 ) ( 17 -89 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 0 ) ( -24 -59 8 ) ( 35 -83 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 0 ) ( -12 -63 8 ) ( 51 -75 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 0 ) ( 0 -64 8 ) ( 64 -64 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 0 ) ( 12 -63 8 ) ( 75 -51 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 0 ) ( 24 -59 8 ) ( 83 -35 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 0 ) ( 36 -53 8 ) ( 89 -17 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 0 ) ( 45 -45 8 ) ( 90 0 8 ) clip_player 64 64 2 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -47.5 8 ) ( 9 -47.5 0 ) ( 72 -35.5 8 ) clip_player 64 64 -176 24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"targetname" "sgc_rings_5"
+"origin" "0.0 0.0 68.0"
+"model" "sgc_rings"
+"classname" "script_model"
+}
+// entity 3
+{
+"origin" "0.0 0.0 8.0"
+"targetname" "origin"
+"classname" "script_origin"
+}
+// entity 4
+{
+"targetname" "sgc_rings_4"
+"origin" "0.0 0.0 52.0"
+"model" "sgc_rings"
+"classname" "script_model"
+}
+// entity 5
+{
+"targetname" "sgc_rings_3"
+"origin" "0.0 0.0 36.0"
+"model" "sgc_rings"
+"classname" "script_model"
+}
+// entity 6
+{
+"targetname" "sgc_rings_2"
+"origin" "0.0 0.0 20.0"
+"model" "sgc_rings"
+"classname" "script_model"
+}
+// entity 7
+{
+"targetname" "sgc_rings_1"
+"origin" "0.0 0.0 4.0"
+"model" "sgc_rings"
+"classname" "script_model"
+}
+// entity 8
+{
+"targetname" "rings_2"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -47.5 24 ) ( 9 -47.5 16 ) ( 72 -35.5 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -18 24 ) ( 44 -18 16 ) ( 68 41 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 -27 24 ) ( 40 -27 16 ) ( 76 26 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 -33.5 24 ) ( 33.5 -33.5 16 ) ( 78.5 11.5 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -40 24 ) ( 27 -40 16 ) ( 80 -4 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -44 24 ) ( 18 -44 16 ) ( 77 -20 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 24 ) ( 0 -48 16 ) ( 64 -48 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 16 ) ( 36 -53 24 ) ( 89 -17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 -47.5 24 ) ( -9 -47.5 16 ) ( 54 -59.5 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 16 ) ( 24 -59 24 ) ( 83 -35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -44 24 ) ( -18 -44 16 ) ( 41 -68 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 16 ) ( 12 -63 24 ) ( 75 -51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -40 24 ) ( -27 -40 16 ) ( 26 -76 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 16 ) ( -12 -63 24 ) ( 51 -75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 16 ) ( 0 -64 24 ) ( 64 -64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 -33.5 24 ) ( -33.5 -33.5 16 ) ( 11.5 -78.5 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -27 24 ) ( -40 -27 16 ) ( -4 -80 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 -9 24 ) ( -47.5 -9 16 ) ( -35.5 -72 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 0 24 ) ( -48 0 16 ) ( -48 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 9 24 ) ( -47.5 9 16 ) ( -59.5 -54 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 18 24 ) ( -44 18 16 ) ( -68 -41 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 27 24 ) ( -40 27 16 ) ( -76 -26 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 33.5 24 ) ( -33.5 33.5 16 ) ( -78.5 -11.5 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 40 24 ) ( -27 40 16 ) ( -80 4 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 16 ) ( -53 36 24 ) ( -89 -17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 44 24 ) ( -18 44 16 ) ( -77 20 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 47.5 24 ) ( -9 47.5 16 ) ( -72 35.5 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 16 ) ( -45 45 24 ) ( -90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 48 24 ) ( 0 48 16 ) ( -64 48 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 16 ) ( -36 53 24 ) ( -89 17 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 47.5 24 ) ( 9 47.5 16 ) ( -54 59.5 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 16 ) ( -24 59 24 ) ( -83 35 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 44 24 ) ( 18 44 16 ) ( -41 68 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 16 ) ( -12 63 24 ) ( -75 51 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 40 24 ) ( 27 40 16 ) ( -26 76 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 16 ) ( 12 63 24 ) ( -51 75 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 16 ) ( 0 64 24 ) ( -64 64 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 33.5 24 ) ( 33.5 33.5 16 ) ( -11.5 78.5 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 27 24 ) ( 40 27 16 ) ( 4 80 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 16 ) ( 36 53 24 ) ( -17 89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 16 ) ( 24 59 24 ) ( -35 83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 18 24 ) ( 44 18 16 ) ( 20 77 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 9 24 ) ( 47.5 9 16 ) ( 35.5 72 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 16 ) ( 45 45 24 ) ( 0 90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 0 24 ) ( 48 0 16 ) ( 48 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 16 ) ( 64 0 24 ) ( 64 64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 16 ) ( 63 12 24 ) ( 51 75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 16 ) ( 59 24 24 ) ( 35 83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 16 ) ( 53 36 24 ) ( 17 89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 16 ) ( 45 -45 24 ) ( 90 0 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 16 ) ( 53 -36 24 ) ( 89 17 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 16 ) ( 59 -24 24 ) ( 83 35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 16 ) ( 63 -12 24 ) ( 75 51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 -9 24 ) ( 47.5 -9 16 ) ( 59.5 54 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 64 64 24 ) ( 64 -64 24 ) ( -64 -64 24 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 16 ) ( 64 -64 16 ) ( 64 64 16 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 16 ) ( -59 24 24 ) ( -83 -35 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 16 ) ( -63 12 24 ) ( -75 -51 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 16 ) ( -64 0 24 ) ( -64 -64 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 16 ) ( -63 -12 24 ) ( -51 -75 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 16 ) ( -59 -24 24 ) ( -35 -83 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 16 ) ( -53 -36 24 ) ( -17 -89 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 16 ) ( -45 -45 24 ) ( 0 -90 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 16 ) ( -36 -53 24 ) ( 17 -89 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 16 ) ( -24 -59 24 ) ( 35 -83 24 ) clip_player 64 64 -176 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 -18 24 ) ( -44 -18 16 ) ( -20 -77 24 ) clip_player 64 64 2 8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 9
+{
+"targetname" "rings_3"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 -18 40 ) ( -44 -18 32 ) ( -20 -77 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 -9 40 ) ( 47.5 -9 32 ) ( 59.5 54 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 0 40 ) ( 48 0 32 ) ( 48 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 9 40 ) ( 47.5 9 32 ) ( 35.5 72 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 18 40 ) ( 44 18 32 ) ( 20 77 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 27 40 ) ( 40 27 32 ) ( 4 80 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 33.5 40 ) ( 33.5 33.5 32 ) ( -11.5 78.5 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 40 40 ) ( 27 40 32 ) ( -26 76 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 32 ) ( 53 36 40 ) ( 17 89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 44 40 ) ( 18 44 32 ) ( -41 68 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 47.5 40 ) ( 9 47.5 32 ) ( -54 59.5 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 32 ) ( 45 45 40 ) ( 0 90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 48 40 ) ( 0 48 32 ) ( -64 48 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 32 ) ( 36 53 40 ) ( -17 89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 47.5 40 ) ( -9 47.5 32 ) ( -72 35.5 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 32 ) ( 24 59 40 ) ( -35 83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 44 40 ) ( -18 44 32 ) ( -77 20 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 32 ) ( 12 63 40 ) ( -51 75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 40 40 ) ( -27 40 32 ) ( -80 4 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 32 ) ( 0 64 40 ) ( -64 64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 32 ) ( -12 63 40 ) ( -75 51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 33.5 40 ) ( -33.5 33.5 32 ) ( -78.5 -11.5 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 27 40 ) ( -40 27 32 ) ( -76 -26 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 32 ) ( -24 59 40 ) ( -83 35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 32 ) ( -36 53 40 ) ( -89 17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 18 40 ) ( -44 18 32 ) ( -68 -41 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 9 40 ) ( -47.5 9 32 ) ( -59.5 -54 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 32 ) ( -45 45 40 ) ( -90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 0 40 ) ( -48 0 32 ) ( -48 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 32 ) ( -53 36 40 ) ( -89 -17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 32 ) ( -59 24 40 ) ( -83 -35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 -9 40 ) ( -47.5 -9 32 ) ( -35.5 -72 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 32 ) ( -63 12 40 ) ( -75 -51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -27 40 ) ( -40 -27 32 ) ( -4 -80 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 32 ) ( -64 0 40 ) ( -64 -64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 32 ) ( -63 -12 40 ) ( -51 -75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 -33.5 40 ) ( -33.5 -33.5 32 ) ( 11.5 -78.5 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -40 40 ) ( -27 -40 32 ) ( 26 -76 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 32 ) ( -59 -24 40 ) ( -35 -83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 32 ) ( -53 -36 40 ) ( -17 -89 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -44 40 ) ( -18 -44 32 ) ( 41 -68 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 -47.5 40 ) ( -9 -47.5 32 ) ( 54 -59.5 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 32 ) ( -45 -45 40 ) ( 0 -90 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 40 ) ( 0 -48 32 ) ( 64 -48 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -44 40 ) ( 18 -44 32 ) ( 77 -20 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -40 40 ) ( 27 -40 32 ) ( 80 -4 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 -33.5 40 ) ( 33.5 -33.5 32 ) ( 78.5 11.5 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 -27 40 ) ( 40 -27 32 ) ( 76 26 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 32 ) ( 64 0 40 ) ( 64 64 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 32 ) ( 63 12 40 ) ( 51 75 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 32 ) ( 59 24 40 ) ( 35 83 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 32 ) ( 53 -36 40 ) ( 89 17 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 32 ) ( 59 -24 40 ) ( 83 35 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 32 ) ( 63 -12 40 ) ( 75 51 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -18 40 ) ( 44 -18 32 ) ( 68 41 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 64 64 40 ) ( 64 -64 40 ) ( -64 -64 40 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 32 ) ( 64 -64 32 ) ( 64 64 32 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 32 ) ( -36 -53 40 ) ( 17 -89 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 32 ) ( -24 -59 40 ) ( 35 -83 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 32 ) ( -12 -63 40 ) ( 51 -75 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 32 ) ( 0 -64 40 ) ( 64 -64 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 32 ) ( 12 -63 40 ) ( 75 -51 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 32 ) ( 24 -59 40 ) ( 83 -35 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 32 ) ( 36 -53 40 ) ( 89 -17 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 32 ) ( 45 -45 40 ) ( 90 0 40 ) clip_player 64 64 2 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -47.5 40 ) ( 9 -47.5 32 ) ( 72 -35.5 40 ) clip_player 64 64 -176 -8 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 10
+{
+"targetname" "rings_4"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -47.5 56 ) ( 9 -47.5 48 ) ( 72 -35.5 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -18 56 ) ( 44 -18 48 ) ( 68 41 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 -27 56 ) ( 40 -27 48 ) ( 76 26 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 -33.5 56 ) ( 33.5 -33.5 48 ) ( 78.5 11.5 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -40 56 ) ( 27 -40 48 ) ( 80 -4 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -44 56 ) ( 18 -44 48 ) ( 77 -20 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 56 ) ( 0 -48 48 ) ( 64 -48 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 48 ) ( 36 -53 56 ) ( 89 -17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 -47.5 56 ) ( -9 -47.5 48 ) ( 54 -59.5 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 48 ) ( 24 -59 56 ) ( 83 -35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -44 56 ) ( -18 -44 48 ) ( 41 -68 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 48 ) ( 12 -63 56 ) ( 75 -51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -40 56 ) ( -27 -40 48 ) ( 26 -76 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 48 ) ( -12 -63 56 ) ( 51 -75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 48 ) ( 0 -64 56 ) ( 64 -64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 -33.5 56 ) ( -33.5 -33.5 48 ) ( 11.5 -78.5 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -27 56 ) ( -40 -27 48 ) ( -4 -80 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 -9 56 ) ( -47.5 -9 48 ) ( -35.5 -72 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 0 56 ) ( -48 0 48 ) ( -48 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 9 56 ) ( -47.5 9 48 ) ( -59.5 -54 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 18 56 ) ( -44 18 48 ) ( -68 -41 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 27 56 ) ( -40 27 48 ) ( -76 -26 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 33.5 56 ) ( -33.5 33.5 48 ) ( -78.5 -11.5 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 40 56 ) ( -27 40 48 ) ( -80 4 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 48 ) ( -53 36 56 ) ( -89 -17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 44 56 ) ( -18 44 48 ) ( -77 20 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 47.5 56 ) ( -9 47.5 48 ) ( -72 35.5 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 48 ) ( -45 45 56 ) ( -90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 48 56 ) ( 0 48 48 ) ( -64 48 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 48 ) ( -36 53 56 ) ( -89 17 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 47.5 56 ) ( 9 47.5 48 ) ( -54 59.5 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 48 ) ( -24 59 56 ) ( -83 35 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 44 56 ) ( 18 44 48 ) ( -41 68 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 48 ) ( -12 63 56 ) ( -75 51 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 40 56 ) ( 27 40 48 ) ( -26 76 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 48 ) ( 12 63 56 ) ( -51 75 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 48 ) ( 0 64 56 ) ( -64 64 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 33.5 56 ) ( 33.5 33.5 48 ) ( -11.5 78.5 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 27 56 ) ( 40 27 48 ) ( 4 80 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 48 ) ( 36 53 56 ) ( -17 89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 48 ) ( 24 59 56 ) ( -35 83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 18 56 ) ( 44 18 48 ) ( 20 77 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 9 56 ) ( 47.5 9 48 ) ( 35.5 72 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 48 ) ( 45 45 56 ) ( 0 90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 0 56 ) ( 48 0 48 ) ( 48 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 48 ) ( 64 0 56 ) ( 64 64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 48 ) ( 63 12 56 ) ( 51 75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 48 ) ( 59 24 56 ) ( 35 83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 48 ) ( 53 36 56 ) ( 17 89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 48 ) ( 45 -45 56 ) ( 90 0 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 48 ) ( 53 -36 56 ) ( 89 17 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 48 ) ( 59 -24 56 ) ( 83 35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 48 ) ( 63 -12 56 ) ( 75 51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 -9 56 ) ( 47.5 -9 48 ) ( 59.5 54 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 64 64 56 ) ( 64 -64 56 ) ( -64 -64 56 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 48 ) ( 64 -64 48 ) ( 64 64 48 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 48 ) ( -59 24 56 ) ( -83 -35 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 48 ) ( -63 12 56 ) ( -75 -51 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 48 ) ( -64 0 56 ) ( -64 -64 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 48 ) ( -63 -12 56 ) ( -51 -75 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 48 ) ( -59 -24 56 ) ( -35 -83 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 48 ) ( -53 -36 56 ) ( -17 -89 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 48 ) ( -45 -45 56 ) ( 0 -90 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 48 ) ( -36 -53 56 ) ( 17 -89 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 48 ) ( -24 -59 56 ) ( 35 -83 56 ) clip_player 64 64 -176 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 -18 56 ) ( -44 -18 48 ) ( -20 -77 56 ) clip_player 64 64 2 -24 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 11
+{
+"targetname" "rings_5"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 -18 72 ) ( -44 -18 64 ) ( -20 -77 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 -9 72 ) ( 47.5 -9 64 ) ( 59.5 54 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 0 72 ) ( 48 0 64 ) ( 48 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 47.5 9 72 ) ( 47.5 9 64 ) ( 35.5 72 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 18 72 ) ( 44 18 64 ) ( 20 77 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 27 72 ) ( 40 27 64 ) ( 4 80 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 33.5 72 ) ( 33.5 33.5 64 ) ( -11.5 78.5 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 40 72 ) ( 27 40 64 ) ( -26 76 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 36 64 ) ( 53 36 72 ) ( 17 89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 44 72 ) ( 18 44 64 ) ( -41 68 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 47.5 72 ) ( 9 47.5 64 ) ( -54 59.5 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 45 64 ) ( 45 45 72 ) ( 0 90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 48 72 ) ( 0 48 64 ) ( -64 48 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 53 64 ) ( 36 53 72 ) ( -17 89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 47.5 72 ) ( -9 47.5 64 ) ( -72 35.5 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 59 64 ) ( 24 59 72 ) ( -35 83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 44 72 ) ( -18 44 64 ) ( -77 20 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 63 64 ) ( 12 63 72 ) ( -51 75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 40 72 ) ( -27 40 64 ) ( -80 4 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 64 72 ) ( -64 64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 63 64 ) ( -12 63 72 ) ( -75 51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 33.5 72 ) ( -33.5 33.5 64 ) ( -78.5 -11.5 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 27 72 ) ( -40 27 64 ) ( -76 -26 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 59 64 ) ( -24 59 72 ) ( -83 35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 53 64 ) ( -36 53 72 ) ( -89 17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -44 18 72 ) ( -44 18 64 ) ( -68 -41 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 9 72 ) ( -47.5 9 64 ) ( -59.5 -54 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 45 64 ) ( -45 45 72 ) ( -90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 0 72 ) ( -48 0 64 ) ( -48 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 36 64 ) ( -53 36 72 ) ( -89 -17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 24 64 ) ( -59 24 72 ) ( -83 -35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -47.5 -9 72 ) ( -47.5 -9 64 ) ( -35.5 -72 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 12 64 ) ( -63 12 72 ) ( -75 -51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -27 72 ) ( -40 -27 64 ) ( -4 -80 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( -64 0 72 ) ( -64 -64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -12 64 ) ( -63 -12 72 ) ( -51 -75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -33.5 -33.5 72 ) ( -33.5 -33.5 64 ) ( 11.5 -78.5 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -40 72 ) ( -27 -40 64 ) ( 26 -76 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -24 64 ) ( -59 -24 72 ) ( -35 -83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -53 -36 64 ) ( -53 -36 72 ) ( -17 -89 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -44 72 ) ( -18 -44 64 ) ( 41 -68 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -9 -47.5 72 ) ( -9 -47.5 64 ) ( 54 -59.5 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -45 -45 64 ) ( -45 -45 72 ) ( 0 -90 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 72 ) ( 0 -48 64 ) ( 64 -48 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -44 72 ) ( 18 -44 64 ) ( 77 -20 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -40 72 ) ( 27 -40 64 ) ( 80 -4 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 33.5 -33.5 72 ) ( 33.5 -33.5 64 ) ( 78.5 11.5 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 40 -27 72 ) ( 40 -27 64 ) ( 76 26 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 64 0 72 ) ( 64 64 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 12 64 ) ( 63 12 72 ) ( 51 75 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 24 64 ) ( 59 24 72 ) ( 35 83 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 53 -36 64 ) ( 53 -36 72 ) ( 89 17 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 -24 64 ) ( 59 -24 72 ) ( 83 35 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -12 64 ) ( 63 -12 72 ) ( 75 51 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 44 -18 72 ) ( 44 -18 64 ) ( 68 41 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 64 64 72 ) ( 64 -64 72 ) ( -64 -64 72 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) clip_player 64 64 -176 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -53 64 ) ( -36 -53 72 ) ( 17 -89 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -24 -59 64 ) ( -24 -59 72 ) ( 35 -83 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -63 64 ) ( -12 -63 72 ) ( 51 -75 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 -64 72 ) ( 64 -64 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -63 64 ) ( 12 -63 72 ) ( 75 -51 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -59 64 ) ( 24 -59 72 ) ( 83 -35 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 -53 64 ) ( 36 -53 72 ) ( 89 -17 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 45 -45 64 ) ( 45 -45 72 ) ( 90 0 72 ) clip_player 64 64 2 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 9 -47.5 72 ) ( 9 -47.5 64 ) ( 72 -35.5 72 ) clip_player 64 64 -176 -40 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

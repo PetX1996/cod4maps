@@ -1,0 +1,110 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_dr_indipyramid,  string,string,,3.5,3.5
+2,mp_dr_indipyramid,  techset,techset,sm2/mc_l_t0c0n0s0,29.8,29.8
+3,mp_dr_indipyramid,  techset,techset,sm2/mc_l_t0c0,17.1,17.1
+4,mp_dr_indipyramid,  techset,techset,mc_l_t0c0n0s0,33.9,33.9
+5,mp_dr_indipyramid,  techset,techset,mc_l_t0c0,17.0,17.0
+6,mp_dr_indipyramid,  techset,techset,mc_l_t0c0s0,19.5,19.5
+7,mp_dr_indipyramid,  techset,techset,mc_l_t0c0n0,17.3,17.3
+8,mp_dr_indipyramid,  techset,techset,sm2/mc_l_r0c0n0s0,15.5,15.5
+9,mp_dr_indipyramid,  techset,techset,sm2/mc_l_r0c0,9.7,9.7
+10,mp_dr_indipyramid,  techset,techset,mc_l_r0c0n0s0,19.2,19.2
+11,mp_dr_indipyramid,  techset,techset,mc_l_r0c0,9.3,9.3
+12,mp_dr_indipyramid,  techset,techset,mc_l_r0c0s0,12.3,12.3
+13,mp_dr_indipyramid,  techset,techset,mc_l_r0c0n0,9.2,9.2
+14,mp_dr_indipyramid,  xmodel,xmodel,foliage_tree_palm_bushy_1,221.8,222.2
+15,mp_dr_indipyramid,  xmodel,xmodel,vehicle_pickup_destroyed_static,866.1,866.5
+16,mp_dr_indipyramid,  techset,techset,sm2/mc_l_sm_r0c0d0n0s0,20.1,20.1
+17,mp_dr_indipyramid,  techset,techset,sm2/mc_l_hsm_r0c0d0n0,18.2,18.2
+18,mp_dr_indipyramid,  techset,techset,mc_l_sm_r0c0d0n0s0,42.8,42.8
+19,mp_dr_indipyramid,  techset,techset,mc_l_sm_r0c0d0n0,28.7,28.7
+20,mp_dr_indipyramid,  techset,techset,mc_l_hsm_r0c0d0n0,20.8,20.8
+21,mp_dr_indipyramid,  techset,techset,mc_l_hsm_r0c0d0n0s0,21.9,21.9
+22,mp_dr_indipyramid,  xmodel,xmodel,wetwork_grave1,19.7,20.3
+23,mp_dr_indipyramid,  techset,techset,sm2/mc_l_sm_t0c0n0s0,3.8,3.8
+24,mp_dr_indipyramid,  techset,techset,sm2/mc_l_hsm_t0c0n0,11.4,11.4
+25,mp_dr_indipyramid,  techset,techset,mc_l_sm_t0c0n0s0,18.1,18.1
+26,mp_dr_indipyramid,  techset,techset,mc_l_sm_t0c0n0,12.5,12.5
+27,mp_dr_indipyramid,  techset,techset,mc_l_hsm_t0c0n0,13.8,13.8
+28,mp_dr_indipyramid,  techset,techset,mc_l_hsm_t0c0n0s0,16.2,16.2
+29,mp_dr_indipyramid,  xmodel,xmodel,com_potted_plant02,43.2,43.5
+30,mp_dr_indipyramid,  techset,techset,sm2/mc_ambient_t0c0,10.2,10.2
+31,mp_dr_indipyramid,  techset,techset,mc_ambient_t0c0,10.2,10.2
+32,mp_dr_indipyramid,  xmodel,xmodel,foliage_litegrass_triclump,1.2,1.3
+33,mp_dr_indipyramid,  xmodel,xmodel,foliage_grass_triangularclumpshort,1.1,1.3
+34,mp_dr_indipyramid,  xmodel,xmodel,ch_crate64x64,33.0,33.3
+35,mp_dr_indipyramid,  xmodel,xmodel,ch_crate24x36,59.3,59.3
+36,mp_dr_indipyramid,  xmodel,xmodel,ch_crate32x48,59.8,59.8
+37,mp_dr_indipyramid,  xmodel,xmodel,ch_crate48x64,62.3,62.3
+38,mp_dr_indipyramid,  xmodel,xmodel,4gf_logo,515.1,515.6
+39,mp_dr_indipyramid,  xmodel,xmodel,com_hatchet,17.3,17.6
+40,mp_dr_indipyramid,  xmodel,xmodel,shadow_foliage_tree_desertpalm02_sdummy,10.0,10.4
+41,mp_dr_indipyramid,  techset,techset,sm2/wc_l_sm_r0c0,12.9,12.9
+42,mp_dr_indipyramid,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+43,mp_dr_indipyramid,  techset,techset,wc_l_sm_r0c0,19.6,19.6
+44,mp_dr_indipyramid,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+45,mp_dr_indipyramid,  techset,techset,sm2/wc_unlit_multiply,1.7,1.7
+46,mp_dr_indipyramid,  techset,techset,wc_unlit_multiply,1.8,1.8
+47,mp_dr_indipyramid,  techset,techset,sm2/wc_l_sm_t0c0n0s0,14.1,14.1
+48,mp_dr_indipyramid,  techset,techset,sm2/wc_l_sm_t0c0,6.2,6.2
+49,mp_dr_indipyramid,  techset,techset,sm2/wc_l_hsm_t0c0,5.7,5.7
+50,mp_dr_indipyramid,  techset,techset,sm2/wc_l_hsm_t0c0n0,8.4,8.4
+51,mp_dr_indipyramid,  techset,techset,wc_l_sm_t0c0n0s0,26.1,26.1
+52,mp_dr_indipyramid,  techset,techset,wc_l_sm_t0c0,11.8,11.8
+53,mp_dr_indipyramid,  techset,techset,wc_l_sm_t0c0s0,18.7,18.7
+54,mp_dr_indipyramid,  techset,techset,wc_l_sm_t0c0n0,16.9,16.9
+55,mp_dr_indipyramid,  techset,techset,wc_l_hsm_t0c0,7.1,7.1
+56,mp_dr_indipyramid,  techset,techset,wc_l_hsm_t0c0s0,9.5,9.5
+57,mp_dr_indipyramid,  techset,techset,wc_l_hsm_t0c0n0,9.9,9.9
+58,mp_dr_indipyramid,  techset,techset,wc_l_hsm_t0c0n0s0,10.7,10.7
+59,mp_dr_indipyramid,  techset,techset,sm2/wc_distortion_scale_zfeather,2.0,2.0
+60,mp_dr_indipyramid,  techset,techset,sm2/wc_distortion_scale,1.6,1.6
+61,mp_dr_indipyramid,  techset,techset,wc_distortion_scale_zfeather,1.8,1.8
+62,mp_dr_indipyramid,  techset,techset,wc_distortion_scale,1.6,1.6
+63,mp_dr_indipyramid,  gfx_map,gfx_map,maps/mp/mp_dr_indipyramid.d3dbsp,8475.4,8479.1
+64,mp_dr_indipyramid,    map_ents,map_ents,maps/mp/mp_dr_indipyramid.d3dbsp,16.1,16.1
+65,mp_dr_indipyramid,  col_map_sp,col_map_sp,maps/mp/mp_dr_indipyramid.d3dbsp,875.9,892.0
+66,mp_dr_indipyramid,  impactfx,impactfx,,1.6,1.6
+67,mp_dr_indipyramid,  fx,fx,fire/firelp_barrel_pm,4.9,5.0
+68,mp_dr_indipyramid,  fx,fx,dust/dust_spiral01,3.1,3.1
+69,mp_dr_indipyramid,  sound,sound,artillery_explosion,1.2,1.2
+70,mp_dr_indipyramid,  sound,sound,elm_metal_rattle,1.2,1.2
+71,mp_dr_indipyramid,  sound,sound,mortar_incoming,1.6,1.6
+72,mp_dr_indipyramid,  sound,sound,generic_death_arab_4,1.1,1.1
+73,mp_dr_indipyramid,  sound,sound,weap_suitcase_button_press_plr,0.9,1.2
+74,mp_dr_indipyramid,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+75,mp_dr_indipyramid,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+76,mp_dr_indipyramid,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+77,mp_dr_indipyramid,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+78,mp_dr_indipyramid,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+79,mp_dr_indipyramid,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+80,mp_dr_indipyramid,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+81,mp_dr_indipyramid,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+82,mp_dr_indipyramid,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+83,mp_dr_indipyramid,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+84,mp_dr_indipyramid,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+85,mp_dr_indipyramid,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+86,mp_dr_indipyramid,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+87,mp_dr_indipyramid,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+88,mp_dr_indipyramid,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+89,mp_dr_indipyramid,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+90,mp_dr_indipyramid,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+91,mp_dr_indipyramid,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+92,mp_dr_indipyramid,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+93,mp_dr_indipyramid,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+94,mp_dr_indipyramid,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+95,mp_dr_indipyramid,  rawfile,rawfile,maps/mp/mp_dr_indipyramid.gsc,11.7,11.7
+96,mp_dr_indipyramid,  rawfile,rawfile,maps/mp/mp_dr_indipyramid_script1.gsc,5.0,5.0
+97,mp_dr_indipyramid,  rawfile,rawfile,maps/mp/mp_dr_indipyramid_script2.gsc,4.2,4.2
+98,mp_dr_indipyramid,  rawfile,rawfile,maps/mp/mp_dr_indipyramid_door2.gsc,3.0,3.0
+99,mp_dr_indipyramid,  rawfile,rawfile,mp_dr_indipyramid,2.4,2.4
+100,mp_dr_indipyramid,assetlist,assetlist,,9.7,17790.9
+101,mp_dr_indipyramid,material,material,(misc),9.6,9.6
+102,mp_dr_indipyramid,techset,techset,(misc),4.2,4.2
+103,mp_dr_indipyramid,image,image,(misc),3.7,3.7
+104,mp_dr_indipyramid,sound,sound,(misc),186.7,186.7
+105,mp_dr_indipyramid,loaded_sound,loaded_sound,(misc),3.6,3.6
+106,mp_dr_indipyramid,fx,fx,(misc),3.1,3.1
+107,mp_dr_indipyramid,rawfile,rawfile,(misc),1.0,1.0
+108,mp_dr_indipyramid_load,  rawfile,rawfile,mp_dr_indipyramid_load,2.4,2.4
+109,mp_dr_indipyramid_load,assetlist,assetlist,,0.0,2.7

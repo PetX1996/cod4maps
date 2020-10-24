@@ -1,0 +1,83 @@
+index,type,type,name,usage(KB),total(KB)
+1,  string,string,,3.2,3.2
+2,  xmodel,xmodel,com_doorknob1,22.1,22.3
+3,  xmodel,xmodel,com_steel_ladder,41.6,41.9
+4,  xmodel,xmodel,com_steel_ladder_top,35.3,35.3
+5,  xmodel,xmodel,vehicle_80s_wagon1_brn,499.1,499.6
+6,  xmodel,xmodel,vehicle_ch46e_damaged_rear_piece,1263.5,1264.2
+7,  xmodel,xmodel,me_basket_wicker06,59.2,59.3
+8,  xmodel,xmodel,vehicle_bus_destructable,1280.1,1281.2
+9,  xmodel,xmodel,wetwork_house_vent,10.5,11.0
+10,  xmodel,xmodel,ap_airbus_seat_1,87.2,87.6
+11,  xmodel,xmodel,ap_table01,31.8,32.1
+12,  xmodel,xmodel,bathroom_tub,7.1,7.4
+13,  xmodel,xmodel,com_vending_can_new1_lit,85.6,85.9
+14,  xmodel,xmodel,com_dresser,14.6,14.9
+15,  techset,techset,sm2/mc_l_sm_t0c0n0s0,36.1,36.1
+16,  techset,techset,sm2/mc_l_hsm_t0c0n0,17.7,17.7
+17,  techset,techset,mc_l_sm_t0c0n0s0,58.7,58.7
+18,  techset,techset,mc_l_sm_t0c0n0,35.1,35.1
+19,  techset,techset,mc_l_hsm_t0c0n0,20.3,20.3
+20,  techset,techset,mc_l_hsm_t0c0n0s0,21.6,21.6
+21,  xmodel,xmodel,ch_bedframemetal_gray,53.3,53.6
+22,  techset,techset,sm2/wc_l_sm_r0c0n0s0,19.4,19.4
+23,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+24,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+25,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+26,  techset,techset,wc_l_sm_r0c0n0s0,31.6,31.6
+27,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+28,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+29,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+30,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+31,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+32,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+33,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+34,  techset,techset,sm2/wc_unlit_multiply,1.7,1.7
+35,  techset,techset,wc_unlit_multiply,1.8,1.8
+36,  techset,techset,sm2/wc_l_sm_t0c0n0s0,9.5,9.5
+37,  techset,techset,sm2/wc_l_sm_t0c0,7.8,7.8
+38,  techset,techset,sm2/wc_l_hsm_t0c0,5.7,5.7
+39,  techset,techset,sm2/wc_l_hsm_t0c0n0,5.2,5.2
+40,  techset,techset,wc_l_sm_t0c0n0s0,19.1,19.1
+41,  techset,techset,wc_l_sm_t0c0,13.4,13.4
+42,  techset,techset,wc_l_sm_t0c0s0,14.7,14.7
+43,  techset,techset,wc_l_sm_t0c0n0,12.2,12.2
+44,  techset,techset,wc_l_hsm_t0c0,7.1,7.1
+45,  techset,techset,wc_l_hsm_t0c0s0,7.7,7.7
+46,  techset,techset,wc_l_hsm_t0c0n0,6.8,6.8
+47,  techset,techset,wc_l_hsm_t0c0n0s0,8.6,8.6
+48,  gfx_map,gfx_map,maps/mp/mp_jumpercity_2.d3dbsp,2549.4,2553.5
+49,  col_map_sp,col_map_sp,maps/mp/mp_jumpercity_2.d3dbsp,582.7,583.5
+50,  impactfx,impactfx,,1.6,1.6
+51,  sound,sound,artillery_explosion,1.2,1.2
+52,  sound,sound,elm_metal_rattle,1.2,1.2
+53,  sound,sound,mortar_incoming,1.6,1.6
+54,  sound,sound,generic_death_arab_4,1.1,1.1
+55,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+56,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+57,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+58,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+59,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+60,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+61,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+62,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+63,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+64,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+65,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+66,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+67,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+68,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+69,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+70,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+71,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+72,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+73,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+74,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+75,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+76,assetlist,assetlist,,3.4,12764.3
+77,material,material,(misc),10.4,10.4
+78,techset,techset,(misc),4.3,4.3
+79,image,image,(misc),4.9,4.9
+80,sound,sound,(misc),35.5,35.5
+81,loaded_sound,loaded_sound,(misc),2.5,2.5
+82,fx,fx,(misc),3.1,3.1

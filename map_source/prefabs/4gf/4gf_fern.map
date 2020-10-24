@@ -1,0 +1,23 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -36 48 0 ) ( -52 48 0 ) ( -52 36 0 ) clip_foliage 64 32 0 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -52 36 52 ) ( -52 48 52 ) ( -36 48 52 ) clip_foliage 64 32 0 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -44 56 ) ( 48 -44 56 ) ( 48 -44 0 ) clip_foliage 64 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 -44 56 ) ( 48 -32 56 ) ( 48 -32 0 ) clip_foliage 64 32 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 48 56 ) ( -52 48 56 ) ( -52 48 0 ) clip_foliage 64 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -52 48 56 ) ( -52 36 56 ) ( -52 36 0 ) clip_foliage 64 32 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"modelscale" "1"
+"origin" "0.0 0.0 4.0"
+"model" "4gf_fern"
+"classname" "misc_model"
+}

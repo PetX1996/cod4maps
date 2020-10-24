@@ -1,0 +1,102 @@
+///////////////////////////////////////////////////////
+///|         |///|        |///|       |/\  \/////  ////
+///|  |////  |///|  |//|  |///|  |/|  |//\  \///  /////
+///|  |////  |///|  |//|  |///|  |/|  |///\  \/  //////
+///|          |//|  |//|  |///|       |////\    ///////
+///|  |////|  |//|         |//|  |/|  |/////    \//////
+///|  |////|  |//|  |///|  |//|  |/|  |////  /\  \/////
+///|          |//|__|///|__|//|__|/|__|///  ///\  \////
+/////////////////////////////////////////__/////\__\///
+///////////////////////////////////////////////////////
+
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+// Group 1
+REFERENCE           BEGGINER
+LANG_ENGLISH        "First time at Death Run?"
+REFERENCE           BEGGINER_TXT
+LANG_ENGLISH        "Challenges for n00bz"
+REFERENCE           UNLOCKED_AT_2
+LANG_ENGLISH        "Unlocked at level 2."
+
+// Group 2
+REFERENCE           KILLER
+LANG_ENGLISH        "Killer"
+REFERENCE           KILLER_TXT
+LANG_ENGLISH        "Possible and almost impossible ways to kill somebody."
+REFERENCE           UNLOCKED_AT_5
+LANG_ENGLISH        "Unlocked at level 5."
+
+// Group 3
+REFERENCE           SECRETS
+LANG_ENGLISH        "Secrets"
+REFERENCE           SECRETS_TXT
+LANG_ENGLISH        "Find very well hidden secrets in some levels."
+REFERENCE           UNLOCKED_AT_7
+LANG_ENGLISH        "Unlocked at level 7."
+
+REFERENCE			RISING_STAR
+LANG_ENGLISH		"Rising Star"
+
+REFERENCE			RISING_STAR_DESC
+LANG_ENGLISH		"Win one game."
+
+REFERENCE			ON_TOP
+LANG_ENGLISH		"On Top"
+
+REFERENCE			ON_TOP_DESC
+LANG_ENGLISH		"Win 10 games."
+
+REFERENCE			MACHINES
+LANG_ENGLISH		"Deadly Machines"
+
+REFERENCE			MACHINES_DESC
+LANG_ENGLISH		"As the Activator win a round by killing all of the Jumpers with traps while there are more than six enemies on the server."
+
+REFERENCE			BACK
+LANG_ENGLISH		"I'm Back!"
+
+REFERENCE			BACK_DESC
+LANG_ENGLISH		"Use an additional life and kill the activator in the same round to earn another life."
+
+REFERENCE			ACTI1
+LANG_ENGLISH		"Good Luck I"
+
+REFERENCE			ACTI1_DESC
+LANG_ENGLISH		"Activate 250 traps."
+
+REFERENCE			OWNAGE
+LANG_ENGLISH		"Own3d"
+
+REFERENCE			OWNAGE_DESC
+LANG_ENGLISH		"Kill three Jumpers with your weapon."
+
+REFERENCE			HEADSHOT
+LANG_ENGLISH		"Head Shot!"
+
+REFERENCE			HEADSHOT_DESC
+LANG_ENGLISH		"Kill enemy with head shot."
+
+REFERENCE			ROUNDS1
+LANG_ENGLISH		"Rounds I"
+
+REFERENCE			ROUNDS1_DESC
+LANG_ENGLISH		"Survive in 75 rounds."
+
+REFERENCE			SPRAY
+LANG_ENGLISH		"Spray it!"
+
+REFERENCE			SPRAY_DESC
+LANG_ENGLISH		"Spray your logo close to Activator's dead body."
+
+REFERENCE			FAILZOR
+LANG_ENGLISH		"Failzor"
+
+REFERENCE			FAILZOR_DESC
+LANG_ENGLISH		"Die 500 times."
+
+ENDMARKER
+
+

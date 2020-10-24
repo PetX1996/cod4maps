@@ -1,0 +1,256 @@
+#include "ui_mp/macros.inc"
+
+{
+	menuDef
+	{
+		name			"rank"
+		blurworld		1.5
+		rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+		
+		#include "ui_mp/scriptmenus/main_bg.inc"
+		
+		#include "ui_mp/scriptmenus/main_menu.inc"
+		
+		#include "ui_mp/scriptmenus/main_class.inc"
+		
+		onEsc
+		{
+			close self;
+			//open "team_marinesopfor";
+		}
+		onOpen
+		{
+			ONOPEN_DEFAULT;
+			
+			scriptMenuResponse "onOpen";
+		}
+		onClose
+		{
+			ONCLOSE_DEFAULT;
+		}
+		
+		// PLAYER STATS
+		#define RANKS_MAXRANK 100
+		#define RANKS_HORIZONTAL 10
+		#define RANKS_VERTICAL 10
+		
+		//#define CUR_RANKID DvarInt("ui_r")
+		#define CUR_RANKID Stat(TableLookUp("mp/playerStatsTable.csv", 1, "RANK", 0))
+		#define CUR_RANKXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "RANKXP", 0))
+		
+		#define CUR_MINXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "MINXP", 0))
+		#define CUR_MAXXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "MAXXP", 0))
+		
+		#define CUR_NEXTXP (CUR_MAXXP - CUR_MINXP)
+		#define CUR_LEFTXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "LEFTXP", 0))
+		
+		#define CUR_CHCUR Stat(TableLookUp("mp/playerStatsTable.csv", 1, "CHCUR", 0))
+		#define CUR_CHMAX Stat(TableLookUp("mp/playerStatsTable.csv", 1, "CHMAX", 0))
+		
+		#define CUR_PRESTIGE Stat(TableLookUp("mp/playerStatsTable.csv", 1, "PLEVEL", 0))
+		
+		#define CUR_ISRANKFREEZED (CUR_RANKID % 10 == 9)
+		#define CUR_ISXPCOLLECTING (CUR_LEFTXP != 0)
+		#define CUR_ISCHWAITING (CUR_LEFTXP == 0)
+		
+		// CENTER WINDOW
+		PANEL_STATIC(CENTER_X, CENTER_Y, CENTER_W, CENTER_H, COLOR_BG_TRANSPARENT, 1)
+		
+		// CENTER BAR
+		CENTER_BAR_DYNAMIC("Rank")
+		
+		#define STATISTIC_W 100
+		#define STATISTIC_H (CENTER_WORKSPACE_H - (SPACE_INNER * 2))
+		
+		#define RANKS_X (CENTER_WORKSPACE_X + SPACE_INNER)
+		#define RANKS_Y (CENTER_WORKSPACE_Y + SPACE_INNER)
+		#define RANKS_W (CENTER_WORKSPACE_W - (SPACE_INNER * 3) - STATISTIC_W)
+		#define RANKS_H (CENTER_WORKSPACE_H - (SPACE_INNER * 2))
+		
+		#define RANKS_ICON_W (RANKS_W / RANKS_HORIZONTAL)
+		#define RANKS_ICON_H ((RANKS_H - SPACE_INNER) / (RANKS_VERTICAL + 1))
+		
+		#define RANKS_STAGES_X RANKS_X
+		#define RANKS_STAGES_Y RANKS_Y
+		#define RANKS_STAGES_W RANKS_W
+		#define RANKS_STAGES_H (RANKS_ICON_H * RANKS_VERTICAL)
+		
+		#define PROGRESS_X (CENTER_WORKSPACE_X + SPACE_INNER)
+		#define PROGRESS_Y (RANKS_STAGES_Y + RANKS_STAGES_H + SPACE_INNER)
+		#define PROGRESS_W (RANKS_W - SPACE_INNER - RANKS_ICON_W)
+		#define PROGRESS_H RANKS_ICON_H
+
+		#define STATISTIC_X (RANKS_X + RANKS_W + SPACE_INNER)
+		#define STATISTIC_Y (CENTER_WORKSPACE_Y + SPACE_INNER)
+		
+		// ========================================================================================================= //
+		// RANKS
+		#define RANKS_INNERSPACE 2
+		
+		#define RANKS_ICON_PRO_X ((RANKS_X + RANKS_W) - RANKS_ICON_W)
+		#define RANKS_ICON_PRO_Y ((RANKS_Y + RANKS_H) - RANKS_ICON_H)
+		#define RANKS_ICON_PRO_W RANKS_ICON_W
+		#define RANKS_ICON_PRO_H RANKS_ICON_H
+		
+		#define RANKS_ICON_GETX(iH) (RANKS_X + (RANKS_ICON_W * iH))
+		#define RANKS_ICON_GETY(iV) (RANKS_Y + (RANKS_ICON_H * iV))
+		
+		PANEL_STATIC(RANKS_STAGES_X, RANKS_STAGES_Y, RANKS_STAGES_W, RANKS_STAGES_H, COLOR_BG_TRANSPARENT, 1)
+		PANEL_STATIC(((RANKS_X + RANKS_W) - RANKS_ICON_W), ((RANKS_Y + RANKS_H) - (RANKS_ICON_H + SPACE_INNER)), RANKS_ICON_W, (RANKS_ICON_H + SPACE_INNER), 
+			COLOR_BG_TRANSPARENT, 1)
+		
+		// ranks pointer
+		#define CUR_RANKID_HORIZONTAL (CUR_RANKID % RANKS_HORIZONTAL)
+		#define CUR_RANKID_VERTICAL Int(CUR_RANKID / RANKS_VERTICAL)
+		PANEL_DYNAMIC_XY(RANKS_ICON_GETX(CUR_RANKID_HORIZONTAL), RANKS_ICON_GETY(CUR_RANKID_VERTICAL), RANKS_ICON_W, RANKS_ICON_H, 
+			COLOR_FG_HIGHLIGHT, CUR_RANKID != RANKS_MAXRANK)
+		
+		// PRO rank pointer
+		PANEL_STATIC(RANKS_ICON_PRO_X, RANKS_ICON_PRO_Y, RANKS_ICON_PRO_W, RANKS_ICON_PRO_H, 
+			COLOR_FG_HIGHLIGHT, CUR_RANKID == RANKS_MAXRANK)
+
+		#define RANKICON_AVAILABLE(iH, iV) (CUR_RANKID >= ((iV * RANKS_HORIZONTAL) + iH))
+		
+		// prestige challenges openers
+		#define STAGE_CH_OPENER(i) \
+			PANEL_STATIC(RANKS_STAGES_X, RANKS_ICON_GETY(i), RANKS_STAGES_W, RANKS_ICON_H, COLOR_TRANSPARENT \
+				type ITEM_TYPE_BUTTON mouseEnter { play "mouse_over"; setColor backcolor COLOR_FG_HIGHLIGHT; } mouseExit { setColor backcolor COLOR_TRANSPARENT; } action { play "mouse_click"; OPEN_CHALLENGES_STAGE(i); }, \
+				(CUR_PRESTIGE >= i)) \
+		
+		STAGE_CH_OPENER(0)
+		STAGE_CH_OPENER(1)
+		STAGE_CH_OPENER(2)
+		STAGE_CH_OPENER(3)
+		STAGE_CH_OPENER(4)
+		STAGE_CH_OPENER(5)
+		STAGE_CH_OPENER(6)
+		STAGE_CH_OPENER(7)
+		STAGE_CH_OPENER(8)
+		STAGE_CH_OPENER(9)
+		
+		// PRO challeges opener
+		PANEL_STATIC(RANKS_ICON_PRO_X, RANKS_ICON_PRO_Y, RANKS_ICON_PRO_W, RANKS_ICON_PRO_H, COLOR_TRANSPARENT
+			type ITEM_TYPE_BUTTON mouseEnter { play "mouse_over"; setColor backcolor COLOR_FG_HIGHLIGHT; } mouseExit { setColor backcolor COLOR_TRANSPARENT; } action { play "mouse_click"; OPEN_CHALLENGES_JUMPER; },
+				(CUR_PRESTIGE >= 10))
+		
+		// ranks icons
+		#define RANKS_ICON(iH, iV, img) \
+			SHADER_DYNAMIC((RANKS_ICON_GETX(iH) + RANKS_INNERSPACE), (RANKS_ICON_GETY(iV) + RANKS_INNERSPACE), \
+				(RANKS_ICON_W - (RANKS_INNERSPACE * 2)), (RANKS_ICON_H - (RANKS_INNERSPACE * 2)), \
+				img, 1 1 1 1 exp forecolor A(0.5 + (RANKICON_AVAILABLE(iH, iV) * 0.5)), 1) \
+			
+		#define RANKS_ICON_ROW(iV) \
+			RANKS_ICON(0, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 0, 1)) \
+			RANKS_ICON(1, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 1, 1)) \
+			RANKS_ICON(2, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 2, 1)) \
+			RANKS_ICON(3, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 3, 1)) \
+			RANKS_ICON(4, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 4, 1)) \
+			RANKS_ICON(5, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 5, 1)) \
+			RANKS_ICON(6, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 6, 1)) \
+			RANKS_ICON(7, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 7, 1)) \
+			RANKS_ICON(8, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 8, 1)) \
+			RANKS_ICON(9, iV, TableLookUp("mp/rankIconTable.csv", 0, (RANKS_HORIZONTAL * iV) + 9, 1)) \
+		
+		RANKS_ICON_ROW(0)
+		RANKS_ICON_ROW(1)
+		RANKS_ICON_ROW(2)
+		RANKS_ICON_ROW(3)
+		RANKS_ICON_ROW(4)
+		RANKS_ICON_ROW(5)
+		RANKS_ICON_ROW(6)
+		RANKS_ICON_ROW(7)
+		RANKS_ICON_ROW(8)
+		RANKS_ICON_ROW(9)
+		
+		SHADER_STATIC((RANKS_ICON_PRO_X + RANKS_INNERSPACE), (RANKS_ICON_PRO_Y + RANKS_INNERSPACE), 
+			(RANKS_ICON_PRO_W - (RANKS_INNERSPACE * 2)), (RANKS_ICON_PRO_H - (RANKS_INNERSPACE * 2)), 
+			"rank101", 1 1 1 1 exp forecolor A(0.5 + ((CUR_RANKID >= 100) * 0.5)), 1)
+		
+		// ========================================================================================================= //
+		// PROGRESS
+		PANEL_STATIC(PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, COLOR_BG_TRANSPARENT, 1)
+		
+		PANEL_DYNAMIC_W(PROGRESS_X, PROGRESS_Y, (PROGRESS_W * (1 - (CUR_LEFTXP / CUR_NEXTXP))), PROGRESS_H, 
+			COLOR_FG_HIGHLIGHT, (CUR_RANKID != RANKS_MAXRANK && (CUR_ISRANKFREEZED == 0 || CUR_ISXPCOLLECTING == 1)))
+		//PANEL_STATIC(PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			//COLOR_FG_HIGHLIGHT, CUR_RANKID == RANKS_MAXRANK && CUR_ISRANKFREEZED == 0)
+		
+		TEXT_DYNAMIC(PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			"LVL: " + TableLookUp("mp/rankTable.csv", 0, CUR_RANKID, 13), FONTSCALE_14, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 5, (CUR_ISRANKFREEZED == 0 || CUR_ISXPCOLLECTING == 1))
+		TEXT_DYNAMIC(PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			"Left: " + CUR_LEFTXP + " XP", FONTSCALE_14, COLOR_WHITE, ITEM_ALIGN_MIDDLE_CENTER, (CUR_RANKID != RANKS_MAXRANK && (CUR_ISRANKFREEZED == 0 || CUR_ISXPCOLLECTING == 1)))
+		TEXT_DYNAMIC(PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			CUR_RANKXP + " XP", FONTSCALE_14, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -5, (CUR_ISRANKFREEZED == 0 || CUR_ISXPCOLLECTING == 1))
+		
+		PANEL_DYNAMIC_W(PROGRESS_X, PROGRESS_Y, (PROGRESS_W * (CUR_CHCUR / CUR_CHMAX)), PROGRESS_H, 
+			COLOR_FG_HIGHLIGHT, (CUR_ISRANKFREEZED == 1 && CUR_ISCHWAITING == 1))
+		BTN_DYNAMIC("16546", PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			"You have to complete PRESTIGE challenges (" + CUR_CHCUR + "/" + CUR_CHMAX + ")", FONTSCALE_14, ITEM_ALIGN_MIDDLE_CENTER, OPEN_CHALLENGES_CURSTAGE, ;, ;, (CUR_ISRANKFREEZED == 1 && CUR_ISCHWAITING == 1 && CUR_PRESTIGE < 10))
+		BTN_DYNAMIC("16546", PROGRESS_X, PROGRESS_Y, PROGRESS_W, PROGRESS_H, 
+			"You have to complete ALL challenges (" + CUR_CHCUR + "/" + CUR_CHMAX + ")", FONTSCALE_14, ITEM_ALIGN_MIDDLE_CENTER, OPEN_CHALLENGES_CURSTAGE, ;, ;, (CUR_RANKID == (RANKS_MAXRANK - 1) && CUR_PRESTIGE == 10))
+		
+		// ========================================================================================================= //
+		// STATISTIC
+		PANEL_STATIC(STATISTIC_X, STATISTIC_Y, STATISTIC_W, STATISTIC_H, COLOR_BG_TRANSPARENT, 1)
+		
+		#define STATISTIC_LINE_W STATISTIC_W
+		#define STATISTIC_LINE_H 10
+		
+		#define SPACE_FIRST 0.5
+		#define SPACE_SECOND 1
+		
+		#define STATISTIC_LINE(i, text, value) \
+			TEXT_STATIC(STATISTIC_X, (STATISTIC_Y + (STATISTIC_LINE_H * i)), STATISTIC_LINE_W, STATISTIC_LINE_H, text, FONTSCALE_10, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 2, 1) \
+			TEXT_DYNAMIC(STATISTIC_X, (STATISTIC_Y + (STATISTIC_LINE_H * i)), STATISTIC_LINE_W, STATISTIC_LINE_H, value, FONTSCALE_10, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -2, 1) \
+		
+		#define KILLS_TOTAL (Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_HEADSHOT", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_MELEE", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_BULLET", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_TRAP", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_OTHER", 0))) \
+		
+		STATISTIC_LINE(0, "Kills", KILLS_TOTAL)		
+		STATISTIC_LINE(1, "  Trap", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_TRAP", 0)))
+		STATISTIC_LINE(2, "  Headshot", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_HEADSHOT", 0)))
+		STATISTIC_LINE(3, "  Bullet", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_BULLET", 0)))
+		STATISTIC_LINE(4, "  Melee", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_MELEE", 0)))
+		//STATISTIC_LINE(4, "  Other", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLS_OTHER", 0)))
+
+		STATISTIC_LINE((SPACE_FIRST + 5), "  Jumpers", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLED_ALLIES", 0)))
+		STATISTIC_LINE((SPACE_FIRST + 6), "  Activators", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "KILLED_AXIS", 0)))
+		
+		#define DEATHS_TOTAL (Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_TRAP", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_KILLED", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_OTHER", 0))) \
+		
+		STATISTIC_LINE((SPACE_FIRST + 8), "Deaths", DEATHS_TOTAL)		
+		STATISTIC_LINE((SPACE_FIRST + 9), "  Trap", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_TRAP", 0)))
+		STATISTIC_LINE((SPACE_FIRST + 10), "  Killed", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_KILLED", 0)))
+		//STATISTIC_LINE((SPACE_FIRST + 10), "  Headshot", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_HEADSHOT", 0)))
+		//STATISTIC_LINE((SPACE_FIRST + 11), "  Melee", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_MELEE", 0)))
+		//STATISTIC_LINE((SPACE_FIRST + 12), "  Bullet", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_BULLET", 0)))
+		//STATISTIC_LINE((SPACE_FIRST + 13), "  Other", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "DEATHS_OTHER", 0)))
+		
+		STATISTIC_LINE((SPACE_FIRST + 12), "Connections", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "CONNECTIONS", 0)))
+		
+		#define TIME_PLAYED_TOTAL (Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_ALLIES", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_AXIS", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_OTHER", 0))) \
+		
+		STATISTIC_LINE((SPACE_FIRST + 14), "Time Played", SecondsAsTime(TIME_PLAYED_TOTAL))
+		STATISTIC_LINE((SPACE_FIRST + 15), "  Jumper", SecondsAsTime(Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_ALLIES", 0))))
+		STATISTIC_LINE((SPACE_FIRST + 16), "  Activator", SecondsAsTime(Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_AXIS", 0))))
+		//STATISTIC_LINE((SPACE_FIRST + 17), "  Other", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TIME_PLAYED_OTHER", 0)))
+		
+		STATISTIC_LINE((SPACE_FIRST + 18), "Finished", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "FINISHES", 0)))
+		STATISTIC_LINE((SPACE_FIRST + 19), "Trap Succeed", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TRAP_SUCCEED", 0)))
+		STATISTIC_LINE((SPACE_FIRST + 20), "Trap Activated", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "TRAP_ACTIVATED", 0)))
+		
+		#define WINS_TOTAL (Stat(TableLookUp("mp/playerStatsTable.csv", 1, "WINS_ALLIES", 0)) \
+			+ Stat(TableLookUp("mp/playerStatsTable.csv", 1, "WINS_AXIS", 0))) \
+		
+		STATISTIC_LINE((SPACE_FIRST + 22), "Wins", WINS_TOTAL)
+		STATISTIC_LINE((SPACE_FIRST + 23), "  Jumper", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "WINS_ALLIES", 0)))
+		STATISTIC_LINE((SPACE_FIRST + 24), "  Activator", Stat(TableLookUp("mp/playerStatsTable.csv", 1, "WINS_AXIS", 0)))
+	}
+}

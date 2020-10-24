@@ -1,0 +1,84 @@
+index,type,type,name,usage(KB),total(KB)
+1,  string,string,,3.1,3.1
+2,  techset,techset,sm2/mc_l_sm_t0c0n0s0,36.1,36.1
+3,  techset,techset,sm2/mc_l_hsm_t0c0n0,17.7,17.7
+4,  techset,techset,mc_l_sm_t0c0n0s0,58.7,58.7
+5,  techset,techset,mc_l_sm_t0c0n0,35.1,35.1
+6,  techset,techset,mc_l_hsm_t0c0n0,20.3,20.3
+7,  techset,techset,mc_l_hsm_t0c0n0s0,21.6,21.6
+8,  xmodel,xmodel,bc_cot,35.9,36.1
+9,  xmodel,xmodel,com_electrical_transformer,38.6,38.9
+10,  xmodel,xmodel,me_window_bars_02,23.2,23.5
+11,  xmodel,xmodel,mil_razorwire_mid,213.3,213.5
+12,  xmodel,xmodel,icbm_electronic_cabinet1,3.5,3.8
+13,  xmodel,xmodel,icbm_electronic_cabinet2,51.5,51.8
+14,  xmodel,xmodel,icbm_electronic_cabinet3,121.1,121.4
+15,  xmodel,xmodel,icbm_electronic_cabinet4,112.5,112.5
+16,  xmodel,xmodel,icbm_electronic_cabinet5,145.5,145.5
+17,  xmodel,xmodel,icbm_electronic_cabinet6,89.1,89.1
+18,  xmodel,xmodel,icbm_electronic_cabinet7,133.6,133.6
+19,  xmodel,xmodel,icbm_electronic_cabinet8,117.1,117.1
+20,  xmodel,xmodel,bc_hesco_barrier_big,16.1,16.7
+21,  xanim,xanim,saw_gunner_idle,6.0,6.0
+22,  techset,techset,sm2/wc_l_sm_t0c0n0s0,16.0,16.0
+23,  techset,techset,sm2/wc_l_sm_t0c0,11.7,11.7
+24,  techset,techset,sm2/wc_l_hsm_t0c0,8.3,8.3
+25,  techset,techset,sm2/wc_l_hsm_t0c0n0,8.4,8.4
+26,  techset,techset,wc_l_sm_t0c0n0s0,28.0,28.0
+27,  techset,techset,wc_l_sm_t0c0,18.9,18.9
+28,  techset,techset,wc_l_sm_t0c0s0,18.7,18.7
+29,  techset,techset,wc_l_sm_t0c0n0,16.9,16.9
+30,  techset,techset,wc_l_hsm_t0c0,9.7,9.7
+31,  techset,techset,wc_l_hsm_t0c0s0,9.5,9.5
+32,  techset,techset,wc_l_hsm_t0c0n0,9.9,9.9
+33,  techset,techset,wc_l_hsm_t0c0n0s0,10.7,10.7
+34,  techset,techset,sm2/wc_l_sm_r0c0n0s0,12.9,12.9
+35,  techset,techset,sm2/wc_l_sm_r0c0,7.7,7.7
+36,  techset,techset,sm2/wc_l_hsm_r0c0,5.6,5.6
+37,  techset,techset,sm2/wc_l_hsm_r0c0n0,6.7,6.7
+38,  techset,techset,wc_l_sm_r0c0n0s0,22.7,22.7
+39,  techset,techset,wc_l_sm_r0c0,12.6,12.6
+40,  techset,techset,wc_l_sm_r0c0s0,14.0,14.0
+41,  techset,techset,wc_l_sm_r0c0n0,11.4,11.4
+42,  techset,techset,wc_l_hsm_r0c0,6.8,6.8
+43,  techset,techset,wc_l_hsm_r0c0s0,7.4,7.4
+44,  techset,techset,wc_l_hsm_r0c0n0,7.8,7.8
+45,  techset,techset,wc_l_hsm_r0c0n0s0,8.2,8.2
+46,  gfx_map,gfx_map,maps/mp/mp_area51.d3dbsp,1732.5,1736.1
+47,    map_ents,map_ents,maps/mp/mp_area51.d3dbsp,8.4,8.4
+48,  col_map_sp,col_map_sp,maps/mp/mp_area51.d3dbsp,642.8,651.2
+49,  impactfx,impactfx,,1.5,1.5
+50,  sound,sound,artillery_explosion,1.2,1.2
+51,  sound,sound,elm_metal_rattle,1.2,1.2
+52,  sound,sound,mortar_incoming,1.6,1.6
+53,  sound,sound,generic_death_arab_4,1.1,1.1
+54,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+55,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+56,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+57,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+58,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+59,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+60,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+61,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+62,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+63,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+64,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+65,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+66,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+67,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+68,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+69,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+70,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+71,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+72,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+73,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+74,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+75,  xmodel,xmodel,weapon_saw_mg_setup,117.8,117.9
+76,assetlist,assetlist,,3.5,9745.2
+77,material,material,(misc),8.2,8.2
+78,techset,techset,(misc),3.1,3.1
+79,image,image,(misc),4.0,4.0
+80,sound,sound,(misc),35.5,35.5
+81,loaded_sound,loaded_sound,(misc),2.5,2.5
+82,fx,fx,(misc),3.4,3.4
+83,rawfile,rawfile,(misc),3.6,3.6

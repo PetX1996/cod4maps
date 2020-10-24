@@ -1,0 +1,40 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 24 32 32 ) ( -40 32 32 ) ( -40 -32 32 ) kh_tarmac_wet1 128 128 -56 2912 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 -32 48 ) ( -40 32 48 ) ( 24 32 48 ) kh_tarmac_wet1 128 128 -56 2912 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -16 64 ) ( 16 -16 64 ) ( 16 -16 -64 ) kh_tarmac_wet1 128 128 -56 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 -40 64 ) ( 16 24 64 ) ( 16 24 -64 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 16 64 ) ( -32 16 64 ) ( -32 16 -64 ) kh_tarmac_wet1 128 128 -56 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 40 64 ) ( -16 -24 64 ) ( -16 -24 -64 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 8 64 ) ( 0 24 64 ) ( 0 24 96 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 24 64 ) ( 16 8 64 ) ( 16 8 96 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -8 64 ) ( -32 8 64 ) ( -16 -8 96 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 -8 64 ) ( 8 -16 64 ) ( 8 -16 96 ) kh_tarmac_wet1 128 128 -2912 -32 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 32 32 0 ) ( -32 32 0 ) ( -32 -32 0 ) ch_concretewall15 128 128 -48 2912 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -32 32 ) ( -32 32 32 ) ( 32 32 32 ) ch_concretewall15 128 128 -48 2912 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -32 128 ) ( 32 -32 128 ) ( 32 -32 0 ) ch_concretewall15 128 128 -48 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -32 128 ) ( 32 32 128 ) ( 32 32 0 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 32 128 ) ( -32 32 128 ) ( -32 32 0 ) ch_concretewall15 128 128 -48 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 32 128 ) ( -32 -32 128 ) ( -32 -32 0 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 16 128 ) ( -16 32 128 ) ( -16 32 160 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16 32 128 ) ( 32 16 128 ) ( 32 16 160 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -16 128 ) ( 16 -32 128 ) ( 32 -16 160 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -32 128 ) ( -32 -16 128 ) ( -16 -32 160 ) ch_concretewall15 128 128 -2912 -96 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 48.0"
+"targetname" "tryska"
+"angles" "-90 0 0"
+"classname" "script_struct"
+}

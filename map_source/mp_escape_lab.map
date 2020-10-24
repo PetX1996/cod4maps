@@ -1,0 +1,126 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 2928 3072 -1024 ) ( -3040 3072 -1024 ) ( -3040 -3904 -1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3088 -4096 3072 ) ( 2880 -4096 3072 ) ( 2880 -4096 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3072 -3904 3072 ) ( 3072 3072 3072 ) ( 3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2896 3072 3072 ) ( -3072 3072 3072 ) ( -3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3072 ) ( -3072 -3904 3072 ) ( -3072 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3040 3072 -1008 ) ( 2928 3072 -1008 ) ( -3040 -3904 -1008 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -3072 -3904 3072 ) ( -3072 3072 3072 ) ( 2896 3072 3072 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3088 -4096 3072 ) ( 2880 -4096 3072 ) ( 2880 -4096 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3072 -3904 3072 ) ( 3072 3072 3072 ) ( 3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2896 3072 3072 ) ( -3072 3072 3072 ) ( -3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3072 ) ( -3072 -3904 3072 ) ( -3072 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3056 ) ( -3072 -3904 3056 ) ( 2896 3072 3056 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 2928 3072 -1024 ) ( -3040 3072 -1024 ) ( -3040 -3904 -1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 -3904 3072 ) ( -3072 3072 3072 ) ( 2896 3072 3072 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3088 -4096 3072 ) ( 2880 -4096 3072 ) ( 2880 -4096 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3072 -3904 3072 ) ( 3072 3072 3072 ) ( 3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3072 ) ( -3072 -3904 3072 ) ( -3072 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2880 -4080 3072 ) ( -3088 -4080 3072 ) ( 2880 -4080 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 2928 3072 -1024 ) ( -3040 3072 -1024 ) ( -3040 -3904 -1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 -3904 3072 ) ( -3072 3072 3072 ) ( 2896 3072 3072 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3088 -4096 3072 ) ( 2880 -4096 3072 ) ( 2880 -4096 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3072 -3904 3072 ) ( 3072 3072 3072 ) ( 3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2896 3072 3072 ) ( -3072 3072 3072 ) ( -3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3056 3072 3072 ) ( 3056 -3904 3072 ) ( 3056 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 2928 3072 -1024 ) ( -3040 3072 -1024 ) ( -3040 -3904 -1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 -3904 3072 ) ( -3072 3072 3072 ) ( 2896 3072 3072 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3072 -3904 3072 ) ( 3072 3072 3072 ) ( 3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2896 3072 3072 ) ( -3072 3072 3072 ) ( -3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3072 ) ( -3072 -3904 3072 ) ( -3072 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3056 3072 ) ( 2896 3056 3072 ) ( -3072 3056 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 2928 3072 -1024 ) ( -3040 3072 -1024 ) ( -3040 -3904 -1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 -3904 3072 ) ( -3072 3072 3072 ) ( 2896 3072 3072 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3088 -4096 3072 ) ( 2880 -4096 3072 ) ( 2880 -4096 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2896 3072 3072 ) ( -3072 3072 3072 ) ( -3072 3072 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3072 3072 3072 ) ( -3072 -3904 3072 ) ( -3072 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3056 -3904 3072 ) ( -3056 3072 3072 ) ( -3056 -3904 1024 ) sky_ac130 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "-864.0 -2640.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_small.map"
+"classname" "misc_prefab"
+}
+// entity 2
+{
+"origin" "-640.0 -2640.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_large.map"
+"classname" "misc_prefab"
+}
+// entity 3
+{
+"origin" "136.0 8.0 72.0"
+"classname" "reflection_probe"
+}
+// entity 4
+{
+"origin" "1040.0 -1024.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_triple.map"
+"classname" "misc_prefab"
+}
+// entity 5
+{
+"angles" "0 270 0"
+"origin" "1648.0 -1680.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_small.map"
+"classname" "misc_prefab"
+}
+// entity 6
+{
+"angles" "0 90 0"
+"origin" "1376.0 -688.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_large.map"
+"classname" "misc_prefab"
+}
+// entity 7
+{
+"origin" "1024.0 -512.0 0.0"
+"angles" "0 270 0"
+"model" "prefabs/mp_escape_lab/hall_central.map"
+"classname" "misc_prefab"
+}
+// entity 8
+{
+"origin" "0.0 -48.0 16.0"
+"angles" "0 270 0"
+"model" "prefabs/mp_escape_lab/corridor_double.map"
+"classname" "misc_prefab"
+}
+// entity 9
+{
+"origin" "0.0 400.0 16.0"
+"angles" "0 270 0"
+"model" "prefabs/mp_escape_lab/corridor_double.map"
+"classname" "misc_prefab"
+}
+// entity 10
+{
+"angles" "0 90 0"
+"origin" "1376.0 -240.0 16.0"
+"model" "prefabs/mp_escape_lab/corridor_large.map"
+"classname" "misc_prefab"
+}

@@ -1,0 +1,85 @@
+#include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
+
+#include "ui_mp/menustyle.inc"
+
+#include "ui_mp/popupstyle.inc"	
+#include "ui/choices_setup_popmenu.menu"
+
+#define ITEM_LINE(num, num_s) \
+		itemDef \
+		{ \
+			visible			1 \
+			rect			5 ((num*20)+10) 0 0 0 0\
+			forecolor		1 1 1 1 \
+			textfont		UI_FONT_NORMAL \
+			textstyle		ITEM_TEXTSTYLE_SHADOWED \
+			textscale		TEXTSIZE_SMALL \
+			textaligny		8 \
+			exp				text( dvarstring( "dev_line_"num_s ) ) \
+			decoration \
+		}
+
+{
+	menuDef
+	{
+		name			dev 
+    	visible			0 
+   		fullscreen		0 
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		border			1 
+		bordersize		CHOICE_POPUP_BORDER_WIDTH 
+		bordercolor		0 0 0 0 
+		focusColor		COLOR_FOCUSED 
+   		style			WINDOW_STYLE_FILLED 
+		popup 
+		onOpen 
+		{ 
+			setDvar cl_bypassMouseInput "1";
+			scriptMenuResponse "dev_open";
+		} 
+		onClose
+		{ 
+			setDvar cl_bypassMouseInput "0";
+			scriptMenuResponse "dev_close";
+		}
+		onEsc
+		{
+			scriptMenuResponse "dev_close_normal";
+		}
+		
+		ITEM_LINE(0, "0")
+		ITEM_LINE(1, "1")
+		ITEM_LINE(2, "2")
+		ITEM_LINE(3, "3")
+		ITEM_LINE(4, "4")
+		ITEM_LINE(5, "5")
+		ITEM_LINE(6, "6")
+		ITEM_LINE(7, "7")
+		ITEM_LINE(8, "8")
+		ITEM_LINE(9, "9")
+		ITEM_LINE(10, "10")
+		ITEM_LINE(11, "11")
+		ITEM_LINE(12, "12")
+		ITEM_LINE(13, "13")
+		ITEM_LINE(14, "14")
+		ITEM_LINE(15, "15")
+		ITEM_LINE(16, "16")
+		ITEM_LINE(17, "17")
+		ITEM_LINE(18, "18")
+		ITEM_LINE(19, "19")
+		ITEM_LINE(20, "20")
+		ITEM_LINE(21, "21")
+		ITEM_LINE(22, "22")
+		ITEM_LINE(23, "23")
+
+		execKey "1" { scriptMenuResponse "dev_key_1"; }
+		execKey "2" { scriptMenuResponse "dev_key_2"; }
+		execKey "3" { scriptMenuResponse "dev_key_3"; }
+		execKey "4" { scriptMenuResponse "dev_key_4"; }
+		execKey "5" { scriptMenuResponse "dev_key_5"; }
+		execKey "6" { scriptMenuResponse "dev_key_6"; }
+		execKey "7" { scriptMenuResponse "dev_key_7"; }
+		execKey "8" { scriptMenuResponse "dev_key_8"; }
+		execKey "9" { scriptMenuResponse "dev_key_9"; }
+}

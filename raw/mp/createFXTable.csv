@@ -1,0 +1,16 @@
+string,fxid,The FX,3,fx,EJ *BGgD9DJplER&kpXJ*_
+string,earthquake,Earthquake,14,exploder,5aC1kzC?g1k
+string,ender,Level notify for ending 2nd FX,8,exploder,z;wv0AhuA0BUL+PIePB&VNW09AP
+string,soundalias,Soundalias,21,all,HmN_hLHqY
+string,firefxsound,2nd FX soundalias,nil,exploder,+wdiaw
+string,firefx,2nd FX id,nil,exploder,*-da5d1a
+float,delay,Repeat rate/start delay,11,fx,dm0QZdBYLE*
+float,fire_range,Fire damage range,15,fx,.1siw37w.xC?p
+float,firefxdelay,2nd FX id repeat rate,13,exploder,4qbeg=Nffjb4&
+float,firefxtimeout,2nd FX timeout,6,exploder,jm1mr?9mx
+float,damage,Radius damage,9,exploder,w|j
+float,damage_radius,Radius of radius damage,250,exploder,w48awd
+float,delay_min,Minimimum time between repeats,11,exploder,dm0QZdBYLE*
+float,delay_max,Maximum time between repeats,4,exploder,;4w;
+int,repeat,Number of times to repeat,7,exploder,NH+7DV27Y
+int,exploder,Exploder,19,exploder,dAw-

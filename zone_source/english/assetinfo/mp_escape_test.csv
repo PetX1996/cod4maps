@@ -1,0 +1,28 @@
+index,type,type,name,usage(KB),total(KB)
+1,  xmodel,xmodel,4gf_logo,515.3,515.8
+2,  xmodel,xmodel,com_computer_monitor,23.9,24.2
+3,  xmodel,xmodel,4gf_laser_emitor,70.7,70.9
+4,  xmodel,xmodel,com_plasticcase_beige_big,327.9,328.2
+5,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+6,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+7,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+8,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+9,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+10,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+11,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+12,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+13,  gfx_map,gfx_map,maps/mp/mp_escape_test.d3dbsp,6499.1,6499.9
+14,    map_ents,map_ents,maps/mp/mp_escape_test.d3dbsp,30.8,30.8
+15,  col_map_sp,col_map_sp,maps/mp/mp_escape_test.d3dbsp,66.0,96.8
+16,  impactfx,impactfx,,1.5,1.5
+17,  sound,sound,artillery_explosion,1.2,1.2
+18,  sound,sound,elm_metal_rattle,1.2,1.2
+19,  sound,sound,mortar_incoming,1.6,1.6
+20,  sound,sound,generic_death_arab_4,1.1,1.1
+21,  rawfile,rawfile,maps/mp/stargate/_rings.gsc,6.2,6.2
+22,assetlist,assetlist,,2.8,7713.4
+23,material,material,(misc),1.4,1.4
+24,techset,techset,(misc),2.7,2.7
+25,sound,sound,(misc),35.5,35.5
+26,loaded_sound,loaded_sound,(misc),2.5,2.5
+27,fx,fx,(misc),3.1,3.1

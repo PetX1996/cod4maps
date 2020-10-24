@@ -1,0 +1,4 @@
+// multiplayer menus
+{
+	loadMenu { "ui_mp/main_ingame_rank.menu" }
+}

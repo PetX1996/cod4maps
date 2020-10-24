@@ -1,0 +1,98 @@
+index,type,type,name,usage(KB),total(KB)
+1,  string,string,,2.6,2.6
+2,  xmodel,xmodel,com_steel_ladder,41.6,41.9
+3,  techset,techset,sm2/mc_l_sm_t0c0n0s0,36.1,36.1
+4,  techset,techset,sm2/mc_l_hsm_t0c0n0,17.7,17.7
+5,  techset,techset,mc_l_sm_t0c0n0s0,58.7,58.7
+6,  techset,techset,mc_l_sm_t0c0n0,35.1,35.1
+7,  techset,techset,mc_l_hsm_t0c0n0,20.3,20.3
+8,  techset,techset,mc_l_hsm_t0c0n0s0,21.6,21.6
+9,  xmodel,xmodel,mil_bunker_bed3,111.7,112.1
+10,  xmodel,xmodel,me_lightfluohang_on,32.5,32.8
+11,  xmodel,xmodel,atl_base00,750.5,751.5
+12,  xmodel,xmodel,atl_souradnice,7.1,7.3
+13,  xmodel,xmodel,sgc_base,37.3,38.3
+14,  xmodel,xmodel,com_office_chair_black,189.8,190.1
+15,  xmodel,xmodel,com_widescreen_monitor_on_1,26.3,26.7
+16,  xmodel,xmodel,com_office_book_shelf,15.8,16.1
+17,  xmodel,xmodel,jumper222,318.7,319.6
+18,  techset,techset,sm2/mc_unlit_replace,1.8,1.8
+19,  techset,techset,mc_unlit_replace,1.6,1.6
+20,  xmodel,xmodel,com_laptop_open,35.6,36.0
+21,  techset,techset,sm2/wc_l_sm_r0c0d0n0s0,19.2,19.2
+22,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+23,  techset,techset,sm2/wc_l_sm_r0c0n0,13.1,13.1
+24,  techset,techset,sm2/wc_l_sm_r0c0d0,11.7,11.7
+25,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+26,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+27,  techset,techset,sm2/wc_l_hsm_r0c0d0,7.9,7.9
+28,  techset,techset,sm2/wc_l_hsm_r0c0d0n0,9.5,9.5
+29,  techset,techset,wc_l_sm_r0c0d0n0s0,32.2,32.2
+30,  techset,techset,wc_l_sm_r0c0,18.3,18.3
+31,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+32,  techset,techset,wc_l_sm_r0c0n0,19.7,19.7
+33,  techset,techset,wc_l_sm_r0c0n0s0,15.9,15.9
+34,  techset,techset,wc_l_sm_r0c0d0,14.3,14.3
+35,  techset,techset,wc_l_sm_r0c0d0s0,15.2,15.2
+36,  techset,techset,wc_l_sm_r0c0d0n0,12.6,12.6
+37,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+38,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+39,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+40,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+41,  techset,techset,wc_l_hsm_r0c0d0,7.5,7.5
+42,  techset,techset,wc_l_hsm_r0c0d0s0,8.0,8.0
+43,  techset,techset,wc_l_hsm_r0c0d0n0,8.5,8.5
+44,  techset,techset,wc_l_hsm_r0c0d0n0s0,8.8,8.8
+45,  techset,techset,sm2/wc_water,3.0,3.0
+46,  techset,techset,wc_water,2.9,2.9
+47,  techset,techset,sm2/wc_l_sm_t0c0n0s0,9.1,9.1
+48,  techset,techset,sm2/wc_l_sm_t0c0,7.8,7.8
+49,  techset,techset,sm2/wc_l_hsm_t0c0,5.7,5.7
+50,  techset,techset,sm2/wc_l_hsm_t0c0n0,5.2,5.2
+51,  techset,techset,wc_l_sm_t0c0n0s0,18.7,18.7
+52,  techset,techset,wc_l_sm_t0c0,13.4,13.4
+53,  techset,techset,wc_l_sm_t0c0s0,14.7,14.7
+54,  techset,techset,wc_l_sm_t0c0n0,12.2,12.2
+55,  techset,techset,wc_l_hsm_t0c0,7.1,7.1
+56,  techset,techset,wc_l_hsm_t0c0s0,7.7,7.7
+57,  techset,techset,wc_l_hsm_t0c0n0,6.8,6.8
+58,  techset,techset,wc_l_hsm_t0c0n0s0,8.6,8.6
+59,    material,material,wc/armada_water,48.2,48.2
+60,    material,material,wc/chernobyl_water,48.2,48.2
+61,  gfx_map,gfx_map,maps/mp/mp_atlantis.d3dbsp,4926.3,5026.5
+62,    map_ents,map_ents,maps/mp/mp_atlantis.d3dbsp,1.1,1.1
+63,  col_map_sp,col_map_sp,maps/mp/mp_atlantis.d3dbsp,2570.4,2571.5
+64,  impactfx,impactfx,,1.5,1.5
+65,  sound,sound,artillery_explosion,1.2,1.2
+66,  sound,sound,elm_metal_rattle,1.2,1.2
+67,  sound,sound,mortar_incoming,1.6,1.6
+68,  sound,sound,generic_death_arab_4,1.1,1.1
+69,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+70,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+71,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+72,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+73,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+74,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+75,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+76,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+77,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+78,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+79,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+80,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+81,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+82,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+83,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+84,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+85,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+86,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+87,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+88,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+89,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+90,assetlist,assetlist,,3.5,15443.9
+91,material,material,(misc),10.7,10.7
+92,techset,techset,(misc),3.2,3.2
+93,image,image,(misc),4.6,4.6
+94,sound,sound,(misc),35.5,35.5
+95,loaded_sound,loaded_sound,(misc),2.5,2.5
+96,fx,fx,(misc),3.1,3.1
+97,rawfile,rawfile,(misc),2.4,2.4

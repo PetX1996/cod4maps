@@ -1,0 +1,815 @@
+Target Folder
+Select platform-gametype this weapon will be used in.
+
+Display Name
+Localization alias for weapon name displayed on HUD in game.
+
+Mode Name
+Localization alias for selective fire mode text displayed on HUD in game.
+
+Alt Weapon Name
+Weapon to switch to when this weapon's selective fire mode is switched in the game.
+
+AI Description
+Localization alias for text shown when crosshair is placed over a friendly. Eg. Rifleman, Submachine Gunner, etc.
+
+Inventory
+Select what sort of inventory this weapon is.
+
+Type
+Select a weapon type.
+
+Class
+Select an appropriate class for this weapon.
+
+Penetration
+Type of bullet penetration.
+
+Impact Type
+The impact type, used to play impact effects based on surfacetype
+
+Fire Type
+Behavior of the weapon when the trigger is held down.
+
+Clip Type
+Determines how the clip gets inserted into the weapon.
+
+Two Handed
+Not used in CoD2.
+
+Rifle Bullet
+Uses pistol bullets if not checked. Rifle bullets apply damage to the highest priority hit location (locationdamage.gdt) along the bullet's path, and will go through people. Pistol bullets don't.
+
+Armor Piercing
+Does damage to armored targets if checked.
+
+Bolt Action
+Turn this on for bolt-action weapons only. Animation control.
+
+ADS
+Must be turned on for proper viewmodel appearance of a weapon that can be Aimed Down the Sight (ADS).
+
+ADS Fire Only
+Can only be fired ADS. Firing from the hip brings up ADS.
+
+ADS Rechamber
+Weapon can be rechambered while in ADS.
+
+No ADS Auto-Reload
+Disallow auto-reloading while the weapon is in ADS.
+
+No ADS With Empty Magazine
+Disallow ADS when magazine is empty.
+
+No Auto-Cleanup of Dropped Weapon
+Avoid having dropped weapons of this type deleted to make room for new ones.
+
+No Partial Reload
+When noPartialReload is set for a weapon, it can not be reloaded unless reloadAmmoAdd amount of ammo can be put into the gun. If reloadAmmoAdd is 0, it's treated as the weapon's clip size.
+
+Segmented Reload
+Turn on for weapons that reload X rounds at a time (Lee-Enfield, bolt-action sniper rifles), set reload amounts in Reload Ammo Add and Reload Start Add.
+
+Enhanced
+This weapon will be an upgraded version of the ones with the same ammo type.
+
+Bayonet
+This weapon is equipped with a bayonet, which will be used for melee attacks.
+
+Cannot Go Prone
+The player cannot go prone when they have this weapon equiped.
+
+Silenced
+This weapon is considered silenced.
+
+Draw Laser Sight in Nightvision
+When using nightvision, this weapon will emit an infrared laser.
+
+Weapon can be mounted
+This weapon can be mounted on mount brushes
+
+Deploy Time
+The time it takes to deploy this weapon
+
+Breakdown Time
+The time it takes to breakdown this weapon if it is deployed
+
+Standing Weapondef
+This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while standing
+
+Mounted Model
+This is the model that will be used if the weapon is mounted
+
+Crouching Weapondef
+This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while crouching
+
+Prone Weapondef
+This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while prone
+
+Enemy Crosshair Range
+The range in at which friendly names appear and friendly or enemy changes your crosshair color.
+
+Crosshair Color Change
+Change crosshair color if pointing at friendly or enemy
+
+Move Speed Scale
+When using this weapon, player movement speed is multiplied by this amount.
+
+ADS Move Speed Scale
+When using this weapon and in ADS, player movement speed is multiplied by this amount.
+
+Sprint Duration Scale
+When sprinting with this weapon, sprint duration is multiplied by this amount.
+
+Clip-Ammo Low Warning %
+The game optionally displays low-ammo warnings when remaining clip ammo goes below this percentage.
+
+Max Gun Pitch
+Maximum allowed vertical ascent of the viewmodel due to recoil (degrees).
+
+Max Gun Yaw
+Maximum allowed horizontal travel of the viewmodel due to recoil (degrees).
+
+Auto Aim Range
+(Console only.) The range in world units up to which entering ADS will lock-on to enemies. (1 world unit = 1 inch)
+
+Aim Assist Range
+(Console only.) The range in world units up to which the crosshair will stick to targets. (1 world unit = 1 inch)
+
+Aim Assist Range ADS
+(Console only.) The range in world units up to which the crosshair will stick to targets in ADS. (1 world unit = 1 inch)
+
+Ammo Name
+Allows different weapons to share the same ammo pool.
+
+Clip Name
+Allows different weapons to share clips. Used for weapons that have a selective fire option, and would therefore need to use the same type of clip.
+
+Max Ammo
+Max ammo the player can collect for this weapon. No effect on AI.
+
+Start Ammo
+How much ammo the player gets when starting with this weapon. One clip/magazine from this amount will be already in the weapon. No effect on AI.
+
+Clip Size
+Specifies how many bullets per clip/magazine.
+
+Drop Min
+When dropped by AI/player/hand-placed in editor, contains at least this much ammo. Not limited to real-life clip/magazine size.
+
+Drop Max
+When dropped by AI/player/hand-placed in editor, contains no more than this much ammo. Not limited to real-life clip/magazine size.
+
+Shotgun Shot Count
+Specifies how many chunks per shotgun blast.
+
+Reload Ammo Add
+For weapons with Segmented Reload turned on. Amount to add when reloading with some amount of bullets still remaining in the weapon.
+
+Reload Start Add
+For weapons with Segmented Reload turned on. Amount to add for the first reload segment (ie: when weapon is empty.)
+
+Do Not Auto-Holster When Empty
+When weapons are empty, they are normally auto-swapped to the next usable weapon in the player's inventory. This disables that.
+
+Min Dmg
+Damage per-bullet, applied beyond Min Dmg Range.
+
+Min Dmg Range
+Range in world units, beyond which the minimum damage is applied. (1 world unit = 1 inch)
+
+Max Dmg
+Damage per-bullet, applied up to Max Dmg Range. Damage falls off linearly from Max Dmg Range until reaching Min Dmg at Min Dmg Range.
+
+Max Dmg Range
+Range in world units, up to which the maximum damage is applied. (1 world unit = 1 inch)
+
+Melee
+Damage per melee hit.
+
+AI-player damage
+Damage done to player when hit by an AI
+
+None
+Unrelated to weapon. Used for damage that's not location based, such as grenades or falling. Included here for completeness.
+
+Helmet
+Damage per-bullet multiplier.
+
+Head
+Damage per-bullet multiplier.
+
+Neck
+Damage per-bullet multiplier.
+
+Upper Torso
+Damage per-bullet multiplier.
+
+Lower Torso
+Damage per-bullet multiplier.
+
+Left Upper Arm
+Damage per-bullet multiplier.
+
+Right Upper Arm
+Damage per-bullet multiplier.
+
+Left Lower Arm
+Damage per-bullet multiplier.
+
+Right Lower Arm
+Damage per-bullet multiplier.
+
+Left Hand
+Damage per-bullet multiplier.
+
+Right Hand
+Damage per-bullet multiplier.
+
+Left Upper Leg
+Damage per-bullet multiplier.
+
+Right Upper Leg
+Damage per-bullet multiplier.
+
+Left Lower Leg
+Damage per-bullet multiplier.
+
+Right Lower Leg
+Damage per-bullet multiplier.
+
+Left Foot
+Damage per-bullet multiplier.
+
+Right Foot
+Damage per-bullet multiplier.
+
+Gun
+Damage per-bullet multiplier.
+
+Fire
+Rate of fire in seconds per round. Maximum possible rate is 0.05 seconds per round, or 1200 rounds per minute.
+
+Fire Delay
+Delay in seconds between pressing the fire button and the weapon actually firing.
+
+Melee
+Rate of fire in seconds per melee attack.
+
+Melee Delay
+Delay in seconds between pressing the fire button and the melee attack actually happening.
+
+Melee Charge
+Rate of fire in seconds per melee charge attack.
+
+Melee Charge Delay
+Delay in seconds between pressing the fire button and the melee charge attack actually happening.
+
+Reload
+The number of seconds over which the non-empty reload animation will be played. In segmented reload weapons, this is the animation that loops to give the player ammo.
+
+Reload Empty
+The number of seconds over which the empty reload animation will be played.
+
+Reload Empty Add Time
+During an empty reload, when the gun will literally get more ammo (ammo counter fills up). Uses Reload Add if set to zero.
+
+Reload Start
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Reload End
+For a segmented reload weapon, the number of seconds over which the reload end animation will be played.
+
+Reload Add
+During an partial reload, when the gun will literally get more ammo (ammo counter fills up).
+
+Reload Start Add
+Animations will get scaled to match this time.
+
+Rechamber
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Rechamber Bolt
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Drop
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Raise
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+First Raise
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Alt Drop
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Alt Raise
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Quick Drop
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Quick Raise
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Empty Drop
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Empty Raise
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Sprint In
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Sprint Loop
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Sprint Out
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+Nightvision Wear
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+...end of fade-out
+At this point in 'Nightvision Wear', player's vision has faded to black as they bring their goggles down.
+
+...power up
+At this point in 'Nightvision Wear', the player's goggles start their power up.
+
+Nightvision Remove
+How long this weapon state will last. The viewmodel animations will get scaled to match the times set.
+
+...power down
+At this point in 'Nightvision Remove', the player's goggles cut to black.
+
+...start fade-in
+At this point in 'Nightvision Remove', the player's vision fades from black to normal as they remove their goggles.
+
+Offset Forward
+When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)
+
+Offset Right
+When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)
+
+Offset Up
+When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)
+
+Rot Pitch
+Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)
+
+Rot Yaw
+Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Rot Roll
+Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Horiz Bob
+A multiplier applied to the standard horizontal bob for weapons when sprinting domain 0-10
+
+Vert Bob
+A multiplier applied to the standard vertical bob for weapons when sprinting domain 0-10
+
+MoveSpeed Scale
+A multiplier applied to xy movement of the viewmodel during sprint higher is faster
+
+Move Forward
+Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)
+
+Move Right
+Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Move Up
+Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)
+
+Rot Pitch
+Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)
+
+Rot Yaw
+Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Rot Roll
+Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Move Min Speed
+Not used.
+
+Pos Move Rate
+Controls speed of viewmodel translation while moving in stand and crouch, transitions between stand and crouch, and crouch into prone.
+
+Rot Min Speed
+Not used.
+
+Pos Rot Rate
+Rotational speed of viewmodel in standing and crouching. If this is set in the prone section, a value should be entered here so that the viewmodel is able to rotate back to normal in crouch and stand.
+
+Offset Forward
+Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)
+
+Offset Right
+Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Offset Up
+Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)
+
+Rot Pitch
+Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)
+
+Rot Yaw
+Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Rot Roll
+Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Horiz Bob
+A multiplier applied to the standard horizontal bob for weapons when crouch sprinting domain 0-10
+
+Vert Bob
+A multiplier applied to the standard vertical bob for weapons when crouch sprinting domain 0-10
+
+MoveSpeed Scale
+A multiplier applied to xy movement of the viewmodel during crouched sprint higher is faster
+
+Move Forward
+Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)
+
+Move Right
+Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Move Up
+Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)
+
+Rot Pitch
+Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)
+
+Rot Yaw
+Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Rot Roll
+Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Offset Forward
+When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)
+
+Offset Right
+When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)
+
+Offset Up
+When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)
+
+Move Min Speed
+Not used.
+
+Rot Min Speed
+Not used.
+
+Move Forward
+Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)
+
+Move Right
+Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Move Up
+Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)
+
+Rot Pitch
+Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)
+
+Rot Yaw
+Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Rot Roll
+Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)
+
+Offset Forward
+When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)
+
+Offset Right
+When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)
+
+Offset Up
+When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)
+
+Move Min Speed
+Not used.
+
+Pos Move Rate
+Controls the speed of viewmodel translation while moving in this stance and changing to crouched.
+
+Rot Min Speed
+Not used.
+
+Pos Rot Rate
+Controls the speed of viewmodel rotation while moving in this stance.
+
+Hip Amount
+Strength of viewmodel wavering motion when in hipfire position.
+
+ADS Amount
+Strength of range of viewmodel (or sniper rifle overlay) wavering motion when in ADS.
+
+Hip Speed
+How fast the viewmodel wavers in hipfire position within Hip Amount.
+
+ADS Speed
+How fast the viewmodel wavers in ADS within ADS Amount.
+
+Crouch Factor
+Hip/ADS Amount multiplier for reducing viewmodel wavering when in this stance.
+
+Prone Factor
+Hip/ADS Amount multiplier for reducing viewmodel wavering when in this stance.
+
+Spread
+Size of bullet spread cone when firing in ADS mode. Bullets will project randomly within the confines of the cone.
+
+Aim Pitch
+Adjusts the pitch of the viewmodel in ADS. Defaults to 0, -6 is perfectly centered.
+
+Trans In Time
+Time it will take to switch from hipfire to ADS.
+
+Trans Out Time
+Time it will take to switch from ADS to hipfire.
+
+Trans Blend Time
+Not used in CoD2.
+
+Reload Trans Time
+Time it takes once you start the reload to re-enter ADS. (ie: It allows you to finish up reloading while you enter ADS.
+
+Crosshair In Frac
+Fraction of the hipfire-to-ADS transition time over which the crosshair disappears.
+
+Crosshair Out Frac
+Fraction of the ADS-to-hipfire transition time over which the crosshair appears.
+
+Zoom FOV
+Field of view when in ADS.
+
+Zoom In Frac
+Fraction of the hipfire-to-ADS transition time over which the FOV zoom-in effect happens.
+
+Zoom Out Frac
+Fraction of the ADS-to-hipfire transition time over which the FOV zoom-out effect happens.
+
+Bob Factor
+Strength of viewmodel bobbing due to player movement when using this weapon.
+
+View Bob Mult
+Bob Factor multiplier for view bobbing due to player movement when using this weapon in ADS.
+
+Min View Error
+Min View Error.
+
+Max View Error
+Max View Error.
+
+Stand Min
+Smallest diameter the crosshairs can contract to.
+
+Stand Max
+Largest diameter the crosshairs can expand to while standing.
+
+Decay Rate
+Rate at which the crosshairs try to return to the Min hip spread size.
+
+Crouch Min
+Size of the crosshairs at rest when crouched.
+
+Crouch Max
+Largest diameter the crosshairs can expand to while crouched.
+
+Crouch Decay
+Multiplier of Decay Rate for crouched stance, controlling how fast the crosshairs return to Crouch Min.
+
+Prone Min
+Size of the crosshairs at rest when prone.
+
+Prone Max
+Largest diameter the crosshairs can expand to while prone.
+
+Prone Decay
+Multiplier of Decay Rate for prone stance, controlling how fast the crosshairs return to Prone Min.
+
+Fire Add
+Amount by which the crosshairs expand per bullet fired.
+
+Move Add
+Rate of crosshair expansion due to player movement.
+
+Turn Add
+Rate of crosshair expansion due to player panning the view in any direction.
+
+Hip Red. Kick Bullets
+Hipfire viewmodel control reduced kick number of bullets. This is the number of bullets before the weapon uses a full kick amount.
+
+ADS Red. Kick Bullets
+ADS viewmodel control reduced kick number of bullets. This is the number of bullets before the weapon uses a full kick amount.
+
+Hip Red. Kick Percent
+Hip viewmodel control reduced kick percentage. This is the percentage of the full kick amount to kick the gun for the first few bullets.
+
+ADS Red. Kick Percent
+ADS viewmodel control reduced kick percentage. This is the percentage of the full kick amount to kick the gun for the first few bullets.
+
+Hip Pitch Min
+Hipfire viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Pitch.
+
+ADS Pitch Min
+ADS viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100.
+
+Hip Pitch Max
+Hipfire viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Pitch.
+
+ADS Pitch Max
+ADS viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100.
+
+Hip Yaw Min
+Hipfire viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Yaw.
+
+ADS Yaw Min
+ADS viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100.
+
+Hip Yaw Max
+Hipfire viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Yaw.
+
+ADS Yaw Max
+ADS viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100.
+
+Hip Accel
+Rate at which viewmodel attempts to recenter in hipfire. Directly opposes yaws and pitch accumulation.
+
+ADS Accel
+Rate at which viewmodel attempts to recenter in ADS. Directly opposes yaws and pitch accumulation.
+
+Hip Speed Max
+Maximum deflection speed reached by the viewmodel in hipfire.
+
+ADS Speed Max
+Maximum deflection speed reached by the viewmodel in ADS.
+
+Hip Speed Decay
+Strength of decay on viewmodel deflection speed in hipfire.
+
+ADS Speed Decay
+Strength of decay on viewmodel deflection speed in ADS.
+
+Hip Static Decay
+Strength of decay on viewmodel recentering once it has stopped deflecting.
+
+ADS Static Decay
+Strength of decay on viewmodel recentering once it has stopped deflecting.
+
+Hip Pitch Min
+Hipfire view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.
+
+ADS Pitch Min
+ADS view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.
+
+Hip Pitch Max
+Hipfire view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.
+
+ADS Pitch Max
+ADS view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.
+
+Hip Yaw Min
+Hipfire view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.
+
+ADS Yaw Min
+ADS view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.
+
+Hip Yaw Max
+Hipfire view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.
+
+ADS Yaw Max
+ADS view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.
+
+Hip Center Speed
+Speed with which the view continuously attempts to recenter in hipfire.
+
+ADS Center Speed
+Speed with which the view continuously attempts to recenter in ADS.
+
+Max Angle
+Max angle change that will be applied to the hipfire viewmodel sway.
+
+ADS Max Angle
+Max angle change that will be applied to the ADS viewmodel sway.
+
+Lerp Speed
+Speed at which the sway will lerp in hipfire.
+
+ADS Lerp Speed
+Speed at which the sway will lerp in ADS.
+
+Pitch Scale
+Amount of pitch change in the viewmodel to apply to the sway pitch in hipfire.
+
+ADS Pitch Scale
+Amount of pitch change in the viewmodel to apply to the sway pitch in ADS.
+
+Yaw Scale
+Amount of yaw change in the viewmodel to apply to the sway yaw in hipfire.
+
+ADS Yaw Scale
+Amount of yaw change in the viewmodel to apply to the sway yaw in ADS.
+
+Horiz Scale
+Amount of yaw change in the viewmodel to apply to the sway horizontal offset in hipfire.
+
+ADS Horiz Scale
+Amount of yaw change in the viewmodel to apply to the sway horizontal offset in ADS.
+
+Vert Scale
+Amount of pitch change in the view model to apply to the sway vertical offset in hipfire.
+
+ADS Vert Scale
+Amount of pitch change in the view model to apply to the sway vertical offset in ADS.
+
+Shell Shock Scale
+This scale gets applied to the weapon sway while you're in shell shock.
+
+Fight Distance
+Aggro radius. AI using this weapon try to fight enemies detected in this radius. Center of this circle constantly traces along AI's path up to maxdist.
+
+Max Distance
+Effective range radius. AI must get to this distance before opening fire on their target with this weapon.
+
+AI Vs. AI Accuracy
+Graph file for in-game editing of the non-linear accuracy curve used by the AI for this weapon against another AI.
+
+AI Vs. Player Accuracy
+Graph file for in-game editing of the non-linear accuracy curve used by the AI for this weapon against the player.
+
+Center Reticle
+Center Reticle.
+
+Side Reticle
+Side Reticle.
+
+Center Size
+Center Size.
+
+Side Size
+Side Size.
+
+Side Position
+Side Position.
+
+Min Offset
+Min Offset.
+
+Shader
+Overlay for sniper rifles in ADS. Uses a quarter circle image to construct a full scope view.
+
+Shader
+Low resolution verision of the overlay for sniper rifles in ADS. Uses a quarter circle image to construct a full scope view. The image is used for 480 verticle resolution or lower and for split screen.
+
+Reticle
+Selects a preset image?
+
+Hide Tags
+name of tags to hide on this model. one per line
+
+Fire (Player)
+Fire sound used by player. If not defined, player will play normal 'Fire' that is used by the AI.
+
+Last Shot (Player)
+Last Shot sound used by player. If not defined, player will play normal 'Last Shot' that is used by the AI.
+
+Empty Fire (Player)
+Empty Fire sound used by player. If not defined, player will play normal 'Empty Fire' that is used by the AI.
+
+Melee Hit
+Leave empty to use default
+
+Melee Miss
+Leave empty to use default
+
+Deploy (Player)
+Rechamber sound used by player. If not defined, player will play normal 'Deploy' that is used by the AI.
+
+Finish Deploy (Player)
+Rechamber sound used by player. If not defined, player will play normal 'Finish Deploy' that is used by the AI.
+
+Breakdown (Player)
+Rechamber sound used by player. If not defined, player will play normal 'Breakdown' that is used by the AI.
+
+Rechamber (Player)
+Rechamber sound used by player. If not defined, player will play normal 'Rechamber' that is used by the AI.
+
+Reload (Player)
+Reload sound used by player. If not defined, player will play normal 'Reload' that is used by the AI.
+
+Reload Empty (Player)
+Reload Empty sound used by player. If not defined, player will play normal 'Reload Empty' that is used by the AI.
+
+Reload Start (Player)
+Reload Start sound used by player. If not defined, player will play normal 'Reload Start' that is used by the AI.
+
+Reload End (Player)
+Reload End sound used by player. If not defined, player will play normal 'Reload End' that is used by the AI.
+
+Flip:
+Used for weapons that need to have their kill icon horizontally flipped before displaying. (For MP obituaries).

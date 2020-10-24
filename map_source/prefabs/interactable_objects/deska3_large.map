@@ -1,0 +1,49 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"script_exploder" "100"
+"classname" "trigger_damage"
+// brush 0
+{
+ ( -2 210 0.5 ) ( -16 210 0.5 ) ( -16 194 0.5 ) trigger 64 64 488.5 62 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15.5 194 1.5 ) ( -15.5 210 1.5 ) ( -1.5 210 1.5 ) trigger 64 64 488.5 62 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13.5 0.5 1.5 ) ( 0.5 0.5 1.5 ) ( 0.5 0.5 -2.5 ) trigger 64 64 488.5 10.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 196 3 ) ( -0.5 212 3 ) ( -0.5 212 -1 ) trigger 64 64 -62 10.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 201 1 ) ( -15.5 201 1 ) ( -15.5 201 -3 ) trigger 64 64 488.5 10.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15.5 210 1.5 ) ( -15.5 194 1.5 ) ( -15.5 194 -2.5 ) trigger 64 64 -62 10.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"script_exploder" "100"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 0 201.5 0 ) ( -16 201.5 0 ) ( -16 161.5 0 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 161.5 2 ) ( -16 201.5 2 ) ( 0 201.5 2 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 0 2 ) ( -11 0 2 ) ( -11 0 -10 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 161.5 2 ) ( 0 201.5 2 ) ( 0 201.5 -10 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 201.5 2 ) ( -16 201.5 2 ) ( -16 201.5 -10 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 201.5 2 ) ( -16 161.5 2 ) ( -16 161.5 -10 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"targetname" "exploder"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 0 201.5 0 ) ( -16 201.5 0 ) ( -16 177 0 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 177 2 ) ( -16 201.5 2 ) ( 0 201.5 2 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 199.5 0 ) ( -16 199.5 2 ) ( 0 193 2 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 193 0 ) ( 0 193 2 ) ( 0 201.5 2 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 201.5 2 ) ( -16 201.5 2 ) ( -16 201.5 0 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 199.5 2 ) ( -16 199.5 0 ) ( -16 201.5 0 ) ch_woodwall01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

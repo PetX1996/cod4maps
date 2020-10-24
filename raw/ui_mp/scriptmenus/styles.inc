@@ -1,0 +1,6 @@
+#define COLOR_BG_FILL 0 0 0 1
+#define COLOR_BG_TRANSPARENT 0 0 0 0.5
+
+#define COLOR_FG_FILL 0 1 1 1
+#define COLOR_FG_HIGHLIGHT 0 1 1 0.75
+#define COLOR_FG_DARK 0 1 1 0.5

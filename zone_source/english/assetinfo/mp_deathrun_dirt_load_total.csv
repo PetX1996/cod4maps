@@ -1,0 +1,68 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_deathrun_dirt,  string,string,,2.5,2.5
+2,mp_deathrun_dirt,  xmodel,xmodel,com_security_camera,94.1,94.2
+3,mp_deathrun_dirt,  xmodel,xmodel,com_public_speaker_01,24.1,24.4
+4,mp_deathrun_dirt,  xmodel,xmodel,ch_mattress_3,28.3,28.6
+5,mp_deathrun_dirt,  xmodel,xmodel,ch_bumper_car_st_wheel,30.8,31.1
+6,mp_deathrun_dirt,  xmodel,xmodel,4gf_logo_petx,424.4,424.9
+7,mp_deathrun_dirt,  xmodel,xmodel,4gf_logo,513.5,513.5
+8,mp_deathrun_dirt,  techset,techset,sm2/wc_unlit,1.7,1.7
+9,mp_deathrun_dirt,  techset,techset,wc_unlit,1.5,1.5
+10,mp_deathrun_dirt,  techset,techset,sm2/wc_l_sm_r0c0n0s0,19.6,19.6
+11,mp_deathrun_dirt,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+12,mp_deathrun_dirt,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+13,mp_deathrun_dirt,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+14,mp_deathrun_dirt,  techset,techset,wc_l_sm_r0c0n0s0,31.5,31.5
+15,mp_deathrun_dirt,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+16,mp_deathrun_dirt,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+17,mp_deathrun_dirt,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+18,mp_deathrun_dirt,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+19,mp_deathrun_dirt,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+20,mp_deathrun_dirt,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+21,mp_deathrun_dirt,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+22,mp_deathrun_dirt,  techset,techset,sm2/wc_unlit_multiply,1.7,1.7
+23,mp_deathrun_dirt,  techset,techset,wc_unlit_multiply,1.8,1.8
+24,mp_deathrun_dirt,  gfx_map,gfx_map,maps/mp/mp_deathrun_dirt.d3dbsp,20535.1,20538.4
+25,mp_deathrun_dirt,    map_ents,map_ents,maps/mp/mp_deathrun_dirt.d3dbsp,11.7,11.7
+26,mp_deathrun_dirt,  col_map_sp,col_map_sp,maps/mp/mp_deathrun_dirt.d3dbsp,1127.5,1139.2
+27,mp_deathrun_dirt,  impactfx,impactfx,,1.6,1.6
+28,mp_deathrun_dirt,  fx,fx,misc/icbm_post_light_red,3.2,3.4
+29,mp_deathrun_dirt,  sound,sound,artillery_explosion,1.2,1.2
+30,mp_deathrun_dirt,  sound,sound,elm_metal_rattle,1.2,1.2
+31,mp_deathrun_dirt,  sound,sound,mortar_incoming,1.6,1.6
+32,mp_deathrun_dirt,  sound,sound,generic_death_arab_4,1.1,1.1
+33,mp_deathrun_dirt,  sound,sound,weap_suitcase_button_press_plr,0.9,1.2
+34,mp_deathrun_dirt,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+35,mp_deathrun_dirt,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+36,mp_deathrun_dirt,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+37,mp_deathrun_dirt,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+38,mp_deathrun_dirt,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+39,mp_deathrun_dirt,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+40,mp_deathrun_dirt,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+41,mp_deathrun_dirt,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+42,mp_deathrun_dirt,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+43,mp_deathrun_dirt,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+44,mp_deathrun_dirt,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+45,mp_deathrun_dirt,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+46,mp_deathrun_dirt,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+47,mp_deathrun_dirt,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+48,mp_deathrun_dirt,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+49,mp_deathrun_dirt,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+50,mp_deathrun_dirt,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+51,mp_deathrun_dirt,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+52,mp_deathrun_dirt,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+53,mp_deathrun_dirt,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+54,mp_deathrun_dirt,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+55,mp_deathrun_dirt,  rawfile,rawfile,maps/mp/mp_deathrun_dirt.gsc,2.5,2.5
+56,mp_deathrun_dirt,  rawfile,rawfile,maps/mp/mp_deathrun_dirt_script.gsc,9.3,9.3
+57,mp_deathrun_dirt,  rawfile,rawfile,mp_deathrun_dirt,2.2,2.2
+58,mp_deathrun_dirt,assetlist,assetlist,,9.1,28795.1
+59,mp_deathrun_dirt,material,material,(misc),7.4,7.4
+60,mp_deathrun_dirt,techset,techset,(misc),1.4,1.4
+61,mp_deathrun_dirt,image,image,(misc),3.7,3.7
+62,mp_deathrun_dirt,sound,sound,(misc),186.5,186.5
+63,mp_deathrun_dirt,loaded_sound,loaded_sound,(misc),3.6,3.6
+64,mp_deathrun_dirt,fx,fx,(misc),3.1,3.1
+65,mp_deathrun_dirt,rawfile,rawfile,(misc),1.5,1.5
+66,mp_deathrun_dirt_load,  rawfile,rawfile,mp_deathrun_dirt_load,2.2,2.2
+67,mp_deathrun_dirt_load,assetlist,assetlist,,0.0,2.4

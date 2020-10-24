@@ -1,0 +1,505 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"origin" "0.0 96.0 0.0"
+"model" "body_complete_mp_al_asad"
+"classname" "misc_model"
+}
+// entity 2
+{
+"origin" "0.0 0.0 0.0"
+"model" "body_complete_mp_price_woodland"
+"classname" "misc_model"
+}
+// entity 3
+{
+"origin" "0.0 -48.0 0.0"
+"model" "body_complete_mp_russian_farmer"
+"classname" "misc_model"
+}
+// entity 4
+{
+"origin" "0.0 -144.0 0.0"
+"model" "body_complete_mp_velinda_desert"
+"classname" "misc_model"
+}
+// entity 5
+{
+"origin" "0.0 -240.0 0.0"
+"model" "body_complete_mp_velinda_woodland"
+"classname" "misc_model"
+}
+// entity 6
+{
+"origin" "0.0 -96.0 0.0"
+"model" "body_complete_mp_zack_desert"
+"classname" "misc_model"
+}
+// entity 7
+{
+"origin" "0.0 -192.0 0.0"
+"model" "body_complete_mp_zack_woodland"
+"classname" "misc_model"
+}
+// entity 8
+{
+"origin" "0.0 48.0 0.0"
+"model" "body_complete_mp_zakhaev"
+"classname" "misc_model"
+}
+// entity 9
+{
+"origin" "0.0 -528.0 0.0"
+"model" "playermodel_dnf_duke"
+"classname" "misc_model"
+}
+// entity 10
+{
+"origin" "0.0 144.0 0.0"
+"model" "body_mp_arab_regular_assault"
+"classname" "misc_model"
+}
+// entity 11
+{
+"angles" "270 90 -180"
+"origin" "-2.3 143.8 51.5"
+"model" "head_mp_arab_regular_suren"
+"classname" "misc_model"
+}
+// entity 12
+{
+"origin" "0.0 192.0 0.0"
+"model" "body_mp_arab_regular_cqb"
+"classname" "misc_model"
+}
+// entity 13
+{
+"angles" "270 90 -180"
+"origin" "-2.3 191.8 51.5"
+"model" "head_mp_arab_regular_headwrap"
+"classname" "misc_model"
+}
+// entity 14
+{
+"origin" "0.0 240.0 0.0"
+"model" "body_mp_arab_regular_engineer"
+"classname" "misc_model"
+}
+// entity 15
+{
+"angles" "270 90 -180"
+"origin" "-2.3 239.8 51.5"
+"model" "head_mp_arab_regular_ski_mask"
+"classname" "misc_model"
+}
+// entity 16
+{
+"origin" "0.0 288.0 0.0"
+"model" "body_mp_arab_regular_sniper"
+"classname" "misc_model"
+}
+// entity 17
+{
+"angles" "270 90 -180"
+"origin" "-2.3 287.8 51.5"
+"model" "head_mp_arab_regular_sadiq"
+"classname" "misc_model"
+}
+// entity 18
+{
+"origin" "0.0 336.0 0.0"
+"model" "body_mp_arab_regular_support"
+"classname" "misc_model"
+}
+// entity 19
+{
+"angles" "270 90 -180"
+"origin" "-2.3 335.8 51.5"
+"model" "head_mp_arab_regular_asad"
+"classname" "misc_model"
+}
+// entity 20
+{
+"origin" "0.0 384.0 0.0"
+"model" "body_mp_opforce_assault"
+"classname" "misc_model"
+}
+// entity 21
+{
+"angles" "270 90 -180"
+"origin" "-2.3 383.8 51.5"
+"model" "head_mp_opforce_headwrap"
+"classname" "misc_model"
+}
+// entity 22
+{
+"origin" "0.0 432.0 0.0"
+"model" "body_mp_opforce_cqb"
+"classname" "misc_model"
+}
+// entity 23
+{
+"angles" "270 90 -180"
+"origin" "-2.3 431.8 51.5"
+"model" "head_mp_opforce_gasmask"
+"classname" "misc_model"
+}
+// entity 24
+{
+"origin" "0.0 480.0 0.0"
+"model" "body_mp_opforce_eningeer"
+"classname" "misc_model"
+}
+// entity 25
+{
+"angles" "270 90 -180"
+"origin" "-2.3 479.8 51.5"
+"model" "head_mp_opforce_gasmask"
+"classname" "misc_model"
+}
+// entity 26
+{
+"origin" "0.0 528.0 0.0"
+"model" "body_mp_opforce_sniper"
+"classname" "misc_model"
+}
+// entity 27
+{
+"angles" "270 90 -180"
+"origin" "-2.3 527.8 51.5"
+"model" "head_mp_opforce_ghillie"
+"classname" "misc_model"
+}
+// entity 28
+{
+"origin" "0.0 576.0 0.0"
+"model" "body_mp_opforce_support"
+"classname" "misc_model"
+}
+// entity 29
+{
+"angles" "270 90 -180"
+"origin" "-2.3 575.8 51.5"
+"model" "head_mp_opforce_3hole_mask"
+"classname" "misc_model"
+}
+// entity 30
+{
+"origin" "0.0 624.0 0.0"
+"model" "body_mp_opforce_assault"
+"classname" "misc_model"
+}
+// entity 31
+{
+"angles" "270 90 -180"
+"origin" "-2.3 623.8 51.5"
+"model" "head_mp_opforce_headwrap"
+"classname" "misc_model"
+}
+// entity 32
+{
+"origin" "0.0 672.0 0.0"
+"model" "body_mp_opforce_cqb"
+"classname" "misc_model"
+}
+// entity 33
+{
+"angles" "270 90 -180"
+"origin" "-2.3 671.8 51.5"
+"model" "head_mp_opforce_gasmask"
+"classname" "misc_model"
+}
+// entity 34
+{
+"origin" "0.0 720.0 0.0"
+"model" "body_mp_opforce_eningeer"
+"classname" "misc_model"
+}
+// entity 35
+{
+"angles" "270 90 -180"
+"origin" "-2.3 719.8 51.5"
+"model" "head_mp_opforce_gasmask"
+"classname" "misc_model"
+}
+// entity 36
+{
+"origin" "0.0 768.0 0.0"
+"model" "body_mp_opforce_sniper_urban"
+"classname" "misc_model"
+}
+// entity 37
+{
+"angles" "270 90 -180"
+"origin" "-2.3 767.8 51.5"
+"model" "head_mp_opforce_justin"
+"classname" "misc_model"
+}
+// entity 38
+{
+"origin" "0.0 816.0 0.0"
+"model" "body_mp_opforce_support"
+"classname" "misc_model"
+}
+// entity 39
+{
+"angles" "270 90 -180"
+"origin" "-2.3 815.8 51.5"
+"model" "head_mp_opforce_3hole_mask"
+"classname" "misc_model"
+}
+// entity 40
+{
+"origin" "0.0 864.0 0.0"
+"model" "body_mp_sas_urban_assault"
+"classname" "misc_model"
+}
+// entity 41
+{
+"origin" "0.0 912.0 0.0"
+"model" "body_mp_sas_urban_recon"
+"classname" "misc_model"
+}
+// entity 42
+{
+"origin" "0.0 960.0 0.0"
+"model" "body_mp_sas_urban_sniper"
+"classname" "misc_model"
+}
+// entity 43
+{
+"origin" "0.0 1008.0 0.0"
+"model" "body_mp_sas_urban_specops"
+"classname" "misc_model"
+}
+// entity 44
+{
+"origin" "0.0 1056.0 0.0"
+"model" "body_mp_sas_urban_support"
+"classname" "misc_model"
+}
+// entity 45
+{
+"origin" "0.0 1104.0 0.0"
+"model" "body_mp_usmc_assault"
+"classname" "misc_model"
+}
+// entity 46
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1103.8 51.5"
+"model" "head_mp_usmc_tactical_mich"
+"classname" "misc_model"
+}
+// entity 47
+{
+"origin" "0.0 1152.0 0.0"
+"model" "body_mp_usmc_cqb"
+"classname" "misc_model"
+}
+// entity 48
+{
+"origin" "0.0 1200.0 0.0"
+"model" "body_mp_usmc_engineer"
+"classname" "misc_model"
+}
+// entity 49
+{
+"origin" "0.0 1248.0 0.0"
+"model" "body_mp_usmc_grenadier"
+"classname" "misc_model"
+}
+// entity 50
+{
+"origin" "0.0 1296.0 0.0"
+"model" "body_mp_usmc_recon"
+"classname" "misc_model"
+}
+// entity 51
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1295.8 51.5"
+"model" "head_mp_usmc_nomex"
+"classname" "misc_model"
+}
+// entity 52
+{
+"origin" "0.0 1344.0 0.0"
+"model" "body_mp_usmc_rifleman"
+"classname" "misc_model"
+}
+// entity 53
+{
+"origin" "0.0 1392.0 0.0"
+"model" "body_mp_usmc_sniper"
+"classname" "misc_model"
+}
+// entity 54
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1391.8 51.5"
+"model" "head_mp_usmc_tactical_baseball_cap"
+"classname" "misc_model"
+}
+// entity 55
+{
+"origin" "0.0 1440.0 0.0"
+"model" "body_mp_usmc_specops"
+"classname" "misc_model"
+}
+// entity 56
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1439.8 51.5"
+"model" "head_mp_usmc_tactical_mich_stripes_nomex"
+"classname" "misc_model"
+}
+// entity 57
+{
+"origin" "0.0 1488.0 0.0"
+"model" "body_mp_usmc_woodland_assault"
+"classname" "misc_model"
+}
+// entity 58
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1487.8 51.5"
+"model" "head_mp_usmc_tactical_mich"
+"classname" "misc_model"
+}
+// entity 59
+{
+"origin" "0.0 1536.0 0.0"
+"model" "body_mp_usmc_woodland_recon"
+"classname" "misc_model"
+}
+// entity 60
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1535.8 51.5"
+"model" "head_mp_usmc_nomex"
+"classname" "misc_model"
+}
+// entity 61
+{
+"origin" "0.0 1584.0 0.0"
+"model" "body_mp_usmc_woodland_sniper"
+"classname" "misc_model"
+}
+// entity 62
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1583.8 51.5"
+"model" "head_mp_usmc_ghillie"
+"classname" "misc_model"
+}
+// entity 63
+{
+"origin" "0.0 1632.0 0.0"
+"model" "body_mp_usmc_woodland_specops"
+"classname" "misc_model"
+}
+// entity 64
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1631.8 51.5"
+"model" "head_mp_usmc_tactical_mich_stripes_nomex"
+"classname" "misc_model"
+}
+// entity 65
+{
+"origin" "0.0 1680.0 0.0"
+"model" "body_mp_usmc_woodland_support"
+"classname" "misc_model"
+}
+// entity 66
+{
+"angles" "270 90 -180"
+"origin" "-2.3 1679.8 51.5"
+"model" "head_mp_usmc_shaved_head"
+"classname" "misc_model"
+}
+// entity 67
+{
+"origin" "0.0 -288.0 0.0"
+"model" "playermodel_css_badass_terrorist"
+"classname" "misc_model"
+}
+// entity 68
+{
+"origin" "0.0 -336.0 0.0"
+"model" "playermodel_fifty_cent"
+"classname" "misc_model"
+}
+// entity 69
+{
+"origin" "0.0 -384.0 0.0"
+"model" "playermodel_ghost_recon"
+"classname" "misc_model"
+}
+// entity 70
+{
+"origin" "0.0 -432.0 0.0"
+"model" "playermodel_GTA_IV_NICO"
+"classname" "misc_model"
+}
+// entity 71
+{
+"origin" "0.0 -480.0 0.0"
+"model" "playermodel_vin_diesel"
+"classname" "misc_model"
+}
+// entity 72
+{
+"origin" "0.0 -1008.0 0.0"
+"model" "viewhands_desert_opfor"
+"classname" "misc_model"
+}
+// entity 73
+{
+"origin" "0.0 -976.0 0.0"
+"model" "viewhands_op_force"
+"classname" "misc_model"
+}
+// entity 74
+{
+"origin" "0.0 -944.0 0.0"
+"model" "viewhands_marine_sniper"
+"classname" "misc_model"
+}
+// entity 75
+{
+"origin" "0.0 -912.0 0.0"
+"model" "viewhands_black_kit"
+"classname" "misc_model"
+}
+// entity 76
+{
+"origin" "0.0 -880.0 0.0"
+"model" "viewmodel_base_viewhands"
+"classname" "misc_model"
+}
+// entity 77
+{
+"origin" "0.0 -848.0 0.0"
+"model" "viewhands_sas_woodland"
+"classname" "misc_model"
+}
+// entity 78
+{
+"origin" "0.0 -816.0 0.0"
+"model" "viewhands_marine_sniper"
+"classname" "misc_model"
+}
+// entity 79
+{
+"origin" "0.0 -784.0 0.0"
+"model" "viewhands_dnf_duke"
+"classname" "misc_model"
+}

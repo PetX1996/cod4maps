@@ -1,0 +1,11 @@
+ignore,code_post_gfx_mp
+ignore,common_mp
+ignore,localized_code_post_gfx_mp
+ignore,localized_common_mp
+col_map_mp,maps/mp/mp_magical.d3dbsp
+rawfile,maps/mp/mp_magical.gsc
+impactfx,mp_magical
+sound,common,mp_magical,!all_mp
+sound,generic,mp_magical,!all_mp
+sound,voiceovers,mp_magical,!all_mp
+sound,multiplayer,mp_magical,!all_mp

@@ -1,0 +1,385 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -544 384 -95 ) ( 496 384 -95 ) ( -544 -304 -95 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 384 367 ) ( -528 -304 367 ) ( 512 384 367 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -303 16 ) ( -512 -303 16 ) ( 528 -303 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 527 384 16 ) ( 527 -304 16 ) ( 527 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 383 16 ) ( 528 383 16 ) ( -512 383 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -511 -304 16 ) ( -511 384 16 ) ( -511 -304 0 ) tron 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 496 384 -96 ) ( -544 384 -96 ) ( -544 -304 -96 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -304 368 ) ( -528 384 368 ) ( 512 384 368 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -304 16 ) ( 528 -304 16 ) ( 528 -304 0 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 -304 16 ) ( 528 384 16 ) ( 528 384 0 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 528 384 16 ) ( -512 384 16 ) ( -512 384 0 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 384 16 ) ( -512 -304 16 ) ( -512 -304 0 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "107.5 61.0 51.0"
+"classname" "mp_dm_spawn"
+}
+// entity 2
+{
+"origin" "141.0 -11.5 41.0"
+"classname" "mp_tdm_spawn"
+}
+// entity 3
+{
+"origin" "174.5 177.5 25.0"
+"classname" "mp_tdm_spawn_allies_start"
+}
+// entity 4
+{
+"origin" "92.5 -123.5 29.0"
+"classname" "mp_tdm_spawn_axis_start"
+}
+// entity 5
+{
+"origin" "55.5 5.0 167.0"
+"classname" "mp_global_intermission"
+}
+// entity 6
+{
+"origin" "-22.5 40.0 260.0"
+"classname" "reflection_probe"
+}
+// entity 7
+{
+"angles" "0 360 0"
+"origin" "-198.5 -159.0 -80.0"
+"model" "body_mp_sas_urban_sniper"
+"classname" "misc_model"
+}
+// entity 8
+{
+"origin" "-196.5 -103.0 -80.0"
+"angles" "0 360 0"
+"model" "body_mp_usmc_engineer"
+"classname" "misc_model"
+}
+// entity 9
+{
+"origin" "-192.5 -44.5 -80.0"
+"angles" "0 360 0"
+"model" "body_mp_usmc_woodland_sniper"
+"classname" "misc_model"
+}
+// entity 10
+{
+"origin" "-251.0 -155.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 11
+{
+"origin" "-251.0 -155.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 12
+{
+"origin" "-251.0 196.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 13
+{
+"origin" "-251.0 196.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 14
+{
+"origin" "-251.0 20.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 15
+{
+"origin" "-251.0 20.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 16
+{
+"origin" "-11.0 -155.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 17
+{
+"origin" "-11.0 -155.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 18
+{
+"origin" "-11.0 196.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 19
+{
+"origin" "-11.0 196.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 20
+{
+"origin" "-11.0 20.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 21
+{
+"origin" "-43.0 -27.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 22
+{
+"origin" "261.0 -155.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 23
+{
+"origin" "261.0 -155.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 24
+{
+"origin" "261.0 196.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 25
+{
+"origin" "261.0 196.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 26
+{
+"origin" "261.0 20.5 194.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 27
+{
+"origin" "261.0 20.5 50.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 28
+{
+"origin" "-189.0 243.0 -96.0"
+"angles" "0 90 0"
+"model" "rex"
+"classname" "misc_model"
+}
+// entity 29
+{
+"origin" "-191.0 69.0 -32.0"
+"angles" "0 90 0"
+"model" "shark"
+"classname" "misc_model"
+}
+// entity 30
+{
+"origin" "-255.0 -155.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 31
+{
+"origin" "-255.0 196.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 32
+{
+"origin" "-255.0 20.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 33
+{
+"origin" "-15.0 -155.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 34
+{
+"origin" "-15.0 196.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 35
+{
+"origin" "-47.0 -27.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 36
+{
+"origin" "257.0 -155.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 37
+{
+"origin" "257.0 196.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 38
+{
+"origin" "257.0 20.5 -74.0"
+"def" "light_point_linear"
+"radius" "450"
+"_color" "1 1 1"
+"intensity" "1"
+"classname" "light"
+}
+// entity 39
+{
+"origin" "162.0 -100.0 -92.0"
+"angles" "0 180 0"
+"model" "body_mp_usmc_rifleman"
+"classname" "misc_model"
+}

@@ -1,0 +1,43 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"origin" "-128.0 192.0 16.0"
+"model" "prefabs/mp/ctf_flag_allies.map"
+"classname" "misc_prefab"
+}
+// entity 2
+{
+"origin" "-48.0 192.0 16.0"
+"model" "prefabs/mp/ctf_flag_axis.map"
+"classname" "misc_prefab"
+}
+// entity 3
+{
+"origin" "80.0 160.0 32.0"
+"model" "prefabs/mp/sd_bombzone_nuke_a.map"
+"classname" "misc_prefab"
+}
+// entity 4
+{
+"origin" "-80.0 96.0 32.0"
+"model" "prefabs/mp/sd_bombzone_nuke_b.map"
+"classname" "misc_prefab"
+}
+// entity 5
+{
+"origin" "80.0 16.0 32.0"
+"model" "prefabs/mp/sab_bomb_allies.map"
+"classname" "misc_prefab"
+}
+// entity 6
+{
+"origin" "-80.0 -48.0 32.0"
+"model" "prefabs/mp/sab_bomb_axis.map"
+"classname" "misc_prefab"
+}

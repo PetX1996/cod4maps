@@ -1,0 +1,22 @@
+index,type,type,name,usage(KB),total(KB)
+1,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+2,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+3,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+4,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+5,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+6,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+7,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+8,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+9,  gfx_map,gfx_map,maps/mp/mp_escape_example.d3dbsp,8711.5,8712.6
+10,    map_ents,map_ents,maps/mp/mp_escape_example.d3dbsp,7.6,7.6
+11,  col_map_sp,col_map_sp,maps/mp/mp_escape_example.d3dbsp,22.9,30.5
+12,  impactfx,impactfx,,1.5,1.5
+13,  sound,sound,artillery_explosion,1.2,1.2
+14,  sound,sound,elm_metal_rattle,1.2,1.2
+15,  sound,sound,mortar_incoming,1.6,1.6
+16,  sound,sound,generic_death_arab_4,1.1,1.1
+17,assetlist,assetlist,,2.7,8914.0
+18,techset,techset,(misc),2.5,2.5
+19,sound,sound,(misc),35.5,35.5
+20,loaded_sound,loaded_sound,(misc),2.5,2.5
+21,fx,fx,(misc),3.1,3.1

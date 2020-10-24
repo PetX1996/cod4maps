@@ -1,0 +1,214 @@
+#include "ui_mp/macros.inc"
+
+// "onOpen,"typeIndex
+// "chPrev"
+// "chNext"
+
+// "ui_chPresHgl"
+
+// "ui_chType"
+// "ui_chIsPrev"
+// "ui_chIsNext"
+// "ui_chCount"
+// "ui_chI" + i + "T" // title
+// "ui_chI" + i + "D" // description
+// "ui_chI" + i + "C" // current count
+// "ui_chI" + i + "M" // max count
+
+{
+	menuDef
+	{
+		name			"challenges"
+		blurworld		1.5
+		rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+		
+		#include "ui_mp/scriptmenus/main_bg.inc"
+		
+		#include "ui_mp/scriptmenus/main_menu.inc"
+		
+		#include "ui_mp/scriptmenus/main_class.inc"
+		
+		onEsc
+		{
+			close self;
+			//open "team_marinesopfor";
+		}
+		onOpen
+		{
+			ONOPEN_DEFAULT;
+			
+			setDvar ui_chPresHgl 999;
+			
+			setDvar ui_chCount 0;
+
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE0 "onOpen,0";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE1 "onOpen,1";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE2 "onOpen,2";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE3 "onOpen,3";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE4 "onOpen,4";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE5 "onOpen,5";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE6 "onOpen,6";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE7 "onOpen,7";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE8 "onOpen,8";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_STAGE9 "onOpen,9";
+			
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_JUMPER "onOpen,10";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_ACTIVATOR "onOpen,11";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_BONUS "onOpen,12";
+			scriptMenuRespondOnDvarStringValue ui_chType CH_TYPE_MAP "onOpen,13";
+		}
+		onClose
+		{
+			ONCLOSE_DEFAULT;
+		}
+		
+		#define CUR_TYPE DvarInt("ui_chType")
+		
+		// CENTER WINDOW
+		PANEL_STATIC(CENTER_X, CENTER_Y, CENTER_W, CENTER_H, COLOR_BG_TRANSPARENT, 1)
+		
+		// CENTER BAR
+		CENTER_BAR_DYNAMIC("Challenges")
+		CENTER_BAR_ARROWS(setDvar ui_chCount 0; scriptMenuResponse "chPrev";, setDvar ui_chCount 0; scriptMenuResponse "chNext";, DvarBool("ui_chIsPrev"), DvarBool("ui_chIsNext"))
+		
+		// TYPE TABS
+		#define TYPETABS_W  CENTER_WORKSPACE_W
+		#define TYPETABS_H  16
+		#define TYPETABS_X  (CENTER_WORKSPACE_X + ((CENTER_WORKSPACE_W - TYPETABS_W) * 0.5))
+		#define TYPETABS_Y  CENTER_WORKSPACE_Y
+	
+		#define TYPETAB_H TYPETABS_H
+		#define TYPETAB_W (TYPETABS_W / CH_TYPE_SIZE)
+		
+		#define TYPETAB_X(i) (TYPETABS_X + (TYPETAB_W * i))
+		#define TYPETAB_Y(i) (TYPETABS_Y)
+		
+		// typetab selected highlight
+		PANEL_DYNAMIC_X(TYPETAB_X((CUR_TYPE - 10)), TYPETABS_Y, TYPETAB_W, TYPETAB_H, COLOR_FG_HIGHLIGHT, (CUR_TYPE >= 10))
+		
+		#define TYPETAB(iID, i, sName, dAction) \
+			BTN_STATIC(iID, TYPETAB_X(i), TYPETABS_Y, TYPETAB_W, TYPETAB_H, sName, FONTSCALE_14, ITEM_ALIGN_MIDDLE_CENTER, dAction, ;, ;, 1) \
+		
+		#define TYPETAB_ICON_SPACE 1
+		#define TYPETAB_ICON_H (TYPETABS_H - (TYPETAB_ICON_SPACE * 2))
+		#define TYPETAB_ICON_W TYPETAB_ICON_H
+		#define TYPETAB_ICON_X(i) ((TYPETAB_X(i) + TYPETAB_W) - TYPETAB_ICON_W - TYPETAB_ICON_SPACE)
+		#define TYPETAB_ICON_Y (TYPETABS_Y + TYPETAB_ICON_SPACE)
+		
+		#define TYPETAB_ICON(iID, i, sName, dAction) \
+			BTN_STATIC(iID, TYPETAB_X(i), TYPETABS_Y, TYPETAB_W, TYPETAB_H, \
+				sName, FONTSCALE_14, ITEM_ALIGN_MIDDLE_CENTER textAlignX ((-0.5) * (TYPETAB_ICON_W + TYPETAB_ICON_SPACE)), dAction, ;, ;, 1) \
+			SHADER_STATIC(TYPETAB_ICON_X(i), TYPETAB_ICON_Y, TYPETAB_ICON_W, TYPETAB_ICON_H, \
+				"rank101", 1 1 1 1, 1) \
+		
+		TYPETAB_ICON("60", 0, "Jumper", OPEN_CHALLENGES_JUMPER)
+		TYPETAB_ICON("61", 1, "Activator", OPEN_CHALLENGES_ACTIVATOR)
+		TYPETAB("63", 2, "Bonus", OPEN_CHALLENGES_BONUS)
+		TYPETAB("64", 3, "Map", OPEN_CHALLENGES_MAP)
+		
+		// STAGE TABS
+		#define STAGETAB_H 20
+		#define STAGETAB_W STAGETAB_H
+		
+		#define STAGETABS_W  (STAGETAB_W * 10)
+		#define STAGETABS_H  STAGETAB_H
+		#define STAGETABS_X  (CENTER_WORKSPACE_X + ((CENTER_WORKSPACE_W - STAGETABS_W) * 0.5))
+		#define STAGETABS_Y  (TYPETABS_Y + TYPETABS_H)
+		
+		#define CUR_RANKID Stat(TableLookUp("mp/playerStatsTable.csv", 1, "RANK", 0))
+		#define CUR_RANKXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "RANKXP", 0))
+		
+		#define CUR_MINXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "MINXP", 0))
+		#define CUR_MAXXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "MAXXP", 0))
+		
+		#define CUR_NEXTXP (CUR_MAXXP - CUR_MINXP)
+		#define CUR_LEFTXP Stat(TableLookUp("mp/playerStatsTable.csv", 1, "LEFTXP", 0))
+		
+		#define CUR_CHCUR Stat(TableLookUp("mp/playerStatsTable.csv", 1, "CHCUR", 0))
+		#define CUR_CHMAX Stat(TableLookUp("mp/playerStatsTable.csv", 1, "CHMAX", 0))
+		
+		#define CUR_PRESTIGE Stat(TableLookUp("mp/playerStatsTable.csv", 1, "PLEVEL", 0))
+		
+		#define CUR_ISRANKFREEZED (CUR_RANKID % 10 == 9)
+		#define CUR_ISXPCOLLECTING (CUR_LEFTXP != 0)
+		#define CUR_ISCHWAITING (CUR_LEFTXP == 0)
+		
+		#define CUR_ISSTAGEAVAILABLE(i) (CUR_PRESTIGE >= i)
+		
+		#define STAGETAB_X(i) (STAGETABS_X + (STAGETAB_W * i))
+		#define STAGETAB_Y(i) (STAGETABS_Y)
+		
+		// prestiges selected highlight
+		PANEL_DYNAMIC_X(STAGETAB_X(CUR_TYPE), STAGETABS_Y, STAGETAB_W, STAGETAB_H, COLOR_FG_HIGHLIGHT, 
+			(CUR_TYPE < 10 && CUR_ISSTAGEAVAILABLE(i) == 1))
+		
+		// prestiges highlight
+		PANEL_DYNAMIC_X(STAGETAB_X(DvarInt("ui_chPresHgl")), STAGETABS_Y, STAGETAB_W, STAGETAB_H, COLOR_FG_HIGHLIGHT, 
+			(CUR_ISSTAGEAVAILABLE(i) == 1))
+		
+		#define STAGETAB(i) \
+			SHADER_DYNAMIC((STAGETAB_X(i) + 2), (STAGETAB_Y(i) + 2), (STAGETAB_W - 4), (STAGETAB_H - 4), \
+				TableLookUp("mp/rankIconTable.csv", 0, (i * 10) + 9, 1), 1 1 1 0.5, \
+				(CUR_ISSTAGEAVAILABLE(i) == 0)) \
+			SHADER_DYNAMIC((STAGETAB_X(i) + 2), (STAGETAB_Y(i) + 2), (STAGETAB_W - 4), (STAGETAB_H - 4), \
+				TableLookUp("mp/rankIconTable.csv", 0, (i * 10) + 9, 1), 1 1 1 1 \
+				type ITEM_TYPE_BUTTON Action { play "mouse_click"; OPEN_CHALLENGES_STAGE(i) } MouseEnter { play "mouse_over"; setDvar "ui_chPresHgl" i; } MouseExit { setDvar "ui_chPresHgl" 999; }, \
+				(CUR_ISSTAGEAVAILABLE(i) == 1)) \
+				
+		STAGETAB(0)
+		STAGETAB(1)
+		STAGETAB(2)
+		STAGETAB(3)
+		STAGETAB(4)
+		STAGETAB(5)
+		STAGETAB(6)
+		STAGETAB(7)
+		STAGETAB(8)
+		STAGETAB(9)
+		
+		// ITEM LIST
+		#define ITEMS_X (CENTER_WORKSPACE_X + SPACE_INNER)
+		#define ITEMS_Y (CENTER_WORKSPACE_Y + TYPETABS_H + STAGETABS_H + SPACE_INNER)
+		#define ITEMS_W (CENTER_WORKSPACE_W - (SPACE_INNER * 2))
+		#define ITEMS_H ((CENTER_WORKSPACE_Y + CENTER_WORKSPACE_H) - ITEMS_Y - SPACE_INNER)
+		
+		#define ITEM_BAR_H 10.5
+		#define ITEM_DES_H 10
+		#define ITEM_W ITEMS_W
+		#define ITEM_H (ITEM_BAR_H + ITEM_DES_H)
+		
+		#define ITEM_GETY(i) (ITEMS_Y + (ITEM_H * i) + (SPACE_INNER * i))
+		#define ITEM_VIS(i) (i < DvarInt("ui_chCount"))
+		
+		#define ITEM(i) \
+			PANEL_STATIC(ITEMS_X, ITEM_GETY(i), ITEM_W, ITEM_H, \
+				COLOR_BG_TRANSPARENT, \
+				ITEM_VIS(i)) \
+			PANEL_STATIC(ITEMS_X, ITEM_GETY(i), ITEM_W, ITEM_BAR_H, \
+				COLOR_BG_TRANSPARENT, \
+				ITEM_VIS(i)) \
+			PANEL_DYNAMIC_W(ITEMS_X, ITEM_GETY(i), (ITEM_W * (DvarInt("ui_chI" + i + "C") / DvarInt("ui_chI" + i + "M"))), ITEM_BAR_H, \
+				COLOR_FG_HIGHLIGHT, \
+				ITEM_VIS(i)) \
+			TEXT_DYNAMIC(ITEMS_X, ITEM_GETY(i), ITEM_W, ITEM_BAR_H, \
+				DvarString("ui_chI" + i + "T"), FONTSCALE_10, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 2, \
+				ITEM_VIS(i)) \
+			TEXT_DYNAMIC(ITEMS_X, ITEM_GETY(i), ITEM_W, ITEM_BAR_H, \
+				DvarString("ui_chI" + i + "C") + "/" + DvarString("ui_chI" + i + "M"), FONTSCALE_10, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -2, \
+				(ITEM_VIS(i) && DvarString("ui_chI" + i + "M") != "")) \
+			TEXT_DYNAMIC(ITEMS_X, (ITEM_GETY(i) + ITEM_BAR_H), ITEM_W, ITEM_DES_H, \
+				DvarString("ui_chI" + i + "D"), FONTSCALE_10, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 2, \
+				ITEM_VIS(i)) \
+				
+		ITEM(0)
+		ITEM(1)
+		ITEM(2)
+		ITEM(3)
+		ITEM(4)
+		ITEM(5)
+		ITEM(6)
+		ITEM(7)
+		ITEM(8)
+		//ITEM(9)
+	}
+}

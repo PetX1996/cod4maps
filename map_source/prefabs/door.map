@@ -1,0 +1,176 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 96 256 -16 ) ( -240 256 -16 ) ( -240 -256 -16 ) ch_factory_corrugatedsiding2 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 -256 0 ) ( -256 256 0 ) ( 80 256 0 ) ch_factory_corrugatedsiding2 128 128 -64 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 -256 0 ) ( 80 -256 0 ) ( 80 -256 -144 ) ch_factory_corrugatedsiding2 128 128 -64 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -240 0 ) ( 256 272 0 ) ( 256 272 -144 ) ch_factory_corrugatedsiding2 128 128 0 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 256 0 ) ( -256 256 0 ) ( -256 256 -144 ) ch_factory_corrugatedsiding2 128 128 -64 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 256 0 ) ( -256 -256 0 ) ( -256 -256 -144 ) ch_factory_corrugatedsiding2 128 128 0 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 96 768 -16 ) ( -240 768 -16 ) ( -240 256 -16 ) ch_factory_corrugatedsiding2 128 128 -64 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 256 0 ) ( -256 768 0 ) ( 80 768 0 ) ch_factory_corrugatedsiding2 128 128 -64 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 256 0 ) ( 80 256 0 ) ( 80 256 -144 ) ch_factory_corrugatedsiding2 128 128 -64 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 272 0 ) ( 256 784 0 ) ( 256 784 -144 ) ch_factory_corrugatedsiding2 128 128 512 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 768 0 ) ( -256 768 0 ) ( -256 768 -144 ) ch_factory_corrugatedsiding2 128 128 -64 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -256 768 0 ) ( -256 256 0 ) ( -256 256 -144 ) ch_factory_corrugatedsiding2 128 128 512 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 608 768 -16 ) ( 272 768 -16 ) ( 272 256 -16 ) ch_factory_corrugatedsiding2 128 128 448 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 256 0 ) ( 256 768 0 ) ( 592 768 0 ) ch_factory_corrugatedsiding2 128 128 448 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 256 0 ) ( 592 256 0 ) ( 592 256 -144 ) ch_factory_corrugatedsiding2 128 128 448 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 768 272 0 ) ( 768 784 0 ) ( 768 784 -144 ) ch_factory_corrugatedsiding2 128 128 512 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 592 768 0 ) ( 256 768 0 ) ( 256 768 -144 ) ch_factory_corrugatedsiding2 128 128 448 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 768 0 ) ( 256 256 0 ) ( 256 256 -144 ) ch_factory_corrugatedsiding2 128 128 512 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 608 256 -16 ) ( 272 256 -16 ) ( 272 -256 -16 ) ch_factory_corrugatedsiding2 128 128 448 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 0 ) ( 256 256 0 ) ( 592 256 0 ) ch_factory_corrugatedsiding2 128 128 448 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 0 ) ( 592 -256 0 ) ( 592 -256 -144 ) ch_factory_corrugatedsiding2 128 128 448 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 768 -240 0 ) ( 768 272 0 ) ( 768 272 -144 ) ch_factory_corrugatedsiding2 128 128 0 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 592 256 0 ) ( 256 256 0 ) ( 256 256 -144 ) ch_factory_corrugatedsiding2 128 128 448 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 256 0 ) ( 256 -256 0 ) ( 256 -256 -144 ) ch_factory_corrugatedsiding2 128 128 0 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"count" "128"
+"targetname" "door1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 0 128 0 ) ( -16 128 0 ) ( -16 0 0 ) ch_factory_corrugatedsiding2 128 128 -400 -192 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 0 144 ) ( -16 128 144 ) ( 0 128 144 ) ch_factory_corrugatedsiding2 128 128 -400 -192 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 0 144 ) ( 0 0 144 ) ( 0 0 128 ) ch_factory_corrugatedsiding2 128 128 -400 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 0 144 ) ( 0 128 144 ) ( 0 128 128 ) ch_factory_corrugatedsiding2 128 128 192 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 128 144 ) ( -16 128 144 ) ( -16 128 128 ) ch_factory_corrugatedsiding2 128 128 -400 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 128 144 ) ( -16 0 144 ) ( -16 0 128 ) ch_factory_corrugatedsiding2 128 128 192 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"count" "-128"
+"targetname" "door2"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 0 0 0 ) ( -16 0 0 ) ( -16 -128 0 ) ch_factory_corrugatedsiding2 128 128 -400 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -128 144 ) ( -16 0 144 ) ( 0 0 144 ) ch_factory_corrugatedsiding2 128 128 -400 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -128 144 ) ( 0 -128 144 ) ( 0 -128 128 ) ch_factory_corrugatedsiding2 128 128 -400 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -128 144 ) ( 0 0 144 ) ( 0 0 128 ) ch_factory_corrugatedsiding2 128 128 64 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 0 144 ) ( -16 0 144 ) ( -16 0 128 ) ch_factory_corrugatedsiding2 128 128 -400 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 0 144 ) ( -16 -128 144 ) ( -16 -128 128 ) ch_factory_corrugatedsiding2 128 128 64 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"script_noteworthy" "y"
+"targetname" "door_trig"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 112 128 0 ) ( -128 128 0 ) ( -128 0 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 0 64 ) ( -128 128 64 ) ( 112 128 64 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -112 -128 64 ) ( 128 -128 64 ) ( 128 -128 -80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 0 64 ) ( 128 128 64 ) ( 128 128 -80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 128 64 ) ( -128 128 64 ) ( -128 128 -80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 128 64 ) ( -128 0 64 ) ( -128 0 -80 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 4
+{
+"targetname" "door1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 512 640 0 ) ( 496 640 0 ) ( 496 512 0 ) ch_factory_corrugatedsiding2 128 128 112 -704 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 512 144 ) ( 496 640 144 ) ( 512 640 144 ) ch_factory_corrugatedsiding2 128 128 112 -704 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 512 144 ) ( 512 512 144 ) ( 512 512 128 ) ch_factory_corrugatedsiding2 128 128 112 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 512 144 ) ( 512 640 144 ) ( 512 640 128 ) ch_factory_corrugatedsiding2 128 128 704 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 640 144 ) ( 496 640 144 ) ( 496 640 128 ) ch_factory_corrugatedsiding2 128 128 112 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 640 144 ) ( 496 512 144 ) ( 496 512 128 ) ch_factory_corrugatedsiding2 128 128 704 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 5
+{
+"targetname" "door2"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 512 512 0 ) ( 496 512 0 ) ( 496 384 0 ) ch_factory_corrugatedsiding2 128 128 112 -576 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 384 144 ) ( 496 512 144 ) ( 512 512 144 ) ch_factory_corrugatedsiding2 128 128 112 -576 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 384 144 ) ( 512 384 144 ) ( 512 384 128 ) ch_factory_corrugatedsiding2 128 128 112 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 384 144 ) ( 512 512 144 ) ( 512 512 128 ) ch_factory_corrugatedsiding2 128 128 576 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 512 144 ) ( 496 512 144 ) ( 496 512 128 ) ch_factory_corrugatedsiding2 128 128 112 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 496 512 144 ) ( 496 384 144 ) ( 496 384 128 ) ch_factory_corrugatedsiding2 128 128 576 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 6
+{
+"script_noteworthy" "y"
+"targetname" "door_trig"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 624 640 0 ) ( 384 640 0 ) ( 384 512 0 ) trigger 64 64 512 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 512 64 ) ( 384 640 64 ) ( 624 640 64 ) trigger 64 64 512 -512 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 400 384 64 ) ( 640 384 64 ) ( 640 384 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 512 64 ) ( 640 640 64 ) ( 640 640 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 624 640 64 ) ( 384 640 64 ) ( 384 640 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 640 64 ) ( 384 512 64 ) ( 384 512 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 7
+{
+"count" "128"
+"targetname" "door2"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 640 -5.0576517e-005 0 ) ( 640 15.999941 0 ) ( 512 16.000008 0 ) ch_factory_corrugatedsiding2 128 128 -400 -704 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 16.000008 144 ) ( 640 15.999941 144 ) ( 640 -5.0576517e-005 144 ) ch_factory_corrugatedsiding2 128 128 -400 -704 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 16.000008 144 ) ( 512 0 144 ) ( 512 0 128 ) ch_factory_corrugatedsiding2 128 -128 -400 128 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 0 144 ) ( 640 -5.0576517e-005 144 ) ( 640 -5.0576517e-005 128 ) ch_factory_corrugatedsiding2 128 128 704 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 -5.0576517e-005 144 ) ( 640 15.999941 144 ) ( 640 15.999941 128 ) ch_factory_corrugatedsiding2 128 -128 -400 128 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640 15.999941 144 ) ( 512 16.000008 144 ) ( 512 16.000008 128 ) ch_factory_corrugatedsiding2 128 128 704 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 8
+{
+"count" "-128"
+"targetname" "door1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 512 0 0 ) ( 512 16.000008 0 ) ( 384 16.000059 0 ) ch_factory_corrugatedsiding2 128 128 -400 -576 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 16.000059 144 ) ( 512 16.000008 144 ) ( 512 0 144 ) ch_factory_corrugatedsiding2 128 128 -400 -576 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 16.000059 144 ) ( 384 7.9049809e-005 144 ) ( 384 7.9049809e-005 128 ) ch_factory_corrugatedsiding2 128 -128 -400 128 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384 7.9049809e-005 144 ) ( 512 0 144 ) ( 512 0 128 ) ch_factory_corrugatedsiding2 128 128 576 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 0 144 ) ( 512 16.000008 144 ) ( 512 16.000008 128 ) ch_factory_corrugatedsiding2 128 -128 -400 128 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512 16.000008 144 ) ( 384 16.000059 144 ) ( 384 16.000059 128 ) ch_factory_corrugatedsiding2 128 128 576 -128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 9
+{
+"script_noteworthy" "x"
+"targetname" "door_trig"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 639.99994 -112.00009 0 ) ( 640.00006 127.99994 0 ) ( 512.00006 128.00002 0 ) trigger 64 64 0 -512 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 512.00006 128.00002 64 ) ( 640.00006 127.99994 64 ) ( 639.99994 -112.00009 64 ) trigger 64 64 0 -512 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 384.00006 112.00009 64 ) ( 383.99991 -127.99991 64 ) ( 383.99991 -127.99991 -80 ) trigger 64 -64 0 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 511.99997 -128.00003 64 ) ( 639.99994 -128.00009 64 ) ( 639.99994 -128.00009 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 639.99994 -112.00009 64 ) ( 640.00006 127.99994 64 ) ( 640.00006 127.99994 -80 ) trigger 64 -64 0 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 640.00006 127.99994 64 ) ( 512.00006 128.00002 64 ) ( 512.00006 128.00002 -80 ) trigger 64 64 512 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

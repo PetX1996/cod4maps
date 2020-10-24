@@ -1,0 +1,24 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_dr_test,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+2,mp_dr_test,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+3,mp_dr_test,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+4,mp_dr_test,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+5,mp_dr_test,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+6,mp_dr_test,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+7,mp_dr_test,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+8,mp_dr_test,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+9,mp_dr_test,  gfx_map,gfx_map,maps/mp/mp_dr_test.d3dbsp,9445.7,9447.5
+10,mp_dr_test,    map_ents,map_ents,maps/mp/mp_dr_test.d3dbsp,3.0,3.0
+11,mp_dr_test,  col_map_sp,col_map_sp,maps/mp/mp_dr_test.d3dbsp,39.4,42.4
+12,mp_dr_test,  rawfile,rawfile,maps/mp/mp_dr_test.gsc,1.7,1.7
+13,mp_dr_test,  impactfx,impactfx,,1.5,1.5
+14,mp_dr_test,  sound,sound,artillery_explosion,1.2,1.2
+15,mp_dr_test,  sound,sound,elm_metal_rattle,1.2,1.2
+16,mp_dr_test,  sound,sound,mortar_incoming,1.6,1.6
+17,mp_dr_test,  sound,sound,generic_death_arab_4,1.1,1.1
+18,mp_dr_test,assetlist,assetlist,,2.7,9660.1
+19,mp_dr_test,material,material,(misc),1.5,1.5
+20,mp_dr_test,techset,techset,(misc),1.1,1.1
+21,mp_dr_test,sound,sound,(misc),35.5,35.5
+22,mp_dr_test,loaded_sound,loaded_sound,(misc),2.5,2.5
+23,mp_dr_test,fx,fx,(misc),3.1,3.1

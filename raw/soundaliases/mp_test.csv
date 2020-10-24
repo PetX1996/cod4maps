@@ -1,0 +1,8 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+gatestart,,stargate/gate_start.mp3,1,1,max,1,1,50,2000,physics,streamed,,,master,all_mp,,,,,,,,,,,50,650,0.65
+gaterun,,stargate/gate_run.mp3,1,1,max,1,1,50,2000,physics,streamed,,rlooping,master,all_mp,,,,,,,,,,,50,650,0.65
+gaterun_off,,stargate/gate_run_off.mp3,1,1,max,1,1,50,2000,physics,streamed,,,master,all_mp,,,,,,,,,,,50,650,0.65
+gatebusy,,stargate/gate_busy.mp3,1,1,max,1,1,50,2000,physics,streamed,,,master,all_mp,,,,,,,,,,,50,650,0.65
+gatechevrons,,stargate/gate_chevrons.mp3,1,1,max,1,1,50,2000,physics,streamed,,,master,all_mp,,,,,,,,,,,50,650,0.65
+gatering,,stargate/gate_ring.mp3,1,1,max,1,1,50,2000,physics,streamed,,rlooping,master,all_mp,,,,,,,,,,,50,650,0.65

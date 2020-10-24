@@ -1,0 +1,76 @@
+index,type,type,name,usage(KB),total(KB)
+1,  string,string,,2.6,2.6
+2,  techset,techset,sm2/mc_effect_zfeather_falloff_add_nofog_eyeoffset,2.8,2.8
+3,  techset,techset,sm2/mc_effect_falloff_add_nofog_eyeoffset,1.7,1.7
+4,  techset,techset,mc_effect_zfeather_falloff_add_nofog_eyeoffset,2.4,2.4
+5,  techset,techset,mc_effect_falloff_add_nofog_eyeoffset,1.5,1.5
+6,  techset,techset,sm2/mc_effect_zfeather_falloff_add_nofog,1.5,1.5
+7,  techset,techset,sm2/mc_effect_falloff_add_nofog,1.2,1.2
+8,  techset,techset,mc_effect_zfeather_falloff_add_nofog,1.4,1.4
+9,  techset,techset,mc_effect_falloff_add_nofog,1.1,1.1
+10,  xmodel,xmodel,com_lightbox_on,75.4,76.3
+11,  xmodel,xmodel,com_propane_tank02,196.8,197.0
+12,  xmodel,xmodel,com_railpipe_large_01,25.4,25.9
+13,  xmodel,xmodel,com_gas_pipes02,96.3,96.5
+14,  xmodel,xmodel,com_gas_pipes01,148.1,148.1
+15,  xmodel,xmodel,com_folding_table,67.3,67.7
+16,  techset,techset,sm2/wc_l_sm_r0c0n0s0,20.6,20.6
+17,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+18,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+19,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+20,  techset,techset,wc_l_sm_r0c0n0s0,32.5,32.5
+21,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+22,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+23,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+24,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+25,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+26,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+27,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+28,  techset,techset,sm2/wc_l_sm_t0c0n0s0,12.8,12.8
+29,  techset,techset,sm2/wc_l_sm_t0c0,7.8,7.8
+30,  techset,techset,sm2/wc_l_hsm_t0c0,5.7,5.7
+31,  techset,techset,sm2/wc_l_hsm_t0c0n0,6.8,6.8
+32,  techset,techset,wc_l_sm_t0c0n0s0,23.7,23.7
+33,  techset,techset,wc_l_sm_t0c0,13.4,13.4
+34,  techset,techset,wc_l_sm_t0c0s0,14.7,14.7
+35,  techset,techset,wc_l_sm_t0c0n0,12.2,12.2
+36,  techset,techset,wc_l_hsm_t0c0,7.1,7.1
+37,  techset,techset,wc_l_hsm_t0c0s0,7.7,7.7
+38,  techset,techset,wc_l_hsm_t0c0n0,8.2,8.2
+39,  techset,techset,wc_l_hsm_t0c0n0s0,8.6,8.6
+40,  gfx_map,gfx_map,maps/mp/mp_complex.d3dbsp,359.3,360.9
+41,    map_ents,map_ents,maps/mp/mp_complex.d3dbsp,3.5,3.5
+42,  col_map_sp,col_map_sp,maps/mp/mp_complex.d3dbsp,100.5,103.9
+43,  impactfx,impactfx,,1.6,1.6
+44,  sound,sound,artillery_explosion,1.2,1.2
+45,  sound,sound,elm_metal_rattle,1.2,1.2
+46,  sound,sound,mortar_incoming,1.6,1.6
+47,  sound,sound,generic_death_arab_4,1.1,1.1
+48,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+49,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+50,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+51,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.1
+52,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+53,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+54,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+55,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+56,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+57,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+58,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+59,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+60,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+61,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+62,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+63,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+64,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+65,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+66,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+67,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+68,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+69,assetlist,assetlist,,3.2,7038.9
+70,material,material,(misc),6.9,6.9
+71,techset,techset,(misc),2.9,2.9
+72,image,image,(misc),3.1,3.1
+73,sound,sound,(misc),35.5,35.5
+74,loaded_sound,loaded_sound,(misc),2.5,2.5
+75,fx,fx,(misc),3.1,3.1

@@ -1,0 +1,227 @@
+// ========================================================= //
+
+
+// ========================================================= //
+// "ui_hudDevI" + iLine
+// "ui_hudDevAddI" + iLine
+
+// "ui_mfTT"
+// "ui_mfTA"
+// "ui_mfTB"
+// "ui_mfTC"
+
+// ========================================================= //
+// "mfClose"
+// "mfEsc"
+// "mfBtn," + i // i = iIndex
+// "mfSBtn,"sM
+// "mfT,Cancel"
+// "mfT,OK"
+
+#include "ui_mp/macros.inc"
+
+{
+	menuDef
+	{	
+		name			"mapfixer"
+		blurworld		0
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+		focusColor 		1 0 0 1 // editfield text flickering
+		
+		#undef TEXT_DYNAMIC
+		#define TEXT_DYNAMIC(x, y, w, h, t, tScale, tColor, tAlign, visInfo) \
+			itemDef \
+			{ \
+				rect			x y w h HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN \
+				style			WINDOW_STYLE_EMPTY \
+				forecolor		tColor \
+				exp				text( t ); \
+				textalign		tAlign \
+				textscale		tScale \
+				visible			when(visInfo) \
+				decoration \
+			} \
+		
+		#define DEVINFO_LINE(iLine) \
+			TEXT_DYNAMIC(0, (0 + (iLine * 13)), 640, 13, DvarString("ui_hudDevI" + iLine), FONTSCALE_13, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 2, 1)
+			
+		DEVINFO_LINE(0)
+		DEVINFO_LINE(1)
+		DEVINFO_LINE(2)
+		DEVINFO_LINE(3)
+		DEVINFO_LINE(4)
+		DEVINFO_LINE(5)
+		DEVINFO_LINE(6)
+		DEVINFO_LINE(7)
+		DEVINFO_LINE(8)
+		DEVINFO_LINE(9)
+		DEVINFO_LINE(10)
+		DEVINFO_LINE(11)
+		DEVINFO_LINE(12)
+		DEVINFO_LINE(13)
+		DEVINFO_LINE(14)
+		DEVINFO_LINE(15)
+		DEVINFO_LINE(16)
+		DEVINFO_LINE(17)
+		DEVINFO_LINE(18)
+		DEVINFO_LINE(19)
+		DEVINFO_LINE(20)
+		DEVINFO_LINE(21)
+		DEVINFO_LINE(22)
+		DEVINFO_LINE(23)
+		DEVINFO_LINE(24)
+		DEVINFO_LINE(25)
+		DEVINFO_LINE(26)
+		DEVINFO_LINE(27)
+		DEVINFO_LINE(28)
+		DEVINFO_LINE(29)
+		DEVINFO_LINE(30)
+		DEVINFO_LINE(31)
+		DEVINFO_LINE(32)
+		DEVINFO_LINE(33)
+		DEVINFO_LINE(34)
+		DEVINFO_LINE(35)
+		DEVINFO_LINE(36)
+
+		#define ADDINFO_LINE(iLine) \
+			TEXT_DYNAMIC(0, (0 + (iLine * 13)), 640, 13, DvarString("ui_hudDevAddI" + iLine), FONTSCALE_13, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -2, 1)
+			
+		ADDINFO_LINE(0)
+		ADDINFO_LINE(1)
+		ADDINFO_LINE(2)
+		ADDINFO_LINE(3)
+		ADDINFO_LINE(4)
+		ADDINFO_LINE(5)
+		ADDINFO_LINE(6)
+		ADDINFO_LINE(7)
+		ADDINFO_LINE(8)
+		ADDINFO_LINE(9)
+		ADDINFO_LINE(10)
+		ADDINFO_LINE(11)
+		ADDINFO_LINE(12)
+		ADDINFO_LINE(13)
+		ADDINFO_LINE(14)
+		ADDINFO_LINE(15)
+		ADDINFO_LINE(16)
+		ADDINFO_LINE(17)
+		ADDINFO_LINE(18)
+		ADDINFO_LINE(19)
+		ADDINFO_LINE(20)
+		ADDINFO_LINE(21)
+		ADDINFO_LINE(22)
+		ADDINFO_LINE(23)
+		ADDINFO_LINE(24)
+		ADDINFO_LINE(25)
+		ADDINFO_LINE(26)
+		ADDINFO_LINE(27)
+		ADDINFO_LINE(28)
+		ADDINFO_LINE(29)
+		ADDINFO_LINE(30)
+		ADDINFO_LINE(31)
+		ADDINFO_LINE(32)
+		ADDINFO_LINE(33)
+		ADDINFO_LINE(34)
+		ADDINFO_LINE(35)
+		ADDINFO_LINE(36)
+		
+		#define KEYBTN(sI) \
+			execKey sI { scriptMenuResponse "mfBtn,"sI; }
+		
+		KEYBTN("1")
+		KEYBTN("2")
+		KEYBTN("3")
+		KEYBTN("4")
+		KEYBTN("5")
+		KEYBTN("6")
+		KEYBTN("7")
+		KEYBTN("8")
+		KEYBTN("9")
+		
+		#define SPECBTN(iI, sM) \
+			execKeyInt iI { scriptMenuResponse "mfSBtn,"sM; }
+			
+		SPECBTN(13, "enter")
+		SPECBTN(127, "backSpace")
+		
+		SPECBTN(154, "up")
+		SPECBTN(155, "down")
+		SPECBTN(156, "left")
+		SPECBTN(157, "right")
+		
+		#define SPACE 5
+		
+		#define TEXTBOX_W 300
+		#define TEXTBOX_X ((640 - TEXTBOX_W) * 0.5)
+		#define TEXTBOX_Y ((480 - TEXTBOX_H) * 0.5)
+		
+		#define TEXTBOX_TITLE_W TEXTBOX_W
+		#define TEXTBOX_TITLE_H 20
+		#define TEXTBOX_TITLE_X TEXTBOX_X
+		#define TEXTBOX_TITLE_Y TEXTBOX_Y
+		
+		#define TEXTBOX_A_W (TEXTBOX_W - (SPACE * 2))
+		#define TEXTBOX_A_H 16
+		#define TEXTBOX_A_X (TEXTBOX_X + SPACE)
+		#define TEXTBOX_A_Y (TEXTBOX_Y + TEXTBOX_TITLE_H + SPACE)
+		
+		#define TEXTBOX_B_W (TEXTBOX_W - (SPACE * 2))
+		#define TEXTBOX_B_H 16
+		#define TEXTBOX_B_X (TEXTBOX_X + SPACE)
+		#define TEXTBOX_B_Y (TEXTBOX_A_Y + TEXTBOX_A_H + SPACE)
+		
+		#define TEXTBOX_C_W (TEXTBOX_W - (SPACE * 2))
+		#define TEXTBOX_C_H 16
+		#define TEXTBOX_C_X (TEXTBOX_X + SPACE)
+		#define TEXTBOX_C_Y (TEXTBOX_B_Y + TEXTBOX_B_H + SPACE)
+		
+		#define TEXTBOX_CANCEL_W ((TEXTBOX_W) * 0.5)
+		#define TEXTBOX_CANCEL_H 16
+		#define TEXTBOX_CANCEL_X (TEXTBOX_X)
+		#define TEXTBOX_CANCEL_Y (TEXTBOX_C_Y + TEXTBOX_C_H + SPACE)
+		
+		#define TEXTBOX_OK_W ((TEXTBOX_W) * 0.5)
+		#define TEXTBOX_OK_H 16
+		#define TEXTBOX_OK_X (TEXTBOX_CANCEL_X + TEXTBOX_CANCEL_W)
+		#define TEXTBOX_OK_Y (TEXTBOX_C_Y + TEXTBOX_C_H + SPACE)
+		
+		#define TEXTBOX_H (TEXTBOX_TITLE_H + SPACE + TEXTBOX_A_H + SPACE + TEXTBOX_B_H + SPACE + TEXTBOX_C_H + SPACE + TEXTBOX_CANCEL_H)
+		
+		#define TEXTBOX_VIS (DvarString("ui_mfTT") != "")
+		
+		PANEL_STATIC(TEXTBOX_X, TEXTBOX_Y, TEXTBOX_W, TEXTBOX_H, COLOR_BG_TRANSPARENT, TEXTBOX_VIS)
+		
+		TEXTPANEL_DYNAMIC(TEXTBOX_TITLE_X, TEXTBOX_TITLE_Y, TEXTBOX_TITLE_W, TEXTBOX_TITLE_H, DvarString("ui_mfTT"), FONTSCALE_20, COLOR_FG_HIGHLIGHT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 2, TEXTBOX_VIS)
+
+		TEXTPANEL_EDITABLE(TEXTBOX_A_X, TEXTBOX_A_Y, TEXTBOX_A_W, TEXTBOX_A_H, FONTSCALE_14, COLOR_BG_TRANSPARENT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX -6, "ui_mfTA", 128, 128, TEXTBOX_VIS)
+		TEXTPANEL_EDITABLE(TEXTBOX_B_X, TEXTBOX_B_Y, TEXTBOX_B_W, TEXTBOX_B_H, FONTSCALE_14, COLOR_BG_TRANSPARENT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX -6, "ui_mfTB", 128, 128, TEXTBOX_VIS)
+		TEXTPANEL_EDITABLE(TEXTBOX_C_X, TEXTBOX_C_Y, TEXTBOX_C_W, TEXTBOX_C_H, FONTSCALE_14, COLOR_BG_TRANSPARENT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX -6, "ui_mfTC", 128, 128, TEXTBOX_VIS)
+		
+		BTN_STATIC("1050", TEXTBOX_CANCEL_X, TEXTBOX_CANCEL_Y, TEXTBOX_CANCEL_W, TEXTBOX_CANCEL_H, "Cancel", FONTSCALE_16, ITEM_ALIGN_MIDDLE_CENTER, scriptMenuResponse "mfT,Cancel", ;, ;, TEXTBOX_VIS)
+		BTN_STATIC("1051", TEXTBOX_OK_X, TEXTBOX_OK_Y, TEXTBOX_OK_W, TEXTBOX_OK_H, "OK", FONTSCALE_16, ITEM_ALIGN_MIDDLE_CENTER, scriptMenuResponse "mfT,OK", ;, ;, TEXTBOX_VIS)
+		
+		onEsc
+		{
+			scriptMenuResponse "mfEsc";
+		}
+		onOpen
+		{
+			//ONOPEN_DEFAULT;
+		
+			//execNow "setDvarToTime ui_vmOpenTime";
+			//scriptMenuResponse "onOpen";
+			
+			//setLocalVarInt "ui_vmHgl" 999;
+			//setLocalVarInt "ui_vmSel" 999;
+			
+			//test
+			//setDvar ui_vmTime 15;
+			
+			setDvar cl_bypassMouseInput "1";
+		}
+		onClose
+		{
+			scriptMenuResponse "mfClose";
+			setDvar cl_bypassMouseInput "0";
+		}
+	}
+}

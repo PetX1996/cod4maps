@@ -1,0 +1,67 @@
+#include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
+
+#define CHOICE_GROUP			"quickplayer"
+
+#include "ui_mp/menustyle.inc"
+#include "ui/choices_setup_common.menu"
+
+#include "ui_mp/popupstyle.inc"	
+#include "ui/choices_setup_popmenu.menu"
+
+#undef CHOICE_SIZE_X
+#define CHOICE_SIZE_X			186
+
+#undef CHOICE_POPUP_BACKCOLOR
+#define CHOICE_POPUP_BACKCOLOR  0.2 0.2 0.22 0.65
+
+#define ORIGIN_QUICKMESSAGEWINDOW		0 16
+
+{
+	menuDef
+	{
+		IMPROVED_POPUP_SETUP_ONOPEN( quickplayer, 10, 4, 210, ;, setDvar cl_bypassMouseInput "1";, 0 )
+		onClose{ setDvar cl_bypassMouseInput "0" }
+		
+		CHOICE_POPMENU_TITLE( "@QUICKMESSAGE_QUICK_MESSAGE" )
+		
+		#define QUICKPLAYER_BTN(iI, sI, sName, onClick) \
+			itemDef \
+			{ \
+				name			"window" \
+				group			ingamebox \
+				visible			1 \
+				rect			16 (20 + (iI * 16)) 0 0 0 0 \
+				origin			ORIGIN_QUICKMESSAGEWINDOW \
+				forecolor		1 1 1 1 \
+				textfont		UI_FONT_NORMAL \
+				textstyle		ITEM_TEXTSTYLE_SHADOWED \
+				textscale		TEXTSIZE_SMALL \
+				textaligny		8 \
+				text			sName \
+				decoration \
+			} \
+			execKey sI { onClick; close quickplayer; } \
+		
+		QUICKPLAYER_BTN(0, "1", "1. Suicide", scriptMenuResponse "qplayer_suicide";)
+		QUICKPLAYER_BTN(1, "2", "2. 3rd Person ^1[^3Rear^1]", scriptMenuResponse "qplayer_3rdrear";)
+		QUICKPLAYER_BTN(2, "3", "3. 3rd Person ^1[^3Front^1]", scriptMenuResponse "qplayer_3rdfront";)
+		QUICKPLAYER_BTN(3, "4", "4. 3rd Person ^1[^3Left^1]", scriptMenuResponse "qplayer_3rdleft";)
+		QUICKPLAYER_BTN(4, "5", "5. 3rd Person ^1[^3Right^1]", scriptMenuResponse "qplayer_3rdright";)
+	
+		itemDef
+		{
+			name			"window"
+			visible			1
+			rect			16 164 0 0
+			origin			ORIGIN_QUICKMESSAGEWINDOW
+			forecolor		1 1 1 1
+			textfont		UI_FONT_NORMAL
+			textstyle		ITEM_TEXTSTYLE_SHADOWED
+			textscale		TEXTSIZE_SMALL
+			textaligny		8
+			text			"@QUICKMESSAGE_ESC_EXIT"
+			decoration
+		}
+	}
+}

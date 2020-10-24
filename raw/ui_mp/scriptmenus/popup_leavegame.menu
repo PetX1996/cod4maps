@@ -1,0 +1,434 @@
+#include "ui_mp/macros.inc"
+
+//#include "ui/menudef.h"
+/*#include "ui_mp/common_macro.inc"
+
+#define CHOICE_X_START			0
+#define CHOICE_Y_START			150
+
+#define CHOICE_GROUP			"quit_game"
+#define CHOICE_SEP_1			3
+#define CHOICE_SEP_2			5
+
+#define STYLE_PC	1
+#include "ui_mp/menustyle.inc"
+#include "ui/choices_setup_common.menu"
+
+#include "ui_mp/popupstyle.inc"	
+#include "ui/choices_setup_popmenu.menu"
+	
+#undef CHOICE_SIZE_X
+#define CHOICE_SIZE_X	320
+
+#undef CHOICE_HORIZONTAL_ALIGN
+#define CHOICE_HORIZONTAL_ALIGN	HORIZONTAL_ALIGN_CENTER
+#undef CHOICE_VERTICAL_ALIGN
+#define CHOICE_VERTICAL_ALIGN	VERTICAL_ALIGN_CENTER
+*/
+
+
+{
+	/*menuDef
+	{
+		CENTER_POPUP_SETUP( popup_endgame, 4, ;, 1 )
+
+		CHOICE_POPMENU_TITLE( "@MENU_ARE_YOU_SURE_QUIT" )
+		CHOICE_BUTTON( 3, "@MENU_YES", close self; exec "disconnect"; )
+		CHOICE_BUTTON( 4, "@MENU_NO", close self )
+	}*/
+	menuDef
+	{
+			name			popup_leavegame
+	   		fullscreen		0
+			rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+			backcolor		0 0 0 0
+			blurworld		1.5
+			focusColor		COLOR_FOCUSED
+	   		style			WINDOW_STYLE_FILLED
+			popup
+			onOpen
+			{
+				//setLocalVarBool	ui_centerPopup 1;
+				setLocalVarInt "ui_rateHgl" 0;
+			}
+			onClose
+			{
+				//setLocalVarBool	ui_centerPopup 0;
+				setDvar ui_mainSel 999;
+			}
+			onESC
+			{
+				//setLocalVarBool	ui_centerPopup 0;
+				close self;
+			}
+			itemDef 
+			{
+				style			WINDOW_STYLE_FILLED
+				backcolor		0 0 0 0.70
+				type			ITEM_TYPE_BUTTON
+				rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN VERTICAL_ALIGN_FULLSCREEN
+				visible			1
+				action			{ close self; }
+			}
+			
+			#define SPACE_INNER 5
+			
+			#define POPUP_W 320
+			#define POPUP_H 95
+			#define POPUP_X ((640 - POPUP_W) * 0.5)
+			#define POPUP_Y ((480 - POPUP_H) * 0.5)
+			
+			#define POPUP_TITLE_X POPUP_X
+			#define POPUP_TITLE_Y POPUP_Y
+			#define POPUP_TITLE_W POPUP_W
+			#define POPUP_TITLE_H 20
+			
+			#define POPUP_RATE_X (POPUP_X + SPACE_INNER)
+			#define POPUP_RATE_Y (POPUP_TITLE_Y + POPUP_TITLE_H + SPACE_INNER)
+			#define POPUP_RATE_W (POPUP_W - (SPACE_INNER * 2))
+			#define POPUP_RATE_H 20
+			
+			#define POPUP_RATE_STAR_SPACE 2
+			#define POPUP_RATE_STAR_H (POPUP_RATE_H - (POPUP_RATE_STAR_SPACE * 2))
+			#define POPUP_RATE_STAR_W POPUP_RATE_STAR_H
+			#define POPUP_RATE_STARS_COUNT 5
+			#define POPUP_RATE_STARS_W (POPUP_RATE_STAR_W * POPUP_RATE_STARS_COUNT)
+			#define POPUP_RATE_STARS_H POPUP_RATE_STAR_H
+			#define POPUP_RATE_STARS_X ((POPUP_RATE_X + POPUP_RATE_W) - POPUP_RATE_STARS_W)
+			#define POPUP_RATE_STARS_Y (POPUP_RATE_Y + POPUP_RATE_STAR_SPACE)
+			
+			#define POPUP_BUTTON_W POPUP_W
+			#define POPUP_BUTTON_H 20
+			#define POPUP_BUTTONS_COUNT 2
+			
+			#define POPUP_BUTTONS_X POPUP_X
+			#define POPUP_BUTTONS_Y (POPUP_RATE_Y + POPUP_RATE_H + (SPACE_INNER * 2))
+			#define POPUP_BUTTONS_W POPUP_W
+			#define POPUP_BUTTONS_H (POPUP_BUTTON_H * POPUP_BUTTONS_COUNT)
+			
+			PANEL_STATIC(POPUP_X, POPUP_Y, POPUP_W, POPUP_H, 
+				0.5 0.5 0.5 0.75, 1)
+			
+			TEXTPANEL_STATIC(POPUP_TITLE_X, POPUP_TITLE_Y, POPUP_TITLE_W, POPUP_TITLE_H, 
+				"Are you sure you want to quit?", FONTSCALE_18, COLOR_FG_HIGHLIGHT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 4, 1)
+			
+			// RATE
+			TEXT_DYNAMIC(POPUP_RATE_X, POPUP_RATE_Y, POPUP_RATE_W, POPUP_RATE_H, "Rate " + DvarString("ui_mainMap"), FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0, 1)
+			
+			#define RATE_STAR(i, iI, sI) \
+				SHADER_STATIC((POPUP_RATE_STARS_X + (POPUP_RATE_STAR_W * i)), POPUP_RATE_STARS_Y, POPUP_RATE_STAR_W, POPUP_RATE_STAR_H, \
+					"icon_rate", COLOR_WHITE exp forecolor A(0.5 + (0.5 * (LocalVarInt("ui_rateHgl") >= iI))) \
+					type ITEM_TYPE_BUTTON onFocus { play "mouse_over"; setLocalVarInt "ui_rateHgl" iI; }  leaveFocus { setLocalVarInt "ui_rateHgl" 0; } action { play "mouse_click"; setDvar ui_mapMyRate iI; scriptMenuResponse "lgRate,"sI }, \
+					(DvarInt("ui_mapMyRate") == 0)) \
+				SHADER_STATIC((POPUP_RATE_STARS_X + (POPUP_RATE_STAR_W * i)), POPUP_RATE_STARS_Y, POPUP_RATE_STAR_W, POPUP_RATE_STAR_H, \
+					"icon_rate", COLOR_WHITE exp forecolor A(0.5 + (0.5 * (DvarInt("ui_mapMyRate") >= iI))) type ITEM_TYPE_BUTTON, \
+					(DvarInt("ui_mapMyRate") > 0)) \
+			
+			RATE_STAR(0, 1, "1")
+			RATE_STAR(1, 2, "2")
+			RATE_STAR(2, 3, "3")
+			RATE_STAR(3, 4, "4")
+			RATE_STAR(4, 5, "5")
+			
+			BTN_STATIC("4000", POPUP_BUTTONS_X, (POPUP_BUTTONS_Y + (POPUP_BUTTON_H * 0)), POPUP_BUTTON_W, POPUP_BUTTON_H, 
+				"Yes", FONTSCALE_16, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -4, scriptMenuResponse "leaving";, ;, ;, 1)
+			BTN_STATIC("4001", POPUP_BUTTONS_X, (POPUP_BUTTONS_Y + (POPUP_BUTTON_H * 1)), POPUP_BUTTON_W, POPUP_BUTTON_H, 
+				"No", FONTSCALE_16, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -4, close self;, ;, ;, 1)
+				
+			/*itemDef {
+				type			ITEM_TYPE_BUTTON
+				rect			-4 -4 CHOICE_POPUP_WIDTH CHOICE_POPUP_HEIGHT( 2 ) 0 0
+				text			""
+				textfont		UI_FONT_NORMAL
+				visible			1
+				action{ ; }
+			}
+			itemDef 
+			{ 
+				style			WINDOW_STYLE_SHADER 
+				rect			-600 -800 2000 2000 0 0
+				forecolor		0 0 0 0.275
+				exp				material( "white" ); 
+				visible			when( shadow_visArg ); 
+				decoration 
+			}
+			itemDef 
+			{ 
+				style			WINDOW_STYLE_SHADER 
+				rect			0 0 (CHOICE_POPUP_WIDTH-(CHOICE_POPUP_BORDER_WIDTH*2)) (CHOICE_POPUP_HEIGHT( 2 )-(CHOICE_POPUP_BORDER_WIDTH*2)) HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER 
+				background		"white" 
+				forecolor		CHOICE_POPUP_BACKCOLOR 
+				visible			1 
+				decoration 
+			}*/ 
+		//CENTER_POPUP_SETUP( popup_leavegame, 4, ;, 1 )
+
+		//CHOICE_POPMENU_TITLE( "@MENU_ARE_YOU_SURE_QUIT" )
+		//CHOICE_BUTTON( 3, "@MENU_YES", close self; scriptMenuResponse "leaving"; )
+		//CHOICE_BUTTON( 4, "@MENU_NO", close self;)
+	}
+}
+
+/*
+	menuDef 
+	{
+		name			"popup_leavegameandparty"
+		visible			0
+		fullscreen		0
+		rect			0 0 640 480
+		focusColor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		border			1
+		popup
+		onOpen
+		{
+			setfocus "popup_leavegame_focus";
+		}
+		onESC
+		{
+			close popup_leavegameandparty;
+		}
+
+		itemDef 
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			160 120 320 224
+			backcolor		0.1412 0.1412 0.1412 1
+			visible			1
+			decoration
+		}
+	
+		itemDef
+		{
+			type			ITEM_TYPE_TEXT
+			origin			ORIGIN_POPUPTITLE
+			forecolor		COLOR_TITLE
+			text			"LEAVE GAME AND PARTY?"
+			textfont		UI_FONT_NORMAL
+			textscale		TEXTSIZE_TITLE
+			textalign		ITEM_ALIGN_CENTER
+			visible			1
+			decoration
+		}
+
+		itemDef 
+		{
+			name			popup_leavegame_focus
+			type			ITEM_TYPE_BUTTON
+			text			"Cancel"
+			origin			ORIGIN_POPUPCHOICE1
+			textscale		TEXTSIZE_DEFAULT
+			style			WINDOW_STYLE_FILLED
+			textfont		UI_FONT_NORMAL
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		140
+			forecolor		COLOR_UNFOCUSED
+			visible			1
+			action
+			{ 
+				play "mouse_click"; 
+				close popup_leavegameandparty; 
+			}
+			onFocus
+			{
+				play "mouse_over";
+			} 
+		}	
+
+		itemDef 
+		{
+			type			ITEM_TYPE_BUTTON
+			text			"Leave Game"
+			origin			ORIGIN_POPUPCHOICE2
+			textscale		TEXTSIZE_DEFAULT
+			style			WINDOW_STYLE_FILLED
+			textfont		UI_FONT_NORMAL
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		140
+			forecolor		COLOR_UNFOCUSED
+			visible			1
+			action
+			{ 
+				play "mouse_click";
+				close popup_leavegameandparty; 
+				exec "disconnect; xstopprivateparty; xstopparty";
+				exec "xblive_privatematch 0";
+				exec "xstartprivateparty";
+
+			}
+			onFocus
+			{
+				play "mouse_over";
+			} 
+		}
+	}
+
+
+	menuDef
+	{
+		name			leavelobbywarning
+    	visible			0
+   		fullscreen		0
+		rect			0 0 640 480
+		focusColor		COLOR_FOCUSED
+   		style			WINDOW_STYLE_FILLED
+		popup
+		onESC 
+		{ 
+			close leavelobbywarning;
+		}
+		execKeyInt BUTTON_B
+		{
+			play "mouse_click";
+			close leavelobbywarning;
+		}
+
+
+		itemDef 
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			160 120 320 224
+			backcolor		0.1412 0.1412 0.1412 1
+			visible			1
+			decoration
+		}
+	
+		itemDef 
+		{
+			name confirm
+			style 0
+			textscale TEXTSIZE_TITLE 
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			rect 320 155 110 20
+			textalign ITEM_ALIGN_CENTER
+			textalignx -62
+			textaligny 5
+			decoration
+			text "@XBOXLIVE_LEAVELOBBY"
+			forecolor		COLOR_TITLE
+			visible when ( !InPrivateParty() );
+			execKeyInt BUTTON_A
+			{
+				play "mouse_click";
+				close menu_xboxlive_lobby;
+				exec "xstopparty";
+				exec "xblive_privatematch 0";
+					
+				close leavelobbywarning;
+			}
+		}
+
+		itemDef 
+		{
+			name confirm
+			style 0
+			textscale TEXTSIZE_TITLE 
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			rect 320 155 110 20
+			textalign ITEM_ALIGN_CENTER
+			textalignx -62
+			textaligny 5
+			decoration
+			text "@XBOXLIVE_LEAVELOBBY"
+			forecolor		COLOR_TITLE
+			visible when ( PrivatePartyHost() );
+			execKeyInt BUTTON_A
+			{
+				play "mouse_click";
+				close menu_xboxlive_lobby;
+				exec "xstopparty";
+				exec "xblive_privatematch 0";
+					
+				close leavelobbywarning;
+			}
+		}
+
+		itemDef 
+		{
+			name confirm
+			style 0
+			textscale TEXTSIZE_TITLE 
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			rect 320 155 110 20
+			textalign ITEM_ALIGN_CENTER
+			textalignx -62
+			textaligny 5
+			decoration
+			text "@XBOXLIVE_LEAVEPARTYANDLOBBY"
+			forecolor		COLOR_TITLE
+			visible when ( InPrivateParty() && !PrivatePartyHost() && PrivatePartyHostInLobby() );
+			execKeyInt BUTTON_A
+			{
+				play "mouse_click";
+				close menu_xboxlive_lobby;
+				exec "xstopprivateparty";
+				exec "xstopparty";
+				exec "xblive_privatematch 0";
+				exec "xstartprivateparty";
+					
+				close leavelobbywarning;
+			}
+		}
+
+		itemDef 
+		{
+			name confirm
+			style 0
+			textscale TEXTSIZE_TITLE 
+			textstyle ITEM_TEXTSTYLE_SHADOWED
+			rect 320 155 110 20
+			textalign ITEM_ALIGN_CENTER
+			textalignx -62
+			textaligny 5
+			decoration
+			text "@XBOXLIVE_LEAVELOBBY"
+			forecolor		COLOR_TITLE
+			visible when ( InPrivateParty() && !PrivatePartyHost() && !PrivatePartyHostInLobby() );
+			execKeyInt BUTTON_A
+			{
+				play "mouse_click";
+				close menu_xboxlive_lobby;
+				exec "xstopparty";
+				exec "xblive_privatematch 0";
+					
+				close leavelobbywarning;
+			}
+		}
+		
+		itemDef 
+		{
+			name re
+			text "@PLATFORM_YES"
+			type 1
+			textscale .4
+			style ITEM_TYPE_BUTTON
+			textfont UI_FONT_NORMAL
+			textstyle ITEM_TEXTSTYLE_NORMAL
+			rect 235 295 220 15
+			textalign ITEM_ALIGN_CENTER
+			textalignx -60
+			textaligny 19
+			visible 1
+			decoration
+
+		}
+
+		itemDef 
+		{
+			name re
+			text "@PLATFORM_NO"
+			type 1
+			textscale .4
+			style ITEM_TYPE_BUTTON
+			textfont UI_FONT_NORMAL
+			textstyle ITEM_TEXTSTYLE_NORMAL
+			rect 295 295 220 15
+			textalign ITEM_ALIGN_CENTER
+			textalignx -60
+			textaligny 19
+			visible 1
+			decoration
+			
+		}
+	}
+*/

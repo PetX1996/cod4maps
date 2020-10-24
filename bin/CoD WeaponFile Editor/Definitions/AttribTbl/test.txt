@@ -1,0 +1,3 @@
+weapontype
+weaponclass
+firetype

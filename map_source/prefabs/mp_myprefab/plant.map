@@ -1,0 +1,281 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+ {
+  mesh
+  {
+   ch_ground_dirt3_decal
+   lightmap_gray
+   7 7 16 8
+   (
+	v -172 -106 20 c 255 255 255 0 t -15200 31312 -118.75 244.625
+	v -172 -106 20 c 255 255 255 0 t -15200 31312 -118.75 244.625
+	v -208 -43.5 20 c 255 255 255 0 t -15488 30812 -121 240.71875
+	v -234 29 20 c 255 255 255 0 t -15696 30232 -122.625 236.1875
+	v -210 77.5 20 c 255 255 255 0 t -15504 29844 -121.125 233.15625
+	v -146 159.75 20 c 255 255 255 0 t -14992 29186 -117.125 228.01563
+	v -146 159.75 20 c 255 255 255 0 t -14992 29186 -117.125 228.01563
+   )
+   (
+	v -172 -106 20 c 255 255 255 0 t -15200 31312 -118.75 244.625
+	v -172 -106 20 c 255 255 255 0 t -15200 31312 -118.75 244.625
+	v -167.5 -41.5 20 t -15164 30796 -118.46875 240.59375
+	v -179.5 21 20 t -15260 30296 -119.21875 236.6875
+	v -153.5 105.5 20 t -15052 29620 -117.59375 231.40625
+	v -146 159.75 20 c 255 255 255 0 t -14992 29186 -117.125 228.01563
+	v -146 159.75 20 c 255 255 255 0 t -14992 29186 -117.125 228.01563
+   )
+   (
+	v -121 -138 20 c 255 255 255 0 t -14792 31568 -115.5625 246.625
+	v -123 -97.75 20 t -14808 31246 -115.6875 244.10938
+	v -123 -55.5 20 t -14808 30908 -115.6875 241.46875
+	v -133 21 20 t -14888 30296 -116.3125 236.6875
+	v -115 93.5 20 t -14744 29716 -115.1875 232.15625
+	v -99 139.75 20 t -14616 29346 -114.1875 229.26563
+	v -93 190 20 c 255 255 255 0 t -14568 28944 -113.8125 226.125
+   )
+   (
+	v -62 -122 20 c 255 255 255 0 t -14320 31440 -111.875 245.625
+	v -40 -99.75 20 t -14144 31262 -110.5 244.23438
+	v -40 -57.5 20 t -14144 30924 -110.5 241.59375
+	v -40 21 20 t -14144 30296 -110.5 236.6875
+	v -40 105.5 20 t -14144 29620 -110.5 231.40625
+	v -40 147.75 20 t -14144 29282 -110.5 228.76563
+	v -40 180 20 c 255 255 255 0 t -14144 29024 -110.5 226.75
+   )
+   (
+	v 11 -156 20 c 255 255 255 0 t -13736 31712 -107.3125 247.75
+	v 39 -91.75 20 t -13512 31198 -105.5625 243.73438
+	v 39 -49.5 20 t -13512 30860 -105.5625 241.09375
+	v 53 21 20 t -13400 30296 -104.6875 236.6875
+	v 41 85.5 20 t -13496 29780 -105.4375 232.65625
+	v 41 127.75 20 t -13496 29442 -105.4375 230.01563
+	v 53 168 20 c 255 255 255 0 t -13400 29120 -104.6875 227.5
+   )
+   (
+	v 87.5 -98 20 c 255 255 255 0 t -13124 31248 -102.53125 244.125
+	v 87.5 -98 20 c 255 255 255 0 t -13124 31248 -102.53125 244.125
+	v 85.5 -53.5 20 t -13140 30892 -102.65625 241.34375
+	v 99.5 21 20 t -13028 30296 -101.78125 236.6875
+	v 85.5 69.5 20 t -13140 29908 -102.65625 233.65625
+	v 91.5 141.75 20 c 255 255 255 0 t -13092 29330 -102.28125 229.14063
+	v 91.5 141.75 20 c 255 255 255 0 t -13092 29330 -102.28125 229.14063
+   )
+   (
+	v 87.5 -98 20 c 255 255 255 0 t -13124 31248 -102.53125 244.125
+	v 87.5 -98 20 c 255 255 255 0 t -13124 31248 -102.53125 244.125
+	v 120 -63.5 20 c 255 255 255 0 t -12864 30972 -100.5 241.96875
+	v 152 -5 20 c 255 255 255 0 t -12608 30504 -98.5 238.3125
+	v 112 73.5 20 c 255 255 255 0 t -12928 29876 -101 233.40625
+	v 91.5 141.75 20 c 255 255 255 0 t -13092 29330 -102.28125 229.14063
+	v 91.5 141.75 20 c 255 255 255 0 t -13092 29330 -102.28125 229.14063
+   )
+  }
+ }
+}
+// entity 1
+{
+"angles" "0 6 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "24.0 169.9 16.0"
+}
+// entity 2
+{
+"origin" "-46.0 24.0 18.0"
+"model" "prefabs/misc_models/vehicle_zpu4_burn_static.map"
+"classname" "misc_prefab"
+}
+// entity 3
+{
+"angles" "0 9.99999 0"
+"origin" "125.5 4.5 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 4
+{
+"angles" "0 40 0"
+"origin" "71.2 130.2 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 5
+{
+"angles" "0 250 0"
+"origin" "-129.1 -111.6 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 6
+{
+"angles" "0 280 0"
+"origin" "7.0 -127.3 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 7
+{
+"angles" "0 126 0"
+"origin" "-112.5 157.1 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 8
+{
+"angles" "0 156 0"
+"origin" "-201.7 53.1 16.0"
+"model" "prefabs/misc_models/mil_sandbag_desert_curved.map"
+"classname" "misc_prefab"
+}
+// entity 9
+{
+"angles" "0 322 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "102.2 70.6 16.0"
+}
+// entity 10
+{
+"angles" "0 322 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "106.2 102.6 16.0"
+}
+// entity 11
+{
+"angles" "0 322 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "92.2 140.6 16.0"
+}
+// entity 12
+{
+"angles" "0 322 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "68.2 160.6 16.0"
+}
+// entity 13
+{
+"angles" "0 176 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "124.0 -62.1 16.0"
+}
+// entity 14
+{
+"angles" "0 108 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "137.7 35.1 16.0"
+}
+// entity 15
+{
+"angles" "0 354 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "144.6 -15.8 16.0"
+}
+// entity 16
+{
+"angles" "0 176 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "72.0 -102.1 16.0"
+}
+// entity 17
+{
+"angles" "0 176 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-62.0 -122.1 16.0"
+}
+// entity 18
+{
+"angles" "0 176 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-184.0 -74.1 16.0"
+}
+// entity 19
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-162.4 -111.0 16.0"
+}
+// entity 20
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-106.4 -135.0 16.0"
+}
+// entity 21
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-26.4 -143.0 16.0"
+}
+// entity 22
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "45.6 -135.0 16.0"
+}
+// entity 23
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-216.4 -13.0 16.0"
+}
+// entity 24
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-160.4 107.0 16.0"
+}
+// entity 25
+{
+"angles" "0 98 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-46.4 181.0 16.0"
+}
+// entity 26
+{
+"angles" "0 32 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-93.1 187.4 16.0"
+}
+// entity 27
+{
+"angles" "0 32 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-141.1 157.4 16.0"
+}
+// entity 28
+{
+"angles" "0 32 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-199.1 89.4 16.0"
+}
+// entity 29
+{
+"angles" "0 32 0"
+"classname" "misc_model"
+"model" "foliage_grass_squareclump"
+"origin" "-229.1 31.4 16.0"
+}

@@ -1,0 +1,74 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 19 24 -33 ) ( -27 24 -33 ) ( -27 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -17 53 ) ( -27 24 53 ) ( 19 24 53 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 6 53 ) ( -27 -5 53 ) ( -27 -5 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15 7 53 ) ( -15 16 53 ) ( -15 7 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 15 53 ) ( 24 16 53 ) ( 12 15 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 19 24 -33 ) ( -27 24 -33 ) ( -27 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -17 53 ) ( -27 24 53 ) ( 19 24 53 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -5 53 ) ( -16 6 53 ) ( -27 -5 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5 22 53 ) ( 12 15 53 ) ( 5 22 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 16 53 ) ( 12 15 53 ) ( 12 15 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56.5 14 51 ) ( 56.5 21 -12 ) ( 88.5 14 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 19 24 -33 ) ( -27 24 -33 ) ( -27 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -17 53 ) ( -27 24 53 ) ( 19 24 53 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -21 53 ) ( 20 -21 53 ) ( 20 -21 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -5 53 ) ( -16 6 53 ) ( -27 -5 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15 7 53 ) ( -15 16 53 ) ( -15 7 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5 22 53 ) ( 12 15 53 ) ( 5 22 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 15 53 ) ( 24 16 53 ) ( 12 15 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 30 3 53 ) ( 24 -15 53 ) ( 30 3 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -15 53 ) ( 0 -21 53 ) ( 24 -15 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11 24 51 ) ( -23 24 -11 ) ( -11 56 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 24 3 ) ( 14 24 52 ) ( 14 56 52 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56.5 -19 -9 ) ( 56.5 -13 51 ) ( 88.5 -13 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56.5 14 51 ) ( 56.5 21 -12 ) ( 88.5 14 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 19 24 -33 ) ( -27 24 -33 ) ( -27 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -21 53 ) ( 20 -21 53 ) ( 20 -21 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 24 53 ) ( -27 -17 53 ) ( -27 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -27 -5 53 ) ( -16 6 53 ) ( -27 -5 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15 16 53 ) ( -15 7 53 ) ( -15 7 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -22 -21 53 ) ( -27 -6 53 ) ( -27 -6 85 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11 24 51 ) ( -23 24 -11 ) ( -11 56 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56.5 -19 -9 ) ( 56.5 -13 51 ) ( 88.5 -13 51 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 59 0 -33 ) ( 20 0 -33 ) ( 20 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 -11 53 ) ( 59 -11 53 ) ( 59 -11 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 59 0 53 ) ( 20 0 53 ) ( 20 0 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 0 53 ) ( 20 -17 53 ) ( 20 -17 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56 23.5 -32 ) ( 21 23.5 12 ) ( 21 55.5 12 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 2 -18 -33 ) ( -13 -18 -33 ) ( -13 -58 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13 -58 53 ) ( 2 -58 53 ) ( 2 -58 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 -58 53 ) ( 3 -18 53 ) ( 3 -18 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2 -18 53 ) ( -13 -18 53 ) ( -13 -18 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -13 -18 53 ) ( -13 -58 53 ) ( -13 -58 -33 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 12 -58 -32 ) ( 12 -35 -6 ) ( 44 -58 -32 ) clip_nosight 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"classname" "misc_model"
+"model" "foliage_red_pine_stump_xl"
+"origin" "0.0 0.0 -12.0"
+}

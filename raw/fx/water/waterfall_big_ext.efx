@@ -1,0 +1,190 @@
+iwfx 2
+
+{
+	name "fall";
+	editorFlags looping useRandColor useRandRotDelta useRandVel0 absVel1;
+	flags spawnRelative spawnOffsetNone runRelToSpawn useCollision dieOnTouch;
+	spawnRange 0 3500;
+	fadeInRange 0 0;
+	fadeOutRange 0 0;
+	spawnFrustumCullRadius 60;
+	spawnLooping 70 0;
+	spawnOneShot 1 0;
+	spawnDelayMsec 150 0;
+	lifeSpanMsec 3500 0;
+	spawnOrgX -10 0;
+	spawnOrgY -30 60;
+	spawnOrgZ -10 20;
+	spawnOffsetRadius 0 0;
+	spawnOffsetHeight -0.5 1;
+	spawnAnglePitch 0 0;
+	spawnAngleYaw 0 0;
+	spawnAngleRoll 0 0;
+	angleVelPitch 0 0;
+	angleVelYaw 0 0;
+	angleVelRoll 0 0;
+	initialRot 360 -360;
+	gravity 30 0;
+	elasticity 1 0;
+	atlasBehavior startRandom;
+	atlasIndex 0;
+	atlasFps 0;
+	atlasLoopCount 0;
+	atlasColIndexBits 0;
+	atlasRowIndexBits 0;
+	atlasEntryCount 0;
+	velGraph0X 0
+	{
+		{
+			0 -0.00717703
+			1 -0.00717703
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph0Y 0
+	{
+		{
+			0 -0.00239235
+			1 -0.00717703
+		}
+		{
+			0 -0.00239235
+			1 0.00239235
+		}
+	};
+	velGraph0Z -200
+	{
+		{
+			0 0.00239235
+			0.0203488 0.5
+			0.244186 0.5
+			1 0.00239235
+		}
+		{
+			0 0.00717705
+			0.0174419 0.5
+			0.247093 0.5
+			0.520349 0.222488
+			1 -0.0980861
+		}
+	};
+	velGraph1X 0
+	{
+		{
+			0 0
+			1 -0.00239235
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Y 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	velGraph1Z 0
+	{
+		{
+			0 0
+			1 0
+		}
+		{
+			0 0
+			1 0
+		}
+	};
+	rotGraph 0
+	{
+		{
+			0 0
+			1 0.5
+		}
+		{
+			0 0.00462961
+			1 -0.5
+		}
+	};
+	sizeGraph0 180
+	{
+		{
+			0 0.376623
+			1 1
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	sizeGraph1 500
+	{
+		{
+			0 1
+			1 1
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	scaleGraph 1
+	{
+		{
+			0 1
+			1 0
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	colorGraph 1
+	{
+		{
+			0 0.45098 0.513726 0.568627
+			1 0.45098 0.513726 0.568627
+		}
+		{
+			0 1 1 1
+			1 1 1 1
+		}
+	};
+	alphaGraph 1
+	{
+		{
+			0 0
+			0.180233 0.172249
+			1 0.196172
+		}
+		{
+			0 1
+			1 0
+		}
+	};
+	lightingFrac 0;
+	collOffset 0 0 0;
+	collRadius 0;
+	fxOnImpact "";
+	fxOnDeath "";
+	sortOrder 0;
+	emission "";
+	emitDist 1 0;
+	emitDistVariance 0 0;
+	trailSplitDist 0;
+	trailScrollTime 0;
+	trailRepeatDist 0;
+	billboardSprite
+	{
+		"gfx_water_gush_spill"
+	};
+}

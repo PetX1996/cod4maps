@@ -1,0 +1,16 @@
+//timer vytvorený PetX-om za pomoci jeho milej a múdrej sestry :)
+{
+	menuDef
+	{
+		name "savetime"
+		rect 0 0 1 1
+		fullscreen 0
+		visible 0
+		onOpen
+		{
+			exec "setdvartotime ui_time_marker";
+			close self;
+		}
+		onEsc{}
+	}
+}

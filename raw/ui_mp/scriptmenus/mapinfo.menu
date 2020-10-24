@@ -1,0 +1,33 @@
+#include "ui/menudef.h"
+
+{
+	menuDef
+	{
+		name			"mapinfo"
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		soundloop 		"music_connect_mp"
+		
+		//backcolor		1 1 1 1
+		//background		"menu_e_b"
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		
+		onOpen
+		{
+			scriptMenuResponse "mapinfo_open";
+		}
+		
+		onEsc
+		{
+			play "mouse_click";
+			close self;
+			//open "team_marinesopfor";
+		}
+		onClose
+		{
+			scriptMenuResponse "mapinfo_close";
+			//scriptMenuResponse "c_close";
+		}
+		
+	}
+}

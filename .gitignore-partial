@@ -1,0 +1,44 @@
+# maps and mods
+Mods/*
+usermaps/*
+
+#builded map to ignore
+zone/english/*.ff
+zone/english/*.iwd
+raw/maps/*.d3dbsp
+raw/maps/*.d3dpoly
+raw/maps/*.d3dprt
+raw/maps/mp/*.d3dbsp
+raw/maps/mp/*.d3dpoly
+raw/maps/mp/*.d3dprt
+
+#logs
+*.log
+
+# players
+players/*
+
+# assets
+main/missingasset.csv
+
+#garbage
+servercache.dat
+hunkusage.dat
+*.rar
+*.zip
+
+#pb
+pb/*
+
+#CODSCRIPT
+bin/CODSCRIPT/scriptinfo/*
+bin/CODSCRIPT/output
+
+map_source/*.errlog
+
+#cache
+assetsrccache/*
+assettgtcache/*
+convertcache/*
+
+# auto-generated original modtools

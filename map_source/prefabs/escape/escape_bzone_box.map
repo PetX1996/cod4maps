@@ -1,0 +1,68 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 32 20 0 ) ( -32 20 0 ) ( -32 -16 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -16 30 ) ( -32 20 30 ) ( 32 20 30 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -16 28 ) ( 32 -16 28 ) ( 32 -16 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 28 -16 28 ) ( 28 20 28 ) ( 28 20 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 16 28 ) ( -32 16 28 ) ( -32 16 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 20 28 ) ( -28 -16 28 ) ( -28 -16 0 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"targetname" "escape_bzone_box"
+"origin" "0.0 0.0 0.0"
+"angles" "0 2.50448e-006 0"
+"model" "com_plasticcase_beige_big"
+"classname" "script_model"
+}
+// entity 2
+{
+"targetname" "auto1"
+"script_gameobjectname" "hq"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 28 15 0 ) ( -27 15 0 ) ( -27 -15 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -15 32 ) ( -26 15 32 ) ( 29 15 32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 -15 34 ) ( 27 -15 34 ) ( 27 -15 26 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 -15 34 ) ( 27 15 34 ) ( 27 15 26 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 15 34 ) ( -28 15 34 ) ( -28 15 26 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 15 34 ) ( -28 -15 34 ) ( -28 -15 26 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"targetname" "auto1"
+"script_gameobjectname" "hq"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 27 6 32 ) ( -28 6 32 ) ( -28 1 32 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 1 45 ) ( -28 6 45 ) ( 27 6 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -28 1 45 ) ( 27 1 45 ) ( 27 1 31 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 13 1 44 ) ( 13 6 44 ) ( 13 6 30 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 27 6 45 ) ( -28 6 45 ) ( -28 6 31 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5 6 45 ) ( -5 1 45 ) ( -5 1 31 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 4
+{
+"targetname" "escape_bzone_trig"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 48 48 0 ) ( -48 48 0 ) ( -48 -48 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -48 40 ) ( -48 48 40 ) ( 48 48 40 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -48 -40 16 ) ( 48 -40 16 ) ( 48 -40 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 56 -48 16 ) ( 56 48 16 ) ( 56 48 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 48 40 16 ) ( -48 40 16 ) ( -48 40 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -56 48 16 ) ( -56 -48 16 ) ( -56 -48 0 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

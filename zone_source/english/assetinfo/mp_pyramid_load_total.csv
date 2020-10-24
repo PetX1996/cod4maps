@@ -1,0 +1,64 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_pyramid,  string,string,,2.4,2.4
+2,mp_pyramid,  xmodel,xmodel,sgc_base,750.5,751.5
+3,mp_pyramid,  techset,techset,sm2/wc_l_sm_r0c0n0s0,20.9,20.9
+4,mp_pyramid,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+5,mp_pyramid,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+6,mp_pyramid,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+7,mp_pyramid,  techset,techset,wc_l_sm_r0c0n0s0,32.6,32.6
+8,mp_pyramid,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+9,mp_pyramid,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+10,mp_pyramid,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+11,mp_pyramid,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+12,mp_pyramid,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+13,mp_pyramid,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+14,mp_pyramid,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+15,mp_pyramid,  techset,techset,sm2/wc_l_sm_r0c0d0n0s0,14.3,14.3
+16,mp_pyramid,  techset,techset,sm2/wc_l_sm_r0c0d0,11.7,11.7
+17,mp_pyramid,  techset,techset,sm2/wc_l_hsm_r0c0d0,7.9,7.9
+18,mp_pyramid,  techset,techset,sm2/wc_l_hsm_r0c0d0n0,9.5,9.5
+19,mp_pyramid,  techset,techset,wc_l_sm_r0c0d0n0s0,21.3,21.3
+20,mp_pyramid,  techset,techset,wc_l_sm_r0c0d0,14.3,14.3
+21,mp_pyramid,  techset,techset,wc_l_sm_r0c0d0s0,15.2,15.2
+22,mp_pyramid,  techset,techset,wc_l_sm_r0c0d0n0,12.6,12.6
+23,mp_pyramid,  techset,techset,wc_l_hsm_r0c0d0,7.5,7.5
+24,mp_pyramid,  techset,techset,wc_l_hsm_r0c0d0s0,8.0,8.0
+25,mp_pyramid,  techset,techset,wc_l_hsm_r0c0d0n0,8.5,8.5
+26,mp_pyramid,  techset,techset,wc_l_hsm_r0c0d0n0s0,8.8,8.8
+27,mp_pyramid,  gfx_map,gfx_map,maps/mp/mp_pyramid.d3dbsp,1954.5,1958.8
+28,mp_pyramid,  col_map_sp,col_map_sp,maps/mp/mp_pyramid.d3dbsp,1234.8,1235.5
+29,mp_pyramid,  impactfx,impactfx,,1.6,1.6
+30,mp_pyramid,  sound,sound,artillery_explosion,1.2,1.2
+31,mp_pyramid,  sound,sound,elm_metal_rattle,1.2,1.2
+32,mp_pyramid,  sound,sound,mortar_incoming,1.6,1.6
+33,mp_pyramid,  sound,sound,generic_death_arab_4,1.1,1.1
+34,mp_pyramid,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+35,mp_pyramid,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+36,mp_pyramid,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+37,mp_pyramid,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+38,mp_pyramid,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+39,mp_pyramid,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+40,mp_pyramid,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+41,mp_pyramid,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+42,mp_pyramid,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+43,mp_pyramid,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+44,mp_pyramid,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+45,mp_pyramid,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+46,mp_pyramid,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+47,mp_pyramid,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+48,mp_pyramid,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+49,mp_pyramid,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+50,mp_pyramid,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+51,mp_pyramid,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+52,mp_pyramid,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+53,mp_pyramid,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+54,mp_pyramid,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+55,mp_pyramid,  fx,fx,fire/firelp_barrel_pm,4.9,5.0
+56,mp_pyramid,assetlist,assetlist,,3.2,9912.6
+57,mp_pyramid,material,material,(misc),8.1,8.1
+58,mp_pyramid,techset,techset,(misc),3.0,3.0
+59,mp_pyramid,image,image,(misc),3.3,3.3
+60,mp_pyramid,sound,sound,(misc),35.5,35.5
+61,mp_pyramid,loaded_sound,loaded_sound,(misc),2.5,2.5
+62,mp_pyramid,fx,fx,(misc),3.1,3.1
+63,mp_pyramid,rawfile,rawfile,(misc),2.0,2.0

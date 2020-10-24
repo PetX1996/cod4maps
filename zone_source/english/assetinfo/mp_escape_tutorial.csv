@@ -1,0 +1,46 @@
+index,type,type,name,usage(KB),total(KB)
+1,  xmodel,xmodel,com_plasticcase_beige_big,327.9,328.2
+2,  techset,techset,sm2/wc_l_sm_r0c0n0s0,20.9,20.9
+3,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+4,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+5,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+6,  techset,techset,wc_l_sm_r0c0n0s0,32.6,32.6
+7,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+8,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+9,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+10,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+11,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+12,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+13,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+14,  techset,techset,sm2/wc_distortion_scale_zfeather,2.6,2.6
+15,  techset,techset,sm2/wc_distortion_scale,1.6,1.6
+16,  techset,techset,wc_distortion_scale_zfeather,2.5,2.5
+17,  techset,techset,wc_distortion_scale,1.6,1.6
+18,  techset,techset,sm2/wc_l_sm_t0c0n0s0,12.1,12.1
+19,  techset,techset,sm2/wc_l_sm_t0c0,7.8,7.8
+20,  techset,techset,sm2/wc_l_hsm_t0c0,5.7,5.7
+21,  techset,techset,sm2/wc_l_hsm_t0c0n0,6.8,6.8
+22,  techset,techset,wc_l_sm_t0c0n0s0,23.0,23.0
+23,  techset,techset,wc_l_sm_t0c0,13.4,13.4
+24,  techset,techset,wc_l_sm_t0c0s0,14.7,14.7
+25,  techset,techset,wc_l_sm_t0c0n0,12.2,12.2
+26,  techset,techset,wc_l_hsm_t0c0,7.1,7.1
+27,  techset,techset,wc_l_hsm_t0c0s0,7.7,7.7
+28,  techset,techset,wc_l_hsm_t0c0n0,8.2,8.2
+29,  techset,techset,wc_l_hsm_t0c0n0s0,8.6,8.6
+30,  gfx_map,gfx_map,maps/mp/mp_escape_tutorial.d3dbsp,11733.2,11736.4
+31,    map_ents,map_ents,maps/mp/mp_escape_tutorial.d3dbsp,15.7,15.7
+32,  col_map_sp,col_map_sp,maps/mp/mp_escape_tutorial.d3dbsp,185.1,200.8
+33,  rawfile,rawfile,maps/mp/mp_escape_tutorial.gsc,2.3,2.3
+34,  impactfx,impactfx,,1.5,1.5
+35,  sound,sound,artillery_explosion,1.2,1.2
+36,  sound,sound,elm_metal_rattle,1.2,1.2
+37,  sound,sound,mortar_incoming,1.6,1.6
+38,  sound,sound,generic_death_arab_4,1.1,1.1
+39,assetlist,assetlist,,3.0,12634.0
+40,material,material,(misc),2.1,2.1
+41,techset,techset,(misc),4.1,4.1
+42,image,image,(misc),1.3,1.3
+43,sound,sound,(misc),35.5,35.5
+44,loaded_sound,loaded_sound,(misc),2.5,2.5
+45,fx,fx,(misc),3.1,3.1

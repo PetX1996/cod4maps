@@ -1,0 +1,33 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 4 4 0 ) ( -4 4 0 ) ( -4 0 0 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 0 36 ) ( -4 4 36 ) ( 4 4 36 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 0 56 ) ( 4 0 56 ) ( 4 0 -4 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 0 56 ) ( 4 4 56 ) ( 4 4 -4 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 24 56 ) ( -4 24 56 ) ( -4 24 -4 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 4 56 ) ( -4 0 56 ) ( -4 0 -4 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 258 24 24 ) ( 258 8 0 ) ( 290 24 24 ) clip_snow 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 21.0 48.0"
+"def" "light_dynamic"
+"radius" "400"
+"_color" "1 0.90.5"
+"intensity" "1.5"
+"classname" "light"
+}
+// entity 2
+{
+"origin" "-13.0 -18.0 -1.5"
+"angles" "0 180 180"
+"model" "z_torch_static_green"
+"classname" "misc_model"
+}

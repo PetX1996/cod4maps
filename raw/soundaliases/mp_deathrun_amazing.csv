@@ -1,0 +1,15 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+kasna,,/vodopad.wav,0.3,0.4,element,1,1,50,1000,auto,,,rlooping,,all_mp,,,,,,,,,,,50,650,0.65
+vodopad,,/vodopad.wav,0.5,0.7,element,1,1,50,900,auto,,,rlooping,,all_mp,,,,,,,,,,,50,650,0.65
+sloup,,/sloup.wav,0.5,0.7,element,1,1,50,800,auto,,,rlooping,,all_mp,,,,,,,,,,,50,650,0.65
+portal,,/portal.wav,0.3,0.5,element,1,1,50,300,auto,,,rlooping,,all_mp,,,,,,,,,,,50,650,0.65
+
+4gf_street_lamp,,fire/steam.wav,0.2,1,element,0.95,1.05,7,500,auto,streamed,,rlooping,1,all_mp,,,,,,,,,,,,,
+4gf_evase,1,fire/fire_woodtrash_small1v2res.wav,0.2,1,explosion,0.95,1.05,7,700,auto,streamed,,rlooping,1,all_mp,,,,,,,,,,,,,
+4gf_evase,2,fire/fire_woodtrash_small2v2res.wav,0.2,1,explosion,0.95,1.05,7,700,auto,streamed,,rlooping,1,all_mp,,,,,,,,,,,,,
+
+//sloup2,,/sloup2.wav,0.5,0.7,max,1,1,50,800,auto,streamed,,rlooping,master,all_mp,,,,,,,,,,,50,650,0.65
+bigdoor,,doors/rock_door_loop.mp3,1,1,max,1,1,50,800,auto,streamed,,rlooping,master,all_mp,,,,,,,,,,,50,650,0.65
+
+mp_deathrun_amazing,,music/mp_deathrun_amazing.mp3,1,,ambience,,,,,ambient,streamed,,looping,,all_mp,,,,,,amb_front,nowetlevel fulldrylevel,0.6,,,,,,mp3

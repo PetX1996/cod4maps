@@ -1,0 +1,386 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 1024 2048 -64 ) ( 0 2048 -64 ) ( 0 1856 -64 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1856 0 ) ( 0 2048 0 ) ( 1024 2048 0 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 0 ) ( 1056 -2048 0 ) ( 1056 -2048 -64 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 1856 0 ) ( 1024 2048 0 ) ( 1024 2048 -64 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2048 0 ) ( 0 2048 0 ) ( 0 2048 -64 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2048 0 ) ( 0 1856 0 ) ( 0 1856 -64 ) case512brown2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+ {
+  mesh
+  {
+   killhouse_marks
+   lightmap_gray
+   3 3 16 8
+   (
+	v 1024 -2048 0 t 0 -0 64 128
+	v 1024 0 0 t -511.99997 0 64 0
+	v 1024 2048 0 t -1023.9999 0 64 -128
+   )
+   (
+	v 1536 -2048 0 t 0 -214.07755 96 128
+	v 1536 0 0 t -511.99997 -214.07755 96 0
+	v 1536 2048 0 t -1023.9999 -214.07755 96 -128
+   )
+   (
+	v 2048 -2048 0 t 0 -428.15509 128 128
+	v 2048 0 0 t -511.99997 -428.15509 128 0
+	v 2048 2048 0 t -1023.9999 -428.15509 128 -128
+   )
+  }
+ }
+// brush 2
+ {
+  mesh
+  {
+   killhouse_marks
+   lightmap_gray
+   3 3 16 8
+   (
+	v -1024 -2048 0 t 0 -0 64 128
+	v -1024 0 0 t -511.99997 0 64 0
+	v -1024 2048 0 t -1023.9999 0 64 -128
+   )
+   (
+	v -512 -2048 0 t 0 -214.07755 96 128
+	v -512 0 0 t -511.99997 -214.07755 96 0
+	v -512 2048 0 t -1023.9999 -214.07755 96 -128
+   )
+   (
+	v 0 -2048 0 t 0 -428.15509 128 128
+	v 0 0 0 t -511.99997 -428.15509 128 0
+	v 0 2048 0 t -1023.9999 -428.15509 128 -128
+   )
+  }
+ }
+}
+// entity 1
+{
+"targetname" "escape_shop"
+"classname" "trigger_use_touch"
+// brush 0
+{
+ ( 1088 -1536 32 ) ( 96 -1536 32 ) ( 96 -2192 32 ) trigger 64 64 -16 1184 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2192 64 ) ( 0 -1536 64 ) ( 992 -1536 64 ) trigger 64 64 -16 1184 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2048 64 ) ( 992 -2048 64 ) ( 992 -2048 48 ) trigger 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -2192 64 ) ( 1024 -1536 64 ) ( 1024 -1536 48 ) trigger 64 64 -1184 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 992 -1536 64 ) ( 0 -1536 64 ) ( 0 -1536 48 ) trigger 64 64 -16 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -1536 64 ) ( 0 -2192 64 ) ( 0 -2192 48 ) trigger 64 64 -1184 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"targetname" "escape_checkpoint_0"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 -1024 16 ) ( -16 -1024 16 ) ( -16 -1104 16 ) trigger 64 64 -832 1744 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -1104 256 ) ( 0 -1024 256 ) ( 176 -1024 256 ) trigger 64 64 -832 1744 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -1088 256 ) ( 176 -1088 256 ) ( 176 -1088 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -1072 256 ) ( 1024 -992 256 ) ( 1024 -992 240 ) trigger 64 64 -1744 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 -1024 256 ) ( 0 -1024 256 ) ( 0 -1024 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -1024 256 ) ( 0 -1104 256 ) ( 0 -1104 240 ) trigger 64 64 -1744 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"origin" "216.0 -1064.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_0"
+"classname" "script_origin"
+}
+// entity 4
+{
+"targetname" "escape_endmap"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 352 2048 0 ) ( 0 2048 0 ) ( 0 1680 0 ) trigger 64 64 -304 -1424 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1680 112 ) ( 0 2048 112 ) ( 352 2048 112 ) trigger 64 64 -304 -1424 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 1856 112 ) ( 384 1856 112 ) ( 384 1856 0 ) trigger 64 64 -304 592 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 1728 112 ) ( 1024 2096 112 ) ( 1024 2096 0 ) trigger 64 64 1424 592 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 352 2048 112 ) ( 0 2048 112 ) ( 0 2048 0 ) trigger 64 64 -304 592 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2048 112 ) ( 0 1680 112 ) ( 0 1680 0 ) trigger 64 64 1424 592 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 5
+{
+"angles" "0 90 0"
+"origin" "800.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 6
+{
+"angles" "0 90 0"
+"origin" "160.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 7
+{
+"angles" "0 90 0"
+"origin" "224.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 8
+{
+"angles" "0 90 0"
+"origin" "288.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 9
+{
+"angles" "0 90 0"
+"origin" "352.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 10
+{
+"angles" "0 90 0"
+"origin" "416.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 11
+{
+"angles" "0 90 0"
+"origin" "480.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 12
+{
+"angles" "0 90 0"
+"origin" "544.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 13
+{
+"angles" "0 90 0"
+"origin" "608.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 14
+{
+"angles" "0 90 0"
+"origin" "672.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 15
+{
+"angles" "0 90 0"
+"origin" "736.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 16
+{
+"angles" "0 90 0"
+"origin" "864.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 17
+{
+"angles" "0 90 0"
+"origin" "928.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 18
+{
+"angles" "0 90 0"
+"origin" "96.0 -1824.0 48.0"
+"classname" "escape_start_spawn"
+}
+// entity 19
+{
+"origin" "552.0 -1064.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_0"
+"classname" "script_origin"
+}
+// entity 20
+{
+"origin" "872.0 -1064.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_0"
+"classname" "script_origin"
+}
+// entity 21
+{
+"targetname" "escape_checkpoint_2"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 0 16 ) ( -16 0 16 ) ( -16 -80 16 ) trigger 64 64 -832 720 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -80 256 ) ( 0 0 256 ) ( 176 0 256 ) trigger 64 64 -832 720 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 256 ) ( 176 -64 256 ) ( 176 -64 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -48 256 ) ( 1024 32 256 ) ( 1024 32 240 ) trigger 64 64 -720 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 0 256 ) ( 0 0 256 ) ( 0 0 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 0 256 ) ( 0 -80 256 ) ( 0 -80 240 ) trigger 64 64 -720 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 22
+{
+"origin" "216.0 -40.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_2"
+"classname" "script_origin"
+}
+// entity 23
+{
+"origin" "552.0 -40.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_2"
+"classname" "script_origin"
+}
+// entity 24
+{
+"origin" "872.0 -40.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_2"
+"classname" "script_origin"
+}
+// entity 25
+{
+"targetname" "escape_checkpoint_4"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 1024 16 ) ( -16 1024 16 ) ( -16 944 16 ) trigger 64 64 -832 -304 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 944 256 ) ( 0 1024 256 ) ( 176 1024 256 ) trigger 64 64 -832 -304 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 960 256 ) ( 176 960 256 ) ( 176 960 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 976 256 ) ( 1024 1056 256 ) ( 1024 1056 240 ) trigger 64 64 304 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 1024 256 ) ( 0 1024 256 ) ( 0 1024 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1024 256 ) ( 0 944 256 ) ( 0 944 240 ) trigger 64 64 304 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 26
+{
+"origin" "216.0 984.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_4"
+"classname" "script_origin"
+}
+// entity 27
+{
+"origin" "552.0 984.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_4"
+"classname" "script_origin"
+}
+// entity 28
+{
+"origin" "872.0 984.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_4"
+"classname" "script_origin"
+}
+// entity 29
+{
+"targetname" "escape_checkpoint_5"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 1600 16 ) ( -16 1600 16 ) ( -16 1520 16 ) trigger 64 64 -832 -880 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1520 256 ) ( 0 1600 256 ) ( 176 1600 256 ) trigger 64 64 -832 -880 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1536 256 ) ( 176 1536 256 ) ( 176 1536 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 1552 256 ) ( 1024 1632 256 ) ( 1024 1632 240 ) trigger 64 64 880 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 1600 256 ) ( 0 1600 256 ) ( 0 1600 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 1600 256 ) ( 0 1520 256 ) ( 0 1520 240 ) trigger 64 64 880 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 30
+{
+"origin" "216.0 1560.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_5"
+"classname" "script_origin"
+}
+// entity 31
+{
+"origin" "552.0 1560.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_5"
+"classname" "script_origin"
+}
+// entity 32
+{
+"origin" "872.0 1560.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_5"
+"classname" "script_origin"
+}
+// entity 33
+{
+"targetname" "escape_checkpoint_3"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 576 16 ) ( -16 576 16 ) ( -16 496 16 ) trigger 64 64 -832 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 496 256 ) ( 0 576 256 ) ( 176 576 256 ) trigger 64 64 -832 144 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 512 256 ) ( 176 512 256 ) ( 176 512 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 528 256 ) ( 1024 608 256 ) ( 1024 608 240 ) trigger 64 64 -144 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 576 256 ) ( 0 576 256 ) ( 0 576 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 576 256 ) ( 0 496 256 ) ( 0 496 240 ) trigger 64 64 -144 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 34
+{
+"origin" "216.0 536.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_3"
+"classname" "script_origin"
+}
+// entity 35
+{
+"origin" "552.0 536.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_3"
+"classname" "script_origin"
+}
+// entity 36
+{
+"origin" "872.0 536.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_3"
+"classname" "script_origin"
+}
+// entity 37
+{
+"targetname" "escape_checkpoint_1"
+"classname" "trigger_multiple"
+// brush 0
+{
+ ( 160 -448 16 ) ( -16 -448 16 ) ( -16 -528 16 ) trigger 64 64 -832 1168 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -528 256 ) ( 0 -448 256 ) ( 176 -448 256 ) trigger 64 64 -832 1168 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -512 256 ) ( 176 -512 256 ) ( 176 -512 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -496 256 ) ( 1024 -416 256 ) ( 1024 -416 240 ) trigger 64 64 -1168 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 176 -448 256 ) ( 0 -448 256 ) ( 0 -448 240 ) trigger 64 64 -832 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -448 256 ) ( 0 -528 256 ) ( 0 -528 240 ) trigger 64 64 -1168 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 38
+{
+"origin" "216.0 -488.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_1"
+"classname" "script_origin"
+}
+// entity 39
+{
+"origin" "552.0 -488.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_1"
+"classname" "script_origin"
+}
+// entity 40
+{
+"origin" "872.0 -488.0 40.0"
+"angles" "0 90 0"
+"targetname" "escape_spawn_1"
+"classname" "script_origin"
+}

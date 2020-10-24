@@ -1,0 +1,42 @@
+#include "ui_mp/macros.inc"
+
+{
+	menuDef
+	{
+		name			"class_allies"
+		blurworld		1.5
+		rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+		
+		#include "ui_mp/scriptmenus/main_bg.inc"
+		
+		#include "ui_mp/scriptmenus/main_menu.inc"
+		
+		#include "ui_mp/scriptmenus/main_class.inc"
+		
+		onEsc
+		{
+			close self;
+			//open "team_marinesopfor";
+		}
+		onOpen
+		{
+			ONOPEN_DEFAULT;
+		
+			setDvar ui_mainSel 999; // reset main menu selector
+			setDvar ui_classHgl 999; // reset class hover -> description
+		
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_BODY "onOpen,0";
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_WEAPON "onOpen,1";
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_INVA "onOpen,2";
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_INVB "onOpen,3";
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_INVC "onOpen,4";
+			scriptMenuRespondOnDvarStringValue ui_classType ALLIES_INVD "onOpen,5";
+		}
+		onClose
+		{
+			ONCLOSE_DEFAULT;
+		}
+		
+		#include "ui_mp/scriptmenus/class_all.inc"
+	}
+}

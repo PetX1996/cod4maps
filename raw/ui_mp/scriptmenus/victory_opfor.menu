@@ -1,0 +1,33 @@
+#include "ui_mp/macros.inc"
+
+{
+	menuDef
+	{
+		name			"victory_opfor"
+		blurworld		1.5
+		rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+		
+		#define BG_COLOR 0.55 0.5 0.5 0.5
+		
+		#include "ui_mp/scriptmenus/victory_all.inc"
+		
+		onEsc
+		{
+			//close self;
+		}
+		onOpen
+		{
+			ONOPEN_DEFAULT;
+		
+			execNow "setDvarToTime ui_vicOpenTime";
+			scriptMenuResponse "onOpen";
+			
+			//test
+			//setDvar ui_vicTime 10;
+		}
+		onClose
+		{
+			ONCLOSE_DEFAULT;
+		}
+	}
+}

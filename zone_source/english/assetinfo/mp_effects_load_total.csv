@@ -1,0 +1,24 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_effects,  string,string,,1.8,1.8
+2,mp_effects,  xmodel,xmodel,body_mp_usmc_engineer,593.5,595.2
+3,mp_effects,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+4,mp_effects,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+5,mp_effects,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+6,mp_effects,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+7,mp_effects,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+8,mp_effects,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+9,mp_effects,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+10,mp_effects,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+11,mp_effects,  gfx_map,gfx_map,maps/mp/mp_effects.d3dbsp,12227.2,12227.5
+12,mp_effects,  col_map_sp,col_map_sp,maps/mp/mp_effects.d3dbsp,3.2,3.6
+13,mp_effects,  impactfx,impactfx,,1.6,1.6
+14,mp_effects,  sound,sound,artillery_explosion,1.2,1.2
+15,mp_effects,  sound,sound,elm_metal_rattle,1.2,1.2
+16,mp_effects,  sound,sound,mortar_incoming,1.6,1.6
+17,mp_effects,  sound,sound,generic_death_arab_4,1.1,1.1
+18,mp_effects,assetlist,assetlist,,2.8,12998.5
+19,mp_effects,material,material,(misc),1.3,1.3
+20,mp_effects,techset,techset,(misc),2.7,2.7
+21,mp_effects,sound,sound,(misc),35.5,35.5
+22,mp_effects,loaded_sound,loaded_sound,(misc),2.5,2.5
+23,mp_effects,fx,fx,(misc),3.1,3.1

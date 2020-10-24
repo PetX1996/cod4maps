@@ -1,0 +1,4 @@
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage,conversion
+
+weap_rpg_fire_plr,,rocket.wav,0.94,0.99,wpnplyr,0.75,0.85,500000,,local,,,,0.85,all_mp,,,weap_rpg_fire_plr_layer,weapon2
+weap_rpg_fire_npc,,rocket.wav,0.79,0.84,wpnai,0.85,0.95,7,10920,weapon,,,,0.7,all_mp,,,,weapon4

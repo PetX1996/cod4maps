@@ -1,0 +1,50 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -2 29 -75 ) ( -26 29 -75 ) ( -26 -6 -75 ) clip_player 64 64 -2 1 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -6 -25 ) ( -26 29 -25 ) ( -2 29 -25 ) clip_player 64 64 -2 1 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -4 -25 ) ( -2 -4 -25 ) ( -2 -4 -57 ) clip_player 64 64 -2 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -7 -25 ) ( 6 28 -25 ) ( 6 28 -57 ) clip_player 64 64 -1 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 -1 -26 ) ( -26 -1 -26 ) ( -26 -1 -58 ) clip_player 64 64 -2 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 29 -25 ) ( -26 -6 -25 ) ( -26 -6 -57 ) clip_player 64 64 -1 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 6 30 -37 ) ( 0 30 -37 ) ( 0 -5 -37 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -5 -25 ) ( 0 30 -25 ) ( 6 30 -25 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -1 -25 ) ( 6 -1 -25 ) ( 6 -1 -40 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -5 -25 ) ( 6 30 -25 ) ( 6 30 -40 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 25 -24 ) ( 0 25 -24 ) ( 0 25 -39 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 30 -25 ) ( 0 -5 -25 ) ( 0 -5 -40 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 8 30 -37 ) ( -26 30 -37 ) ( -26 -5 -37 ) clip_player 64 64 3 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -5 -25 ) ( -26 30 -25 ) ( 8 30 -25 ) clip_player 64 64 3 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -1 -25 ) ( 8 -1 -25 ) ( 8 -1 -40 ) clip_player 64 64 3 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -20 -4 -25 ) ( -20 31 -25 ) ( -20 31 -40 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8 25 -24 ) ( -26 25 -24 ) ( -26 25 -39 ) clip_player 64 64 3 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 30 -22 ) ( -26 -5 -22 ) ( -26 -5 -37 ) clip_player 64 64 0 -5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 8 23 -25 ) ( -25 23 -25 ) ( -25 -10 -25 ) clip_player 64 64 3 6 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -10 0 ) ( -26 23 0 ) ( 7 23 0 ) clip_player 64 64 3 6 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 -4 0 ) ( 7 -4 0 ) ( 7 -4 -30 ) clip_player 64 64 3 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -10 0 ) ( 6 23 0 ) ( 6 23 -30 ) clip_player 64 64 -6 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7 25 0 ) ( -26 25 0 ) ( -26 25 -30 ) clip_player 64 64 3 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -26 23 0 ) ( -26 -10 0 ) ( -26 -10 -30 ) clip_player 64 64 -6 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "0.0 0.0 0.0"
+"modelscale" "2.5"
+"model" "z_chair_metal"
+"classname" "misc_model"
+}

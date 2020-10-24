@@ -1,0 +1,9 @@
+ignore,code_post_gfx
+ignore,common
+col_map_sp,maps/test_texture.d3dbsp
+rawfile,maps/test_texture.gsc
+localize,test_texture
+sound,common,test_texture,!all_sp
+sound,generic,test_texture,!all_sp
+sound,voiceovers,test_texture,!all_sp
+sound,requests,test_texture,!all_sp

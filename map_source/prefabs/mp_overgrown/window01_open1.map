@@ -1,0 +1,43 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 20 -8 67 ) ( 20 4 67 ) ( 24 4 71 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 4 3 ) ( 20 -8 3 ) ( 24 -8 -1 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -8 -1 ) ( 20 -8 -1 ) ( 20 -8 95 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 4 91 ) ( 20 -8 91 ) ( 20 -8 3 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 4 -1 ) ( 24 4 -1 ) ( 24 4 95 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 23 4 -1 ) ( 23 -4 -1 ) ( 23 -4 95 ) ch_woodpaint_white01 192 128 -8 131 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -16 -8 3 ) ( -16 4 3 ) ( -20 4 -1 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 4 67 ) ( -16 -8 67 ) ( -20 -8 71 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -20 -8 95 ) ( -16 -8 95 ) ( -16 -8 -1 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 4 -1 ) ( -16 -8 -1 ) ( -16 -8 87 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 4 95 ) ( -20 4 95 ) ( -20 4 -1 ) ch_woodpaint_white01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -19 4 95 ) ( -19 -4 95 ) ( -19 -4 -1 ) ch_woodpaint_white01 192 -128 -8 -89 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( -40 4 0 ) ( -40 -8 0 ) ( 24 -8 0 ) ch_woodpaint_white01 192 -128 -8 -108 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 4 3 ) ( 20 -8 3 ) ( -36 -8 3 ) ch_woodpaint_white01 128 128 0 -24 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 -8 3 ) ( 24 -8 3 ) ( 24 -8 -1 ) ch_woodpaint_white01 128 128 0 0 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 -8 3 ) ( 20 4 3 ) ( 24 4 -1 ) caulk 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 4 3 ) ( -36 4 3 ) ( -36 4 -1 ) ch_woodpaint_white01 128 -128 -7 24 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -20 -8 -1 ) ( -20 4 -1 ) ( -16 4 3 ) caulk 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 24 4 70 ) ( 24 -8 70 ) ( -40 -8 70 ) ch_woodpaint_white01 192 128 -8 0 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -36 4 67 ) ( -36 -8 67 ) ( 20 -8 67 ) ch_woodpaint_white01 128 128 0 0 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20 -8 67 ) ( -40 -8 67 ) ( -40 -8 71 ) ch_woodpaint_white01 128 128 0 0 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -16 -8 67 ) ( -16 4 67 ) ( -20 4 71 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -40 4 67 ) ( 20 4 67 ) ( 20 4 71 ) ch_woodpaint_white01 128 128 0 0 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 24 -8 71 ) ( 24 4 71 ) ( 20 4 67 ) caulk 64 64 96 -60 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

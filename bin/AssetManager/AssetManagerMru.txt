@@ -1,0 +1,8 @@
+"source_data\escape.gdt" "physpreset"
+"aitype\xmodelalias.gdt" ""
+"aitype\aitypes_characteraliases.gdt" ""
+"source_data\locationdamage.gdt" "vehicle"
+"source_data\mp_escape_lab.gdt" "material"
+"source_data\vehiclesettings.gdt" ""
+"source_data\mp_deathrun_crazy.gdt" "material"
+"source_data\levels.gdt" "material"

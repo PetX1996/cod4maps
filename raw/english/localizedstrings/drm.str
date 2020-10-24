@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////////
+///|         |///|        |///|       |/\  \/////  ////
+///|  |////  |///|  |//|  |///|  |/|  |//\  \///  /////
+///|  |////  |///|  |//|  |///|  |/|  |///\  \/  //////
+///|          |//|  |//|  |///|       |////\    ///////
+///|  |////|  |//|         |//|  |/|  |/////    \//////
+///|  |////|  |//|  |///|  |//|  |/|  |////  /\  \/////
+///|          |//|__|///|__|//|__|/|__|///  ///\  \////
+/////////////////////////////////////////__/////\__\///
+///////////////////////////////////////////////////////
+//
+//	Xfire : maciusiak
+//
+// D.R.M. - Death Run Menus
+//
+
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+
+REFERENCE           PLAY
+LANG_ENGLISH        "Auto-Assign"
+
+REFERENCE           PLAY_DESC
+LANG_ENGLISH        "Start game as Jumper."
+
+REFERENCE           SPECTATE
+LANG_ENGLISH        "Spectator"
+
+REFERENCE           SPECTATE_DESC
+LANG_ENGLISH        "Watch others players."
+
+REFERENCE           CHARACTER
+LANG_ENGLISH        "Customize character"
+
+REFERENCE           CHARACTER_DESC
+LANG_ENGLISH        "Select your gaming character and spray logo."
+
+REFERENCE           HELP
+LANG_ENGLISH        "Help"
+
+REFERENCE           HELP_DESC
+LANG_ENGLISH        "Show help, tips and features."
+
+REFERENCE           OPTIONS
+LANG_ENGLISH        "Settings"
+
+REFERENCE           OPTIONS_DESC
+LANG_ENGLISH        "Change various game settings."

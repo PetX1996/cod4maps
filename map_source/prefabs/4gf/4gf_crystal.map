@@ -1,0 +1,37 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"origin" "0.0 0.0 64.0"
+"def" "light_point_linear"
+"radius" "400"
+"_color" "0 1 1"
+"intensity" "2"
+"classname" "light"
+}
+// entity 2
+{
+"targetname" "crystal_1"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( -64 -64 64 ) ( 64 -64 64 ) ( 64 64 64 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 0 0 128 ) ( 64 64 128 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 0 128 ) ( -64 64 128 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( 0 0 128 ) ( -64 -64 128 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 64 ) ( 0 0 128 ) ( 64 -64 128 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 64 -64 64 ) ( -64 -64 64 ) ( -64 64 64 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 0 64 ) ( 0 0 0 ) ( -64 64 0 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 64 ) ( 0 0 0 ) ( 64 64 0 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 64 0 64 ) ( 0 0 0 ) ( 64 -64 0 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 -1
+ ( 0 -64 64 ) ( 0 0 0 ) ( -64 -64 0 ) crystal2 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 1
+}
+}

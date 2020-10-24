@@ -1,0 +1,22 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_escape_example,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+2,mp_escape_example,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+3,mp_escape_example,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+4,mp_escape_example,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+5,mp_escape_example,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+6,mp_escape_example,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+7,mp_escape_example,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+8,mp_escape_example,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+9,mp_escape_example,  gfx_map,gfx_map,maps/mp/mp_escape_example.d3dbsp,8711.5,8712.6
+10,mp_escape_example,    map_ents,map_ents,maps/mp/mp_escape_example.d3dbsp,7.6,7.6
+11,mp_escape_example,  col_map_sp,col_map_sp,maps/mp/mp_escape_example.d3dbsp,22.9,30.5
+12,mp_escape_example,  impactfx,impactfx,,1.5,1.5
+13,mp_escape_example,  sound,sound,artillery_explosion,1.2,1.2
+14,mp_escape_example,  sound,sound,elm_metal_rattle,1.2,1.2
+15,mp_escape_example,  sound,sound,mortar_incoming,1.6,1.6
+16,mp_escape_example,  sound,sound,generic_death_arab_4,1.1,1.1
+17,mp_escape_example,assetlist,assetlist,,2.7,8914.0
+18,mp_escape_example,techset,techset,(misc),2.5,2.5
+19,mp_escape_example,sound,sound,(misc),35.5,35.5
+20,mp_escape_example,loaded_sound,loaded_sound,(misc),2.5,2.5
+21,mp_escape_example,fx,fx,(misc),3.1,3.1

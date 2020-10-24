@@ -1,0 +1,51 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"model" "prefabs/misc_models/me_electricbox2.map"
+"sunRadiosity" "1"
+"sunlight" "1"
+"sundirection" "-50 240 0"
+"suncolor" "1 1 1"
+"sundiffusecolor" "1 1 1"
+"radiosityScale" "1"
+"northyaw" "-45"
+"diffusefraction" "0.4"
+"bouncefracion" ".1"
+"ambient" ".02"
+"_color" "1 1 1"
+"classname" "worldspawn"
+// brush 0
+{
+ ( 19 19 45 ) ( 19 -19 45 ) ( -19 -19 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -19 -19 0 ) ( 19 -19 0 ) ( 19 19 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 19 0 0 ) ( 19 0 45 ) ( 19 19 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 6 0 ) ( 18 6 45 ) ( 12 24 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 15 11 0 ) ( 15 11 45 ) ( 4 26 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 15 0 ) ( 11 15 45 ) ( -4 26 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 18 0 ) ( 6 18 45 ) ( -12 24 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 19 0 ) ( 0 19 45 ) ( -19 19 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -6 18 0 ) ( -6 18 45 ) ( -24 12 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11 15 0 ) ( -11 15 45 ) ( -26 4 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15 11 0 ) ( -15 11 45 ) ( -26 -4 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 6 0 ) ( -18 6 45 ) ( -24 -12 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -19 0 0 ) ( -19 0 45 ) ( -19 -19 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -18 -6 0 ) ( -18 -6 45 ) ( -12 -24 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15 -11 0 ) ( -15 -11 45 ) ( -4 -26 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11 -15 0 ) ( -11 -15 45 ) ( 4 -26 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -6 -18 0 ) ( -6 -18 45 ) ( 12 -24 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -19 0 ) ( 0 -19 45 ) ( 19 -19 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -18 0 ) ( 6 -18 45 ) ( 24 -12 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 11 -15 0 ) ( 11 -15 45 ) ( 26 -4 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 15 -11 0 ) ( 15 -11 45 ) ( 26 4 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 18 -6 0 ) ( 18 -6 45 ) ( 24 12 45 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"angles" "0 0 -5.67299e-005"
+"origin" "0.0 -0.3 0.3"
+"model" "4gf_wood_barrel"
+"classname" "misc_model"
+}

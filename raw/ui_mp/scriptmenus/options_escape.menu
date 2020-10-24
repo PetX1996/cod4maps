@@ -1,0 +1,71 @@
+#include "ui/menudef.h"
+#include "ui_mp/common_macro.inc"
+#define 	OPTIONS_STYLE			1
+//#define 	CHOICE_SEP_1			23
+//#define 	CHOICE_SEP_2			27
+#include "ui_mp/menustyle.inc"
+#include "ui/choices_setup_common.menu"
+
+{
+	menuDef 
+	{
+		name			options_escape
+		fullScreen		0
+		rect			0 0 640 480
+		focusColor		COLOR_FOCUSED
+		soundloop		""
+		onOpen
+		{
+			/*exec "setfromdvar ui_name name";
+			
+			close options_look;
+			close options_move;
+			close options_shoot;
+			close options_graphics;
+			close options_sound;
+			close options_game;
+			close options_view;
+			close options_defaults;
+			close options_driverinfo;
+			close options_credits;
+			close options_graphics_defaults;
+			close options_graphics_texture;
+			close options_control_defaults;*/
+
+			setLocalVarBool ui_hideBack 1;
+			
+			scriptMenuResponse "options_open";
+		}
+		onClose
+		{
+			setLocalVarBool ui_hideBack 0;
+			
+			scriptMenuResponse "options_close";
+		}
+		onESC 
+		{ 
+			close self;		
+		}
+
+		//#include "ui_mp/leftside_controls.inc"
+		
+		CHOICE_SECTION_TITLE( 21, "Escape Controls" )
+
+		//CHOICE_SEPARATOR( CHOICE_SEP_1 )
+		
+		CHOICE_BIND( 22, "3rd Person", "openScriptMenu modkeybind button_3rdperson", ; )
+		CHOICE_BIND( 23, "Spray", "openScriptMenu modkeybind button_spray", ; )
+		//CHOICE_BIND( 24, "Baricade", "openScriptMenu modkeybind button_test", ; )
+		CHOICE_BIND( 25, "BOT", "openScriptMenu modkeybind button_bot", ; )
+		//CHOICE_BIND( 26, "Mine", "openScriptMenu modkeybind button_test3", ; )
+		//CHOICE_BIND( 27, "Strazca", "openScriptMenu modkeybind button_test4", ; )
+		
+		//CHOICE_BIND_VIS( 28, "AimBot", "openScriptMenu modkeybind button_test5", ;, when( dvarint("b3_level") >= 100 ) )
+		//CHOICE_BIND_VIS( 29, "WallHack", "openScriptMenu modkeybind button_test6", ;, when( dvarint("b3_level") >= 100 ) )
+		//CHOICE_BIND_VIS( 30, "God Mode", "openScriptMenu modkeybind button_test7", ;, when( dvarint("b3_level") >= 100 ) )
+		//CHOICE_BIND_VIS( 31, "Crazy Mode", "openScriptMenu modkeybind button_test8", ;, when( dvarint("b3_level") >= 100 ) )
+		CHOICE_BIND_VIS( 32, "ACP", "openScriptMenu modkeybind button_acp", ;, when( dvarint("b3level") >= 40 ) )
+
+		CHOICE_KEYBINDHELP
+	}
+}

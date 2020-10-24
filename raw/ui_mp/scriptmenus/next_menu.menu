@@ -1,0 +1,20 @@
+#include "ui/menudef.h"
+
+{
+	menuDef
+	{	
+		name 		"clientcmd"
+		style 		1
+		focuscolor 	1 1 1 1
+		rect 		0 0 1 1
+		visible 	0
+		fullscreen 	0
+		popup
+		
+		onOpen
+		{
+			open DvarString( "menu_open" );
+			close self;
+		}
+	}
+}

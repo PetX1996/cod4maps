@@ -1,0 +1,12 @@
+ignore,code_post_gfx_mp
+ignore,common_mp
+ignore,localized_code_post_gfx_mp
+ignore,localized_common_mp
+col_map_mp,maps/mp/mp_escape_example.d3dbsp
+rawfile,maps/mp/mp_escape_example.gsc
+impactfx,mp_escape_example
+sound,common,mp_escape_example,!all_mp
+sound,generic,mp_escape_example,!all_mp
+sound,voiceovers,mp_escape_example,!all_mp
+sound,multiplayer,mp_escape_example,!all_mp
+rawfile,maps/mp/mp_escape_example.gsc

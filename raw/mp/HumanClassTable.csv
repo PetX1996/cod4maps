@@ -1,0 +1,18 @@
+#0 - cislo,1 - stat pre kategoriu,2 - stat pre polozku,3 - nedostupnost,4 - novinka,5 - dostupnost,6 - potrebne xp,7 - nazov,8 - popis,9 - obrazok v menu,10 - file 1,11 - file 2,12 - file 3,13 - file 4
+
+model hraca
+0,3309,150,15,67,48,600,HCLASS_BODY1,HCLASS_BODY_INFO1,class_skin1,body_mp_usmc_engineer,,,,
+1,3309,151,67,84,21,1200,HCLASS_BODY2,HCLASS_BODY_INFO2,class_skin2,body_mp_sas_urban_support,,,,
+
+model ruk
+100
+101
+
+spray
+200
+201
+
+sekundarna zbran
+300
+301
+

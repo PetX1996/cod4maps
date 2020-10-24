@@ -1,0 +1,24 @@
+index,type,type,name,usage(KB),total(KB)
+1,  string,string,,1.8,1.8
+2,  xmodel,xmodel,body_mp_usmc_engineer,593.5,595.2
+3,  techset,techset,sm2/wc_l_sm_r0c0n0,20.9,20.9
+4,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+5,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+6,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+7,  techset,techset,wc_l_sm_r0c0n0,27.9,27.9
+8,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+9,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+10,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+11,  gfx_map,gfx_map,maps/mp/mp_effects.d3dbsp,12227.2,12227.5
+12,  col_map_sp,col_map_sp,maps/mp/mp_effects.d3dbsp,3.2,3.6
+13,  impactfx,impactfx,,1.6,1.6
+14,  sound,sound,artillery_explosion,1.2,1.2
+15,  sound,sound,elm_metal_rattle,1.2,1.2
+16,  sound,sound,mortar_incoming,1.6,1.6
+17,  sound,sound,generic_death_arab_4,1.1,1.1
+18,assetlist,assetlist,,2.8,12998.5
+19,material,material,(misc),1.3,1.3
+20,techset,techset,(misc),2.7,2.7
+21,sound,sound,(misc),35.5,35.5
+22,loaded_sound,loaded_sound,(misc),2.5,2.5
+23,fx,fx,(misc),3.1,3.1

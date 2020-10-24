@@ -1,0 +1,151 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -7 14 0 ) ( -65 14 0 ) ( -65 -2 0 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -65 -2 56 ) ( -65 14 56 ) ( -7 14 56 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -65 -2 56 ) ( -7 -2 56 ) ( -7 -2 6 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -2 58.5 ) ( -51 14 58.5 ) ( -51 14 8.5 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -7 12 56 ) ( -65 12 56 ) ( -65 12 6 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -65 14 56 ) ( -65 -2 56 ) ( -65 -2 6 ) clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 7 14 0 ) ( -51 14 0 ) ( -51 -2 0 ) clip 64 64 14 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -2 49.5 ) ( -51 14 49.5 ) ( 7 14 49.5 ) clip 64 64 14 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -2 49.5 ) ( 7 -2 49.5 ) ( 7 -2 -0.5 ) clip 64 64 14 6.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 -2 52 ) ( -37 14 52 ) ( -37 14 2 ) clip 64 64 0 6.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7 12 49.5 ) ( -51 12 49.5 ) ( -51 12 -0.5 ) clip 64 64 14 6.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 14 49.5 ) ( -51 -2 49.5 ) ( -51 -2 -0.5 ) clip 64 64 0 6.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 21 14 0 ) ( -37 14 0 ) ( -37 -2 0 ) clip 64 64 28 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 -2 42 ) ( -37 14 42 ) ( 21 14 42 ) clip 64 64 28 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 -2 42 ) ( 21 -2 42 ) ( 21 -2 -8 ) clip 64 64 28 14 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -22 -2 44.5 ) ( -22 14 44.5 ) ( -22 14 -5.5 ) clip 64 64 0 14 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 21 12 42 ) ( -37 12 42 ) ( -37 12 -8 ) clip 64 64 28 14 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -37 14 42 ) ( -37 -2 42 ) ( -37 -2 -8 ) clip 64 64 0 14 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 36.5 14 0 ) ( -21.5 14 0 ) ( -21.5 -2 0 ) clip 64 64 43 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -22 -2 35.5 ) ( -22 14 35.5 ) ( 36 14 35.5 ) clip 64 64 43 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -22 -2 35.5 ) ( 36 -2 35.5 ) ( 36 -2 -14.5 ) clip 64 64 43 20.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 22 -2 38.5 ) ( 22 14 38.5 ) ( 22 14 -11.5 ) clip 64 64 0 20.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 36 12 35.5 ) ( -22 12 35.5 ) ( -22 12 -14.5 ) clip 64 64 43 20.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -22 14 35.5 ) ( -22 -2 35.5 ) ( -22 -2 -14.5 ) clip 64 64 0 20.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 81 14 0 ) ( 23 14 0 ) ( 23 -2 0 ) clip 64 64 87 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 22 -2 42.5 ) ( 22 14 42.5 ) ( 80 14 42.5 ) clip 64 64 87 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 22 -2 42.5 ) ( 80 -2 42.5 ) ( 80 -2 -7.5 ) clip 64 64 87 13.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 -2 45 ) ( 37 14 45 ) ( 37 14 -5 ) clip 64 64 0 13.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 80 12 42.5 ) ( 22 12 42.5 ) ( 22 12 -7.5 ) clip 64 64 87 13.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 22 14 42.5 ) ( 22 -2 42.5 ) ( 22 -2 -7.5 ) clip 64 64 0 13.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 96.5 14 0 ) ( 38.5 14 0 ) ( 38.5 -2 0 ) clip 64 64 102 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 -2 49 ) ( 37 14 49 ) ( 95 14 49 ) clip 64 64 102 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 -2 49 ) ( 95 -2 49 ) ( 95 -2 -1 ) clip 64 64 102 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 51.5 -2 51.5 ) ( 51.5 14 51.5 ) ( 51.5 14 1.5 ) clip 64 64 0 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 95 12 49 ) ( 37 12 49 ) ( 37 12 -1 ) clip 64 64 102 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 14 49 ) ( 37 -2 49 ) ( 37 -2 -1 ) clip 64 64 0 7 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 111 14 0 ) ( 53 14 0 ) ( 53 -2 0 ) clip 64 64 116.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 51.5 -2 56.5 ) ( 51.5 14 56.5 ) ( 109.5 14 56.5 ) clip 64 64 116.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 51.5 -2 56.5 ) ( 109.5 -2 56.5 ) ( 109.5 -2 6.5 ) clip 64 64 116.5 -0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 65 -2 58.5 ) ( 65 14 58.5 ) ( 65 14 8.5 ) clip 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 109.5 12 56.5 ) ( 51.5 12 56.5 ) ( 51.5 12 6.5 ) clip 64 64 116.5 -0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 51.5 14 56.5 ) ( 51.5 -2 56.5 ) ( 51.5 -2 6.5 ) clip 64 64 0 -0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 37.5 17.5 0 ) ( -20.5 17.5 0 ) ( -20.5 1.5 0 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -21 1.5 35.5 ) ( -21 17.5 35.5 ) ( 37 17.5 35.5 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -21.5 -5.5 35.5 ) ( 36.5 -5.5 35.5 ) ( 36.5 -5.5 -14.5 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 20.5 1 38.5 ) ( 20.5 17 38.5 ) ( 20.5 17 -11.5 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 15.5 35.5 ) ( -21 15.5 35.5 ) ( -21 15.5 -14.5 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -21 17.5 35.5 ) ( -21 1.5 35.5 ) ( -21 1.5 -14.5 ) mantle_on 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "-63.3 3.9 27.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 2
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "52.7 3.9 27.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 3
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "-48.8 3.9 20.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 4
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "-34.3 3.9 12.8"
+"model" "foliage_red_pine_log_med"
+}
+// entity 5
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "-5.3 4.4 6.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 6
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "23.7 4.4 13.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 7
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "38.2 3.9 20.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 8
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "-19.8 4.4 6.3"
+"model" "foliage_red_pine_log_med"
+}
+// entity 9
+{
+"modelscale" "0.6"
+"angles" "90 269.042 -100.958"
+"classname" "misc_model"
+"origin" "9.2 4.4 6.3"
+"model" "foliage_red_pine_log_med"
+}

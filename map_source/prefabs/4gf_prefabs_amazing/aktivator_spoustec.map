@@ -1,0 +1,89 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -0.5 28.5 16 ) ( -11.5 28.5 16 ) ( -11.5 20 16 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -5.5 36 44 ) ( -5.5 44.5 44 ) ( 5.5 44.5 44 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -15.5 -3 46 ) ( -4.5 -3 46 ) ( -4.5 -3 5 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4.5 36 63 ) ( 4.5 44.5 63 ) ( 4.5 44.5 22 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 35.5 61 ) ( -11.5 35.5 61 ) ( -11.5 35.5 20 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8.5 29.5 54 ) ( -8.5 21 54 ) ( -8.5 21 13 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -0.5 42.5 18 ) ( -11.5 42.5 18 ) ( -11.5 34 18 ) clip_player 64 64 0 -6 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11.5 41 52 ) ( -11.5 49.5 52 ) ( -0.5 49.5 52 ) clip_player 64 64 0 -6 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11.5 36 52 ) ( -0.5 36 52 ) ( -0.5 36 11 ) clip_player 64 64 0 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8.5 42 62 ) ( 8.5 50.5 62 ) ( 8.5 50.5 21 ) clip_player 64 64 6 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 54.5 67 ) ( -14.5 54.5 67 ) ( -14.5 54.5 26 ) clip_player 64 64 0 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12.5 67.5 65 ) ( -12.5 59 65 ) ( -12.5 59 24 ) clip_player 64 64 6 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( -0.5 -35.5 16 ) ( -11.5 -35.5 16 ) ( -11.5 -44 16 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11.5 23 34 ) ( -11.5 31.5 34 ) ( -0.5 31.5 34 ) clip_player 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -11.5 -38 111 ) ( -0.5 -38 111 ) ( -0.5 -38 70 ) clip_player 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 8.5 30 124 ) ( 8.5 38.5 124 ) ( 8.5 38.5 83 ) clip_player 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 0.5 126 ) ( -14.5 0.5 126 ) ( -14.5 0.5 85 ) clip_player 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 13.5 124 ) ( -3.5 5 124 ) ( -3.5 5 83 ) clip_player 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 4.5 36.5 18 ) ( -6.5 36.5 18 ) ( -6.5 28 18 ) clip_player 64 64 8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7.5 32 73 ) ( 7.5 40.5 73 ) ( 18.5 40.5 73 ) clip_player 64 64 8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5.5 -3 124 ) ( 16.5 -3 124 ) ( 16.5 -3 83 ) clip_player 64 64 8 -56 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 16.5 36 37 ) ( 16.5 44.5 37 ) ( 16.5 44.5 -4 ) clip_player 64 64 0 -56 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5.5 35.5 113 ) ( -5.5 35.5 113 ) ( -5.5 35.5 72 ) clip_player 64 64 8 -56 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5.5 29.5 114 ) ( 5.5 21 114 ) ( 5.5 21 73 ) clip_player 64 64 0 -56 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "-8.7 27.8 16.0"
+"modelSCALE" "0.7"
+"angles" "1.00179e-005 270 -180"
+"model" "z_rod_lever_machine"
+"classname" "misc_model"
+}
+// entity 2
+{
+"modelscale" "1.6"
+"angles" "1.11802e-005 360 -180"
+"model" "z_chem_vial03"
+"origin" "0.0 9.0 17.0"
+"classname" "misc_model"
+}
+// entity 3
+{
+"origin" "-17.0 33.0 16.0"
+"modelscale" "4"
+"angles" "1.47416e-006 270 -180"
+"model" "z_deskpad"
+"classname" "misc_model"
+}
+// entity 4
+{
+"origin" "-3.0 16.8 39.8"
+"modelscale" "0.5"
+"angles" "0 0 90"
+"model" "z_button_simple"
+"classname" "misc_model"
+}
+// entity 5
+{
+"origin" "15.0 -1.6 44.6"
+"angles" "356.343 50.1397 175.621"
+"model" "z_candlestick02"
+"classname" "misc_model"
+}
+// entity 6
+{
+"origin" "-17.0 -25.0 13.5"
+"angles" "0 180 -180"
+"model" "z_extraction_oven"
+"classname" "misc_model"
+}

@@ -1,0 +1,11 @@
+ignore,code_post_gfx_mp
+ignore,common_mp
+ignore,localized_code_post_gfx_mp
+ignore,localized_common_mp
+col_map_mp,maps/mp/mp_deathrun_crazy_sky.d3dbsp
+rawfile,maps/mp/mp_deathrun_crazy_sky.gsc
+impactfx,mp_deathrun_crazy_sky
+sound,common,mp_deathrun_crazy_sky,!all_mp
+sound,generic,mp_deathrun_crazy_sky,!all_mp
+sound,voiceovers,mp_deathrun_crazy_sky,!all_mp
+sound,multiplayer,mp_deathrun_crazy_sky,!all_mp

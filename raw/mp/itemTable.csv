@@ -1,0 +1,7 @@
+1,0,1,weapon_m9beretta,beretta,@WEAPON_BERETTA,@PERKS_SEMIAUTOMATIC_WITH_A,
+2,1,1,weapon_colt_45,colt45,@WEAPON_COLT1911,@PERKS_SEMIAUTOMATIC_WITH_MEDIUM,
+3,2,1,weapon_usp_45,usp,@WEAPON_USP,@PERKS_SEMIAUTOMATIC_WITH_MEDIUM1,
+4,3,1,weapon_desert_eagle,deserteagle,@WEAPON_DESERTEAGLE,@PERKS_SEMIAUTOMATIC_WITH_HIGH,
+5,4,1,weapon_desert_eagle_gold,deserteaglegold,@WEAPON_DESERTEAGLEGOLD,@PERKS_GOLD_PLATED_SEMIAUTOMATIC,
+6,5,1,weapon_knife,knife,Knife,Simply a knife... what else?,
+7,6,1,hud_random,,Random,Gives you a random weapon of this list.,

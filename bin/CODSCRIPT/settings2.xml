@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<sourceRaw>raw_source</sourceRaw>
+	<outputRaw>raw</outputRaw>
+	<sourceFSGame>Mods\escape</sourceFSGame>
+	<outputFSGame>Mods\escape_test</outputFSGame>
+</settings>

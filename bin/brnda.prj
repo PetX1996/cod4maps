@@ -1,0 +1,9 @@
+{
+"basepath" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Modern Warfare"
+"mapspath" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Modern Warfare\\map_source"
+"entitypath" ".\\cod4.def"
+"autosave" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Modern Warfare\\bin\\autosave.map"
+"game" ""
+"basegame" ""
+"layeredmaterials" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Modern Warfare\\bin\\cod4_layered_material_library.txt"
+}

@@ -1,0 +1,9 @@
+ignore,code_post_gfx
+ignore,common
+col_map_sp,maps/effects.d3dbsp
+rawfile,maps/effects.gsc
+localize,effects
+sound,common,effects,!all_sp
+sound,generic,effects,!all_sp
+sound,voiceovers,effects,!all_sp
+sound,requests,effects,!all_sp

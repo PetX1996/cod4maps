@@ -1,0 +1,67 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_gizajump,  string,string,,2.5,2.5
+2,mp_gizajump,  xmodel,xmodel,bc_hesco_barrier_big,16.1,16.7
+3,mp_gizajump,  techset,techset,sm2/mc_l_t0c0n0s0,29.8,29.8
+4,mp_gizajump,  techset,techset,sm2/mc_l_t0c0,17.1,17.1
+5,mp_gizajump,  techset,techset,mc_l_t0c0n0s0,33.9,33.9
+6,mp_gizajump,  techset,techset,mc_l_t0c0,17.0,17.0
+7,mp_gizajump,  techset,techset,mc_l_t0c0s0,19.5,19.5
+8,mp_gizajump,  techset,techset,mc_l_t0c0n0,17.3,17.3
+9,mp_gizajump,  techset,techset,sm2/mc_l_r0c0n0s0,15.5,15.5
+10,mp_gizajump,  techset,techset,sm2/mc_l_r0c0,9.7,9.7
+11,mp_gizajump,  techset,techset,mc_l_r0c0n0s0,19.2,19.2
+12,mp_gizajump,  techset,techset,mc_l_r0c0,9.3,9.3
+13,mp_gizajump,  techset,techset,mc_l_r0c0s0,12.3,12.3
+14,mp_gizajump,  techset,techset,mc_l_r0c0n0,9.2,9.2
+15,mp_gizajump,  xmodel,xmodel,foliage_tree_palm_bushy_3,226.6,227.0
+16,mp_gizajump,  techset,techset,sm2/wc_l_sm_r0c0n0s0,14.9,14.9
+17,mp_gizajump,  techset,techset,sm2/wc_l_sm_r0c0,10.0,10.0
+18,mp_gizajump,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+19,mp_gizajump,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+20,mp_gizajump,  techset,techset,wc_l_sm_r0c0n0s0,27.5,27.5
+21,mp_gizajump,  techset,techset,wc_l_sm_r0c0,16.8,16.8
+22,mp_gizajump,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+23,mp_gizajump,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+24,mp_gizajump,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+25,mp_gizajump,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+26,mp_gizajump,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+27,mp_gizajump,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+28,mp_gizajump,  techset,techset,sm2/wc_water,3.0,3.0
+29,mp_gizajump,  techset,techset,wc_water,2.9,2.9
+30,mp_gizajump,    material,material,wc/armada_water,48.2,48.2
+31,mp_gizajump,  gfx_map,gfx_map,maps/mp/mp_gizajump.d3dbsp,533.3,583.0
+32,mp_gizajump,    map_ents,map_ents,maps/mp/mp_gizajump.d3dbsp,29.1,29.1
+33,mp_gizajump,  col_map_sp,col_map_sp,maps/mp/mp_gizajump.d3dbsp,330.5,359.5
+34,mp_gizajump,  impactfx,impactfx,,1.6,1.6
+35,mp_gizajump,  sound,sound,artillery_explosion,1.2,1.2
+36,mp_gizajump,  sound,sound,elm_metal_rattle,1.2,1.2
+37,mp_gizajump,  sound,sound,mortar_incoming,1.6,1.6
+38,mp_gizajump,  sound,sound,generic_death_arab_4,1.1,1.1
+39,mp_gizajump,  xmodel,xmodel,body_mp_usmc_specops,411.4,411.9
+40,mp_gizajump,  xmodel,xmodel,head_mp_usmc_tactical_mich_stripes_nomex,246.9,247.8
+41,mp_gizajump,  xmodel,xmodel,body_mp_usmc_sniper,309.8,309.8
+42,mp_gizajump,  xmodel,xmodel,head_mp_usmc_tactical_baseball_cap,182.5,183.0
+43,mp_gizajump,  xmodel,xmodel,body_mp_usmc_recon,395.9,395.9
+44,mp_gizajump,  xmodel,xmodel,head_mp_usmc_nomex,167.2,167.2
+45,mp_gizajump,  xmodel,xmodel,body_mp_usmc_assault,397.0,397.0
+46,mp_gizajump,  xmodel,xmodel,head_mp_usmc_tactical_mich,286.0,286.6
+47,mp_gizajump,  xmodel,xmodel,body_mp_usmc_support,361.7,361.7
+48,mp_gizajump,  xmodel,xmodel,head_mp_usmc_shaved_head,208.1,208.4
+49,mp_gizajump,  xmodel,xmodel,body_mp_arab_regular_cqb,350.1,350.6
+50,mp_gizajump,  xmodel,xmodel,head_mp_arab_regular_headwrap,150.8,151.1
+51,mp_gizajump,  xmodel,xmodel,viewhands_desert_opfor,162.1,162.8
+52,mp_gizajump,  xmodel,xmodel,body_mp_arab_regular_sniper,309.4,309.7
+53,mp_gizajump,  xmodel,xmodel,head_mp_arab_regular_sadiq,176.1,176.4
+54,mp_gizajump,  xmodel,xmodel,body_mp_arab_regular_engineer,382.9,383.1
+55,mp_gizajump,  xmodel,xmodel,head_mp_arab_regular_ski_mask,108.7,109.0
+56,mp_gizajump,  xmodel,xmodel,body_mp_arab_regular_assault,339.4,339.4
+57,mp_gizajump,  xmodel,xmodel,head_mp_arab_regular_suren,184.9,185.2
+58,mp_gizajump,  xmodel,xmodel,body_mp_arab_regular_support,271.9,271.9
+59,mp_gizajump,  xmodel,xmodel,head_mp_arab_regular_asad,179.5,179.7
+60,mp_gizajump,assetlist,assetlist,,3.1,7208.5
+61,mp_gizajump,material,material,(misc),5.9,5.9
+62,mp_gizajump,techset,techset,(misc),2.9,2.9
+63,mp_gizajump,image,image,(misc),2.7,2.7
+64,mp_gizajump,sound,sound,(misc),35.5,35.5
+65,mp_gizajump,loaded_sound,loaded_sound,(misc),2.5,2.5
+66,mp_gizajump,fx,fx,(misc),3.1,3.1

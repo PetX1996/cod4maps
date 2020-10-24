@@ -1,0 +1,17 @@
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+
+REFERENCE           MOD
+LANG_ENGLISH        "^1Deathrun 2 ^3BETA^7"
+
+REFERENCE           USE
+LANG_ENGLISH        "^3&&1^7"
+
+REFERENCE           USETRAP
+LANG_ENGLISH        "Press ^3&&1^7 to activate"
+
+ENDMARKER
+
+

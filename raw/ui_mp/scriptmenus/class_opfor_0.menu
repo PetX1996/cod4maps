@@ -1,0 +1,678 @@
+#include "ui/menudef.h"
+
+// GLOBAL DEFINITIONS
+#define BG_BLACKSCREEN_COLOR 	0 0 0 0.6
+#define BG_BACK_COLOR 			0 0 0 0.75
+
+#define BTN_OFF			0 0 0 0
+#define BTN_HIGHLIGHT	0 1 1 0.25
+#define BTN_SELECTED	0 1 1 0.75
+
+#define TEXT_TITLE_COLOR 	0 1 1 1
+#define TEXT_NORMAL_COLOR 	1 1 1 1
+
+#define SPACE 8
+#define SMALLSPACE (SPACE*0.5)
+#define BIGSPACE (SPACE*2)
+
+
+#define PREVIEW_CLASS DvarInt( "CLASS_cPrev" )
+#define SELECTED_CLASS DvarInt( "CLASS_cSel" )
+	
+#define POPUP_TYPE DvarString( "CLASS_popupT" )
+#define POPUP_TYPEINDEX DvarString( "CLASS_popupTI" )
+#define POPUP_STARTINDEX DvarString( "CLASS_popupSI" )
+#define POPUP_LENGTH DvarString( "CLASS_popupL" )
+#define POPUP_PAGE DvarInt( "CLASS_page" )
+#define POPUP_VISCONTENT DvarInt( "CLASS_visCon" ) && DvarInt( "CLASS_visPop" ) == 1
+	
+#define STAT_SPAWNCLASS 3299
+#define STAT_SPAWNCLASS_S "3299"
+#define STAT_STARTINDEX 3000
+
+// startStat + (ClassIndex * ClassCount) + typeIndex
+#define STAT_FIGURE STAT_STARTINDEX + (SELECTED_CLASS*5)
+#define STAT_WEAPON STAT_STARTINDEX + (SELECTED_CLASS*5) + 1
+#define STAT_FIRSTPERK STAT_STARTINDEX + (SELECTED_CLASS*5) + 2
+#define STAT_SECONDPERK STAT_STARTINDEX + (SELECTED_CLASS*5) + 3
+#define STAT_THIRDPERK STAT_STARTINDEX + (SELECTED_CLASS*5) + 4
+#define STAT_CURTYPE STAT_STARTINDEX + (SELECTED_CLASS*5) + int(POPUP_TYPEINDEX)
+
+#define CURRENT_FIGURE stat( STAT_FIGURE )
+#define CURRENT_WEAPON stat( STAT_WEAPON )
+#define CURRENT_FIRSTPERK stat( STAT_FIRSTPERK )
+#define CURRENT_SECONDPERK stat( STAT_SECONDPERK )
+#define CURRENT_THIRDPERK stat( STAT_THIRDPERK )
+#define CURRENT_ITEM stat( STAT_CURTYPE )
+
+#define TABLE_FILE "mp/MonsterClassTable.csv"
+
+		#define ISFIGURE( Ttype ) \
+			( Ttype == "Figure" )
+		
+		#define ISWEAPON( Ttype ) \
+			( Ttype == "Weapon" )
+			
+		#define ISFIRSTPERK( Ttype ) \
+			( Ttype == "FirstPerk" )
+			
+		#define ISSECONDPERK( Ttype ) \
+			( Ttype == "SecondPerk" )
+
+		#define ISTHIRDPERK( Ttype ) \
+			( Ttype == "ThirdPerk" )
+			
+		// je dostupný stat?
+		#define ISSTATAVAILABLE( statIndex ) \
+			( stat(int(TableLookUp( "mp/FreeStatsTable.csv", 0, statIndex, 1 ))) == int(TableLookUp( "mp/FreeStatsTable.csv", 0, statIndex, 2 )) )
+		
+		// dostupné po kúpe za XP
+		#define ISAVAILABLEFULL( Tstat, Tperm, Trank ) \
+			( ISAVAILABLEPERM( Tstat, Tperm, Trank ) )
+		
+		// je dostupné po kúpe za XP/iný spôsob
+		#define ISAVAILABLEPERM( Tstat, Tperm, Trank ) \
+			( Tperm == "1" || (Tperm == "2" && ISSTATAVAILABLE(Tstat) == 1) || (Tperm == "3" && ISAVAILABLERANK(Trank)) )
+		
+		// je dostupné na kúpu za XP?
+		#define ISAVAILABLETOXPBUY( Tstat, Tperm, Tprice ) \
+			( Tperm == "2" && Tprice != "0" && ISSTATAVAILABLE(Tstat) == 0 )
+		
+		// je dostupný na RANK výber?
+		#define ISAVAILABLERANKBUY( Tperm ) \
+			( Tperm == "3" )
+		
+		// je dostatoèný poèet LVL?
+		#define ISAVAILABLERANK( Trank ) \
+			( stat(2350) >= Trank )
+		
+		// je dostatoèný poèet XP?
+		#define ISAVAILABLEPRICE( Tprice ) \
+			( stat(2301) >= Tprice )
+		
+		// je už item zakúpený?
+		#define ISALREADYSELECTED( lineIndex ) \
+			( CURRENT_ITEM == int( lineIndex ) ) == 0
+
+
+		#define VIS_POPUP DvarInt( "CLASS_visPop" ) == 1
+		
+		#define POPUP_LIST_ITEM_COUNT 15
+		#define POPUP_LIST_ITEM_H (POPUP_LIST_H / (POPUP_LIST_ITEM_COUNT+1))		
+			
+{
+	menuDef
+	{
+		name			"class_opfor"
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		soundloop 		"music_connect_mp"
+		
+		backcolor		1 1 1 1
+		//background		"menu_m_b"
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		
+		onOpen
+		{
+			scriptMenuResponse "CLASS_open";
+			execNow "statGetInDvar "STAT_SPAWNCLASS_S" ui_primary_attachment_slot";
+			execNow "setFromDvar CLASS_cSel ui_primary_attachment_slot; setFromDvar CLASS_cPrev ui_primary_attachment_slot"
+			
+			//execNow "set CLASS_spamT sawd"; //TEST
+		}
+		
+		onEsc
+		{
+			play "mouse_click";
+			scriptMenuResponse "CLASS_esc";
+		}
+		onClose
+		{
+			scriptMenuResponse "CLASS_close";
+		}
+		/*
+		// =========  POZADIE  ==========
+		
+		itemDef //obrazok postavy - ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			39 63 219 346 0 0
+			background		"menu_m_f" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		} 
+		
+		itemDef //papyrus - info ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			301 27 174 279 0 0
+			background		"menu_m_s" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //dreveny box - zbran ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			295 341 188 110 0 0
+			background		"menu_m_w" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}	
+
+		itemDef //papyrus - perk 1 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 29 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //papyrus - perk 2 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 184 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}		
+
+		itemDef //papyrus - perk 3 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 339 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+		*/
+		/* ====== Vyber Classu - Diamanty ======= */
+		/*#define	CHANGE_CLASS( num, num_s, m_rect ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_m_e_off" \
+			visible			1 \
+			mouseEnter 		{ play "mouse_over"; setbackground "menu_m_e_on"; execNow "set CLASS_cSel "num_s; } \
+			mouseExit 		{ setbackground "menu_m_e_off"; execNow "setFromDvar CLASS_cSel CLASS_cPrev"; } \
+			action 			{ play "mouse_click"; execNow "set CLASS_cPrev "num_s"; set CLASS_cSel "num_s; scriptMenuResponse "CLASS_cSel_"num_s; } \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_m_e_on" \
+			forecolor		1 1 1 1 \
+			visible			when( SELECTED_CLASS == num ) \
+		}
+		
+		CHANGE_CLASS( 0, "0", 59 18 30 36 )
+		CHANGE_CLASS( 1, "1", 96 18 30 36 )
+		CHANGE_CLASS( 2, "2", 133 18 30 36 )
+		CHANGE_CLASS( 3, "3", 170 18 30 36 )
+		CHANGE_CLASS( 4, "4", 207 18 30 36 )
+		*/
+		/* ===== Obrazok postavy ===== */
+		/*#define SECTION_ENTER( Mrect, Mmaterial, Maction ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			style			WINDOW_STYLE_SHADER \
+			rect			Mrect \
+			exp				material( Mmaterial ) \
+			forecolor		1 1 1 0.75 \
+			visible			1 \
+			mouseEnter 		{ setcolor forecolor 1 1 1 1; } \
+			mouseExit 		{ setcolor forecolor 1 1 1 0.75; } \
+			action 			{ play "mouse_click"; execNow "set CLASS_visCon 0; set CLASS_page 0"; Maction; } \
+		}
+		*/
+		/* ========= Info box - Papyrus ========= */
+		/*itemDef 
+		{ 
+			rect			321 92 134 500 0 0
+			textscale		FONTSCALE_BOLD 
+			textalign		ITEM_ALIGN_CENTER 
+			forecolor		0.5 0 0 1
+			exp				text( TableLookUp( TABLE_FILE, 0, CURRENT_FIGURE, 3 ) );
+			visible			1
+			decoration
+		}
+		itemDef // description
+		{ 
+			rect			321 110 134 500 0 0
+			textscale		FONTSCALE_SMALL 
+			textalign		ITEM_ALIGN_CENTER 
+			forecolor		0 0 0 1
+			exp				text( TableLookUp( TABLE_FILE, 0, CURRENT_FIGURE, 15 ) );
+			visible			1
+			decoration		
+			autowrapped
+		}
+		#define FIGURE_PROGRESS_X 321
+		#define FIGURE_PROGRESS_Y 180
+		#define FIGURE_PROGRESS_W 134
+		#define FIGURE_PROGRESS_H 20
+		#define FIGURE_PROGRESS_BAR_W FIGURE_PROGRESS_W
+		#define FIGURE_PROGRESS_BAR_H (FIGURE_PROGRESS_H*0.25)
+		
+		#define FIGURE_PROGRESS( y, title, progress ) \
+			itemDef \
+			{ \
+				rect			FIGURE_PROGRESS_X y FIGURE_PROGRESS_W (FIGURE_PROGRESS_H-FIGURE_PROGRESS_BAR_H) 0 0 \
+				forecolor		0 0 0 1 \
+				style 			WINDOW_STYLE_EMPTY \
+				visible			1 \
+				text			title \
+				textscale		0.3333 \
+				textalign		ITEM_ALIGN_MIDDLE_LEFT \
+				decoration \
+			} \
+			itemDef \
+			{ \
+				rect			FIGURE_PROGRESS_X (y+(FIGURE_PROGRESS_H-FIGURE_PROGRESS_BAR_H)) FIGURE_PROGRESS_W FIGURE_PROGRESS_BAR_H 0 0 \
+				backcolor		0 0 0 1 \
+				style 			WINDOW_STYLE_FILLED \
+				visible			1 \
+			}		\
+			itemDef \
+			{ \
+				rect			FIGURE_PROGRESS_X (y+(FIGURE_PROGRESS_H-FIGURE_PROGRESS_BAR_H)) 0 FIGURE_PROGRESS_BAR_H 0 0 \
+				exp				rect W( FIGURE_PROGRESS_W*progress ); \
+				backcolor		1 0 0 1 \
+				style 			WINDOW_STYLE_FILLED \
+				visible			1 \
+			}
+			
+		FIGURE_PROGRESS( FIGURE_PROGRESS_Y, "Health", (int( TableLookUp( TABLE_FILE, 0, CURRENT_FIGURE, 11 ) )/100) )
+		FIGURE_PROGRESS( (FIGURE_PROGRESS_Y + FIGURE_PROGRESS_H + SMALLSPACE), "Speed", (int( TableLookUp( TABLE_FILE, 0, CURRENT_FIGURE, 12 ) )/100) )
+			*/
+		/*itemDef // ability name
+		{ 
+			rect			321 280 134 20 0 0
+			textscale		FONTSCALE_SMALL 
+			textalign		ITEM_ALIGN_CENTER 
+			forecolor		0.5 0 0 1 
+			exp				text( TableLookUp( TABLE_FILE, 0, CURRENT_FIGURE, 14 ) ); 
+			visible			1 
+			decoration
+		}	*/	
+		
+		/* ======= Výber spawn classu - Lebka ======= */
+		/*itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			rect			127 409 42 54 0 0 
+			forecolor		1 1 1 1 
+			visible			1 
+			style			WINDOW_STYLE_SHADER 
+			background		"menu_ok_off" 
+			mouseEnter 		{ play "mouse_over"; setbackground "menu_ok_on"; } 
+			mouseExit 		{ setbackground "menu_ok_off"; } 
+			action 			{ play "mouse_click"; scriptMenuResponse "CLASS_cSpawn"; }
+		}		
+		
+		#include "ui_mp/monsters_class_sections.inc"
+		
+		
+		// ===============================
+		// POPUP
+		// ===============================
+		#define POPUP_X 70
+		#define POPUP_Y 40
+		#define POPUP_W 500
+		#define POPUP_H 400
+		
+		#define POPUP_TITLE_X 130
+		#define POPUP_TITLE_Y 90
+		#define POPUP_TITLE_W 380
+		#define POPUP_TITLE_H 20
+		
+		#define POPUP_LIST_X 130
+		#define POPUP_LIST_Y 110
+		#define POPUP_LIST_W 100
+		#define POPUP_LIST_H 280
+		
+		#define POPUP_ITEM_X 230
+		#define POPUP_ITEM_Y 110
+		#define POPUP_ITEM_W 280
+		#define POPUP_ITEM_H 280
+	
+		itemDef // blackscreen
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			0 0 640 480 0 0
+			backcolor		0 0 0 0.75
+			visible			when( VIS_POPUP )
+		}
+		itemDef // background
+		{ 
+			style			WINDOW_STYLE_SHADER
+			rect			POPUP_X POPUP_Y POPUP_W POPUP_H 0 0
+			background		"menu_e_a"
+			visible			when( VIS_POPUP )
+		}
+		itemDef // title
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			POPUP_TITLE_X POPUP_TITLE_Y POPUP_TITLE_W POPUP_TITLE_H 0 0
+			backcolor		1 0 0 0.5
+			visible			when( VIS_POPUP )
+			exp				text( POPUP_TYPE );
+			textscale		FONTSCALE_BOLD
+			textalign		ITEM_ALIGN_MIDDLE_CENTER
+			decoration			
+		}
+		itemDef // list
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			POPUP_LIST_X POPUP_LIST_Y POPUP_LIST_W POPUP_LIST_H 0 0
+			backcolor		0 0 1 0.5
+			visible			when( VIS_POPUP )
+		}
+		itemDef // item
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			POPUP_ITEM_X POPUP_ITEM_Y POPUP_ITEM_W POPUP_ITEM_H 0 0
+			backcolor		0 1 0 0.5
+			visible			when( VIS_POPUP )
+		}
+		itemDef // fake button
+		{
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_EMPTY
+			rect			0 0 640 480 0 0
+			visible			when( VIS_POPUP )
+		}
+	
+		#define ITEM( listIndex, page, TlineIndex, Ttype, Tstat, Tname, Tinfo, Ticon, Tperm, Tprice, Trank, Tvalue0, Tvalue1, Tvalue2, Tvalue3, Tvalue4 ) \
+			itemDef \
+			{ \
+				type			ITEM_TYPE_BUTTON \
+				rect			POPUP_LIST_X (POPUP_LIST_Y + (POPUP_LIST_ITEM_H*listIndex)) POPUP_LIST_W POPUP_LIST_ITEM_H 0 0 \
+				style 			WINDOW_STYLE_FILLED \
+				backcolor		BTN_OFF \
+				forecolor		TEXT_NORMAL_COLOR \
+				visible			when( VIS_POPUP && Ttype == POPUP_TYPE && page == POPUP_PAGE ) \
+				exp				text( "^" + (ISAVAILABLEFULL( Tstat, Tperm, Trank )+1) + Tname ) \
+				textscale		FONTSCALE_SMALL \
+				textalign		ITEM_ALIGN_MIDDLE_LEFT \
+				textalignx		ITEM_ALIGN_X_MASK \
+				mouseEnter		{ setcolor backcolor BTN_HIGHLIGHT; execNow "set CLASS_visCon 1; set CLASS_Tsel "TlineIndex"; set CLASS_itemStat "Tstat"; set CLASS_itemName "Tname"; set CLASS_itemDes "Tinfo"; set CLASS_itemImg "Ticon"; set CLASS_itemPerm "Tperm"; set CLASS_itemXp "Tprice"; set CLASS_itemLvl "Trank"; set CLASS_itemV0 "Tvalue0"; set CLASS_itemV1 "Tvalue1"; set CLASS_itemV2 "Tvalue2"; set CLASS_itemV3 "Tvalue3"; set CLASS_itemV4 "Tvalue4; } \
+				mouseExit		{ setcolor backcolor BTN_OFF; } \
+				action			{ play "mouse_click"; scriptMenuResponse "CLASS_btn_"TlineIndex; } \
+			} \
+	
+		#include "ui_mp/monsters_class.inc"
+		
+		#define POPUP_LIST_ARROW_SIZE POPUP_LIST_ITEM_H
+		#define POPUP_LIST_MOVEBUTTONS( start, end, start_s, end_s ) \
+		itemDef \
+		{ \
+			rect			POPUP_LIST_X ((POPUP_LIST_Y+POPUP_LIST_H)-(POPUP_LIST_ARROW_SIZE*1.2)) POPUP_LIST_ARROW_SIZE POPUP_LIST_ARROW_SIZE 0 0 \
+			type			ITEM_TYPE_BUTTON \
+			style 			WINDOW_STYLE_SHADER \
+			background		"ui_arrow_left" \
+			forecolor		1 1 1 0.75 \
+			visible			when( VIS_POPUP && POPUP_PAGE == end && (POPUP_LENGTH/POPUP_LIST_ITEM_COUNT) > end ) \
+			mouseEnter		{ setcolor forecolor 0 1 1 1; } \
+			mouseExit		{ setcolor forecolor 1 1 1 0.75; } \
+			action			{ play "mouse_click"; execNow "set CLASS_page "start_s"; set CLASS_visCon 0"; } \
+		}	 \
+		itemDef \
+		{ \
+			rect			((POPUP_LIST_X+POPUP_LIST_W) - POPUP_LIST_ARROW_SIZE) ((POPUP_LIST_Y+POPUP_LIST_H)-(POPUP_LIST_ARROW_SIZE*1.2)) POPUP_LIST_ARROW_SIZE POPUP_LIST_ARROW_SIZE 0 0 \
+			type			ITEM_TYPE_BUTTON \
+			style 			WINDOW_STYLE_SHADER \
+			background		"ui_arrow_right" \
+			forecolor		1 1 1 0.75 \
+			visible			when( VIS_POPUP && POPUP_PAGE == start && (POPUP_LENGTH/POPUP_LIST_ITEM_COUNT) > end ) \
+			mouseEnter		{ setcolor forecolor 0 1 1 1; } \
+			mouseExit		{ setcolor forecolor 1 1 1 0.75; } \
+			action			{ play "mouse_click"; execNow "set CLASS_page "end_s"; set CLASS_visCon 0"; } \
+		}
+		
+		POPUP_LIST_MOVEBUTTONS( 0, 1, "0", "1" )
+		//POPUP_LIST_MOVEBUTTONS( 1, 2, "1", "2" )
+		
+		#define ITEM_INDEX		DvarInt( "CLASS_Tsel" )
+		#define ITEM_TYPE		DvarString( "CLASS_popupT" )
+		#define ITEM_STAT 		DvarString( "CLASS_itemStat" )
+		#define ITEM_NAME 		DvarString( "CLASS_itemName" )
+		#define ITEM_INFO 		DvarString( "CLASS_itemDes" )
+		#define ITEM_ICON 		DvarString( "CLASS_itemImg" )
+		#define ITEM_PERMISSION DvarString( "CLASS_itemPerm" )
+		#define ITEM_PRICE 		DvarString( "CLASS_itemXp" )
+		#define ITEM_RANK 		DvarString( "CLASS_itemLvl" )
+		
+		#define ITEM_VALUE0 	DvarString( "CLASS_itemV0" )
+		#define ITEM_VALUE1 	DvarString( "CLASS_itemV1" )
+		#define ITEM_VALUE2 	DvarString( "CLASS_itemV2" )
+		#define ITEM_VALUE3 	DvarString( "CLASS_itemV3" )
+		#define ITEM_VALUE4 	DvarString( "CLASS_itemV4" )
+		
+		#define ITEM_TITLE_X (POPUP_ITEM_X+SMALLSPACE)
+		#define ITEM_TITLE_Y (POPUP_ITEM_Y+SMALLSPACE)
+		#define ITEM_TITLE_W (POPUP_ITEM_W-(SMALLSPACE*2))
+		#define ITEM_TITLE_H 20
+		
+		#define ITEM_ICON_W 80
+		#define ITEM_ICON_H (ITEM_ICON_W + (ITEM_ICON_W*ISFIGURE( ITEM_TYPE )))
+		#define ITEM_ICON_X ((POPUP_ITEM_X+POPUP_ITEM_W)-(ITEM_ICON_W+SMALLSPACE))
+		#define ITEM_ICON_Y (POPUP_ITEM_Y+SMALLSPACE)
+		
+		#define ITEM_INFO_X (POPUP_ITEM_X+SMALLSPACE)
+		#define ITEM_INFO_Y (ITEM_TITLE_Y + ITEM_TITLE_H + SMALLSPACE)
+		#define ITEM_INFO_W (POPUP_ITEM_W - (ITEM_ICON_W+(SMALLSPACE*2)))
+		#define ITEM_INFO_H (POPUP_ITEM_H - (SMALLSPACE*2))
+		
+		itemDef // TYPE title
+		{
+			rect			ITEM_TITLE_X ITEM_TITLE_Y ITEM_TITLE_W ITEM_TITLE_H 0 0
+			forecolor		TEXT_TITLE_COLOR
+			style 			WINDOW_STYLE_EMPTY
+			visible			when( POPUP_VISCONTENT )
+			exp				text( ITEM_NAME );
+			textscale		FONTSCALE_SMALL
+			textalign		ITEM_ALIGN_MIDDLE_LEFT
+			decoration
+		}		
+		
+		
+		// ============================= //
+		// MAIN WINDOW //
+		itemDef // description
+		{
+			rect			ITEM_INFO_X ITEM_INFO_Y ITEM_INFO_W ITEM_INFO_H 0 0
+			forecolor		TEXT_NORMAL_COLOR
+			style 			WINDOW_STYLE_EMPTY
+			visible			when( POPUP_VISCONTENT )
+			exp				text( "@"+ITEM_INFO );
+			textscale		0.3333
+			textalign		ITEM_ALIGN_TOP_LEFT
+			decoration
+			autowrapped
+		}
+		itemDef // icon autosize
+		{
+			rect			ITEM_ICON_X ITEM_ICON_Y ITEM_ICON_W 0 0 0
+			exp				rect H( ITEM_ICON_H );
+			forecolor		1 1 1 1
+			style 			WINDOW_STYLE_SHADER
+			exp				material( ITEM_ICON );
+			visible			when( POPUP_VISCONTENT )
+		}		
+		
+		#define ITEM_INFOPROGRESSBAR_SPACES (SPACE*1.25)
+		#define ITEM_INFOPROGRESSBAR_TEXT_W 60
+		#define ITEM_INFOPROGRESSBAR_BAR_X (POPUP_ITEM_X+SMALLSPACE+ITEM_INFOPROGRESSBAR_TEXT_W)
+		#define ITEM_INFOPROGRESSBAR_BAR_W (POPUP_ITEM_W-(ITEM_INFOPROGRESSBAR_TEXT_W+(SMALLSPACE*2)))
+		#define ITEM_INFOPROGRESSBAR_Y 260
+		
+		#define ITEM_INFOPROGRESSBAR( y, h, title, progress, progressInfo, vis ) \
+			itemDef \
+			{ \
+				rect			(POPUP_ITEM_X+SMALLSPACE) y ITEM_INFOPROGRESSBAR_TEXT_W h 0 0 \
+				forecolor		TEXT_NORMAL_COLOR \
+				style 			WINDOW_STYLE_EMPTY \
+				visible			when( POPUP_VISCONTENT && vis ) \
+				text			title \
+				textscale		0.3333 \
+				textalign		ITEM_ALIGN_MIDDLE_LEFT \
+				decoration \
+			} \
+			itemDef \
+			{ \
+				rect			ITEM_INFOPROGRESSBAR_BAR_X y ITEM_INFOPROGRESSBAR_BAR_W h 0 0 \
+				backcolor		0 0 0 1 \
+				style 			WINDOW_STYLE_FILLED \
+				visible			when( POPUP_VISCONTENT && vis ) \
+			}		\
+			itemDef \
+			{ \
+				rect			ITEM_INFOPROGRESSBAR_BAR_X y 0 h 0 0 \
+				exp				rect W( ITEM_INFOPROGRESSBAR_BAR_W*progress ); \
+				backcolor		BTN_SELECTED \
+				style 			WINDOW_STYLE_FILLED \
+				visible			when( POPUP_VISCONTENT && vis && progress < 1 ) \
+			} \
+			itemDef \
+			{ \
+				rect			ITEM_INFOPROGRESSBAR_BAR_X y ITEM_INFOPROGRESSBAR_BAR_W h 0 0 \
+				backcolor		BTN_SELECTED \
+				style 			WINDOW_STYLE_FILLED \
+				visible			when( POPUP_VISCONTENT && vis && progress >= 1 ) \
+			} \
+			itemDef \
+			{ \
+				rect			ITEM_INFOPROGRESSBAR_BAR_X y ITEM_INFOPROGRESSBAR_BAR_W h 0 0 \
+				forecolor		TEXT_NORMAL_COLOR \
+				style 			WINDOW_STYLE_EMPTY \
+				visible			when( POPUP_VISCONTENT && vis ) \
+				exp				text( progressInfo ); \
+				textscale		0.3333 \
+				textalign		ITEM_ALIGN_MIDDLE_CENTER \
+				decoration \
+			} \	
+		
+		//ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE))), SMALLSPACE, "Damage", int( ITEM_VALUE0 )/100, "", ISWEAPON(ITEM_TYPE) )
+		//ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*1)), SMALLSPACE, "Damage", int( ITEM_VALUE1 )/100, "", ISWEAPON(ITEM_TYPE) )
+		ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*2)), SMALLSPACE, "Damage", int( ITEM_VALUE0 )/100, "", ISWEAPON(ITEM_TYPE) )
+		ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*3)), SMALLSPACE, "Range", int( ITEM_VALUE1 )/100, "", ISWEAPON(ITEM_TYPE) )
+		ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*4)), SMALLSPACE, "Fire Rate", int( ITEM_VALUE2 )/100, "", ISWEAPON(ITEM_TYPE) )
+		
+		ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*3)), SMALLSPACE, "Health", int( ITEM_VALUE0 )/100, "", ISFIGURE(ITEM_TYPE) )
+		ITEM_INFOPROGRESSBAR( (ITEM_INFOPROGRESSBAR_Y+((ITEM_INFOPROGRESSBAR_SPACES+SMALLSPACE)*4)), SMALLSPACE, "Speed", int( ITEM_VALUE1 )/100, "", ISFIGURE(ITEM_TYPE) )		
+		
+		#define ITEM_INFOPROGRESSBAR_LAST ((POPUP_ITEM_Y+POPUP_ITEM_H) - (BIGSPACE+SMALLSPACE))
+		#define ITEM_INFOPROGRESSBAR_LASTBUTONE (ITEM_INFOPROGRESSBAR_LAST - (BIGSPACE+SMALLSPACE))
+		#define ITEM_INFOPROGRESSBAR_LASTBUTTWO (ITEM_INFOPROGRESSBAR_LASTBUTONE - (BIGSPACE+SMALLSPACE))
+	
+		ITEM_INFOPROGRESSBAR( ITEM_INFOPROGRESSBAR_LASTBUTONE, BIGSPACE, "XP", (stat(2301)+1)/(int(ITEM_PRICE)+1), stat(2301)+"  /  "+ITEM_PRICE, ISAVAILABLETOXPBUY(ITEM_STAT, ITEM_PERMISSION, ITEM_PRICE) == 1 )		
+		ITEM_INFOPROGRESSBAR( ITEM_INFOPROGRESSBAR_LAST, BIGSPACE, "Level", (stat(2350)+1)/(int(ITEM_RANK)+1), stat(2350)+"  /  "+ITEM_RANK, (ISAVAILABLETOXPBUY(ITEM_STAT, ITEM_PERMISSION, ITEM_PRICE) == 1 || ISAVAILABLERANKBUY( ITEM_PERMISSION ) == 1) )
+		
+		// ============================= //
+		// SPAM WINDOW //
+		#define VIS_SPAMW (DvarString( "CLASS_spamT" ) != "")
+		
+		#define SPAMW_X 220
+		#define SPAMW_Y 170
+		#define SPAMW_W 200
+		#define SPAMW_H 140
+		
+		#define SPAMW_TITLE_X 245
+		#define SPAMW_TITLE_Y 188
+		#define SPAMW_TITLE_W 150
+		#define SPAMW_TITLE_H 20
+		
+		#define SPAMW_DESCRIPTION_X 245
+		#define SPAMW_DESCRIPTION_Y 208
+		#define SPAMW_DESCRIPTION_W 150
+		#define SPAMW_DESCRIPTION_H 64
+		
+		#define SPAMW_BUTTONS_X 245
+		#define SPAMW_BUTTONS_Y 272
+		#define SPAMW_BUTTONS_W 150
+		#define SPAMW_BUTTONS_H 20
+		
+		itemDef // blackscreen
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			0 0 640 480 0 0
+			backcolor		0 0 0 0.75
+			visible			when( VIS_SPAMW )
+		}
+		itemDef // background
+		{ 
+			style			WINDOW_STYLE_SHADER
+			rect			SPAMW_X SPAMW_Y SPAMW_W SPAMW_H 0 0
+			background		"menu_e_a"
+			visible			when( VIS_SPAMW )
+		}
+		itemDef // title
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			SPAMW_TITLE_X SPAMW_TITLE_Y SPAMW_TITLE_W SPAMW_TITLE_H 0 0
+			backcolor		1 0 0 0.5
+			visible			when( VIS_SPAMW )
+			exp				text( DvarString( "CLASS_spamT" ) );
+			textscale		FONTSCALE_SMALL
+			textalign		ITEM_ALIGN_MIDDLE_CENTER
+			decoration			
+		}	
+		itemDef // description
+		{ 
+			style			WINDOW_STYLE_FILLED
+			rect			SPAMW_DESCRIPTION_X SPAMW_DESCRIPTION_Y SPAMW_DESCRIPTION_W SPAMW_DESCRIPTION_H 0 0
+			backcolor		0 1 0 0.5
+			visible			when( VIS_SPAMW )
+			exp				text( DvarString( "CLASS_spamC" ) );
+			forecolor		1 1 1 1
+			textscale		0.3333
+			textalign		ITEM_ALIGN_TOP_LEFT
+			decoration		autowrapped	
+		}
+		itemDef // OK
+		{ 
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			SPAMW_BUTTONS_X SPAMW_BUTTONS_Y (SPAMW_BUTTONS_W*0.5) SPAMW_BUTTONS_H 0 0
+			backcolor		1 0 0 0.5
+			visible			when( VIS_SPAMW )
+			forecolor		1 1 1 1
+			text			"OK"
+			textscale		FONTSCALE_SMALL
+			textalign		ITEM_ALIGN_MIDDLE_CENTER
+			mouseEnter		{ setcolor forecolor 0 1 0 1; }
+			mouseExit		{ setcolor forecolor 1 1 1 1; }
+			action			{ play "mouse_click"; scriptMenuResponse "CLASS_spamW_OK"; }
+		}		
+		itemDef // CANCEL
+		{ 
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			(SPAMW_BUTTONS_X+(SPAMW_BUTTONS_W*0.5)) SPAMW_BUTTONS_Y (SPAMW_BUTTONS_W*0.5) SPAMW_BUTTONS_H 0 0
+			backcolor		1 0 0 0.5
+			visible			when( VIS_SPAMW )
+			forecolor		1 1 1 1
+			text			"Cancel"
+			textscale		FONTSCALE_SMALL
+			textalign		ITEM_ALIGN_MIDDLE_CENTER
+			mouseEnter		{ setcolor forecolor 0 1 0 1; }
+			mouseExit		{ setcolor forecolor 1 1 1 1; }
+			action			{ play "mouse_click"; scriptMenuResponse "CLASS_spamW_C"; }
+		}
+		
+		#include "ui/safearea.menu"*/
+	}
+}

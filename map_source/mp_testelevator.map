@@ -1,0 +1,460 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"spawnflags" "0"
+"ambient" ".02"
+"suncolor" "1 0.92 0.88"
+"sundiffusecolor" ".9 0.88 .75"
+"sundirection" "-50 240 0"
+"sunlight" "1.3"
+"_color" "1.000000 1.000000 0.000000"
+"diffusefraction" "0.5"
+"contrastGain" "0.425"
+"radiosityScale" "1.5"
+"classname" "worldspawn"
+// brush 0
+{
+ ( 944 528 20 ) ( -976 528 20 ) ( -976 -736 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -736 36 ) ( -976 528 36 ) ( 944 528 36 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -968 -402 36 ) ( 952 -402 36 ) ( 952 -402 20 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -736 36 ) ( 576 528 36 ) ( 576 528 20 ) caulk 64 64 0 -20 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 944 528 36 ) ( -976 528 36 ) ( -976 528 20 ) caulk 64 64 0 -20 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 528 36 ) ( -976 -736 36 ) ( -976 -736 20 ) caulk 64 64 0 -20 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -255 -586 28 ) ( -261 -586 28 ) ( -261 -607 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -128 184 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -607 932 ) ( -261 -586 932 ) ( -255 -586 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -128 184 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -594 236 ) ( -127 -594 236 ) ( -127 -594 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -128 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -586 236 ) ( -133 -586 28 ) ( -125 -594 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -184 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -586 28 ) ( -133 -586 236 ) ( -261 -586 236 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -586 28 ) ( -261 -586 236 ) ( -269 -594 236 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -184 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( -127 -402 28 ) ( -133 -402 28 ) ( -133 -423 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -423 932 ) ( -133 -402 932 ) ( -127 -402 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -594 236 ) ( -125 -594 28 ) ( -133 -586 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -594 28 ) ( -125 -594 236 ) ( -125 -402 236 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -127 -402 236 ) ( -133 -402 236 ) ( -133 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -586 932 ) ( -133 -586 724 ) ( -133 -402 724 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( -263 -402 28 ) ( -269 -402 28 ) ( -269 -423 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -136 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -423 932 ) ( -269 -402 932 ) ( -263 -402 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -136 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -594 28 ) ( -269 -594 236 ) ( -261 -586 236 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -136 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -586 724 ) ( -261 -586 932 ) ( -261 -402 932 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -263 -402 236 ) ( -269 -402 236 ) ( -269 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -136 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -594 236 ) ( -269 -594 28 ) ( -269 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( -111 -334 784 ) ( -285 -334 784 ) ( -285 -403 784 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -271 -403 788 ) ( -271 -334 788 ) ( -97 -334 788 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -284 -402 988 ) ( -110 -402 988 ) ( -110 -402 780 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -356 988 ) ( 63 -287 988 ) ( 63 -287 780 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -105 -162 988 ) ( -279 -162 988 ) ( -279 -162 780 ) icbm_conc_stripedwall 88 88 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -306 988 ) ( -448 -375 988 ) ( -448 -375 780 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 577 -402 20 ) ( -90 -402 20 ) ( -90 -527 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -90 -527 36 ) ( -90 -402 36 ) ( 577 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -94 -597 36 ) ( 573 -597 36 ) ( 573 -597 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -527 36 ) ( 576 -402 36 ) ( 576 -402 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -402 36 ) ( -91 -402 36 ) ( -91 -402 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -403 36 ) ( -125 -528 36 ) ( -125 -528 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( -268 -403 20 ) ( -935 -403 20 ) ( -935 -528 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -845 1 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -935 -528 36 ) ( -935 -403 36 ) ( -268 -403 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -845 1 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -939 -598 36 ) ( -272 -598 36 ) ( -272 -598 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -845 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -528 36 ) ( -269 -403 36 ) ( -269 -403 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -1 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -268 -402 36 ) ( -935 -402 36 ) ( -935 -402 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -845 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -404 36 ) ( -976 -529 36 ) ( -976 -529 20 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -1 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( -132.5 -398 163.5 ) ( -175.5 -398 163.5 ) ( -175.5 -402 163.5 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -176 -402 194 ) ( -176 -398 194 ) ( -133 -398 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -176 -402 194 ) ( -133 -402 194 ) ( -133 -402 161 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -402 194 ) ( -133 -398 194 ) ( -133 -398 161 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -398.5 194 ) ( -176 -398.5 194 ) ( -176 -398.5 161 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -398 193 ) ( -261 -402 193 ) ( -261 -402 160 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( -75 -274 194 ) ( -261 -274 194 ) ( -261 -281 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -248 -281 784 ) ( -248 -274 784 ) ( -62 -274 784 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -281 242 ) ( -75 -281 242 ) ( -75 -281 197 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -281 242 ) ( -75 -274 242 ) ( -75 -274 197 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -274 242 ) ( -261 -274 242 ) ( -261 -274 197 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -274 241 ) ( -319 -281 241 ) ( -319 -281 196 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( -133 -398 194 ) ( -261 -398 194 ) ( -261 -402 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -258 -400 784 ) ( -258 -396 784 ) ( -130 -396 784 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -402 201 ) ( -133 -402 201 ) ( -133 -402 194 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -402 201 ) ( -125 -398 201 ) ( -125 -398 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -398.5 201 ) ( -261 -398.5 201 ) ( -261 -398.5 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -397.5 201 ) ( -269 -401.5 201 ) ( -269 -401.5 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( -306.5 -398.5 190 ) ( -316 -398.5 190 ) ( -316 -402 190 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315.5 -402 194 ) ( -315.5 -398.5 194 ) ( -306 -398.5 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315.5 -398.5 194 ) ( -306 -398.5 194 ) ( -306 -398.5 189 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -402 191 ) ( -79 -398.5 191 ) ( -79 -398.5 186 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -306 -274 192.5 ) ( -315.5 -274 192.5 ) ( -315.5 -274 187.5 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315 -398.5 194 ) ( -315 -402 194 ) ( -315 -402 189 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( -125 -398.5 788 ) ( -131 -398.5 788 ) ( -131 -402 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -402 932 ) ( -133 -398.5 932 ) ( -127 -398.5 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -402 988 ) ( -127 -402 988 ) ( -127 -402 780 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -406 988 ) ( 63 -402.5 988 ) ( 63 -402.5 780 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -127 -398.5 988 ) ( -133 -398.5 988 ) ( -133 -398.5 780 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -398.5 996 ) ( -133 -402 996 ) ( -133 -402 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 63 -386.5 788 ) ( 60.5 -386.5 788 ) ( 60.5 -398 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 60.5 -398 932 ) ( 60.5 -386.5 932 ) ( 63 -386.5 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 60.5 -398.5 988 ) ( 63 -398.5 988 ) ( 63 -398.5 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -398 988 ) ( 63 -386.5 988 ) ( 63 -386.5 788 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 70.5 -162 988 ) ( 68 -162 988 ) ( 68 -162 788 ) icbm_conc_stripedwall 88 88 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -387 932 ) ( 58 -398.5 932 ) ( 58 -398.5 732 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( -443 -387 788 ) ( -445.5 -387 788 ) ( -445.5 -398.5 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -506 0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -445.5 -398.5 932 ) ( -445.5 -387 932 ) ( -443 -387 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -506 0.5 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -445.5 -398.5 988 ) ( -443 -398.5 988 ) ( -443 -398.5 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -506 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -443 -398.5 932 ) ( -443 -387 932 ) ( -443 -387 732 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -435.5 -162 988 ) ( -438 -162 988 ) ( -438 -162 788 ) icbm_conc_stripedwall 88 88 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -387.5 988 ) ( -448 -399 988 ) ( -448 -399 788 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( -449 -398.5 788 ) ( -455 -398.5 788 ) ( -455 -402 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -324 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -457 -402 932 ) ( -457 -398.5 932 ) ( -451 -398.5 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -324 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -457 -402 988 ) ( -451 -402 988 ) ( -451 -402 780 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -324 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -406 924 ) ( -261 -402.5 924 ) ( -261 -402.5 716 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -451 -398.5 988 ) ( -457 -398.5 988 ) ( -457 -398.5 780 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -399 988 ) ( -448 -402.5 988 ) ( -448 -402.5 780 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( -294 -162 788 ) ( -441 -162 788 ) ( -441 -171 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -171 823 ) ( -448 -162 823 ) ( -301 -162 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -441 -167 932 ) ( -294 -167 932 ) ( -294 -167 788 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -183 932 ) ( 58 -174 932 ) ( 58 -174 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -294 -162 932 ) ( -441 -162 932 ) ( -441 -162 788 ) icbm_conc_stripedwall 88 88 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -443 -162 932 ) ( -443 -171 932 ) ( -443 -171 788 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 58 -162 823 ) ( 22 -162 823 ) ( 22 -167 823 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 23 -167 895 ) ( 23 -162 895 ) ( 59 -162 895 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 22 -167 895 ) ( 58 -167 895 ) ( 58 -167 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -167 895 ) ( 58 -162 895 ) ( 58 -162 823 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -162 895 ) ( 22 -162 895 ) ( 22 -162 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7 -162 895 ) ( 7 -167 895 ) ( 7 -167 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( -392 -162 823 ) ( -428 -162 823 ) ( -428 -167 823 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -450 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -427 -167 895 ) ( -427 -162 895 ) ( -391 -162 895 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -450 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -428 -167 895 ) ( -392 -167 895 ) ( -392 -167 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -392 -167 895 ) ( -392 -162 895 ) ( -392 -162 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -392 -162 895 ) ( -428 -162 895 ) ( -428 -162 823 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -443 -162 895 ) ( -443 -167 895 ) ( -443 -167 823 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( -294 -162 895 ) ( -441 -162 895 ) ( -441 -171 895 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -171 932 ) ( -448 -162 932 ) ( -301 -162 932 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -441 -167 1041 ) ( -294 -167 1041 ) ( -294 -167 897 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -183 1041 ) ( 58 -174 1041 ) ( 58 -174 897 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 -109 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -294 -162 1039 ) ( -441 -162 1039 ) ( -441 -162 895 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -443 -162 1041 ) ( -443 -171 1041 ) ( -443 -171 897 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 -109 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 58 -162 932 ) ( -443 -162 932 ) ( -443 -164 932 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -443 -164 941 ) ( -443 -162 941 ) ( 58 -162 941 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -441 -594 936 ) ( 60 -594 936 ) ( 60 -594 927 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 63 -164 941 ) ( 63 -162 941 ) ( 63 -162 932 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 58 -162 941 ) ( -443 -162 941 ) ( -443 -162 932 ) icbm_conc_stripedwall 88 88 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -448 -161 941 ) ( -448 -163 941 ) ( -448 -163 932 ) ch_ground_road_concrete01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( -126 -395 36 ) ( -133 -395 36 ) ( -133 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -131 -402 194 ) ( -131 -395 194 ) ( -124 -395 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -402 236 ) ( -126 -402 236 ) ( -126 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -420 244 ) ( -79 -413 244 ) ( -79 -413 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -116 -398.5 236 ) ( -123 -398.5 236 ) ( -123 -398.5 28 ) ch_concrete_floor01 128 128 6 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -133 -395 244 ) ( -133 -402 244 ) ( -133 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( -308.5 -395 36 ) ( -315.5 -395 36 ) ( -315.5 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -182.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -313.5 -402 194 ) ( -313.5 -395 194 ) ( -306.5 -395 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -182.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315.5 -402 236 ) ( -308.5 -402 236 ) ( -308.5 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -182.5 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -261 -420 243 ) ( -261 -413 243 ) ( -261 -413 35 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -298.5 -398.5 236 ) ( -305.5 -398.5 236 ) ( -305.5 -398.5 28 ) ch_concrete_floor01 128 128 7 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315 -395 243 ) ( -315 -402 243 ) ( -315 -402 35 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( -319 -402 194 ) ( -319 -383 194 ) ( -315 -383 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -402 194 ) ( -315 -402 194 ) ( -315 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315 -402 201 ) ( -315 -383 201 ) ( -315 -383 35 ) ch_concrete_floor01 128 128 6 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -317 -274 193 ) ( -321 -274 193 ) ( -321 -274 27 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -383 201 ) ( -319 -402 201 ) ( -319 -402 35 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( -315 -383 36 ) ( -319 -383 36 ) ( -319 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -402 194 ) ( -315 -402 194 ) ( -315 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -315 -402 201 ) ( -315 -383 201 ) ( -315 -383 35 ) ch_concrete_floor01 128 128 6 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -317 -274 193 ) ( -321 -274 193 ) ( -321 -274 27 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -383 201 ) ( -319 -402 201 ) ( -319 -402 35 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( -698 -278 784 ) ( -698 -274 784 ) ( -682 -274 784 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -699 -279 194 ) ( -683 -279 194 ) ( -683 -279 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -623 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -276 791 ) ( -319 -272 791 ) ( -319 -272 625 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -682 -274 193 ) ( -698 -274 193 ) ( -698 -274 27 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -286 194 ) ( -976 -290 194 ) ( -976 -290 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( -682 -274 36 ) ( -698 -274 36 ) ( -698 -278 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -623 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -699 -279 194 ) ( -683 -279 194 ) ( -683 -279 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 -623 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -319 -276 791 ) ( -319 -272 791 ) ( -319 -272 625 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -682 -274 193 ) ( -698 -274 193 ) ( -698 -274 27 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -286 194 ) ( -976 -290 194 ) ( -976 -290 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( -976 -275 784 ) ( -976 -232 784 ) ( -967 -232 784 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -274 193 ) ( -967 -274 193 ) ( -967 -274 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -970 -275 791 ) ( -970 -232 791 ) ( -970 -232 625 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -936 528 194 ) ( -945 528 194 ) ( -945 528 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -231 194 ) ( -976 -274 194 ) ( -976 -274 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( -967 -232 36 ) ( -976 -232 36 ) ( -976 -275 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -274 193 ) ( -967 -274 193 ) ( -967 -274 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -970 -275 791 ) ( -970 -232 791 ) ( -970 -232 625 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -936 528 194 ) ( -945 528 194 ) ( -945 528 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -976 -231 194 ) ( -976 -274 194 ) ( -976 -274 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( -969 523 784 ) ( -969 529 784 ) ( -932 529 784 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -969 523 193 ) ( -932 523 193 ) ( -932 523 27 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 521 194 ) ( 576 527 194 ) ( 576 527 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -930 528 194 ) ( -967 528 194 ) ( -967 528 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -970 529 791 ) ( -970 523 791 ) ( -970 523 625 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( -932 529 36 ) ( -969 529 36 ) ( -969 523 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -969 523 193 ) ( -932 523 193 ) ( -932 523 27 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 521 194 ) ( 576 527 194 ) ( 576 527 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -930 528 194 ) ( -967 528 194 ) ( -967 528 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -970 529 791 ) ( -970 523 791 ) ( -970 523 625 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 570 489 784 ) ( 570 523 784 ) ( 576 523 784 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 566 -274 193 ) ( 572 -274 193 ) ( 572 -274 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -275 194 ) ( 576 -241 194 ) ( 576 -241 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 523 193 ) ( 570 523 193 ) ( 570 523 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 571 523 791 ) ( 571 489 791 ) ( 571 489 625 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 576 523 36 ) ( 570 523 36 ) ( 570 489 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 566 -274 193 ) ( 572 -274 193 ) ( 572 -274 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -275 194 ) ( 576 -241 194 ) ( 576 -241 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 523 193 ) ( 570 523 193 ) ( 570 523 27 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 571 523 791 ) ( 571 489 791 ) ( 571 489 625 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 32
+{
+ ( -75 -278 784 ) ( -75 -274 784 ) ( -59 -274 784 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 202 -281 194 ) ( 218 -281 194 ) ( 218 -281 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -279 194 ) ( 576 -275 194 ) ( 576 -275 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -274 194 ) ( -75 -274 194 ) ( -75 -274 28 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -274 792 ) ( -75 -278 792 ) ( -75 -278 626 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -63 -274 94 ) ( -51 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 33
+{
+ ( -59 -274 36 ) ( -75 -274 36 ) ( -75 -278 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 202 -281 194 ) ( 218 -281 194 ) ( 218 -281 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 576 -279 194 ) ( 576 -275 194 ) ( 576 -275 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -59 -274 194 ) ( -75 -274 194 ) ( -75 -274 28 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -274 792 ) ( -75 -278 792 ) ( -75 -278 626 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -51 -274 94 ) ( -63 -274 94 ) ( -63 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 34
+{
+ ( -75 -383 36 ) ( -79 -383 36 ) ( -79 -402 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 240 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -402 194 ) ( -75 -402 194 ) ( -75 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 240 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -402 202 ) ( -75 -383 202 ) ( -75 -383 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -77 -274 194 ) ( -81 -274 194 ) ( -81 -274 28 ) icbm_conc_stripedwall 96 96 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -383 202 ) ( -79 -402 202 ) ( -79 -402 36 ) ch_concrete_floor01 128 128 6 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 -274 94 ) ( -4 -274 94 ) ( 1 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 35
+{
+ ( -79 -402 194 ) ( -79 -383 194 ) ( -75 -383 194 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 240 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -402 194 ) ( -75 -402 194 ) ( -75 -402 28 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 240 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -75 -402 202 ) ( -75 -383 202 ) ( -75 -383 36 ) clip_nosight_for_bridge_on_jeepride_fire_clip 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -77 -274 194 ) ( -81 -274 194 ) ( -81 -274 28 ) ch_concretewall02 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -79 -383 202 ) ( -79 -402 202 ) ( -79 -402 36 ) ch_concrete_floor01 128 128 6 4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 -274 94 ) ( 1 -274 94 ) ( 1 -242 94 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 36
+{
+ ( -1400 -952 -312 ) ( 992 -952 -312 ) ( 992 912 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 -944 -304 ) ( -1392 904 -304 ) ( 984 904 -304 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1400 -944 -304 ) ( 992 -944 -304 ) ( 992 -952 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 984 -944 -304 ) ( 984 904 -304 ) ( 992 912 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 992 904 -304 ) ( -1400 904 -304 ) ( -1400 912 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 904 -304 ) ( -1392 -944 -304 ) ( -1400 -952 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 37
+{
+ ( 992 -944 -304 ) ( -1400 -944 -304 ) ( -1400 -952 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1400 -944 1160 ) ( 992 -944 1160 ) ( 992 -952 1168 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1400 -952 -256 ) ( 992 -952 -256 ) ( 992 -952 -288 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 984 -944 1160 ) ( 984 -944 -304 ) ( 992 -952 -312 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 -944 1160 ) ( -1392 -944 -304 ) ( 984 -944 -304 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 -944 -304 ) ( -1392 -944 1160 ) ( -1400 -952 1168 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 38
+{
+ ( -1399.9996 904.00488 -304 ) ( 991.99976 903.99536 -304 ) ( 991.99976 911.99512 -312 ) caulk 64 -64.001465 407.97009 640.05035 -180 1.5259138e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( 991.99976 903.99536 1160 ) ( -1399.9996 904.00488 1160 ) ( -1399.9999 912.00464 1168 ) caulk 64 64 407.98987 215.97705 180 -1.5258789e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( 991.99976 911.99512 -256 ) ( -1399.9999 912.00464 -256 ) ( -1399.9999 912.00464 -288 ) caulk 64 -64 408 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392.0001 904.00452 1160 ) ( -1392.0001 904.00452 -304 ) ( -1399.9999 912.00464 -312 ) caulk 64 -64 40.00647 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99976 903.99524 1160 ) ( 983.99976 903.99524 -304 ) ( -1392.0001 904.00452 -304 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99976 903.99524 -304 ) ( 983.99976 903.99524 1160 ) ( 991.99976 911.99512 1168 ) caulk 64 -64 -40.013611 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 39
+{
+ ( -1392 -1480 -304 ) ( -1392 912 -304 ) ( -1400 912 -312 ) caulk 64 64 503.98505 -1224.0393 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 912 1160 ) ( -1392 -1480 1160 ) ( -1400 -1480 1168 ) caulk 64 64 487.99463 703.98389 -90 -1.5258789e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( -1400 912 -256 ) ( -1400 -1480 -256 ) ( -1400 -1480 -288 ) caulk 64 -64 488 0 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1360 -912 1160 ) ( -1360 -912 -304 ) ( -1368 -920 -312 ) caulk 64 64 -431.99316 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 904 1160 ) ( -1392 904 -304 ) ( -1392 -1472 -304 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1392 904 -304 ) ( -1392 904 1160 ) ( -1400 912 1168 ) caulk 64.001953 -64 -39.987183 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 40
+{
+ ( 984.00403 1439.9999 -304 ) ( 983.99756 -951.99988 -304 ) ( 991.99756 -952 -312 ) caulk 64 64 96.05407 -1184.1445 0 -0.00039672852 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99756 -951.99988 1160 ) ( 984.00403 1439.9999 1160 ) ( 992.00403 1439.9999 1168 ) caulk 64 64 448.01758 295.98547 90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 991.99756 -952 -256 ) ( 992.00403 1439.9999 -256 ) ( 992.00403 1439.9999 -288 ) caulk 64 64 448 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 952.00244 871.99994 1160 ) ( 952.00244 871.99994 -304 ) ( 960.00232 880.00037 -312 ) caulk 64.003418 -64 -391.96747 0 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99756 -943.99988 1160 ) ( 983.99756 -943.99988 -304 ) ( 984.00378 1432 -304 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99756 -943.99988 -304 ) ( 983.99756 -943.99988 1160 ) ( 991.99756 -952 1168 ) caulk 64.00293 64 -79.973755 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 41
+{
+ ( 991.99988 -952 1167.9999 ) ( -1399.9998 -952 1167.9999 ) ( -1399.9998 912 1167.9999 ) caulk 64 -64 408 0 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99963 -944 1160 ) ( 983.99963 904 1160 ) ( -1391.9999 904 1160 ) sky_cobra 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 991.99988 -944 1160 ) ( -1399.9998 -944 1159.9999 ) ( -1399.9998 -952 1167.9999 ) caulk 64 -64 407.98547 -0.042055301 180 -1.5258789e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( -1391.9999 -944 1160 ) ( -1391.9999 904 1160 ) ( -1399.9998 912 1167.9999 ) caulk 64 -64 408.01416 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1399.9998 904 1159.9999 ) ( 991.99988 904 1160 ) ( 991.99988 912 1167.9999 ) caulk 64 -64 408.02759 0 180 -3.0517578e-005 lightmap_gray 16384 16384 0 0 0 0
+ ( 983.99963 904 1160 ) ( 983.99963 -944 1160 ) ( 991.99988 -952 1167.9999 ) caulk 64.001953 -64 408.04285 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 42
+{
+ ( 572 136 48 ) ( -985 136 48 ) ( -985 120 48 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -985 120 949 ) ( -985 136 949 ) ( 572 136 949 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -985 -593 980 ) ( 572 -593 980 ) ( 572 -593 79 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 572 120 949 ) ( 572 136 949 ) ( 572 136 48 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 572 510 899 ) ( -985 510 899 ) ( -985 510 -2 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -985 136 949 ) ( -985 120 949 ) ( -985 120 48 ) lightgrid_volume 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 43
+{
+ ( -125 -403 20 ) ( -268.5 -403 20 ) ( -268.5 -598 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -268.5 -594.5 29 ) ( -268.5 -399.5 29 ) ( -125 -399.5 29 ) ch_concrete_floor01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -268.5 -594.5 36 ) ( -125 -594.5 36 ) ( -125 -594.5 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -594.5 36 ) ( -125 -399.5 36 ) ( -125 -399.5 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -125 -402 36 ) ( -268.5 -402 36 ) ( -268.5 -402 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -269 -399.5 36 ) ( -269 -594.5 36 ) ( -269 -594.5 20 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+"origin" "-197.0 -401.0 784.0"
+"classname" "misc_prefab"
+"model" "prefabs/gatestop.map"
+}
+// entity 2
+{
+"origin" "-170.0 189.0 44.0"
+"angles" "0 270 0"
+"classname" "mp_dm_spawn"
+}
+// entity 3
+{
+"origin" "-168.0 192.0 40.0"
+"angles" "0 270 0"
+"classname" "mp_tdm_spawn"
+}
+// entity 4
+{
+"origin" "-168.0 192.0 40.0"
+"angles" "0 270 0"
+"classname" "mp_tdm_spawn_allies_start"
+}
+// entity 5
+{
+"origin" "-168.0 192.0 40.0"
+"angles" "0 270 0"
+"classname" "mp_tdm_spawn_axis_start"
+}
+// entity 6
+{
+"origin" "328.0 296.0 1048.0"
+"angles" "39.3128 217.676 -0.137431"
+"classname" "mp_global_intermission"
+}
+// entity 7
+{
+"origin" "-195.0 128.0 346.0"
+"classname" "reflection_probe"
+}
+// entity 8
+{
+"classname" "misc_prefab"
+"model" "prefabs/elevatorcage.map"
+"origin" "-197.0 -490.0 32.0"
+}

@@ -1,0 +1,42 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+}
+// entity 1
+{
+"brushmodel" "mp_space_ship.map"
+"classname" "script_brushmodel"
+// brush 0
+{
+ ( 304 256 -2032 ) ( 208 256 -2032 ) ( 208 160 -2032 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 208 160 -2000 ) ( 208 256 -2000 ) ( 304 256 -2000 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 208 160 -2000 ) ( 304 160 -2000 ) ( 304 160 -2032 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 304 160 -2000 ) ( 304 256 -2000 ) ( 304 256 -2032 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 304 256 -2000 ) ( 208 256 -2000 ) ( 208 256 -2032 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 208 256 -2000 ) ( 208 160 -2000 ) ( 208 160 -2032 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 2
+{
+"classname" "trigger_use_touch"
+"targetname" "brod_trigger1"
+// brush 0
+{
+ ( 144 160 396 ) ( 48 160 396 ) ( 48 80 396 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -64 80 468 ) ( -64 160 468 ) ( 32 160 468 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -48 1868 ) ( 96 -48 1868 ) ( 96 -48 -1924 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 144 80 4140 ) ( 144 160 4140 ) ( 144 160 348 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 184 1864 ) ( 0 184 1864 ) ( 0 184 -1928 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 160 1868 ) ( 0 80 1868 ) ( 0 80 -1924 ) trigger 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 3
+{
+"classname" "misc_prefab"
+"model" "mp_ship.map"
+"targetname" "brod"
+"origin" "80.0 80.0 16.0"
+}

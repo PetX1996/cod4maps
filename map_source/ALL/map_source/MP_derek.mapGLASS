@@ -1,0 +1,502 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 112 -64 0 ) ( -144 -64 0 ) ( -144 -208 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -400 16 ) ( 112 -400 16 ) ( 112 -400 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 16 ) ( 256 -112 16 ) ( 256 -112 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 16 ) ( -160 64 16 ) ( -160 64 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -224 -64 16 ) ( -224 -208 16 ) ( -224 -208 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -64 16 ) ( 112 -64 16 ) ( -144 -208 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( -144 -256 256 ) ( -144 -112 256 ) ( 112 -112 256 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -400 16 ) ( 112 -400 16 ) ( 112 -400 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 16 ) ( 256 -112 16 ) ( 256 -112 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 16 ) ( -160 64 16 ) ( -160 64 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -224 -64 16 ) ( -224 -208 16 ) ( -224 -208 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -112 240 ) ( -144 -256 240 ) ( 112 -112 240 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 112 -64 0 ) ( -144 -64 0 ) ( -144 -208 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -256 256 ) ( -144 -112 256 ) ( 112 -112 256 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -400 16 ) ( 112 -400 16 ) ( 112 -400 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 16 ) ( 256 -112 16 ) ( 256 -112 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -224 -64 16 ) ( -224 -208 16 ) ( -224 -208 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 -384 16 ) ( -144 -384 16 ) ( 112 -384 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 112 -64 16 ) ( -144 -64 16 ) ( -144 -208 16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -256 256 ) ( -144 -112 256 ) ( 112 -112 256 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -176 0 ) ( 112 -176 0 ) ( 112 -176 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -256 16 ) ( 256 -112 16 ) ( 256 -112 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 16 ) ( -160 64 16 ) ( -160 64 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 240 -112 32 ) ( 240 -256 32 ) ( 240 -112 16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 96 -64 16 ) ( -160 -64 16 ) ( -160 -208 16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -256 256 ) ( -144 -112 256 ) ( 112 -112 256 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -112 -256 16 ) ( -112 -112 16 ) ( -112 -112 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 16 ) ( -160 64 16 ) ( -160 64 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -224 -64 16 ) ( -224 -208 16 ) ( -224 -208 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -160 48 16 ) ( 96 48 16 ) ( -160 48 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 112 -64 0 ) ( -144 -64 0 ) ( -144 -208 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -256 256 ) ( -144 -112 256 ) ( 112 -112 256 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 -400 16 ) ( 112 -400 16 ) ( 112 -400 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 16 ) ( -160 64 16 ) ( -160 64 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -224 -64 16 ) ( -224 -208 16 ) ( -224 -208 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 -208 16 ) ( -208 -64 16 ) ( -208 -208 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 128 1120 0 ) ( -128 1120 0 ) ( -128 976 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 784 16 ) ( 128 784 16 ) ( 128 784 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 928 16 ) ( 272 1072 16 ) ( 272 1072 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 1248 16 ) ( -144 1248 16 ) ( -144 1248 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 1120 16 ) ( -208 976 16 ) ( -208 976 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 1120 16 ) ( 128 1120 16 ) ( -128 976 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( -128 928 256 ) ( -128 1072 256 ) ( 128 1072 256 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 784 16 ) ( 128 784 16 ) ( 128 784 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 928 16 ) ( 272 1072 16 ) ( 272 1072 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 1248 16 ) ( -144 1248 16 ) ( -144 1248 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 1120 16 ) ( -208 976 16 ) ( -208 976 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 1072 240 ) ( -128 928 240 ) ( 128 1072 240 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( 128 1120 0 ) ( -128 1120 0 ) ( -128 976 0 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 928 256 ) ( -128 1072 256 ) ( 128 1072 256 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 784 16 ) ( 128 784 16 ) ( 128 784 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -80 928 0 ) ( -80 1072 0 ) ( -80 1072 -16 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 1120 16 ) ( -208 976 16 ) ( -208 976 0 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 800 16 ) ( -128 800 16 ) ( 128 800 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 128 1120 0 ) ( -128 1120 0 ) ( -128 976 0 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 928 256 ) ( -128 1072 256 ) ( 128 1072 256 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 784 16 ) ( 128 784 16 ) ( 128 784 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 928 16 ) ( 272 1072 16 ) ( 272 1072 0 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 880 16 ) ( -144 880 16 ) ( -144 880 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 1072 16 ) ( 256 928 16 ) ( 256 1072 0 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 128 1120 0 ) ( -128 1120 0 ) ( -128 976 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 928 256 ) ( -128 1072 256 ) ( 128 1072 256 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 928 16 ) ( 272 1072 16 ) ( 272 1072 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 1248 16 ) ( -144 1248 16 ) ( -144 1248 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 1120 16 ) ( -208 976 16 ) ( -208 976 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -144 1232 16 ) ( 112 1232 16 ) ( -144 1232 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 128 1120 0 ) ( -128 1120 0 ) ( -128 976 0 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 928 256 ) ( -128 1072 256 ) ( 128 1072 256 ) ac_building_roof01 64 64 -32 -960 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -128 784 16 ) ( 128 784 16 ) ( 128 784 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 1248 16 ) ( -144 1248 16 ) ( -144 1248 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -208 1120 16 ) ( -208 976 16 ) ( -208 976 0 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -192 976 16 ) ( -192 1120 16 ) ( -192 976 0 ) ac_building_roof01 64 64 960 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( 1744 1120 0 ) ( 1488 1120 0 ) ( 1488 976 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 784 16 ) ( 1744 784 16 ) ( 1744 784 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 928 16 ) ( 1888 1072 16 ) ( 1888 1072 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 1248 16 ) ( 1472 1248 16 ) ( 1472 1248 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1120 16 ) ( 1408 976 16 ) ( 1408 976 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 1120 16 ) ( 1744 1120 16 ) ( 1488 976 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 1488 928 256 ) ( 1488 1072 256 ) ( 1744 1072 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 784 16 ) ( 1744 784 16 ) ( 1744 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 928 16 ) ( 1888 1072 16 ) ( 1888 1072 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 1248 16 ) ( 1472 1248 16 ) ( 1472 1248 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1120 16 ) ( 1408 976 16 ) ( 1408 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 1072 240 ) ( 1488 928 240 ) ( 1744 1072 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ ( 1744 1120 0 ) ( 1488 1120 0 ) ( 1488 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 928 256 ) ( 1488 1072 256 ) ( 1744 1072 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 784 16 ) ( 1744 784 16 ) ( 1744 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 928 16 ) ( 1888 1072 16 ) ( 1888 1072 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 1120 -32 ) ( 1664 976 -32 ) ( 1664 976 -48 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 800 16 ) ( 1488 800 16 ) ( 1744 800 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ ( 1744 1120 0 ) ( 1488 1120 0 ) ( 1488 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 928 256 ) ( 1488 1072 256 ) ( 1744 1072 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 784 16 ) ( 1744 784 16 ) ( 1744 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 928 16 ) ( 1888 1072 16 ) ( 1888 1072 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 1248 16 ) ( 1472 1248 16 ) ( 1472 1248 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1872 1072 16 ) ( 1872 928 16 ) ( 1872 1072 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ ( 1744 1120 0 ) ( 1488 1120 0 ) ( 1488 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 928 256 ) ( 1488 1072 256 ) ( 1744 1072 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 928 16 ) ( 1888 1072 16 ) ( 1888 1072 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 1248 16 ) ( 1472 1248 16 ) ( 1472 1248 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1120 16 ) ( 1408 976 16 ) ( 1408 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1472 1232 16 ) ( 1728 1232 16 ) ( 1472 1232 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ ( 1744 1120 0 ) ( 1488 1120 0 ) ( 1488 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 928 256 ) ( 1488 1072 256 ) ( 1744 1072 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 1088 -16 ) ( 1744 1088 -16 ) ( 1744 1088 -32 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 1248 16 ) ( 1472 1248 16 ) ( 1472 1248 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1120 16 ) ( 1408 976 16 ) ( 1408 976 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 1040 0 ) ( 1424 1184 0 ) ( 1424 1040 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ ( 1760 -80 0 ) ( 1504 -80 0 ) ( 1504 -224 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -416 16 ) ( 1760 -416 16 ) ( 1760 -416 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1904 -272 16 ) ( 1904 -128 16 ) ( 1904 -128 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 48 16 ) ( 1488 48 16 ) ( 1488 48 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -80 16 ) ( 1424 -224 16 ) ( 1424 -224 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -80 16 ) ( 1760 -80 16 ) ( 1504 -224 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ ( 1504 -272 256 ) ( 1504 -128 256 ) ( 1760 -128 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -416 16 ) ( 1760 -416 16 ) ( 1760 -416 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1904 -272 16 ) ( 1904 -128 16 ) ( 1904 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 48 16 ) ( 1488 48 16 ) ( 1488 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -80 16 ) ( 1424 -224 16 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -128 240 ) ( 1504 -272 240 ) ( 1760 -128 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ ( 1760 -80 0 ) ( 1504 -80 0 ) ( 1504 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -272 256 ) ( 1504 -128 256 ) ( 1760 -128 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -416 16 ) ( 1760 -416 16 ) ( 1760 -416 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1904 -272 16 ) ( 1904 -128 16 ) ( 1904 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -80 16 ) ( 1424 -224 16 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1760 -400 16 ) ( 1504 -400 16 ) ( 1760 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 21
+{
+ ( 1760 -80 0 ) ( 1504 -80 0 ) ( 1504 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -272 256 ) ( 1504 -128 256 ) ( 1760 -128 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -416 16 ) ( 1760 -416 16 ) ( 1760 -416 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1904 -272 16 ) ( 1904 -128 16 ) ( 1904 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 48 16 ) ( 1488 48 16 ) ( 1488 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1888 -128 16 ) ( 1888 -272 16 ) ( 1888 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 22
+{
+ ( 1760 -80 16 ) ( 1504 -80 16 ) ( 1504 -224 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -272 256 ) ( 1504 -128 256 ) ( 1760 -128 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1904 -272 16 ) ( 1904 -128 16 ) ( 1904 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 48 16 ) ( 1488 48 16 ) ( 1488 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 -80 0 ) ( 1664 -224 0 ) ( 1664 -224 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1488 32 16 ) ( 1744 32 16 ) ( 1488 32 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 23
+{
+ ( 1760 -80 0 ) ( 1504 -80 0 ) ( 1504 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -272 256 ) ( 1504 -128 256 ) ( 1760 -128 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1504 -128 -16 ) ( 1760 -128 -16 ) ( 1760 -128 -32 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1744 48 16 ) ( 1488 48 16 ) ( 1488 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -80 16 ) ( 1424 -224 16 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 -224 16 ) ( 1440 -80 16 ) ( 1440 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 24
+{
+ ( 1408 1088 0 ) ( 272 1088 0 ) ( 272 880 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 880 16 ) ( 1408 880 16 ) ( 1408 880 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 864 16 ) ( 1408 1072 16 ) ( 1408 1072 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1088 16 ) ( 272 1088 16 ) ( 272 1088 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 16 ) ( 272 864 16 ) ( 272 864 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1088 16 ) ( 1408 1088 16 ) ( 272 880 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 25
+{
+ ( 272 864 256 ) ( 272 1072 256 ) ( 1408 1072 256 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 880 16 ) ( 1408 880 16 ) ( 1408 880 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 864 16 ) ( 1408 1072 16 ) ( 1408 1072 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1088 16 ) ( 272 1088 16 ) ( 272 1088 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 16 ) ( 272 864 16 ) ( 272 864 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 240 ) ( 272 864 240 ) ( 1408 1072 240 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 26
+{
+ ( 1408 1088 16 ) ( 272 1088 16 ) ( 272 880 16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 864 240 ) ( 272 1072 240 ) ( 1408 1072 240 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 880 16 ) ( 1408 880 16 ) ( 1408 880 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 864 16 ) ( 1408 1072 16 ) ( 1408 1072 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 16 ) ( 272 864 16 ) ( 272 864 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 896 16 ) ( 272 896 16 ) ( 1408 896 0 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 27
+{
+ ( 1424 1088 304 ) ( 288 1088 304 ) ( 288 880 304 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 864 320 ) ( 272 1072 320 ) ( 1408 1072 320 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 64 ) ( 1408 1072 64 ) ( 1408 1072 48 ) ac_building_roof01 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 864 80 ) ( 1408 1072 80 ) ( 1408 1072 64 ) ac_building_roof01 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1088 80 ) ( 272 1088 80 ) ( 272 1088 64 ) ac_building_roof01 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1392 1072 80 ) ( 1392 864 80 ) ( 1392 1072 64 ) ac_building_roof01 64 64 0 -64 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 28
+{
+ ( 1408 1088 16 ) ( 272 1088 16 ) ( 272 880 16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 864 240 ) ( 272 1072 240 ) ( 1408 1072 240 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 864 16 ) ( 1408 1072 16 ) ( 1408 1072 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 1088 16 ) ( 304 1088 16 ) ( 304 1088 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 288 1072 16 ) ( 288 864 16 ) ( 288 864 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 16 ) ( 1408 1072 16 ) ( 272 1072 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 29
+{
+ ( 1408 1088 0 ) ( 272 1088 0 ) ( 272 880 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 864 256 ) ( 272 1072 256 ) ( 1408 1072 256 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1056 -16 ) ( 1408 1056 -16 ) ( 1408 1056 -32 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 1232 16 ) ( 272 1232 16 ) ( 272 1232 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 1072 16 ) ( 272 864 16 ) ( 272 864 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 288 864 16 ) ( 288 1072 16 ) ( 288 864 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 30
+{
+ ( 1728 768 0 ) ( 1552 768 0 ) ( 1552 64 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 16 ) ( 1728 48 16 ) ( 1728 48 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 48 16 ) ( 1664 752 16 ) ( 1664 752 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 784 16 ) ( 1552 784 16 ) ( 1552 784 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 752 0 ) ( 1440 48 0 ) ( 1440 48 -16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 768 16 ) ( 1728 768 16 ) ( 1552 64 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 31
+{
+ ( 1552 48 256 ) ( 1552 752 256 ) ( 1728 752 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 16 ) ( 1728 48 16 ) ( 1728 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 48 16 ) ( 1664 752 16 ) ( 1664 752 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 784 16 ) ( 1552 784 16 ) ( 1552 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 752 0 ) ( 1440 48 0 ) ( 1440 48 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 752 240 ) ( 1552 48 240 ) ( 1728 752 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 32
+{
+ ( 1728 768 0 ) ( 1552 768 0 ) ( 1552 64 0 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 256 ) ( 1552 752 256 ) ( 1728 752 256 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 16 ) ( 1728 48 16 ) ( 1728 48 0 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 48 16 ) ( 1664 752 16 ) ( 1664 752 0 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1648 752 0 ) ( 1648 48 0 ) ( 1648 48 -16 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1760 64 16 ) ( 1584 64 16 ) ( 1760 64 0 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 33
+{
+ ( 1728 768 0 ) ( 1552 768 0 ) ( 1552 64 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 256 ) ( 1552 752 256 ) ( 1728 752 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 16 ) ( 1728 48 16 ) ( 1728 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 48 16 ) ( 1664 752 16 ) ( 1664 752 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 784 16 ) ( 1552 784 16 ) ( 1552 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1648 752 16 ) ( 1648 48 16 ) ( 1648 752 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 34
+{
+ ( 1728 768 16 ) ( 1552 768 16 ) ( 1552 64 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 256 ) ( 1552 752 256 ) ( 1728 752 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 48 0 ) ( 1440 752 0 ) ( 1440 752 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1664 784 32 ) ( 1488 784 32 ) ( 1488 784 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1392 752 0 ) ( 1392 48 0 ) ( 1392 48 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1520 768 16 ) ( 1696 768 16 ) ( 1520 768 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 35
+{
+ ( 1728 768 0 ) ( 1552 768 0 ) ( 1552 64 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 256 ) ( 1552 752 256 ) ( 1728 752 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1552 48 16 ) ( 1728 48 16 ) ( 1728 48 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1728 784 16 ) ( 1552 784 16 ) ( 1552 784 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1440 752 0 ) ( 1440 48 0 ) ( 1440 48 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1456 48 0 ) ( 1456 752 0 ) ( 1456 48 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 36
+{
+ ( 1392 528 0 ) ( 1392 704 0 ) ( 688 704 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 672 704 256 ) ( 1376 704 256 ) ( 1376 528 256 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 672 784 0 ) ( 1376 784 0 ) ( 1376 784 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 560 16 ) ( 1408 736 16 ) ( 1408 736 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1376 880 0 ) ( 672 880 0 ) ( 672 880 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1392 720 16 ) ( 1392 544 16 ) ( 1392 720 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 37
+{
+ ( 272 768 0 ) ( 96 768 0 ) ( 96 64 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 272 64 240 ) ( 272 64 -16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 64 240 ) ( 272 768 240 ) ( 272 768 -16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 768 240 ) ( 96 768 240 ) ( 96 768 -16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 768 240 ) ( 96 64 240 ) ( 96 64 -16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 768 16 ) ( 272 768 16 ) ( 96 64 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 38
+{
+ ( 96 64 240 ) ( 96 768 240 ) ( 272 768 240 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 272 64 240 ) ( 272 64 -16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 64 240 ) ( 272 768 240 ) ( 272 768 -16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 768 240 ) ( 96 768 240 ) ( 96 768 -16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 768 240 ) ( 96 64 240 ) ( 96 64 -16 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 768 224 ) ( 96 64 224 ) ( 272 768 224 ) com_glass_clear 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 39
+{
+ ( 272 768 16 ) ( 96 768 16 ) ( 96 64 16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 96 768 240 ) ( 272 768 240 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 272 64 240 ) ( 272 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 64 224 ) ( 128 768 224 ) ( 128 768 -32 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -112 768 208 ) ( -112 64 208 ) ( -112 64 -48 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 80 208 ) ( -48 80 208 ) ( 128 80 -48 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 40
+{
+ ( 272 768 0 ) ( 96 768 0 ) ( 96 64 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 96 768 240 ) ( 272 768 240 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 272 64 240 ) ( 272 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 64 240 ) ( 272 768 240 ) ( 272 768 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 768 240 ) ( 96 768 240 ) ( 96 768 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 768 240 ) ( 256 64 240 ) ( 256 768 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 41
+{
+ ( 272 768 0 ) ( 96 768 0 ) ( 96 64 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 96 768 240 ) ( 272 768 240 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 64 224 ) ( 112 768 224 ) ( 112 768 -32 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 784 240 ) ( 16 784 240 ) ( 16 784 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -96 768 240 ) ( -96 64 240 ) ( -96 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 752 240 ) ( 272 752 240 ) ( 96 752 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 42
+{
+ ( 272 768 0 ) ( 96 768 0 ) ( 96 64 0 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 96 768 240 ) ( 272 768 240 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 64 240 ) ( 272 64 240 ) ( 272 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 768 240 ) ( 96 768 240 ) ( 96 768 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 96 768 240 ) ( 96 64 240 ) ( 96 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 112 64 240 ) ( 112 768 240 ) ( 112 64 -16 ) com_glassbroken_ground01 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 43
+{
+ ( 1424 -224 0 ) ( 256 -224 0 ) ( 256 -400 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 1424 -400 240 ) ( 1424 -400 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -400 240 ) ( 1424 -224 240 ) ( 1424 -224 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -224 240 ) ( 256 -224 240 ) ( 256 -224 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 240 ) ( 256 -400 240 ) ( 256 -400 0 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 16 ) ( 1424 -224 16 ) ( 256 -400 16 ) com_glass_dirty_stain 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 44
+{
+ ( 256 -400 240 ) ( 256 -224 240 ) ( 1424 -224 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 1424 -400 240 ) ( 1424 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -400 240 ) ( 1424 -224 240 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -224 240 ) ( 256 -224 240 ) ( 256 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 240 ) ( 256 -400 240 ) ( 256 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 224 ) ( 256 -400 224 ) ( 1424 -224 224 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 45
+{
+ ( 1424 -224 16 ) ( 256 -224 16 ) ( 256 -400 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 256 -224 240 ) ( 1424 -224 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 1424 -400 240 ) ( 1424 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -400 240 ) ( 1424 -224 240 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 240 ) ( 256 -400 240 ) ( 256 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -384 240 ) ( 256 -384 240 ) ( 1424 -384 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 46
+{
+ ( 1424 -208 16 ) ( 256 -208 16 ) ( 256 -384 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 256 -224 240 ) ( 1424 -224 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 224 ) ( 1424 -224 224 ) ( 1424 -224 -16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -400 256 ) ( 1424 -224 256 ) ( 1424 -224 16 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -128 240 ) ( 256 -128 240 ) ( 256 -128 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1408 -224 240 ) ( 1408 -400 240 ) ( 1408 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 47
+{
+ ( 1424 -224 0 ) ( 256 -224 0 ) ( 256 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 256 -224 240 ) ( 1424 -224 240 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -400 240 ) ( 1424 -224 240 ) ( 1424 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -224 240 ) ( 256 -224 240 ) ( 256 -224 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 -224 240 ) ( 272 -400 240 ) ( 272 -400 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -240 240 ) ( 1424 -240 240 ) ( 256 -240 0 ) ap_glass_sanded 8 8 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 48
+{
+ ( 1424 -224 16 ) ( 256 -224 16 ) ( 256 -400 16 ) ac_building_roof01 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -400 240 ) ( 256 -224 240 ) ( 1424 -224 240 ) ac_building_roof01 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 224 ) ( 1424 -224 224 ) ( 1424 -224 -16 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1424 -176 240 ) ( 256 -176 240 ) ( 256 -176 0 ) ac_building_roof01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -224 240 ) ( 256 -400 240 ) ( 256 -400 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 272 -400 240 ) ( 272 -224 240 ) ( 272 -400 0 ) ac_building_roof01 64 64 -32 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 49
+{
+ ( -528 -576 256 ) ( -528 1440 256 ) ( 2048 1440 256 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 240 ) ( 2048 -576 240 ) ( 2048 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -576 240 ) ( 2048 1440 240 ) ( 2048 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 1440 240 ) ( -528 1440 240 ) ( -528 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( 2048 1440 240 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 50
+{
+ ( 2048 1440 16 ) ( -528 1440 16 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 256 ) ( -528 1440 256 ) ( 2048 1440 256 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 240 ) ( 2048 -576 240 ) ( 2048 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -576 240 ) ( 2048 1440 240 ) ( 2048 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -560 240 ) ( -528 -560 240 ) ( 2048 -560 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 51
+{
+ ( 2048 1440 16 ) ( -528 1440 16 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 256 ) ( -528 1440 256 ) ( 2048 1440 256 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 240 ) ( 2048 -576 240 ) ( 2048 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -576 240 ) ( 2048 1440 240 ) ( 2048 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 1440 240 ) ( -528 1440 240 ) ( -528 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2032 1440 240 ) ( 2032 -576 240 ) ( 2032 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 52
+{
+ ( 2048 1440 16 ) ( -528 1440 16 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 256 ) ( -528 1440 256 ) ( 2048 1440 256 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -576 240 ) ( 2048 1440 240 ) ( 2048 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 1440 240 ) ( -528 1440 240 ) ( -528 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1424 240 ) ( 2048 1424 240 ) ( -528 1424 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 53
+{
+ ( 2048 1440 16 ) ( -528 1440 16 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 256 ) ( -528 1440 256 ) ( 2048 1440 256 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -576 240 ) ( 2048 -576 240 ) ( 2048 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 1440 240 ) ( -528 1440 240 ) ( -528 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -512 -576 240 ) ( -512 1440 240 ) ( -512 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 54
+{
+ ( 2048 1440 16 ) ( -528 1440 16 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 -800 240 ) ( 2048 -800 240 ) ( 2048 -800 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 -576 240 ) ( 2048 1440 240 ) ( 2048 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 1440 240 ) ( -528 1440 240 ) ( -528 1440 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 240 ) ( -528 -576 240 ) ( -528 -576 16 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -528 1440 32 ) ( 2048 1440 32 ) ( -528 -576 32 ) sky_sp_airlift 256 256 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

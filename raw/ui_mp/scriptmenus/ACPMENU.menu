@@ -1,0 +1,728 @@
+#include "ui/menudef.h"					
+
+// GLOBAL DEFINITIONS
+#define BG_BLACKSCREEN_COLOR 	0.05 0.05 0.05 0.5
+#define BG_BACK_COLOR 			0 0 0 0.6
+
+#define BTN_BG_OFF 		0 0 0 0
+#define	BTN_BG_MOUSE 	1 0.8 0 0.5
+#define BTN_BG_ON		1 0.8 0 0.75
+
+#define TEXT_TITLE_COLOR 	1 0.8 0 1
+#define TEXT_NORMAL_COLOR 	1 1 1 1
+
+{
+	menuDef
+	{	
+		name			"acpmenu"
+		style			WINDOW_STYLE_FILLED
+		focuscolor		COLOR_FOCUSED
+		
+		backcolor		1 1 1 0
+		background		"white"
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+
+		onEsc
+		{
+			scriptMenuResponse "acpmenu_esc";
+			close self;
+		}
+		onOpen
+		{
+			scriptMenuResponse "acpmenu_open";
+
+			execnow "set ACPMENU_secCount 5";
+			execnow "set cg_hudChatPosition 5 380";
+		}
+		onClose
+		{	
+			scriptMenuResponse "acpmenu_close";
+			
+			execnow "set cg_hudChatPosition 5 204";
+		}		
+
+		#define VIS_LINES		(DvarInt( ACPMENU_vis ) & 1)
+		#define VIS_SECTIONS	(DvarInt( ACPMENU_vis ) & 2)
+		#define VIS_BUTTONS		(DvarInt( ACPMENU_vis ) & 4)
+		#define VIS_ROTATE		(DvarInt( ACPMENU_vis ) & 8)
+		#define VIS_POPUP		(DvarInt( ACPMENU_vis ) & 16)
+		/* ================================================================ */
+		/* ======================== DEVELOPER HUD ========================= */
+		/* ================================================================ */
+		#define ITEM_LINE(num, num_s) \
+		itemDef \
+		{ \
+			visible			when( VIS_LINES ) \
+			rect			5 ((num*19)+9.5) 0 0 0 0\
+			forecolor		1 1 1 1 \
+			textfont		UI_FONT_NORMAL \
+			textstyle		ITEM_TEXTSTYLE_SHADOWED \
+			textscale		0.34 \
+			textaligny		ITEM_ALIGN_MIDDLE_LEFT \
+			exp				text( dvarString( "ACPMENU_line"+num ) ); \
+			decoration \
+		}
+		
+		ITEM_LINE(0, "0")
+		ITEM_LINE(1, "1")
+		ITEM_LINE(2, "2")
+		ITEM_LINE(3, "3")
+		ITEM_LINE(4, "4")
+		ITEM_LINE(5, "5")
+		ITEM_LINE(6, "6")
+		ITEM_LINE(7, "7")
+		ITEM_LINE(8, "8")
+		ITEM_LINE(9, "9")
+		ITEM_LINE(10, "10")
+		ITEM_LINE(11, "11")
+		ITEM_LINE(12, "12")
+		ITEM_LINE(13, "13")
+		ITEM_LINE(14, "14")
+		ITEM_LINE(15, "15")
+		ITEM_LINE(16, "16")
+		ITEM_LINE(17, "17")
+		ITEM_LINE(18, "18")
+		ITEM_LINE(19, "19")
+		ITEM_LINE(20, "20")
+		ITEM_LINE(21, "21")
+		ITEM_LINE(22, "22")
+		ITEM_LINE(23, "23")
+		ITEM_LINE(24, "24")
+		
+		execKey "0" { scriptMenuResponse "ACPMENU_key_0"; }
+		execKey "1" { scriptMenuResponse "ACPMENU_key_1"; }
+		execKey "2" { scriptMenuResponse "ACPMENU_key_2"; }
+		execKey "3" { scriptMenuResponse "ACPMENU_key_3"; }
+		execKey "4" { scriptMenuResponse "ACPMENU_key_4"; }
+		execKey "5" { scriptMenuResponse "ACPMENU_key_5"; }
+		execKey "6" { scriptMenuResponse "ACPMENU_key_6"; }
+		execKey "7" { scriptMenuResponse "ACPMENU_key_7"; }
+		execKey "8" { scriptMenuResponse "ACPMENU_key_8"; }
+		execKey "9" { scriptMenuResponse "ACPMENU_key_9"; }
+		
+		#define BORDER_SIZE 2
+		#define BORDER_COLOR BTN_BG_MOUSE
+		
+		#define SECTIONS_HEIGHT 30
+		#define SECTIONS_WIDTH 640
+		#define SECTIONS_X 0
+		#define SECTIONS_Y (480 - SECTIONS_HEIGHT)
+		#define SECTIONS_CORNERSPACE_X 4
+		#define SECTIONS_CORNERSPACE_Y 4
+		#define SECTIONS_BTN_WIDTH 100
+		#define SECTIONS_BTN_COUNT DvarInt( ACPMENU_secCount )
+		#define SECTIONS_BTN_SPACE ((SECTIONS_WIDTH - ((SECTIONS_CORNERSPACE_X*2) + (SECTIONS_BTN_WIDTH*SECTIONS_BTN_COUNT)))/(SECTIONS_BTN_COUNT+1))
+		
+		#define BUTTONS_WIDTH 160
+		#define BUTTONS_HEIGHT (480 - (SECTIONS_HEIGHT+BORDER_SIZE))
+		#define BUTTONS_X (640 - BUTTONS_WIDTH)
+		#define BUTTONS_Y 0
+		#define BUTTONS_CORNERSPACE_X 8
+		#define BUTTONS_CORNERSPACE_UP 34
+		#define BUTTONS_CORNERSPACE_DOWN 8
+		#define BUTTONS_BTN_W (BUTTONS_WIDTH-(BUTTONS_CORNERSPACE_X*2))
+		#define BUTTONS_BTN_H 22
+		#define BUTTONS_BTN_SPACE 8
+		
+		#define ROTATE_HEIGHT 24
+		#define ROTATE_WIDTH BUTTONS_WIDTH
+		#define ROTATE_X BUTTONS_X
+		#define ROTATE_Y ((BUTTONS_Y + BUTTONS_HEIGHT) - ROTATE_HEIGHT)
+		
+		itemDef // sections
+		{ 
+			rect			SECTIONS_X SECTIONS_Y SECTIONS_WIDTH SECTIONS_HEIGHT 0 0
+			style			WINDOW_STYLE_FILLED
+			backcolor		BG_BACK_COLOR
+			visible			when( VIS_SECTIONS )
+		}
+		itemDef // sections - border
+		{ 
+			rect			SECTIONS_X (SECTIONS_Y - BORDER_SIZE) SECTIONS_WIDTH BORDER_SIZE 0 0
+			style			WINDOW_STYLE_FILLED
+			backcolor		BORDER_COLOR
+			visible			when( VIS_SECTIONS )
+		}		
+		itemDef // buttons
+		{
+			rect			BUTTONS_X BUTTONS_Y BUTTONS_WIDTH BUTTONS_HEIGHT 0 0 
+			style			WINDOW_STYLE_FILLED
+			backcolor		BG_BACK_COLOR
+			visible			when( VIS_BUTTONS )
+		}
+		itemDef // buttons - border
+		{
+			rect			(BUTTONS_X - BORDER_SIZE) BUTTONS_Y BORDER_SIZE BUTTONS_HEIGHT 0 0 
+			style			WINDOW_STYLE_FILLED
+			backcolor		BORDER_COLOR
+			visible			when( VIS_BUTTONS )
+		}		
+		itemDef // rotate - border
+		{ 
+			rect			BUTTONS_X (ROTATE_Y-BORDER_SIZE) BUTTONS_WIDTH BORDER_SIZE 0 0
+			style			WINDOW_STYLE_FILLED
+			backcolor		BORDER_COLOR
+			visible			when( VIS_ROTATE )
+		}
+		itemDef //fake button
+		{ 
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED 
+			rect			0 0 640 480 0 0 
+			backcolor		0 0 0 0
+			visible			1
+		}	
+		
+		// ========== SECTIONS ========== //
+		#define BTN_BORDER_SIZE 1
+		itemDef // pointer
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			0 (SECTIONS_Y+SECTIONS_CORNERSPACE_Y+BTN_BORDER_SIZE) (SECTIONS_BTN_WIDTH-(BTN_BORDER_SIZE*2)) (SECTIONS_HEIGHT - ((SECTIONS_CORNERSPACE_Y*2)+(BTN_BORDER_SIZE*2))) 0 0
+			exp				rect X( SECTIONS_X + SECTIONS_CORNERSPACE_X + BTN_BORDER_SIZE + SECTIONS_BTN_SPACE + ((SECTIONS_BTN_WIDTH+SECTIONS_BTN_SPACE)*DvarInt("ACPMENU_secS")) );
+			backcolor		BTN_BG_ON
+			visible			1
+		}
+		
+		#define SECTION_BUTTON( num, num_s ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			style			WINDOW_STYLE_FILLED \
+			rect			0 (SECTIONS_Y+SECTIONS_CORNERSPACE_Y-BTN_BORDER_SIZE) SECTIONS_BTN_WIDTH (SECTIONS_HEIGHT - (SECTIONS_CORNERSPACE_Y*2)) 0 0 \
+			exp				rect X( SECTIONS_X + SECTIONS_CORNERSPACE_X + SECTIONS_BTN_SPACE + ((SECTIONS_BTN_WIDTH+SECTIONS_BTN_SPACE)*num) ); \
+			backcolor		BTN_BG_OFF \
+			border			WINDOW_BORDER_FULL \
+			bordersize		1 \
+			bordercolor		BORDER_COLOR \
+			text			"Button_"num_s \
+			textalign		ITEM_ALIGN_MIDDLE_CENTER \
+			textscale		FONTSCALE_NORMAL \
+			visible			when( num < SECTIONS_BTN_COUNT ) \
+			mouseEnter		{ setcolor bordercolor BTN_BG_ON; } \
+			mouseExit		{ setcolor bordercolor BORDER_COLOR; } \
+			action			{ scriptMenuResponse "ACPMENU_sec_"num_s; execnow "set ACPMENU_secS "num_s} \
+		} \
+		
+		SECTION_BUTTON( 0, "0" )
+		SECTION_BUTTON( 1, "1" )
+		SECTION_BUTTON( 2, "2" )
+		SECTION_BUTTON( 3, "3" )
+		SECTION_BUTTON( 4, "4" )
+		
+		// ========== BUTTONS ========== //
+		itemDef // pointer
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			(BUTTONS_X+BUTTONS_CORNERSPACE_X+BTN_BORDER_SIZE+BTN_BORDER_SIZE) 0 (BUTTONS_BTN_W-(BTN_BORDER_SIZE*2)) (BUTTONS_BTN_H-(BTN_BORDER_SIZE*2)) 0 0
+			exp				rect Y( BUTTONS_Y+BUTTONS_CORNERSPACE_UP+BTN_BORDER_SIZE+((BUTTONS_BTN_H+BUTTONS_BTN_SPACE)*DvarInt("ACPMENU_btnS")) );
+			backcolor		BTN_BG_ON
+			visible			1
+		}
+		
+		#define BUTTONS_BUTTON( num, num_s ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			style			WINDOW_STYLE_FILLED \
+			rect			(BUTTONS_X+BUTTONS_CORNERSPACE_X) 0 BUTTONS_BTN_W BUTTONS_BTN_H 0 0 \
+			exp				rect Y( BUTTONS_Y+BUTTONS_CORNERSPACE_UP+((BUTTONS_BTN_H+BUTTONS_BTN_SPACE)*num) ); \
+			backcolor		BTN_BG_OFF \
+			border			WINDOW_BORDER_FULL \
+			bordersize		1 \
+			bordercolor		BORDER_COLOR \
+			text			"Button_"num_s \
+			textalign		ITEM_ALIGN_MIDDLE_CENTER \
+			textscale		FONTSCALE_NORMAL \
+			visible			1 \
+			mouseEnter		{ setcolor bordercolor BTN_BG_ON; } \
+			mouseExit		{ setcolor bordercolor BORDER_COLOR; } \
+			action			{ scriptMenuResponse "ACPMENU_btn_"num_s; execnow "set ACPMENU_btnS "num_s} \
+		} \
+		
+		BUTTONS_BUTTON( 0, "0" )
+		BUTTONS_BUTTON( 1, "1" )
+		BUTTONS_BUTTON( 2, "2" )
+		BUTTONS_BUTTON( 3, "3" )
+		BUTTONS_BUTTON( 4, "4" )		
+		BUTTONS_BUTTON( 5, "5" )
+		BUTTONS_BUTTON( 6, "6" )
+		BUTTONS_BUTTON( 7, "7" )
+		BUTTONS_BUTTON( 8, "8" )
+		BUTTONS_BUTTON( 9, "9" )
+		BUTTONS_BUTTON( 10, "10" )
+		BUTTONS_BUTTON( 11, "11" )
+		
+		// ========== ROTATE ========== //
+		#define ROTATE_BTN_SIZE (ROTATE_HEIGHT / 2)
+		itemDef // up
+		{
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_SHADER
+			rect			ROTATE_X ROTATE_Y ROTATE_BTN_SIZE ROTATE_BTN_SIZE 0 0 
+			forecolor		1 1 1 1
+			background		"hud_up_arrow"
+			visible			when( VIS_ROTATE )
+		}
+		itemDef // down
+		{
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_SHADER 
+			rect			ROTATE_X (ROTATE_Y+ROTATE_BTN_SIZE) ROTATE_BTN_SIZE ROTATE_BTN_SIZE 0 0 
+			forecolor		1 1 1 1
+			background		"hud_down_arrow"
+			visible			when( VIS_ROTATE )
+		}		
+		itemDef // text
+		{
+			style			WINDOW_STYLE_FILLED
+			rect			(ROTATE_X+ROTATE_BTN_SIZE) ROTATE_Y (ROTATE_WIDTH-ROTATE_BTN_SIZE) ROTATE_HEIGHT 0 0 
+			text			"================"
+			textscale		FONTSCALE_SMALL
+			textalign		ITEM_ALIGN_MIDDLE_CENTER
+			forecolor		1 1 1 1
+			visible			when( VIS_ROTATE )
+			decoration
+		}		
+		
+		/*
+		
+		#define START_X	0
+		#define	START_Y 428
+		#define SIZE_X	( ( (640 / 10) * 7 ) / dvarInt( acp_section_size ) )
+		#define SIZE_Y	35
+		#define SPACING ( ( (640 / 10) * 3 ) / ( dvarInt( acp_section_size ) + 1 ) )
+		
+		#define	BUTTON_SECTION( m_but, m_but_s ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			0 START_Y 0 SIZE_Y 0 0 \
+			exp				rect X( SPACING+(SIZE_X*m_but)+(SPACING*m_but) ); \
+			exp				rect W( SIZE_X ); \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_button_off" \
+			exp				text( dvarString( "acp_section_"+m_but ) ); \
+			textfont		UI_FONT_NORMAL \
+			textscale		TEXTSIZE_SMALL \
+			textstyle		ITEM_TEXTSTYLE_SHADOWED \
+			textAlign		ITEM_ALIGN_MIDDLE_CENTER \
+			textAlignX		0 \
+			forecolor		1 1 1 1 \
+			visible			when( VIS_BOTTOM && dvarString( "acp_section_"+m_but ) != "" && m_but < dvarInt( acp_section_size ) ) \
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; execNow "set acp_button_info acp_info_section_"m_but_s; } \
+			mouseExit { setbackground "menu_button_off"; } \
+			action { play "mouse_click"; scriptMenuResponse "acp_section_"m_but_s; } \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			0 START_Y 0 SIZE_Y 0 0 \
+			exp				rect X( SPACING+(SIZE_X*m_but)+(SPACING*m_but) ); \
+			exp				rect W( SIZE_X ); \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_button_on" \
+			exp				text( dvarString( "acp_section_"+m_but ) ); \
+			textfont		UI_FONT_NORMAL \
+			textscale		TEXTSIZE_SMALL \
+			textstyle		ITEM_TEXTSTYLE_SHADOWED \
+			textAlign		ITEM_ALIGN_MIDDLE_CENTER \
+			textAlignX		0 \
+			forecolor		1 1 1 1 \
+			visible			when( VIS_BOTTOM && dvarString( "acp_section_"+m_but ) != "" && m_but < dvarInt( acp_section_size ) && dvarString( "acp_section_current" ) == m_but_s ) \
+		} 		
+		
+		//acp_button_info dvarString( "acp_info_section_"m_but );
+		
+		#define	MENU_TEXT(m_rect, m_align, m_text, m_size, m_color ) \
+			itemDef { \
+				rect			m_rect 0 0 \
+				textscale		m_size \
+				textalign		m_align \
+				forecolor		m_color \
+				exp				text( m_text ); \
+				visible			when( VIS_BOTTOM ) \
+				decoration \
+			}
+
+		#define	MENU_SHADER(m_rect, m_shader, m_color ) \
+			itemDef { \
+				style			WINDOW_STYLE_SHADER \
+				rect			m_rect 0 0 \
+				exp				material(m_shader) \
+				forecolor		m_color \
+				visible			when( VIS_BOTTOM ) \
+			}
+		
+		// informacie o aktualne vybranej polozke
+		// acp_info_button_<num>
+		// acp_info_section_<num>
+		MENU_TEXT(15 410 500 20, ITEM_ALIGN_MIDDLE_LEFT, dvarString( dvarString( acp_button_info ) ), 0.25, 1 1 1 1 )
+		MENU_SHADER(5 416 10 10, "ui_arrow_right", 1 1 1 0.8 )
+		
+		//spodne tlacitka
+		BUTTON_SECTION( 0, "0" )
+		BUTTON_SECTION( 1, "1" )
+		BUTTON_SECTION( 2, "2" )
+		BUTTON_SECTION( 3, "3" )
+		BUTTON_SECTION( 4, "4" )
+		BUTTON_SECTION( 5, "5" )
+		
+		
+		//tlaèidlá
+		#undef START_X
+		#undef START_Y
+		#undef SIZE_X
+		#undef SIZE_Y
+		#undef SPACING
+		#define START_X 517.5
+		#define START_Y 26
+		#define SIZE_X 118
+		#define SIZE_Y 37
+		#define SPACING (( ( 386 - START_Y ) - ( SIZE_Y*9 ) ) / 10 )
+		
+		#define	BUTTON_RIGHT( m_but, m_but_s ) \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			START_X (START_Y + (SPACING*m_but) + SPACING + (SIZE_Y*m_but)) SIZE_X SIZE_Y 0 0 \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_button_off" \
+			exp				text( dvarString( "acp_button_"+m_but ) ); \
+			textfont		UI_FONT_NORMAL \
+			textscale		TEXTSIZE_SMALL \
+			textstyle		ITEM_TEXTSTYLE_SHADOWED \
+			textAlign		ITEM_ALIGN_MIDDLE_CENTER \
+			textAlignX		0 \
+			forecolor		1 1 1 1 \
+			visible			when( VIS_BUTTONS && dvarString( "acp_button_"+m_but ) != "" ) \
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; execNow "set acp_button_info acp_info_button_"m_but_s; } \
+			mouseExit { setbackground "menu_button_off"; } \
+			action { play "mouse_click"; scriptMenuResponse "acp_button_"m_but_s; } \
+		}
+		
+		BUTTON_RIGHT( 0, "0" )
+		BUTTON_RIGHT( 1, "1" )
+		BUTTON_RIGHT( 2, "2" )
+		BUTTON_RIGHT( 3, "3" )
+		BUTTON_RIGHT( 4, "4" )
+		BUTTON_RIGHT( 5, "5" )
+		BUTTON_RIGHT( 6, "6" )
+		BUTTON_RIGHT( 7, "7" )
+		BUTTON_RIGHT( 8, "8" )
+		
+		//prev
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			style			WINDOW_STYLE_SHADER
+			background		"menu_arrow_l"
+			rect			519.75 387 53.25 23 0 0 
+			forecolor		1 1 1 0.7
+			visible			when( VIS_BUTTONS && dvarInt( acp_buttons_prev ) ) 
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } 
+			mouseExit { setcolor forecolor 1 1 1 0.7; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_buttons_prev"; } 
+		}
+		
+		//next
+		itemDef 
+		{
+			type			ITEM_TYPE_BUTTON 
+			style			WINDOW_STYLE_SHADER
+			background		"menu_arrow_r"
+			rect			581 387 53.25 23 0 0 
+			forecolor		1 1 1 0.7
+			visible			when( VIS_BUTTONS && dvarInt( acp_buttons_next ) ) 
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } 
+			mouseExit { setcolor forecolor 1 1 1 0.7; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_buttons_next"; } 
+		}
+	
+		//top right small button
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			rect			586 -2 32 18 0 0 
+			style			WINDOW_STYLE_SHADER 
+			background		"menu_button_off" 
+			exp				text( dvarString( acp_buttons_small ) );
+			textfont		UI_FONT_NORMAL 
+			textscale		0.34
+			textstyle		ITEM_TEXTSTYLE_NORMAL 
+			textAlign		ITEM_ALIGN_TOP_CENTER 
+			textAlignX		0 
+			forecolor		1 1 1 1 
+			visible			when( VIS_BUTTONS && dvarString( acp_buttons_small ) != "" ) 
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; } 
+			mouseExit { setbackground "menu_button_off"; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_buttons_small"; } 
+		}
+	
+		//close
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			rect			624 -2 18 18 0 0 
+			style			WINDOW_STYLE_SHADER 
+			background		"menu_button_off" 
+			text			"x"
+			textfont		UI_FONT_NORMAL 
+			textscale		0.34
+			textstyle		ITEM_TEXTSTYLE_NORMAL 
+			textAlign		ITEM_ALIGN_TOP_CENTER 
+			textAlignX		0 
+			forecolor		1 1 1 1 
+			visible			when( VIS_BUTTONS ) 
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; } 
+			mouseExit { setbackground "menu_button_off"; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_buttons_close"; } 
+		}
+		
+		
+		#undef SPACING
+		#define SPACING ( 510/3 )
+		
+		#undef MENU_TEXT
+		#define	MENU_TEXT( m_but ) \
+			itemDef { \
+				rect			( SPACING*m_but ) 386 SPACING 24 0 0 \
+				textscale		0.34 \
+				textalign		ITEM_ALIGN_MIDDLE_CENTER \
+				forecolor		1 1 1 1 \
+				exp				text( dvarString( "acp_list_"+m_but ) ); \
+				visible			when( VIS_ROTATE ) \
+				decoration \
+			}
+		
+		MENU_TEXT( 0 )
+		MENU_TEXT( 1 )
+		MENU_TEXT( 2 )
+		
+		#undef SIZE_X
+		#define SIZE_X 45
+		//prev
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			style			WINDOW_STYLE_SHADER
+			background		"menu_arrow_l"
+			rect			(SPACING - (SIZE_X/2)) 389 SIZE_X 20 0 0 
+			forecolor		1 1 1 0.7
+			visible			when( VIS_ROTATE ) 
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } 
+			mouseExit { setcolor forecolor 1 1 1 0.7; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_list_prev"; } 
+		}
+		
+		//next
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			style			WINDOW_STYLE_SHADER
+			background		"menu_arrow_r"
+			rect			((SPACING*2) - (SIZE_X/2)) 389 SIZE_X 20 0 0 
+			forecolor		1 1 1 0.7
+			visible			when( VIS_ROTATE ) 
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } 
+			mouseExit { setcolor forecolor 1 1 1 0.7; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_list_next"; } 
+		}
+
+		#define START_SPACE 55
+		#define END_SPACE 35
+		
+		#undef SPACING
+		#define SPACING 50
+		
+		#undef START_X
+		#undef START_Y
+		#undef SIZE_X
+		#undef SIZE_Y
+		#define SIZE_X 240
+		#define SIZE_Y ( START_SPACE+END_SPACE+(SPACING*dvarInt( acp_popup_size )) )
+		#define START_X (0-(SIZE_X/2))
+		#define START_Y (0-(SIZE_Y/2))
+		
+		#define SPACE_X ((SIZE_X/2)/22)
+		
+		itemDef //pozadie
+		{ 
+			type			1
+			rect			0 0 640 480 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		0 0 0 0.75
+			background		"white"
+			visible			when( VIS_POPUP )
+		}
+		
+		itemDef //pozadie
+		{ 
+			forecolor 		0 0 0 1
+			border			1
+			bordersize		2.5
+			bordercolor		1 1 1 0.8
+			outlinecolor 	1 1 1 0.2
+			rect			(START_X-2.5) 0 SIZE_X 0 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			exp				rect Y( START_Y-2.5 );
+			exp				rect H( SIZE_Y );
+			style			WINDOW_STYLE_SHADER
+			background		"white"
+			visible			when( VIS_POPUP )
+		}
+		
+		itemDef //fake button
+		{ 
+			type			1
+			style			WINDOW_STYLE_SHADER 
+			rect			0 0 640 480 0 0 
+			background		"white"
+			forecolor		0 0 0 0
+			visible			when( VIS_POPUP )
+		}
+		
+		//názov okna
+		itemDef 
+		{ 
+			rect			START_X 0 SIZE_X 25 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			exp				rect Y( START_Y )
+			textscale		TEXTSIZE_DEFAULT 
+			textalign		ITEM_ALIGN_MIDDLE_CENTER 
+			forecolor		1 1 1 1 
+			exp				text( dvarString( acp_popup_name ) ); 
+			visible			when( VIS_POPUP ) 
+			decoration 
+		}
+		//info šipka
+		itemDef 
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			(START_X+SPACE_X) 0 10 10 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			exp				rect Y( START_Y+30 )
+			background		"ui_arrow_right"
+			forecolor		1 1 1 1 
+			visible			when( VIS_POPUP && dvarString( acp_popup_info ) != "" ) 
+		}
+		//info text
+		itemDef 
+		{ 
+			rect			(START_X+SPACE_X+10) 0 SIZE_X 20 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER 
+			exp				rect Y( START_Y+25 )
+			textscale		0.34
+			textalign		ITEM_ALIGN_MIDDLE_LEFT 
+			forecolor		1 1 1 1 
+			exp				text( dvarString( acp_popup_info ) ); 
+			visible			when( VIS_POPUP && dvarString( acp_popup_info ) != "" ) 
+			decoration 
+		}	
+		
+		// ============================================================================================ //
+		
+		#define ROTATE_ITEM( num, num_s ) \
+		itemDef \
+		{ \
+			rect			START_X 0 SIZE_X 20 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER \
+			exp				rect Y( (START_Y+START_SPACE)+(SPACING*num) ) \
+			textscale		TEXTSIZE_SMALL \
+			textalign		ITEM_ALIGN_MIDDLE_CENTER \
+			forecolor		1 1 1 1 \
+			exp				text( dvarString( "acp_popup_rotate_name_"+num ) ); \
+			visible			when( VIS_POPUP && num < dvarInt( acp_popup_size ) ) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			rect			START_X 0 SIZE_X 20 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER \
+			exp				rect Y( (START_Y+START_SPACE)+(SPACING*num)+20 ) \
+			textscale		0.34 \
+			textalign		ITEM_ALIGN_MIDDLE_CENTER \
+			forecolor		1 1 1 1 \
+			exp				text( dvarString( "acp_popup_rotate_item_"+num ) ); \
+			visible			when( VIS_POPUP && num < dvarInt( acp_popup_size ) ) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_arrow_l" \
+			rect			(START_X+SPACE_X) 0 30 20 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER \
+			exp				rect Y( (START_Y+START_SPACE)+(SPACING*num)+20 ) \
+			forecolor		1 1 1 0.7 \
+			visible			when( VIS_POPUP && num < dvarInt( acp_popup_size ) ) \
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } \
+			mouseExit { setcolor forecolor 1 1 1 0.7; } \
+			action { play "mouse_click"; scriptMenuResponse "acp_popup_prev_"num_s; } \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			style			WINDOW_STYLE_SHADER \
+			background		"menu_arrow_r" \
+			rect			((START_X+SIZE_X)-(SPACE_X+30)) 0 30 20 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER \
+			exp				rect Y( (START_Y+START_SPACE)+(SPACING*num)+20 ) \
+			forecolor		1 1 1 0.7 \
+			visible			when( VIS_POPUP && num < dvarInt( acp_popup_size ) ) \
+			mouseEnter { play "mouse_over"; setcolor forecolor 1 1 1 1; } \
+			mouseExit { setcolor forecolor 1 1 1 0.7; } \
+			action { play "mouse_click"; scriptMenuResponse "acp_popup_next_"num_s; } \
+		}	
+		
+		ROTATE_ITEM( 0, "0" )
+		ROTATE_ITEM( 1, "1" )
+		ROTATE_ITEM( 2, "2" )
+		ROTATE_ITEM( 3, "3" )
+		ROTATE_ITEM( 4, "4" )
+		ROTATE_ITEM( 5, "5" )
+		ROTATE_ITEM( 6, "6" )
+		
+		// ============================================================================================ //
+		#define MULTIPLICATOR 1.25
+		
+		// APPLY
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			rect			(START_X+SPACE_X) 0 ((SIZE_X/2)-((SPACE_X/2)+SPACE_X)) 25 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			exp				rect Y( (START_Y+SIZE_Y)-((SPACE_X*MULTIPLICATOR)+25) )
+			style			WINDOW_STYLE_SHADER 
+			background		"menu_button_off" 
+			exp				text( "APPLY" ); 
+			textfont		UI_FONT_NORMAL 
+			textscale		TEXTSIZE_SMALL 
+			textstyle		ITEM_TEXTSTYLE_SHADOWED 
+			textAlign		ITEM_ALIGN_MIDDLE_CENTER 
+			textAlignX		0 
+			forecolor		1 1 1 1 
+			visible			when( VIS_POPUP ) 
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; } 
+			mouseExit { setbackground "menu_button_off"; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_popup_apply"; }
+		}
+		
+		// CLOSE
+		itemDef 
+		{ 
+			type			ITEM_TYPE_BUTTON 
+			rect			(SPACE_X/2) 0 ((SIZE_X/2)-((SPACE_X/2)+SPACE_X)) 25 HORIZONTAL_ALIGN_CENTER VERTICAL_ALIGN_CENTER
+			exp				rect Y( (START_Y+SIZE_Y)-((SPACE_X*MULTIPLICATOR)+25) )
+			style			WINDOW_STYLE_SHADER 
+			background		"menu_button_off" 
+			exp				text( "CLOSE" ); 
+			textfont		UI_FONT_NORMAL 
+			textscale		TEXTSIZE_SMALL 
+			textstyle		ITEM_TEXTSTYLE_SHADOWED 
+			textAlign		ITEM_ALIGN_MIDDLE_CENTER 
+			textAlignX		0 
+			forecolor		1 1 1 1 
+			visible			when( VIS_POPUP  ) 
+			mouseEnter { play "mouse_over"; setbackground "menu_button_on"; } 
+			mouseExit { setbackground "menu_button_off"; } 
+			action { play "mouse_click"; scriptMenuResponse "acp_popup_close"; }
+		}
+		
+		// ============================================================================================ //	
+	*/
+	}
+	
+}

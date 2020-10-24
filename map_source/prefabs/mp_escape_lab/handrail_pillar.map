@@ -1,0 +1,131 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( 128 -1 12 ) ( 128 3 12 ) ( 0 3 12 ) mtl_portal_plastic_white 128 128 -4 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 3 14 ) ( 128 3 14 ) ( 128 -1 14 ) mtl_portal_plastic_white 128 128 -4 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 3 12 ) ( -1.5 3 14 ) ( 0.5 1 14 ) caulk 64 -64 -4 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0.5 1 12 ) ( 0.5 1 14 ) ( 128 1 14 ) mtl_portal_plastic_white 128 128 0 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -1 14 ) ( 128 3 14 ) ( 128 3 -26 ) caulk 64 -64 -4 0 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 3 14 ) ( -1.5 3 12 ) ( 128 3 12 ) mtl_portal_plastic_white 128 128 0 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ ( 128 -1 27 ) ( 128 3 27 ) ( 0 3 27 ) mtl_portal_plastic_white 128 128 -4 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 3 29 ) ( 128 3 29 ) ( 128 -1 29 ) mtl_portal_plastic_white 128 128 -4 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0.5 1 29 ) ( 0.5 1 27 ) ( -1.5 3 27 ) caulk 64 -64 -4 2 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0.5 1 27 ) ( 0.5 1 29 ) ( 128 1 29 ) mtl_portal_plastic_white 128 128 0 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -1 29 ) ( 128 3 29 ) ( 128 3 -11 ) caulk 64 -64 -4 2 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1.5 3 29 ) ( -1.5 3 27 ) ( 128 3 27 ) mtl_portal_plastic_white 128 128 0 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ ( 4 -3 40 ) ( 128 -3 40 ) ( 128 -1 40 ) mtl_portal_plastic_white 128 128 0 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -3 42 ) ( 4 -3 42 ) ( 4 -1 42 ) mtl_portal_plastic_white 128 128 0 0 -90 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4.5 -3 42 ) ( 4.5 -3 40 ) ( 2.5 -1 40 ) caulk 64 -64 0 15 -180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4.5 -3 40 ) ( 4.5 -3 42 ) ( 128 -3 42 ) mtl_portal_plastic_white 128 128 0 -17 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -5 42 ) ( 128 -1 42 ) ( 128 -1 2 ) caulk 64 -64 0 15 180 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 -1 42 ) ( 2.5 -1 40 ) ( 128 -1 40 ) mtl_portal_plastic_white 128 128 0 -17 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ ( 1 0 12 ) ( -3 0 12 ) ( -3 -128 12 ) mtl_portal_plastic_white 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 -128 14 ) ( -3 0 14 ) ( 1 0 14 ) mtl_portal_plastic_white 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 -126 14 ) ( 1 -126 14 ) ( 1 -126 -26 ) caulk 64 64 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1 -0.5 14 ) ( -1 -0.5 12 ) ( -1 -126 12 ) mtl_portal_plastic_white 128 128 -128 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 1.5 14 ) ( -3 1.5 12 ) ( -1 -0.5 12 ) caulk 64 64 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 1.5 12 ) ( -3 1.5 14 ) ( -3 -126 14 ) mtl_portal_plastic_white 128 128 -128 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ ( 1 0 27 ) ( -3 0 27 ) ( -3 -128 27 ) mtl_portal_plastic_white 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 -128 29 ) ( -3 0 29 ) ( 1 0 29 ) mtl_portal_plastic_white 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 -126 29 ) ( 1 -126 29 ) ( 1 -126 -11 ) caulk 64 64 -4 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1 -0.5 29 ) ( -1 -0.5 27 ) ( -1 -126 27 ) mtl_portal_plastic_white 128 128 -128 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 1.5 29 ) ( -3 1.5 27 ) ( -1 -0.5 27 ) caulk 64 64 -4 -2 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 1.5 27 ) ( -3 1.5 29 ) ( -3 -126 29 ) mtl_portal_plastic_white 128 128 -128 -4 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ ( 3 -124 40 ) ( 3 0 40 ) ( 1 0 40 ) mtl_portal_plastic_white 128 128 0 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 0 42 ) ( 3 -124 42 ) ( 1 -124 42 ) mtl_portal_plastic_white 128 128 0 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 -126 42 ) ( 5 -126 42 ) ( 5 -126 2 ) caulk 64 64 0 -15 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 -4.5 42 ) ( 3 -4.5 40 ) ( 3 -126 40 ) mtl_portal_plastic_white 128 128 -128 -17 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 -4.5 40 ) ( 3 -4.5 42 ) ( 1 -2.5 42 ) caulk 64 64 0 -15 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 -2.5 40 ) ( 1 -2.5 42 ) ( 1 -126 42 ) mtl_portal_plastic_white 128 128 -128 -17 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ ( 7.6293945e-006 -125.99999 43 ) ( 0 -128 43 ) ( 4 -128 39 ) mtl_portal_shinymetal 128 128 -8 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -125.99999 42 ) ( 6 -128 42 ) ( 4 -128 44 ) mtl_portal_shinymetal 128 128 -56 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -128 43 ) ( 4 -128 43 ) ( 4 -128 40 ) mtl_portal_shinymetal 128 128 -8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 6 -128 42 ) ( 6 -125.99999 42 ) ( 4 -125.99999 39 ) mtl_portal_shinymetal 128 128 -128 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -125.99999 43 ) ( 7.6293945e-006 -125.99999 43 ) ( 7.6293945e-006 -125.99999 40 ) mtl_portal_shinymetal 128 128 -8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -125.99999 44 ) ( 4 -128 44 ) ( 0 -128 43 ) mtl_portal_shinymetal 128 128 -8 125 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ ( 1 -128 36 ) ( 1 -125.99999 36 ) ( -4 -125.99999 36 ) mtl_portal_shinymetal 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -125.99999 39 ) ( 4 -128 39 ) ( 0 -128 43 ) mtl_portal_shinymetal 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3 -128 42 ) ( 3 -128 42 ) ( 3 -128 37 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 -125.99999 36 ) ( 1 -128 36 ) ( 4 -128 39 ) mtl_portal_shinymetal 128 128 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 -125.99999 42 ) ( -3 -126 42 ) ( -3 -126 37 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 -128 36 ) ( -4 -125.99999 36 ) ( 7.6293945e-006 -125.99999 43 ) mtl_portal_shinymetal 128 128 -128 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ ( -4 -125.99999 0 ) ( -8 -125.99999 0 ) ( -8 -130 0 ) caulk 64 64 -4 130 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -128 40 ) ( 4 -128 40 ) ( 4 -128 36 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -134 48 ) ( 0 -130 48 ) ( 0 -130 44 ) mtl_portal_shinymetal 128 128 -130 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7.6293945e-006 -125.99999 40 ) ( -4 -125.99999 40 ) ( -4 -125.99999 36 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -4 -125.99999 40 ) ( -4 -130 40 ) ( -4 -130 36 ) mtl_portal_shinymetal 128 128 -130 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7.6293945e-006 -125.99999 36 ) ( -4 -125.99999 36 ) ( -4 -94 36 ) caulk 64 64 -4 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ ( 0 -128 31 ) ( 7.6293945e-006 -125.99999 31 ) ( 7.6293945e-006 -125.99999 32 ) mtl_portal_shinymetal 128 128 -128 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -128 36 ) ( 7.6293945e-006 -125.99999 36 ) ( 1 -125.99999 36 ) mtl_portal_shinymetal 128 128 -3.998848 128 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -128 36 ) ( 1 -128 36 ) ( 1 -128 32 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 7.6293945e-006 -125.99999 31 ) ( 0 -128 31 ) ( 1 -128 36 ) mtl_portal_shinymetal 128 128 -128 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 -125.99999 36 ) ( 7.6293945e-006 -125.99999 36 ) ( 7.6293945e-006 -125.99999 32 ) mtl_portal_shinymetal 128 128 -4 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ ( 0 -2 36 ) ( 1.5 -0.5 36 ) ( -2 3.5 36 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 -1 43 ) ( 1 0.5 43 ) ( 4 -2.5 39 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 -4 39 ) ( 0.5 -2 36 ) ( -3.5 2 36 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1.5 -0.5 36 ) ( 0 -2 36 ) ( 2.5 -4 39 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 3 -1.5 42 ) ( -1 2.5 42 ) ( -1 2.5 37 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 0.5 43 ) ( -0.5 -1 43 ) ( -3.5 2 36 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ ( 1 0.5 43 ) ( -0.5 -1 43 ) ( 2.5 -4 39 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 5 -4 42 ) ( 4 -5 42 ) ( 2.5 -4 44 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 -1 43 ) ( 2.5 -4 43 ) ( 2.5 -4 40 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -5 42 ) ( 5 -4 42 ) ( 4 -2.5 39 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -2.5 43 ) ( 1 0.5 43 ) ( 1 0.5 40 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 -1 43 ) ( 1 0.5 43 ) ( 4 -2.5 44 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ ( -2 3.5 0 ) ( -3.5 2 0 ) ( -0.5 -1 0 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 -1 36 ) ( -0.5 -1 0 ) ( -3.5 2 0 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -0.5 -1 0 ) ( -0.5 -1 36 ) ( 1 0.5 36 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 0.5 0 ) ( 1 0.5 36 ) ( -2 3.5 36 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -3.5 2 0 ) ( -2 3.5 0 ) ( -2 3.5 36 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1 0.5 36 ) ( -2 3 36 ) ( 21 26 36 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ ( 1 0.5 31 ) ( 1 0.5 36 ) ( -0.5 -1 36 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2 36 ) ( -1 -1.5 36 ) ( 1.5 1 36 ) caulk 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0.5 -1.5 36 ) ( 1.5 -0.5 36 ) ( 1 0.5 31 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2 3.5 36 ) ( 4 -2.5 36 ) ( -2 3.5 68 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2.5 -4 36 ) ( -3.5 2 36 ) ( -3.5 2 68 ) mtl_portal_shinymetal 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

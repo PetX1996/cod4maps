@@ -1,0 +1,383 @@
+// ========================================================= //
+// "ui_vmHgl"
+// "ui_vmSel"
+
+// ========================================================= //
+// "ui_vmV" // voting visible
+// "ui_vmC" // count of items
+// "ui_vmA" // bIsActiveVoting
+// "ui_vmOTime"
+// "ui_vmRTime"
+// "ui_vmTime" // iTimeInSeconds
+
+// "ui_vmM" + i + "N" // sName
+// "ui_vmM" + i + "P" // iPopularity
+// "ui_vmM" + i + "D" // iDifficulty
+// "ui_vmM" + i + "L" // iLength
+// "ui_vmM" + i + "T" // bIsNew
+// "ui_vmM" + i + "V" // sVotes
+
+// "ui_vmS" // sSongName
+
+
+// ui_mainMap
+// ui_mainMapD
+// ui_mainMapL
+// ui_mainMapC
+// ui_mainMapN
+
+// ========================================================= //
+// "leaving"
+// "vmVote," + i // i = iIndex
+// "vmRate," + i
+
+#include "ui_mp/macros.inc"
+
+{
+	menuDef
+	{	
+		name			"votemap"
+		blurworld		1.5
+		rect			0 0 640 480 HORIZONTAL_ALIGN_SUBLEFT VERTICAL_ALIGN_SUBTOP // always has aspect ration 4:3
+		
+		#define SPACE_WINDOWS 10
+		#define SPACE_INNER 5
+		#define SPACE_SMALL 3
+		
+		#define MAP_W 400
+		#define MAP_H 89
+		
+		#define TITLE_W 610
+		#define TITLE_H 20
+		
+		#define VOTE_MAPCOUNT 10
+		#define VOTE_MAP_H 20
+		#define VOTE_TITLE_H 20
+		#define VOTE_W 610
+		#define VOTE_H ((VOTE_MAPCOUNT * VOTE_MAP_H) + VOTE_TITLE_H)
+
+		#define SONG_W 610
+		#define SONG_H 20
+
+		#define ALL_W TITLE_W
+		#define ALL_H (MAP_H + SPACE_WINDOWS + TITLE_H + SPACE_WINDOWS + VOTE_H + SPACE_WINDOWS + SONG_H)
+		#define ALL_X ((640 - ALL_W) * 0.5)
+		#define ALL_Y ((480 - ALL_H) * 0.5)
+
+		#define MAP_X (ALL_X + ((ALL_W - MAP_W) * 0.5))
+		#define MAP_Y ALL_Y		
+		
+		#define TITLE_X ALL_X
+		#define TITLE_Y (MAP_Y + MAP_H + SPACE_WINDOWS)
+
+		#define VOTE_X ALL_X
+		#define VOTE_Y (TITLE_Y + TITLE_H + SPACE_WINDOWS)
+
+		#define SONG_X ALL_X
+		#define SONG_Y (VOTE_Y + VOTE_H + SPACE_WINDOWS)
+
+		// ============================================================================= //
+		// MAP
+		#define MAP_TITLE_W MAP_W
+		#define MAP_TITLE_H 16
+		#define MAP_TITLE_X MAP_X
+		#define MAP_TITLE_Y MAP_Y
+		
+		#define MAP_CONTENT_W MAP_W
+		#define MAP_CONTENT_H (MAP_H - MAP_TITLE_H)
+		#define MAP_CONTENT_X MAP_X
+		#define MAP_CONTENT_Y (MAP_TITLE_Y + MAP_TITLE_H)
+		
+		PANEL_STATIC(MAP_X, MAP_Y, MAP_W, MAP_H, 
+			COLOR_BG_TRANSPARENT, 1)
+		TEXTPANEL_STATIC(MAP_TITLE_X, MAP_TITLE_Y, MAP_TITLE_W, MAP_TITLE_H, 
+			"You have just played", FONTSCALE_16, COLOR_FG_HIGHLIGHT, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 4, 1)
+		
+		#define MAP_SCREEN_W 108
+		#define MAP_SCREEN_H (MAP_CONTENT_H - (SPACE_SMALL * 2))
+		#define MAP_SCREEN_X (MAP_TEXT_X + MAP_TEXT_W + SPACE_SMALL)
+		#define MAP_SCREEN_Y (MAP_CONTENT_Y + SPACE_SMALL)
+		
+		#define MAP_TEXT_W (MAP_CONTENT_W -  MAP_SCREEN_W - (SPACE_SMALL * 3))
+		#define MAP_TEXT_H (MAP_CONTENT_H - SPACE_SMALL)
+		#define MAP_TEXT_X (MAP_CONTENT_X + SPACE_SMALL)
+		#define MAP_TEXT_Y MAP_CONTENT_Y
+		
+		#define MAP_NEW_W 16
+		#define MAP_NEW_H MAP_NEW_W
+		#define MAP_NEW_X ((MAP_SCREEN_X + MAP_SCREEN_W) - MAP_NEW_W)
+		#define MAP_NEW_Y MAP_SCREEN_Y
+		
+		#define MAP_NAME_W MAP_TEXT_W
+		#define MAP_NAME_H 16
+		#define MAP_NAME_X MAP_TEXT_X
+		#define MAP_NAME_Y MAP_TEXT_Y
+		
+		#define MAP_INFOS_COUNT 3
+		#define MAP_INFO_W MAP_TEXT_W
+		#define MAP_INFO_H 12
+		
+		#define MAP_INFOS_W MAP_TEXT_W
+		#define MAP_INFOS_H (MAP_INFO_H * MAP_INFOS_COUNT)
+		#define MAP_INFOS_X MAP_TEXT_X
+		#define MAP_INFOS_Y (MAP_NAME_Y + MAP_NAME_H + 1)
+		
+		#define MAP_RATE_W MAP_TEXT_W
+		#define MAP_RATE_H 16
+		#define MAP_RATE_X MAP_TEXT_X
+		#define MAP_RATE_Y ((MAP_CONTENT_Y + MAP_CONTENT_H) - (MAP_RATE_H + SPACE_SMALL))
+		
+		#define MAP_STAR_H MAP_INFO_H
+		#define MAP_STAR_W MAP_STAR_H
+		
+		#define MAP_STARS_COUNT 5
+		#define MAP_STARS_W (MAP_STAR_W * MAP_STARS_COUNT)
+		#define MAP_STARS_X ((MAP_TEXT_X + MAP_TEXT_W) - MAP_STARS_W)	
+		
+		#define MAP_STAR_X(i) ((MAP_STARS_X + MAP_STARS_W) - (MAP_STAR_W * i))
+		
+		//		PANEL_STATIC(MAP_STARS_X, 0, MAP_STARS_W, 480, 
+		//	COLOR_BG_TRANSPARENT, 1)
+		
+		
+		// LOGO
+		SHADER_STATIC(MAP_SCREEN_X, MAP_SCREEN_Y, MAP_SCREEN_W, MAP_SCREEN_H, 
+			"$levelBriefing", COLOR_WHITE, 1)
+		
+		// NEW
+		SHADER_STATIC(MAP_NEW_X, MAP_NEW_Y, MAP_NEW_W, MAP_NEW_H, 
+			"specialty_new", COLOR_WHITE, DvarBool("ui_mainMapN"))
+		
+		
+		// NAME
+		TEXT_DYNAMIC(MAP_NAME_X, MAP_NAME_Y, MAP_NAME_W, MAP_NAME_H, 
+			DvarString("ui_mainMap"), FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0, 1)		
+		
+		// DIFF
+		TEXT_STATIC(MAP_INFOS_X, (MAP_INFOS_Y + (MAP_INFO_H * 0)), MAP_INFO_W, MAP_INFO_H, 
+			"Difficulty", FONTSCALE_12, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0, DvarInt("ui_mainMapD") > 0)
+		
+		#define DIFF_STAR(i) \
+			SHADER_STATIC(MAP_STAR_X((i + 1)), (MAP_INFOS_Y + (MAP_INFO_H * 0)), MAP_STAR_W, MAP_STAR_H, \
+				"icon_rate", COLOR_WHITE, DvarInt("ui_mainMapD") > i) \
+			
+		DIFF_STAR(0)
+		DIFF_STAR(1)
+		DIFF_STAR(2)
+		DIFF_STAR(3)
+		DIFF_STAR(4)
+		
+		// LEN
+		TEXT_STATIC(MAP_INFOS_X, (MAP_INFOS_Y + (MAP_INFO_H * 1)), MAP_INFO_W, MAP_INFO_H, 
+			"Length", FONTSCALE_12, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0, DvarInt("ui_mainMapL") > 0)
+		
+		#define LEN_STAR(i) \
+			SHADER_STATIC(MAP_STAR_X((i + 1)), (MAP_INFOS_Y + (MAP_INFO_H * 1)), MAP_STAR_W, MAP_STAR_H, \ 
+				"icon_rate", COLOR_WHITE, DvarInt("ui_mainMapL") > i) \
+		
+		LEN_STAR(0)
+		LEN_STAR(1)
+		LEN_STAR(2)
+		LEN_STAR(3)
+		LEN_STAR(4)
+		
+		// CREATOR
+		TEXT_STATIC(MAP_INFOS_X, (MAP_INFOS_Y + (MAP_INFO_H * 2)), MAP_INFO_W, MAP_INFO_H,
+			"Creator", FONTSCALE_12, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0, DvarString("ui_mainMapC") != "")
+		TEXT_DYNAMIC(MAP_INFOS_X, (MAP_INFOS_Y + (MAP_INFO_H * 2)), MAP_INFO_W, MAP_INFO_H, 
+			DvarString("ui_mainMapC"), FONTSCALE_12, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -1, 1)
+		
+		// RATE
+		#define TITLE_RATE_STAR_SPACE 0
+		#define TITLE_RATE_STAR_H MAP_RATE_H
+		#define TITLE_RATE_STAR_W TITLE_RATE_STAR_H
+		#define TITLE_RATE_STARS_COUNT 5
+		#define TITLE_RATE_STARS_W (TITLE_RATE_STAR_W * TITLE_RATE_STARS_COUNT)
+		#define TITLE_RATE_STARS_H TITLE_RATE_STAR_H
+		#define TITLE_RATE_STARS_X ((MAP_RATE_X + MAP_RATE_W) - TITLE_RATE_STARS_W)
+		#define TITLE_RATE_STARS_Y MAP_RATE_Y
+		
+		TEXT_DYNAMIC(MAP_RATE_X, MAP_RATE_Y, MAP_RATE_W, MAP_RATE_H, 
+			"^1Rate Map", FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 0 textAlignY 2, 1)
+		
+		#define RATE_STAR(i, iI, sI) \
+			SHADER_STATIC((TITLE_RATE_STARS_X + (TITLE_RATE_STAR_W * i)), TITLE_RATE_STARS_Y, TITLE_RATE_STAR_W, TITLE_RATE_STAR_H, \
+				"icon_rate", COLOR_WHITE exp forecolor A(0.5 + (0.5 * (LocalVarInt("ui_rateHgl") >= iI))) \
+				type ITEM_TYPE_BUTTON onFocus { play "mouse_over"; setLocalVarInt "ui_rateHgl" iI; }  leaveFocus { setLocalVarInt "ui_rateHgl" 0; } action { play "mouse_click"; setDvar ui_mapMyRate iI; scriptMenuResponse "vmRate,"sI }, \
+				(DvarInt("ui_mapMyRate") == 0)) \
+			SHADER_STATIC((TITLE_RATE_STARS_X + (TITLE_RATE_STAR_W * i)), TITLE_RATE_STARS_Y, TITLE_RATE_STAR_W, TITLE_RATE_STAR_H, \
+				"icon_rate", COLOR_WHITE exp forecolor A(0.5 + (0.5 * (DvarInt("ui_mapMyRate") >= iI))) type ITEM_TYPE_BUTTON, \
+				(DvarInt("ui_mapMyRate") > 0)) \
+			
+		RATE_STAR(0, 1, "1")
+		RATE_STAR(1, 2, "2")
+		RATE_STAR(2, 3, "3")
+		RATE_STAR(3, 4, "4")
+		RATE_STAR(4, 5, "5")
+		
+		// ============================================================================= //
+		// TITLE
+		#define TITLE_STATUS_X TITLE_X
+		#define TITLE_STATUS_Y TITLE_Y
+		#define TITLE_STATUS_W ((TITLE_W - SPACE_WINDOWS) * 0.75)
+		#define TITLE_STATUS_H TITLE_H
+	
+		#define TITLE_QUIT_X (TITLE_STATUS_X + TITLE_STATUS_W + SPACE_WINDOWS)
+		#define TITLE_QUIT_Y TITLE_STATUS_Y
+		#define TITLE_QUIT_W (TITLE_W - TITLE_STATUS_W - SPACE_WINDOWS)
+		#define TITLE_QUIT_H TITLE_STATUS_H
+		
+		// STATUS
+		PANEL_STATIC(TITLE_STATUS_X, TITLE_STATUS_Y, TITLE_STATUS_W, TITLE_STATUS_H, COLOR_BG_TRANSPARENT, DvarBool("ui_vmV"))
+
+		#define TIMEPROGRESS_FRAC (1 - (((Milliseconds() - (DvarInt("ui_vmOTime") + (DvarInt("ui_vmRTime") * 1000))) / 1000) / DvarInt("ui_vmTime")))
+		PANEL_DYNAMIC_W(TITLE_STATUS_X, TITLE_STATUS_Y, (TITLE_STATUS_W * TIMEPROGRESS_FRAC), TITLE_STATUS_H, COLOR_FG_HIGHLIGHT, DvarBool("ui_vmV"))
+		TEXT_STATIC(TITLE_STATUS_X, TITLE_STATUS_Y, TITLE_STATUS_W, TITLE_STATUS_H, 
+			"Voting for next map", FONTSCALE_20, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 4, DvarBool("ui_vmV"))
+		
+		
+		// QUIT
+		PANEL_STATIC(TITLE_QUIT_X, TITLE_QUIT_Y, TITLE_QUIT_W, TITLE_QUIT_H, COLOR_BG_TRANSPARENT, DvarBool("ui_vmV"))	
+		BTN_STATIC("401", TITLE_QUIT_X, TITLE_QUIT_Y, TITLE_QUIT_W, TITLE_QUIT_H, 
+			"Quit", FONTSCALE_20, ITEM_ALIGN_MIDDLE_CENTER, scriptMenuResponse "leaving";, ;, ;, DvarBool("ui_vmV"));
+			
+		// ============================================================================= //
+		// VOTE
+		#define VOTE_TITLE_X VOTE_X
+		#define VOTE_TITLE_Y VOTE_Y
+		#define VOTE_TITLE_W VOTE_W
+		//#define VOTE_TITLE_H 20
+		
+		PANEL_DYNAMIC_H(VOTE_X, VOTE_Y, VOTE_W, (VOTE_TITLE_H + (VOTE_MAP_H * DvarInt("ui_vmC"))), 
+			COLOR_BG_TRANSPARENT type ITEM_TYPE_BUTTON, DvarBool("ui_vmV"))
+		PANEL_STATIC(VOTE_TITLE_X, VOTE_TITLE_Y, VOTE_TITLE_W, VOTE_TITLE_H, COLOR_FG_HIGHLIGHT, DvarBool("ui_vmV"))
+		
+		#define VOTE_MAP_W VOTE_W
+		//#define VOTE_MAP_H 20
+		#define VOTE_MAP_GETX(i) (VOTE_X)
+		#define VOTE_MAP_GETY(i) (VOTE_Y + VOTE_TITLE_H + (VOTE_MAP_H * i))
+
+		#define VOTE_MAP_NAME_X VOTE_X
+		#define VOTE_MAP_NAME_W (VOTE_MAP_W * 0.31)
+
+		#define VOTE_MAP_POP_SPACE 2
+		#define VOTE_MAP_POP_X (VOTE_MAP_NAME_X + VOTE_MAP_NAME_W)
+		#define VOTE_MAP_POP_W (VOTE_MAP_W * 0.19)
+		#define VOTE_MAP_POP_ICON_SPACE 2
+		#define VOTE_MAP_POP_ICON_W (VOTE_MAP_H - (VOTE_MAP_DIFF_ICON_SPACE * 2))
+		#define VOTE_MAP_POP_ICON_H (VOTE_MAP_H - (VOTE_MAP_DIFF_ICON_SPACE * 2))
+		
+		#define VOTE_MAP_DIFF_SPACE 2
+		#define VOTE_MAP_DIFF_X (VOTE_MAP_POP_X + VOTE_MAP_POP_W)
+		#define VOTE_MAP_DIFF_W (VOTE_MAP_W * 0.19)
+		#define VOTE_MAP_DIFF_ICON_SPACE 2
+		#define VOTE_MAP_DIFF_ICON_W (VOTE_MAP_H - (VOTE_MAP_DIFF_ICON_SPACE * 2))
+		#define VOTE_MAP_DIFF_ICON_H (VOTE_MAP_H - (VOTE_MAP_DIFF_ICON_SPACE * 2))
+		
+		#define VOTE_MAP_LEN_SPACE 2
+		#define VOTE_MAP_LEN_X (VOTE_MAP_DIFF_X + VOTE_MAP_DIFF_W)
+		#define VOTE_MAP_LEN_W (VOTE_MAP_W * 0.19)
+		#define VOTE_MAP_LEN_ICON_SPACE 2
+		#define VOTE_MAP_LEN_ICON_W (VOTE_MAP_H - (VOTE_MAP_LEN_ICON_SPACE * 2))
+		#define VOTE_MAP_LEN_ICON_H (VOTE_MAP_H - (VOTE_MAP_LEN_ICON_SPACE * 2))
+		
+		#define VOTE_MAP_NEW_X (VOTE_MAP_LEN_X + VOTE_MAP_LEN_W)
+		#define VOTE_MAP_NEW_W (VOTE_MAP_W * 0.08)
+		#define VOTE_MAP_NEW_ICON_SPACE 2
+		#define VOTE_MAP_NEW_ICON_W (VOTE_MAP_H - (VOTE_MAP_NEW_ICON_SPACE * 2))
+		#define VOTE_MAP_NEW_ICON_H (VOTE_MAP_H - (VOTE_MAP_NEW_ICON_SPACE * 2))
+		
+		#define VOTE_MAP_VOTES_X (VOTE_MAP_NEW_X + VOTE_MAP_NEW_W)
+		#define VOTE_MAP_VOTES_W (VOTE_MAP_W * 0.04)
+
+		TEXT_STATIC(VOTE_MAP_POP_X, VOTE_TITLE_Y, VOTE_MAP_POP_W, VOTE_TITLE_H, 
+			"Popularity", FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_CENTER, DvarBool("ui_vmV"))		
+		TEXT_STATIC(VOTE_MAP_DIFF_X, VOTE_TITLE_Y, VOTE_MAP_DIFF_W, VOTE_TITLE_H, 
+			"Difficulty", FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_CENTER, DvarBool("ui_vmV"))
+		TEXT_STATIC(VOTE_MAP_LEN_X, VOTE_TITLE_Y, VOTE_MAP_LEN_W, VOTE_TITLE_H, 
+			"Length", FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_CENTER, DvarBool("ui_vmV"))
+		//TEXT_STATIC(VOTE_MAP_NEW_X, VOTE_TITLE_Y, VOTE_MAP_NEW_W, VOTE_TITLE_H, 
+		//	"New", FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_CENTER, DvarBool("ui_vmV"))	
+		
+		#define STARSBAR_GETX(x, y, w, h, sW, sH, maxStars) (x + ((w - (sW * maxStars)) * 0.5))
+		#define STARSBAR(x, y, w, h, sW, sH, curI, vis) \
+			SHADER_STATIC((STARSBAR_GETX(x, y, w, h, sW, sH, 5) + (sW * 0)), y, sW, sH, "icon_rate", COLOR_WHITE, (curI > 0 && vis)) \
+			SHADER_STATIC((STARSBAR_GETX(x, y, w, h, sW, sH, 5) + (sW * 1)), y, sW, sH, "icon_rate", COLOR_WHITE, (curI > 1 && vis)) \
+			SHADER_STATIC((STARSBAR_GETX(x, y, w, h, sW, sH, 5) + (sW * 2)), y, sW, sH, "icon_rate", COLOR_WHITE, (curI > 2 && vis)) \
+			SHADER_STATIC((STARSBAR_GETX(x, y, w, h, sW, sH, 5) + (sW * 3)), y, sW, sH, "icon_rate", COLOR_WHITE, (curI > 3 && vis)) \
+			SHADER_STATIC((STARSBAR_GETX(x, y, w, h, sW, sH, 5) + (sW * 4)), y, sW, sH, "icon_rate", COLOR_WHITE, (curI > 4 && vis)) \
+		
+		PANEL_DYNAMIC_Y(VOTE_MAP_GETX(0), VOTE_MAP_GETY(LocalVarInt("ui_vmHgl")), VOTE_MAP_W, VOTE_MAP_H, COLOR_FG_HIGHLIGHT, (DvarBool("ui_vmA") && DvarBool("ui_vmV")))
+		PANEL_DYNAMIC_Y(VOTE_MAP_GETX(0), VOTE_MAP_GETY(LocalVarInt("ui_vmSel")), VOTE_MAP_W, VOTE_MAP_H, COLOR_FG_HIGHLIGHT, (DvarBool("ui_vmA") && DvarBool("ui_vmV")))
+		
+		#define VOTE_MAP(i, sI) \
+			TEXT_DYNAMIC(VOTE_MAP_NAME_X, VOTE_MAP_GETY(i), VOTE_MAP_NAME_W, VOTE_MAP_H, \
+				DvarString("ui_vmM" + i + "N"), FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 4, (i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			STARSBAR((VOTE_MAP_POP_X + VOTE_MAP_POP_ICON_SPACE), (VOTE_MAP_GETY(i) + VOTE_MAP_POP_ICON_SPACE), VOTE_MAP_POP_W, VOTE_MAP_H, VOTE_MAP_POP_ICON_W, VOTE_MAP_POP_ICON_H, \
+				DvarInt("ui_vmM" + i + "P"), (DvarString("ui_vmM" + i + "N") != "" && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			STARSBAR((VOTE_MAP_DIFF_X + VOTE_MAP_DIFF_ICON_SPACE), (VOTE_MAP_GETY(i) + VOTE_MAP_DIFF_ICON_SPACE), VOTE_MAP_DIFF_W, VOTE_MAP_H, VOTE_MAP_DIFF_ICON_W, VOTE_MAP_DIFF_ICON_H, \
+				DvarInt("ui_vmM" + i + "D"), (DvarString("ui_vmM" + i + "N") != "" && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			STARSBAR((VOTE_MAP_LEN_X + VOTE_MAP_LEN_ICON_SPACE), (VOTE_MAP_GETY(i) + VOTE_MAP_LEN_ICON_SPACE), VOTE_MAP_LEN_W, VOTE_MAP_H, VOTE_MAP_LEN_ICON_W, VOTE_MAP_LEN_ICON_H, \
+				DvarInt("ui_vmM" + i + "L"), (DvarString("ui_vmM" + i + "N") != "" && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			SHADER_STATIC((STARSBAR_GETX(VOTE_MAP_NEW_X, VOTE_MAP_GETY(i), VOTE_MAP_NEW_W, VOTE_MAP_H, VOTE_MAP_H, VOTE_MAP_H, 1) + VOTE_MAP_NEW_ICON_SPACE), (VOTE_MAP_GETY(i) + VOTE_MAP_NEW_ICON_SPACE), VOTE_MAP_NEW_ICON_W, VOTE_MAP_NEW_ICON_H, \
+				"specialty_new", COLOR_WHITE, (DvarBool("ui_vmM" + i + "T") && DvarString("ui_vmM" + i + "N") != "" && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			TEXT_DYNAMIC(VOTE_MAP_VOTES_X, VOTE_MAP_GETY(i), VOTE_MAP_VOTES_W, VOTE_MAP_H, \
+				DvarString("ui_vmM" + i + "V"), FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_RIGHT textAlignX -4, (DvarString("ui_vmM" + i + "N") != "" && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			PANEL_STATIC(VOTE_MAP_GETX(i), VOTE_MAP_GETY(i), VOTE_MAP_W, VOTE_MAP_H, \
+				0 0 0 0 type ITEM_TYPE_BUTTON \
+				onFocus { play "mouse_over"; setLocalVarInt "ui_vmHgl" i; } \
+				leaveFocus { setLocalVarInt "ui_vmHgl" 999; } \
+				action { play "mouse_click"; setLocalVarInt "ui_vmSel" i; scriptMenuResponse "vmVote,"sI; }, (DvarBool("ui_vmA") && i < DvarInt("ui_vmC") && DvarBool("ui_vmV"))) \
+			
+			
+		VOTE_MAP(0, "0")
+		VOTE_MAP(1, "1")
+		VOTE_MAP(2, "2")
+		VOTE_MAP(3, "3")
+		VOTE_MAP(4, "4")
+		VOTE_MAP(5, "5")
+		VOTE_MAP(6, "6")
+		VOTE_MAP(7, "7")
+		VOTE_MAP(8, "8")
+		VOTE_MAP(9, "9")
+		
+		// ============================================================================= //
+		// SONG
+		#define SONG_ICON_H SONG_H
+		#define SONG_ICON_W SONG_ICON_H
+		#define SONG_ICON_X SONG_X
+		#define SONG_ICON_Y SONG_Y
+
+		#define SONG_DYN_Y (TITLE_Y + ((TITLE_H + SPACE_WINDOWS + VOTE_TITLE_H + (DvarInt("ui_vmC") * VOTE_MAP_H)) * DvarBool("ui_vmV")) + SPACE_WINDOWS)
+		
+		PANEL_DYNAMIC_Y(SONG_X, SONG_DYN_Y, SONG_W, SONG_H, COLOR_BG_TRANSPARENT, (DvarString("ui_vmS") != ""))
+		SHADER_STATIC(SONG_ICON_X, 0, SONG_ICON_W, SONG_ICON_H, "voice_on", COLOR_WHITE exp rect Y(SONG_DYN_Y), (DvarString("ui_vmS") != ""))
+		TEXT_DYNAMIC((SONG_X + SONG_ICON_W), 0, (SONG_W - SONG_ICON_W), SONG_H, 
+			DvarString("ui_vmS"), FONTSCALE_16, COLOR_WHITE, ITEM_ALIGN_MIDDLE_LEFT textAlignX 4 exp rect Y(SONG_DYN_Y), (DvarString("ui_vmS") != ""))
+
+		
+		onEsc
+		{
+			//close self;
+		}
+		onOpen
+		{
+			ONOPEN_DEFAULT;
+		
+			execNow "setDvarToTime ui_vmOTime";
+			scriptMenuResponse "onOpen";
+			
+			setLocalVarInt "ui_vmHgl" 999;
+			setLocalVarInt "ui_vmSel" 999;
+			
+			setLocalVarInt "ui_rateHgl" 0;
+			
+			//test
+			//setDvar ui_vmTime 15;
+		}
+		onClose
+		{
+			ONCLOSE_DEFAULT;
+		}
+	}
+}

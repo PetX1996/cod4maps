@@ -1,0 +1,113 @@
+///////////////////////////////////////////////////////
+///|         |///|        |///|       |/\  \/////  ////
+///|  |////  |///|  |//|  |///|  |/|  |//\  \///  /////
+///|  |////  |///|  |//|  |///|  |/|  |///\  \/  //////
+///|          |//|  |//|  |///|       |////\    ///////
+///|  |////|  |//|         |//|  |/|  |/////    \//////
+///|  |////|  |//|  |///|  |//|  |/|  |////  /\  \/////
+///|          |//|__|///|__|//|__|/|__|///  ///\  \////
+/////////////////////////////////////////__/////\__\///
+///////////////////////////////////////////////////////
+//
+//	Xfire : braxpl
+//
+//
+
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           MODNAME
+LANG_ENGLISH        "^7Death Run Mod"
+
+REFERENCE           VERSIONSTRING
+LANG_ENGLISH        "1.3-BETA (2013-09-01)"
+
+
+
+REFERENCE			DIDYOUKNOW_0
+LANG_ENGLISH		"This mod was created by ^2BraXi^7, with additional work done by ^2Rycoon^7."
+
+REFERENCE			DIDYOUKNOW_1
+LANG_ENGLISH		"This is a fun mod - don't treat it as competitive and don't play it for rank."
+
+REFERENCE			DIDYOUKNOW_2
+LANG_ENGLISH		"As Activator you have to kill Jumpers with traps to score points."
+
+REFERENCE			DIDYOUKNOW_3
+LANG_ENGLISH		"This is not CoD Jumper so activate traps!"
+
+REFERENCE			DIDYOUKNOW_4
+LANG_ENGLISH		"Knifing or killing Jumpers with guns will not give you points if you're Activator."
+
+REFERENCE			DIDYOUKNOW_5
+LANG_ENGLISH		"As Jumper you have to evade traps and eliminate Activator."
+
+REFERENCE			DIDYOUKNOW_6
+LANG_ENGLISH		"Don't call Activator a noob if You were killed with a trap, the only noob here is You."
+
+
+
+REFERENCE           NOTICE
+LANG_ENGLISH        "^3Death Run Notice"
+
+REFERENCE           GAME_EXPERIENCE_CHANGED
+LANG_ENGLISH        "DeathRun Mod v1.3"
+
+
+
+REFERENCE           ABOUT
+LANG_ENGLISH        "About Death Run Mod"
+
+REFERENCE           ABOUT_HEADER
+LANG_ENGLISH        "About Death Run..."
+
+
+
+REFERENCE           SPRAY_NEW
+LANG_ENGLISH        "New Spray Unlocked!"
+
+REFERENCE           CHARACTER_NEW
+LANG_ENGLISH        "New Character Unlocked!"
+
+
+
+REFERENCE           CHARACTER_ZOEY
+LANG_ENGLISH        "Zoey"
+
+REFERENCE           CHARACTER_FARMER
+LANG_ENGLISH        "Farmer"
+
+REFERENCE           CHARACTER_GANGSTER
+LANG_ENGLISH        "Gangster"
+
+REFERENCE           CHARACTER_SHEPHERD
+LANG_ENGLISH        "General Shepherd"
+
+REFERENCE           CHARACTER_MASTERCHIEF
+LANG_ENGLISH        "Masterchief"
+
+REFERENCE           CHARACTER_JUGGERNAUT
+LANG_ENGLISH        "Juggernaut"
+
+REFERENCE           CHARACTER_MAKAROV
+LANG_ENGLISH        "Makarov"
+
+
+
+
+REFERENCE           CALL_FREEROUND
+LANG_ENGLISH        "Press ^3[FIRE] ^7to select ^2FREE RUN ^7round."
+
+REFERENCE           ALIVE_JUMPERS
+LANG_ENGLISH        "Jumpers Left:^3 &&1"
+
+REFERENCE           ROUND_BEGINS_IN
+LANG_ENGLISH        "Round begins in..."
+
+REFERENCE           WAITING_FOR_PLAYERS
+LANG_ENGLISH        "Waiting for more players to start round..."
+
+ENDMARKER
+
+

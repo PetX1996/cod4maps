@@ -1,0 +1,5381 @@
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.976) : 24/5/2012 19:56:58 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. SB X-Fi Audio [0001](DEFAULT)
+
+	2. Generic Software
+
+Using: 'SB X-Fi Audio [0001]'
+------------------
+
+Saving Settings..
+Saving Menu States..
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+GPU: GeForce GTX 295/PCIe/SSE2
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+Saving Settings..
+ImageCheck:: 'raw/images' looks incomplete with only: '3 iwis' suggested user to run IWDToImages, Path: 'G:\Steam\steamapps\common\call of duty black ops\raw\images'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.976) : 24/5/2012 20:3:23 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. SB X-Fi Audio [0001](DEFAULT)
+
+	2. Generic Software
+
+Using: 'SB X-Fi Audio [0001]'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+GPU: GeForce GTX 295/PCIe/SSE2
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Performing single pass listbox overflowcheck. (for '4451' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+Logging Mode Changed: Sync every write
+Saving Settings..
+Saving Settings..
+Saving Settings..
+SetVis::Failed To find Menu: close_xmodel_log
+SetVis::Failed To find Menu: close_xmodel_prob
+Passing Xmodel: '4gf_cannon_pad' to background loader
+Loaded Xmodel: 4gf_cannon_pad
+Xmodel Loaded in: 297.0 ms
+Loaded Surface (0) in: 82.0 ms
+Loaded Material: cannon_baze
+
+
+Passing Xmodel: '4gf_cannon_shield' to background loader
+Loaded Xmodel: 4gf_cannon_shield
+Xmodel Loaded in: 46.0 ms
+Loaded Surface (0) in: 25.0 ms
+Loaded Material: cannon_baze
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_dragon_crystal' to background loader
+Loaded Xmodel: 4gf_dragon_crystal
+Xmodel Loaded in: 104.0 ms
+Loaded Surface (0) in: 55.0 ms
+Loaded Material: dragon_crystal1
+Deleting (1) materials
+
+
+Saving Settings..
+Passing Xmodel: '4gf_dragon_marble' to background loader
+Loaded Xmodel: 4gf_dragon_marble
+Xmodel Loaded in: 45.0 ms
+Loaded Surface (0) in: 58.0 ms
+Loaded Material: dragon_marble1
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_dragon_crystal' to background loader
+Loaded Xmodel: 4gf_dragon_crystal
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 45.0 ms
+Loaded Material: dragon_crystal1
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_dragon_marble' to background loader
+Loaded Xmodel: 4gf_dragon_marble
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: dragon_marble1
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_hodiny' to background loader
+Loaded Xmodel: 4gf_hodiny
+Xmodel Loaded in: 82.0 ms
+Loaded Surface (0) in: 13.0 ms
+Loaded Material: hodiny
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_hodiny2' to background loader
+Loaded Xmodel: 4gf_hodiny2
+Xmodel Loaded in: 52.0 ms
+Loaded Surface (0) in: 12.0 ms
+Loaded Material: hodiny2
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_laser_emitor' to background loader
+Loaded Xmodel: 4gf_laser_emitor
+Xmodel Loaded in: 149.0 ms
+Loaded Surface (0) in: 21.0 ms
+Load Material::IWI com_black.iwi: Can't OpenFile
+Load Material::IWI ap_chrome_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_map_status' to background loader
+Loaded Xmodel: 4gf_map_status
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 0.0 ms
+Loaded Material: dr_map_status
+Deleting (2) materials
+
+
+Passing Xmodel: '4gf_materials' to background loader
+Loaded Xmodel: 4gf_materials
+Xmodel Loaded in: 122.0 ms
+Loaded Surface (0) in: 0.0 ms
+Loaded Material: bandaging
+Loaded Material: bleeding
+Loaded Material: camping
+Loaded Material: clanlogo
+Loaded Material: headicon_props
+Loaded Material: faction_128_props
+Loaded Material: hud_blood_stain_1
+Loaded Material: hud_blood_stain_2
+Loaded Material: hud_blood_stain_3
+Loaded Material: hud_blood_stain_4
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_minigun_cannon' to background loader
+Loaded Xmodel: 4gf_minigun_cannon
+Xmodel Loaded in: 98.0 ms
+Loaded Surface (0) in: 140.0 ms
+Load Material::IWI icbm_missilebody.iwi: Can't OpenFile
+Loaded Material: cannon_baze
+Loaded Material: cannon_box
+Deleting (10) materials
+
+
+Passing Xmodel: '4gf_plasma_cannon' to background loader
+Loaded Xmodel: 4gf_plasma_cannon
+Xmodel Loaded in: 56.0 ms
+Loaded Surface (0) in: 80.0 ms
+Loaded Material: cannon_baze
+Loaded Material: plasma_cannon_1
+Deleting (3) materials
+
+
+Passing Xmodel: '4gf_sga_dron' to background loader
+Loaded Xmodel: 4gf_sga_dron
+Xmodel Loaded in: 41.0 ms
+Loaded Surface (0) in: 15.0 ms
+Loaded Material: drone
+Deleting (2) materials
+
+
+Passing Xmodel: '4gf_sga_jumper' to background loader
+Loaded Xmodel: 4gf_sga_jumper
+Xmodel Loaded in: 122.0 ms
+Loaded Surface (0) in: 182.0 ms
+Load Material::IWI transparent_dirty.iwi: Can't OpenFile
+Loaded Material: jumper_7
+Loaded Material: jumper_6
+Loaded Material: jumper_5
+Loaded Material: jumper_4
+Loaded Material: jumper_3
+Loaded Material: jumper_2
+Loaded Material: jumper_1
+Loaded Material: drone
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_sgc_alkesh' to background loader
+Loaded Xmodel: 4gf_sgc_alkesh
+Xmodel Loaded in: 69.0 ms
+Loaded Surface (0) in: 49.0 ms
+Loaded Material: alkesh_material_0
+Loaded Material: alkesh_material_1
+Loaded Material: alkesh_material_2
+Loaded Material: alkesh_material_3
+Loaded Material: alkesh_material_4
+Loaded Material: alkesh_material_5
+Loaded Material: alkesh_material_6
+Loaded Material: alkesh_material_9
+Loaded Material: alkesh_material_7
+Loaded Material: alkesh_material_8
+Deleting (9) materials
+
+
+Passing Xmodel: '4gf_shell_cannon' to background loader
+Loaded Xmodel: 4gf_shell_cannon
+Xmodel Loaded in: 74.0 ms
+Loaded Surface (0) in: 76.0 ms
+Loaded Material: shell_cannon_1
+Loaded Material: cannon_baze
+Deleting (10) materials
+
+
+Passing Xmodel: '4gf_space_ship_alies' to background loader
+Loaded Xmodel: 4gf_space_ship_alies
+Xmodel Loaded in: 48.0 ms
+Loaded Surface (0) in: 291.0 ms
+Loaded Material: space_ship_alies
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+BoneDisplay: Max Child Joints Exceeded
+Deleting (2) materials
+
+
+Passing Xmodel: '4gf_special_model' to background loader
+Loaded Xmodel: 4gf_special_model
+Xmodel Loaded in: 91.0 ms
+Loaded Surface (0) in: 288.0 ms
+Loaded Material: special_model_tex
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_special_model_dr' to background loader
+Loaded Xmodel: 4gf_special_model_dr
+Xmodel Loaded in: 19.0 ms
+Loaded Surface (0) in: 54.0 ms
+Loaded Material: special_model_tex
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_weapon_famas_vm' to background loader
+Loaded Xmodel: 4gf_weapon_famas_vm
+Xmodel Loaded in: 59.0 ms
+Loaded Surface (0) in: 119.0 ms
+Loaded Material: famas_tex
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_weapon_famas_wm' to background loader
+Loaded Xmodel: 4gf_weapon_famas_wm
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 50.0 ms
+Loaded Material: famas_tex
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_weapon_l96_vm' to background loader
+Loaded Xmodel: 4gf_weapon_l96_vm
+Xmodel Loaded in: 62.0 ms
+Loaded Surface (0) in: 131.0 ms
+Load Material::IWI m14_scope_col.iwi: Can't OpenFile
+Load Material::IWI m14_scope_lens_col.iwi: Can't OpenFile
+Loaded Material: l96_tex
+Deleting (1) materials
+
+
+Passing Xmodel: '4gf_wood_barrel' to background loader
+Loaded Xmodel: 4gf_wood_barrel
+Xmodel Loaded in: 43.0 ms
+Loaded Surface (0) in: 13.0 ms
+Loaded Material: wooden_barrels
+Deleting (3) materials
+
+
+Passing Xmodel: 'ac130_foliage_tree_grey_oak' to background loader
+Loaded Xmodel: ac130_foliage_tree_grey_oak
+Xmodel Loaded in: 191.0 ms
+Loaded Surface (0) in: 18.0 ms
+Load Material::IWI tree_grey_oak_col.iwi: Can't OpenFile
+Load Material::IWI tree_grey_oak_col.iwi: Can't OpenFile
+Load Material::IWI tree_shadowcaster.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ac130_foliage_tree_pine' to background loader
+Loaded Xmodel: ac130_foliage_tree_pine
+Xmodel Loaded in: 50.0 ms
+Loaded Surface (0) in: 13.0 ms
+Loaded Material: mtl_pine
+Load Material::IWI tree_shadowcaster.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'ac_car_part02' to background loader
+Loaded Xmodel: ac_car_part02
+Xmodel Loaded in: 117.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI car_parts01.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'ac_car_part03' to background loader
+Loaded Xmodel: ac_car_part03
+Xmodel Loaded in: 25.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI car_parts01.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ac_car_part04' to background loader
+Loaded Xmodel: ac_car_part04
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI car_parts01.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ac_car_part06' to background loader
+Loaded Xmodel: ac_car_part06
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI car_parts01.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ad_sodamachine' to background loader
+Loaded Xmodel: ad_sodamachine
+Xmodel Loaded in: 77.0 ms
+Loaded Surface (0) in: 23.0 ms
+Load Material::IWI mtl_soda_can_04_col.iwi: Can't OpenFile
+Load Material::IWI mtl_soda_can_03_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'aftermath_broken_building_01' to background loader
+Loaded Xmodel: aftermath_broken_building_01
+Xmodel Loaded in: 207.0 ms
+Loaded Surface (0) in: 28.0 ms
+Load Material::IWI me_plaster_01.iwi: Can't OpenFile
+Load Material::IWI me_roof.iwi: Can't OpenFile
+Load Material::IWI me_adobe_bottom.iwi: Can't OpenFile
+Load Material::IWI me_decal_plasterwall04.iwi: Can't OpenFile
+Load Material::IWI me_door_01.iwi: Can't OpenFile
+Load Material::IWI me_door_wide05.iwi: Can't OpenFile
+Load Material::IWI ch_floor_broken02_col.iwi: Can't OpenFile
+Load Material::IWI me_decal_burned_col.iwi: Can't OpenFile
+Load Material::IWI me_door_09_col.iwi: Can't OpenFile
+Load Material::IWI me_window_fence_col.iwi: Can't OpenFile
+Load Material::IWI me_plaster_03.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'aftermath_cable_tower' to background loader
+Loaded Xmodel: aftermath_cable_tower
+Xmodel Loaded in: 53.0 ms
+Loaded Surface (0) in: 12.0 ms
+Load Material::IWI me_pinewood_col.iwi: Can't OpenFile
+Load Material::IWI me_i_beam_col.iwi: Can't OpenFile
+Deleting (11) materials
+
+
+Passing Xmodel: 'aftermath_doodad_01' to background loader
+Loaded Xmodel: aftermath_doodad_01
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI me_ground_concrete_01_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'aftermath_ditch_railing_01' to background loader
+Loaded Xmodel: aftermath_ditch_railing_01
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI me_i_beam_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'aftermath_doodad_02' to background loader
+Loaded Xmodel: aftermath_doodad_02
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI me_ground_concrete_01_color.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_01' to background loader
+Loaded Xmodel: aftermath_facade_destroyed_01
+Xmodel Loaded in: 13.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI me_plaster_01.iwi: Can't OpenFile
+Load Material::IWI me_roof.iwi: Can't OpenFile
+Load Material::IWI me_adobe_top.iwi: Can't OpenFile
+Load Material::IWI ch_floor_broken02_col.iwi: Can't OpenFile
+Load Material::IWI me_metal_rebar.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_02' to background loader
+Loaded Xmodel: aftermath_facade_destroyed_02
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 19.0 ms
+Load Material::IWI me_plaster_01.iwi: Can't OpenFile
+Load Material::IWI me_roof.iwi: Can't OpenFile
+Load Material::IWI me_adobe_top.iwi: Can't OpenFile
+Load Material::IWI ch_floor_broken02_col.iwi: Can't OpenFile
+Load Material::IWI me_decal_burned_col.iwi: Can't OpenFile
+Load Material::IWI me_door_09_col.iwi: Can't OpenFile
+Load Material::IWI me_metal_rebar.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_02_b' to background loader
+Loaded Xmodel: aftermath_facade_destroyed_02_b
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI me_plaster_01.iwi: Can't OpenFile
+Deleting (7) materials
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_04' to background loader
+Loaded Xmodel: aftermath_facade_destroyed_04
+Xmodel Loaded in: 25.0 ms
+Loaded Surface (0) in: 29.0 ms
+Load Material::IWI me_plaster_01.iwi: Can't OpenFile
+Load Material::IWI me_roof.iwi: Can't OpenFile
+Load Material::IWI me_adobe_bottom.iwi: Can't OpenFile
+Load Material::IWI me_decal_plasterwall04.iwi: Can't OpenFile
+Load Material::IWI me_door_01.iwi: Can't OpenFile
+Load Material::IWI me_door_wide05.iwi: Can't OpenFile
+Load Material::IWI ch_floor_broken02_col.iwi: Can't OpenFile
+Load Material::IWI me_decal_burned_col.iwi: Can't OpenFile
+Load Material::IWI me_door_09_col.iwi: Can't OpenFile
+Load Material::IWI me_window_fence_col.iwi: Can't OpenFile
+Load Material::IWI me_plaster_03.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'aftermath_industrialframe_part1' to background loader
+Loaded Xmodel: aftermath_industrialframe_part1
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI me_i_beam_col.iwi: Can't OpenFile
+Deleting (11) materials
+
+
+Passing Xmodel: 'ap_luggage02' to background loader
+Loaded Xmodel: ap_luggage02
+Xmodel Loaded in: 48.0 ms
+Loaded Surface (0) in: 12.0 ms
+Load Material::IWI luggage01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'alkesh' to background loader
+LoadxmodelFull:: File Not Found
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_airbus_seat_1' to background loader
+Loaded Xmodel: ap_airbus_seat_1
+Xmodel Loaded in: 32.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI ap_airbus_seat_passanger_col.iwi: Can't OpenFile
+Deleting (10) materials
+
+
+Passing Xmodel: 'ap_airbus_seat_2' to background loader
+Loaded Xmodel: ap_airbus_seat_2
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI ap_airbus_seat_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_air_mask' to background loader
+Loaded Xmodel: ap_air_mask
+Xmodel Loaded in: 48.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI air_mask_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_couch01' to background loader
+Loaded Xmodel: ap_couch01
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI ap_couch_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_food_cart' to background loader
+Loaded Xmodel: ap_food_cart
+Xmodel Loaded in: 42.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI food_cart_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_interior_door_handle' to background loader
+Loaded Xmodel: ap_interior_door_handle
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI ap_interior_door_handle_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_luggage01' to background loader
+Loaded Xmodel: ap_luggage01
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 19.0 ms
+Load Material::IWI luggage01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_luggage02' to background loader
+Loaded Xmodel: ap_luggage02
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI luggage01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_luggage03' to background loader
+Loaded Xmodel: ap_luggage03
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI luggage01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_luggage04' to background loader
+Loaded Xmodel: ap_luggage04
+Xmodel Loaded in: 22.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI luggage01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_table01' to background loader
+Loaded Xmodel: ap_table01
+Xmodel Loaded in: 22.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI table01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_table_02' to background loader
+Loaded Xmodel: ap_table_02
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI table01_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_table_square01' to background loader
+Loaded Xmodel: ap_table_square01
+Xmodel Loaded in: 35.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI table01_col.iwi: Can't OpenFile
+Load Material::IWI cafe_table2_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'ap_window_left_unit' to background loader
+Loaded Xmodel: ap_window_left_unit
+Xmodel Loaded in: 21.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI ai_interior_plastic_window_col.iwi: Can't OpenFile
+Load Material::IWI ai_interior_glass_window_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'ap_window_right_unit' to background loader
+Loaded Xmodel: ap_window_right_unit
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI ai_interior_plastic_window_col.iwi: Can't OpenFile
+Load Material::IWI ai_interior_glass_window_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'axis' to background loader
+Loaded Xmodel: axis
+Xmodel Loaded in: 23.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI rgb.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'a_usmc_tank_pose_a' to background loader
+Loaded Xmodel: a_usmc_tank_pose_a
+Xmodel Loaded in: 78.0 ms
+Loaded Surface (0) in: 571.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI usmc_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI usmc_mark_col_sp.iwi: Can't OpenFile
+Load Material::IWI usmc_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_arm_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_weapon_winchest1200_misc_nocamo
+Load Material::IWI usmc_vasquez_col_sp.iwi: Can't OpenFile
+Load Material::IWI usmc_helmet_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_lenses_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_lenses_sp_col.iwi: Can't OpenFile
+Load Material::IWI accessories_alpha_mp_col.iwi: Can't OpenFile
+Loaded Material: mtl_usmc_body_mp
+Load Material::IWI accessories_mp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_tactical_mich_stripes_nomex_col.iwi: Can't OpenFile
+Load Material::IWI usmc_james_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_sami_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_shaved_head_col.iwi: Can't OpenFile
+Passing Xmodel: 'a_usmc_tank_pose_b' to background loader
+Loaded Material: mtl_usmc_tactical_cap
+Load Material::IWI usmc_ryan_col_sp.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_faucet' to background loader
+Loaded Xmodel: a_usmc_tank_pose_b
+Xmodel Loaded in: 225.0 ms
+Loaded Surface (0) in: 272.0 ms
+Loaded Material: mtl_weapon_saw
+Load Material::IWI weapon_rail_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_foregrip_a_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_decals_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_tread_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_minigun_col.iwi: Can't OpenFile
+Loaded Material: mtl_weapon_mp5
+Deleting (21) materials
+
+
+Loaded Xmodel: bathroom_faucet
+Xmodel Loaded in: 28.0 ms
+Loaded Surface (0) in: 13.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (14) materials
+
+
+Passing Xmodel: 'a_usmc_tank_pose_b' to background loader
+Loaded Xmodel: a_usmc_tank_pose_b
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 212.0 ms
+Loaded Material: mtl_weapon_saw
+Load Material::IWI weapon_rail_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_foregrip_a_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_decals_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_tread_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_minigun_col.iwi: Can't OpenFile
+Loaded Material: mtl_weapon_mp5
+Deleting (1) materials
+
+
+Passing Xmodel: 'a_usmc_tank_pose_a' to background loader
+Loaded Xmodel: a_usmc_tank_pose_a
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 502.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI usmc_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI usmc_mark_col_sp.iwi: Can't OpenFile
+Load Material::IWI usmc_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_arm_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_weapon_winchest1200_misc_nocamo
+Load Material::IWI usmc_vasquez_col_sp.iwi: Can't OpenFile
+Load Material::IWI usmc_helmet_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_lenses_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_lenses_sp_col.iwi: Can't OpenFile
+Load Material::IWI accessories_alpha_mp_col.iwi: Can't OpenFile
+Loaded Material: mtl_usmc_body_mp
+Load Material::IWI accessories_mp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_tactical_mich_stripes_nomex_col.iwi: Can't OpenFile
+Load Material::IWI usmc_james_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_sami_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_shaved_head_col.iwi: Can't OpenFile
+Loaded Material: mtl_usmc_tactical_cap
+Load Material::IWI usmc_ryan_col_sp.iwi: Can't OpenFile
+Deleting (14) materials
+
+
+Passing Xmodel: 'a_usmc_tank_pose_b' to background loader
+Loaded Xmodel: a_usmc_tank_pose_b
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 214.0 ms
+Loaded Material: mtl_weapon_saw
+Load Material::IWI weapon_rail_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_foregrip_a_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_decals_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_tread_col.iwi: Can't OpenFile
+Load Material::IWI abrams_desert_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_minigun_col.iwi: Can't OpenFile
+Loaded Material: mtl_weapon_mp5
+Deleting (21) materials
+
+
+Passing Xmodel: 'bathroom_faucet' to background loader
+Loaded Xmodel: bathroom_faucet
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (14) materials
+
+
+Passing Xmodel: 'bathroom_medicine_cabinet' to background loader
+Loaded Xmodel: bathroom_medicine_cabinet
+Xmodel Loaded in: 56.0 ms
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_plunger' to background loader
+Loaded Xmodel: bathroom_plunger
+Xmodel Loaded in: 9.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_shampoo1' to background loader
+Loaded Xmodel: bathroom_shampoo1
+Xmodel Loaded in: 37.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_shampoo2' to background loader
+Loaded Xmodel: bathroom_shampoo2
+Xmodel Loaded in: 13.0 ms
+Loaded Surface (0) in: 15.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_shower' to background loader
+Loaded Xmodel: bathroom_shower
+Xmodel Loaded in: 98.0 ms
+Loaded Surface (0) in: 15.0 ms
+Load Material::IWI shower_clr.iwi: Can't OpenFile
+Load Material::IWI shower_glass_clr.iwi: Can't OpenFile
+Load Material::IWI shower_clr.iwi: Can't OpenFile
+Load Material::IWI shower_glass_underlay_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_shower_curtain' to background loader
+Loaded Xmodel: bathroom_shower_curtain
+Xmodel Loaded in: 12.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI shower_curtain_clr.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'bathroom_shower_rod' to background loader
+Loaded Xmodel: bathroom_shower_rod
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_sink' to background loader
+Loaded Xmodel: bathroom_sink
+Xmodel Loaded in: 29.0 ms
+Passing Xmodel: 'bathroom_soap' to background loader
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Load Material::IWI bathroom_porcelain_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bathroom_soap
+Xmodel Loaded in: 5.0 ms
+Passing Xmodel: 'bathroom_toilet' to background loader
+Loaded Surface (0) in: 0.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bathroom_toilet
+Xmodel Loaded in: 15.0 ms
+Passing Xmodel: 'bathroom_toilet_lid' to background loader
+Loaded Surface (0) in: 14.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Load Material::IWI bathroom_porcelain_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bathroom_toilet_lid
+Xmodel Loaded in: 1.0 ms
+Passing Xmodel: 'bathroom_towel' to background loader
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_porcelain_clr.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bathroom_towel
+Xmodel Loaded in: 36.0 ms
+Passing Xmodel: 'bathroom_towel_rack' to background loader
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI towel_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bathroom_towel_rack
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_chrome_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bathroom_tub' to background loader
+Loaded Xmodel: bathroom_tub
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI bathroom_porcelain_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_ammo_box_762' to background loader
+Loaded Xmodel: bc_ammo_box_762
+Xmodel Loaded in: 21.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI ammo_box_762_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_cot' to background loader
+Passing Xmodel: 'bc_hesco_3side_barrier_big' to background loader
+Passing Xmodel: 'bc_hesco_3side_barrier_med' to background loader
+Loaded Xmodel: bc_cot
+Xmodel Loaded in: 64.0 ms
+Loaded Surface (0) in: 4.0 ms
+Load Material::IWI cot.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_hesco_3side_barrier_sm' to background loader
+Passing Xmodel: 'bc_hesco_barrier_big' to background loader
+Passing Xmodel: 'bc_hesco_barrier_med' to background loader
+Passing Xmodel: 'bc_hesco_barrier_sm' to background loader
+Loaded Xmodel: bc_hesco_3side_barrier_big
+Xmodel Loaded in: 96.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_hesco_barrier_str_big' to background loader
+Loaded Xmodel: bc_hesco_3side_barrier_med
+Xmodel Loaded in: 11.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_hesco_3side_barrier_sm
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_hesco_barrier_big
+Xmodel Loaded in: 1.0 ms
+Passing Xmodel: 'bc_militarytentceilinglightwire' to background loader
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_hesco_barrier_med
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_hesco_barrier_sm
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'bc_militarytentceilinglight_on' to background loader
+Loaded Xmodel: bc_hesco_barrier_str_big
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI hesco_barrier_col.iwi: Can't OpenFile
+Load Material::IWI me_ground_sand1_color.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'bc_militarytent_draped' to background loader
+Loaded Xmodel: bc_militarytentceilinglightwire
+Xmodel Loaded in: 48.0 ms
+Passing Xmodel: 'bc_militarytent_open' to background loader
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI militarytentceilinglight_col#0.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_militarytentceilinglight_on
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI militarytentceilinglight_col#0.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_militarytent_draped
+Xmodel Loaded in: 2.0 ms
+Passing Xmodel: 'bc_militarytent_wood_table' to background loader
+Loaded Surface (0) in: 27.0 ms
+Load Material::IWI military_tent_col#0.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_military_comm_tower' to background loader
+Loaded Xmodel: bc_militarytent_open
+Xmodel Loaded in: 14.0 ms
+Passing Xmodel: 'bc_military_tire01' to background loader
+Loaded Surface (0) in: 32.0 ms
+Load Material::IWI military_tent_col#0.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_military_tire02' to background loader
+Passing Xmodel: 'bc_military_tire03' to background loader
+Loaded Xmodel: bc_militarytent_wood_table
+Xmodel Loaded in: 68.0 ms
+Passing Xmodel: 'bc_military_tire04' to background loader
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI pine02_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_military_tire04_big' to background loader
+Passing Xmodel: 'bc_military_tire05' to background loader
+Passing Xmodel: 'bc_military_tire05_big' to background loader
+Loaded Xmodel: bc_military_comm_tower
+Xmodel Loaded in: 81.0 ms
+Passing Xmodel: 'bc_outhouse' to background loader
+Passing Xmodel: 'bc_stretcher' to background loader
+Loaded Surface (0) in: 40.0 ms
+Load Material::IWI transmitting_tower_col.iwi: Can't OpenFile
+Load Material::IWI transmitting_tower2_col_#0.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_military_tire01
+Xmodel Loaded in: 9.0 ms
+Passing Xmodel: 'bc_targetdummy' to background loader
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI tires_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Loaded Xmodel: bc_military_tire02
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI tires_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_military_tire03
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI tires_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_military_tire04
+Xmodel Loaded in: 1.0 ms
+Passing Xmodel: 'bc_target_dummy' to background loader
+Loaded Surface (0) in: 8.0 ms
+Load Material::IWI tires02_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_military_tire04_big
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 9.0 ms
+Load Material::IWI tires02_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'bc_target_dummy_base' to background loader
+Loaded Xmodel: bc_military_tire05
+Xmodel Loaded in: 12.0 ms
+Loaded Surface (0) in: 7.0 ms
+Load Material::IWI tires02_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_gimp_sp_zakhaev' to background loader
+Loaded Xmodel: bc_military_tire05_big
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 8.0 ms
+Load Material::IWI tires02_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_al_asad' to background loader
+Loaded Xmodel: bc_outhouse
+Xmodel Loaded in: 48.0 ms
+Passing Xmodel: 'body_complete_mp_elexis' to background loader
+Loaded Surface (0) in: 7.0 ms
+Load Material::IWI pine02_col.iwi: Can't OpenFile
+Load Material::IWI spraypaint01.iwi: Can't OpenFile
+Load Material::IWI dirtwall.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_price_woodland' to background loader
+Loaded Xmodel: bc_stretcher
+Xmodel Loaded in: 37.0 ms
+Passing Xmodel: 'body_complete_mp_russian_farmer' to background loader
+Loaded Surface (0) in: 15.0 ms
+Load Material::IWI stretcher_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_boris' to background loader
+Loaded Xmodel: bc_targetdummy
+Xmodel Loaded in: 11.0 ms
+Passing Xmodel: 'body_complete_mp_spetsnaz_demetry' to background loader
+Passing Xmodel: 'body_complete_mp_spetsnaz_vlad' to background loader
+Passing Xmodel: 'body_complete_mp_spetsnaz_yuri' to background loader
+Passing Xmodel: 'body_complete_mp_velinda_desert' to background loader
+Passing Xmodel: 'body_complete_mp_velinda_woodland' to background loader
+Loaded Surface (0) in: 186.0 ms
+Load Material::IWI mw_tst_soldier.iwi: Can't OpenFile
+Passing Xmodel: 'body_complete_mp_zack_desert' to background loader
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_woodland' to background loader
+Loaded Xmodel: bc_target_dummy
+Xmodel Loaded in: 25.0 ms
+Loaded Surface (0) in: 12.0 ms
+Load Material::IWI target_dummy_col.iwi: Can't OpenFile
+Load Material::IWI target_dummy_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: bc_target_dummy_base
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI target_dummy_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_onearm_sp_zakhaev' to background loader
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad' to background loader
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad_d.' to background loader
+Loaded Xmodel: body_complete_gimp_sp_zakhaev
+Xmodel Loaded in: 78.0 ms
+Passing Xmodel: 'body_complete_sp_arab_regular_asad' to background loader
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Passing Xmodel: 'body_complete_sp_arab_regular_sadiq' to background loader
+Passing Xmodel: 'body_complete_sp_arab_regular_suren' to background loader
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_sp_cobra_pilot_desert_velin.' to background loader
+Passing Xmodel: 'body_complete_sp_cobra_pilot_desert_zack' to background loader
+Passing Xmodel: 'body_complete_sp_cobra_pilot_woodland_ve.' to background loader
+Loaded Xmodel: body_complete_mp_al_asad
+Xmodel Loaded in: 117.0 ms
+Passing Xmodel: 'body_complete_sp_cobra_pilot_woodland_za.' to background loader
+Passing Xmodel: 'body_complete_sp_cobra_pilot_zack_cockpit' to background loader
+Loaded Surface (0) in: 53.0 ms
+Passing Xmodel: 'body_complete_sp_cobra_pilot_zack_cockpit.' to background loader
+Passing Xmodel: 'body_complete_sp_russian_farmer' to background loader
+Loaded Material: mtl_bodies_arab_regular
+Passing Xmodel: 'body_complete_sp_sas_ct_ac130' to background loader
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_benjamin' to background loader
+Passing Xmodel: 'body_complete_sp_sas_ct_charles' to background loader
+Passing Xmodel: 'body_complete_sp_sas_ct_mitchel' to background loader
+Loaded Xmodel: body_complete_mp_elexis
+Xmodel Loaded in: 87.0 ms
+Passing Xmodel: 'body_complete_sp_sas_ct_neal' to background loader
+Passing Xmodel: 'body_complete_sp_sas_ct_price' to background loader
+Loaded Surface (0) in: 55.0 ms
+Loaded Material: fmouth
+Loaded Material: face
+Loaded Material: pupil
+Loaded Material: body
+Loaded Material: boots
+Loaded Material: hair
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_neal' to background loader
+Loaded Xmodel: body_complete_mp_price_woodland
+Xmodel Loaded in: 129.0 ms
+Loaded Surface (0) in: 77.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_price_col_sp.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (6) materials
+
+
+Loaded Xmodel: body_complete_mp_russian_farmer
+Xmodel Loaded in: 114.0 ms
+Loaded Surface (0) in: 27.0 ms
+Loaded Material: mtl_farmer_cloth
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_boris
+Xmodel Loaded in: 92.0 ms
+Loaded Surface (0) in: 58.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_demetry
+Xmodel Loaded in: 21.0 ms
+Loaded Surface (0) in: 34.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_vlad
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 33.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_yuri
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 34.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_velinda_desert
+Xmodel Loaded in: 93.0 ms
+Loaded Surface (0) in: 56.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_velinda_woodland
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 62.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_zack_desert
+Xmodel Loaded in: 57.0 ms
+Loaded Surface (0) in: 53.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_zack_woodland
+Xmodel Loaded in: 11.0 ms
+Loaded Surface (0) in: 52.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 18.0 ms
+Loaded Surface (0) in: 49.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_onearm_sp_zakhaev
+Xmodel Loaded in: 16.0 ms
+Loaded Surface (0) in: 50.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_al_asad
+Xmodel Loaded in: 88.0 ms
+Loaded Surface (0) in: 143.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head
+Deleting (4) materials
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_asad
+Xmodel Loaded in: 82.0 ms
+Loaded Surface (0) in: 62.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_sadiq
+Xmodel Loaded in: 8.0 ms
+Loaded Surface (0) in: 51.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_suren
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 61.0 ms
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_desert_zack
+Xmodel Loaded in: 12.0 ms
+Loaded Surface (0) in: 62.0 ms
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (5) materials
+
+
+LoadxmodelFull:: Invalid Path
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_zack_cockpit
+Xmodel Loaded in: 7.0 ms
+Loaded Surface (0) in: 15.0 ms
+Load Material::IWI cobra_pilot_desert_lod_sp_col.iwi: Can't OpenFile
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_zack_cockpit.
+Xmodel Loaded in: 0.0 ms
+Loaded Surface (0) in: 5.0 ms
+Load Material::IWI cobra_pilot_desert_lod_sp_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: body_complete_sp_russian_farmer
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_farmer_cloth
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_ac130
+Xmodel Loaded in: 13.0 ms
+Loaded Surface (0) in: 57.0 ms
+Load Material::IWI sas_ct_bodies_sp_col_ac130.iwi: Can't OpenFile
+Load Material::IWI sas_ct_head_sp_col_ac130.iwi: Can't OpenFile
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_benjamin
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 46.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_charles
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 57.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_mitchel
+Xmodel Loaded in: 13.0 ms
+Loaded Surface (0) in: 54.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_neal
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 47.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_price
+Xmodel Loaded in: 14.0 ms
+Loaded Surface (0) in: 67.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_ct_price_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_sas_ct_neal
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 41.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_mitchel' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_mitchel
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 39.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_charles' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_charles
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 45.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_benjamin' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_benjamin
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 48.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_ac130' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_ac130
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 46.0 ms
+Load Material::IWI sas_ct_bodies_sp_col_ac130.iwi: Can't OpenFile
+Load Material::IWI sas_ct_head_sp_col_ac130.iwi: Can't OpenFile
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_benjamin' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_benjamin
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 46.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_charles' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_charles
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_mitchel' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_mitchel
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 39.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_neal' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_neal
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 40.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_price' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_price
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 55.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_ct_price_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_price_maskup' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_price_maskup
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 98.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_ct_price_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_price' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_price
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 59.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_ct_price_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_neal' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_neal
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_sp_sas_ct_mitchel' to background loader
+Loaded Surface (0) in: 40.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_charles' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_mitchel
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_sp_sas_ct_benjamin' to background loader
+Loaded Surface (0) in: 42.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_ac130' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_charles
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_sp_russian_farmer' to background loader
+Loaded Surface (0) in: 44.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_cobra_pilot_zack_cockpit.' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_benjamin
+Xmodel Loaded in: 4.0 ms
+Passing Xmodel: 'body_complete_sp_cobra_pilot_zack_cockpit' to background loader
+Passing Xmodel: 'body_complete_sp_cobra_pilot_woodland_za.' to background loader
+Loaded Surface (0) in: 48.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_cobra_pilot_woodland_ve.' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_ac130
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_sp_cobra_pilot_desert_zack' to background loader
+Loaded Surface (0) in: 47.0 ms
+Load Material::IWI sas_ct_bodies_sp_col_ac130.iwi: Can't OpenFile
+Load Material::IWI sas_ct_head_sp_col_ac130.iwi: Can't OpenFile
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_cobra_pilot_desert_velin.' to background loader
+Loaded Xmodel: body_complete_sp_russian_farmer
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 28.0 ms
+Loaded Material: mtl_farmer_cloth
+Passing Xmodel: 'body_complete_sp_arab_regular_suren' to background loader
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_zack_cockpit.
+Xmodel Loaded in: 0.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI cobra_pilot_desert_lod_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_zack_cockpit
+Xmodel Loaded in: 0.0 ms
+Passing Xmodel: 'body_complete_sp_arab_regular_sadiq' to background loader
+Loaded Surface (0) in: 5.0 ms
+Load Material::IWI cobra_pilot_desert_lod_sp_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (1) materials
+
+
+LoadxmodelFull:: Invalid Path
+
+
+Loaded Xmodel: body_complete_sp_cobra_pilot_desert_zack
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_sp_arab_regular_asad' to background loader
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad_d.' to background loader
+Loaded Surface (0) in: 45.0 ms
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_suren
+Xmodel Loaded in: 2.0 ms
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad' to background loader
+Passing Xmodel: 'body_complete_onearm_sp_zakhaev' to background loader
+Loaded Surface (0) in: 46.0 ms
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+
+
+Passing Xmodel: 'body_complete_mp_zakhaev' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_sadiq
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_mp_zack_woodland' to background loader
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_desert' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_asad
+Xmodel Loaded in: 2.0 ms
+Passing Xmodel: 'body_complete_mp_velinda_woodland' to background loader
+Loaded Surface (0) in: 45.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+LoadxmodelFull:: Invalid Path
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_sp_arab_regular_al_asad
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_mp_spetsnaz_yuri' to background loader
+Passing Xmodel: 'body_complete_mp_spetsnaz_vlad' to background loader
+Loaded Surface (0) in: 46.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head
+
+
+Loaded Xmodel: body_complete_onearm_sp_zakhaev
+Xmodel Loaded in: 2.0 ms
+Passing Xmodel: 'body_complete_mp_spetsnaz_demetry' to background loader
+Loaded Surface (0) in: 31.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_boris' to background loader
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 2.0 ms
+Passing Xmodel: 'body_complete_mp_russian_farmer' to background loader
+Loaded Surface (0) in: 34.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_mp_zack_woodland
+Xmodel Loaded in: 3.0 ms
+Passing Xmodel: 'body_complete_mp_price_woodland' to background loader
+Loaded Surface (0) in: 45.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Loaded Xmodel: body_complete_mp_zack_desert
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_velinda_woodland
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_velinda_desert
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_yuri
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_vlad
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 37.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_demetry
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_spetsnaz_boris
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 34.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_russian_farmer
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 28.0 ms
+Loaded Material: mtl_farmer_cloth
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Loaded Xmodel: body_complete_mp_price_woodland
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 50.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_price_col_sp.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_elexis' to background loader
+Loaded Xmodel: body_complete_mp_elexis
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: fmouth
+Loaded Material: face
+Loaded Material: pupil
+Loaded Material: body
+Loaded Material: boots
+Loaded Material: hair
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_price_woodland' to background loader
+Loaded Xmodel: body_complete_mp_price_woodland
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 52.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_price_col_sp.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (6) materials
+
+
+Passing Xmodel: 'body_complete_mp_russian_farmer' to background loader
+Loaded Xmodel: body_complete_mp_russian_farmer
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 26.0 ms
+Loaded Material: mtl_farmer_cloth
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_boris' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_boris
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 36.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_demetry' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_demetry
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 34.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_vlad' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_vlad
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 36.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_yuri' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_yuri
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 37.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_velinda_desert' to background loader
+Loaded Xmodel: body_complete_mp_velinda_desert
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 42.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_desert' to background loader
+Loaded Xmodel: body_complete_mp_zack_desert
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 45.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_woodland' to background loader
+Loaded Xmodel: body_complete_mp_zack_woodland
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 46.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_desert' to background loader
+Loaded Xmodel: body_complete_mp_zack_desert
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 43.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_velinda_woodland' to background loader
+Loaded Xmodel: body_complete_mp_velinda_woodland
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_velinda_desert' to background loader
+Loaded Xmodel: body_complete_mp_velinda_desert
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 42.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_onearm_sp_zakhaev' to background loader
+Loaded Xmodel: body_complete_onearm_sp_zakhaev
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 32.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_al_asad
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 46.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_arab_regular_al_asad_dmg' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_al_asad_dmg
+Xmodel Loaded in: 37.0 ms
+Loaded Surface (0) in: 45.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head_dmg
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_arab_regular_asad' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_asad
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 47.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_arab_regular_suren' to background loader
+Loaded Xmodel: body_complete_sp_arab_regular_suren
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 45.0 ms
+Load Material::IWI arab_regular_suren_sp_col.iwi: Can't OpenFile
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_cobra_pilot_zack_cockpit_static' to background loader
+Loaded Xmodel: body_complete_sp_cobra_pilot_zack_cockpit_static
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 5.0 ms
+Load Material::IWI cobra_pilot_desert_lod_sp_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_ac130' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_ac130
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 45.0 ms
+Load Material::IWI sas_ct_bodies_sp_col_ac130.iwi: Can't OpenFile
+Load Material::IWI sas_ct_head_sp_col_ac130.iwi: Can't OpenFile
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_charles' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_charles
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 44.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_neal' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_neal
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 41.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_ct_price_maskup' to background loader
+Loaded Xmodel: body_complete_sp_sas_ct_price_maskup
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 56.0 ms
+Loaded Material: mtl_sas_ct_bodies_sp
+Loaded Material: mtl_sas_ct_head_sp
+Loaded Material: mtl_sas_ct_goggle_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_ct_price_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_woodland_gaz' to background loader
+Loaded Xmodel: body_complete_sp_sas_woodland_gaz
+Xmodel Loaded in: 9.0 ms
+Loaded Surface (0) in: 57.0 ms
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_gaz_col_sp.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_baseball_cap_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_nvg_price' to background loader
+Loaded Xmodel: body_complete_sp_sas_nvg_price
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 82.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_price_col_sp.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI usmc_lenses_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_sas_woodland_gaz' to background loader
+Loaded Xmodel: body_complete_sp_sas_woodland_gaz
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_gaz_col_sp.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_baseball_cap_col.iwi: Can't OpenFile
+Deleting (6) materials
+
+
+Passing Xmodel: 'body_complete_sp_vip' to background loader
+Loaded Xmodel: body_complete_sp_vip
+Xmodel Loaded in: 58.0 ms
+Loaded Surface (0) in: 40.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI vip_head_col.iwi: Can't OpenFile
+Load Material::IWI vip_body_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_sp_vip_pres' to background loader
+Loaded Xmodel: body_complete_sp_vip_pres
+Xmodel Loaded in: 36.0 ms
+Loaded Surface (0) in: 53.0 ms
+Load Material::IWI vip_pres_clr.iwi: Can't OpenFile
+Load Material::IWI bag_clr.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_lycantrope' to background loader
+Loaded Xmodel: body_lycantrope
+Xmodel Loaded in: 81.0 ms
+Loaded Surface (0) in: 126.0 ms
+Loaded Material: body_lycantrope_tex
+Deleting (2) materials
+
+
+Passing Xmodel: 'body_complete_sp_vip_pres' to background loader
+Loaded Xmodel: body_complete_sp_vip_pres
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 17.0 ms
+Load Material::IWI vip_pres_clr.iwi: Can't OpenFile
+Load Material::IWI bag_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_sp_vip' to background loader
+Loaded Xmodel: body_complete_sp_vip
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI vip_head_col.iwi: Can't OpenFile
+Load Material::IWI vip_body_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'body_complete_sp_zakhaev' to background loader
+Loaded Xmodel: body_complete_sp_zakhaev
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 58.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_sp_zakhaevs_son' to background loader
+Loaded Xmodel: body_complete_sp_zakhaevs_son
+Xmodel Loaded in: 59.0 ms
+Loaded Surface (0) in: 52.0 ms
+Load Material::IWI sp_characters_sonofzakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI arab_regular_muneer_sp_col.iwi: Can't OpenFile
+Load Material::IWI arab_regular_muneer_sp_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_sp_zakhaevs_son_coup' to background loader
+Loaded Xmodel: body_complete_sp_zakhaevs_son_coup
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 34.0 ms
+Load Material::IWI sp_characters_sonofzakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI arab_regular_muneer_sp_col.iwi: Can't OpenFile
+Load Material::IWI arab_regular_muneer_sp_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_lycantrope' to background loader
+Loaded Xmodel: body_lycantrope
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 75.0 ms
+Loaded Material: body_lycantrope_tex
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_mp_arab_regular_assault' to background loader
+Loaded Xmodel: body_mp_arab_regular_assault
+Xmodel Loaded in: 34.0 ms
+Loaded Surface (0) in: 51.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_mp_arab_regular_cqb' to background loader
+Loaded Xmodel: body_mp_arab_regular_cqb
+Xmodel Loaded in: 16.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Deleting (2) materials
+
+
+Passing Xmodel: 'body_mp_arab_regular_support' to background loader
+Loaded Xmodel: body_mp_arab_regular_support
+Xmodel Loaded in: 24.0 ms
+Loaded Surface (0) in: 42.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_lycantrope' to background loader
+Loaded Xmodel: body_lycantrope
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 74.0 ms
+Loaded Material: body_lycantrope_tex
+Deleting (1) materials
+
+
+Passing Xmodel: 'characters_accessories_goggles_a' to background loader
+Loaded Xmodel: characters_accessories_goggles_a
+Xmodel Loaded in: 94.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI lenses_col_desert_mp.iwi: Can't OpenFile
+Load Material::IWI accessories_col_desert_mp.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'characters_accessories_goggles_c' to background loader
+Loaded Xmodel: characters_accessories_goggles_c
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI lenses_col_desert_mp.iwi: Can't OpenFile
+Load Material::IWI accessories_col_desert_mp.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'character_arab_civilian_lowres_e' to background loader
+Loaded Xmodel: character_arab_civilian_lowres_e
+Xmodel Loaded in: 55.0 ms
+Loaded Surface (0) in: 41.0 ms
+Load Material::IWI arab_civilian_lowres_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'characters_accessories_goggles_c' to background loader
+Loaded Xmodel: characters_accessories_goggles_c
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 3.0 ms
+Load Material::IWI grey.iwi: Can't OpenFile
+Load Material::IWI lenses_col_desert_mp.iwi: Can't OpenFile
+Load Material::IWI accessories_col_desert_mp.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'cargoship_water' to background loader
+Loaded Xmodel: cargoship_water
+Xmodel Loaded in: 85.0 ms
+Loaded Surface (0) in: 39.0 ms
+Load Material::IWI cargoship_water_col.iwi: Can't OpenFile
+Load Material::IWI cargoship_wake_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'cargoship_water_black' to background loader
+Loaded Xmodel: cargoship_water_black
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 29.0 ms
+Load Material::IWI cargoship_water_col_black.iwi: Can't OpenFile
+Load Material::IWI cargoship_wake_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'characters_accessories_eyepatch' to background loader
+Loaded Xmodel: characters_accessories_eyepatch
+Xmodel Loaded in: 20.0 ms
+Loaded Surface (0) in: 9.0 ms
+Load Material::IWI accessories_col_desert_mp.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'boot' to background loader
+Loaded Xmodel: boot
+Xmodel Loaded in: 40.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI boot_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 91.0 ms
+Loaded Surface (0) in: 262.0 ms
+Loaded Material: body_beserker_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_darkseid' to background loader
+Loaded Xmodel: escape_body_darkseid
+Xmodel Loaded in: 34.0 ms
+Loaded Surface (0) in: 243.0 ms
+Loaded Material: body_darkseid
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 52.0 ms
+Loaded Surface (0) in: 28.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 35.0 ms
+Loaded Surface (0) in: 84.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 13.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 21.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 23.0 ms
+Loaded Surface (0) in: 231.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_skulls' to background loader
+Loaded Xmodel: escape_body_skulls
+Xmodel Loaded in: 29.0 ms
+Loaded Surface (0) in: 106.0 ms
+Loaded Material: body_skulls_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 46.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: item_dron_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_skulls' to background loader
+Loaded Xmodel: escape_body_skulls
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 39.0 ms
+Loaded Material: body_skulls_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 11.0 ms
+Loaded Material: item_dron_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_saw_rescue' to background loader
+Loaded Xmodel: weapon_saw_rescue
+Xmodel Loaded in: 67.0 ms
+Loaded Surface (0) in: 24.0 ms
+Load Material::IWI saw_rescue_temp_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 60.0 ms
+Loaded Material: body_beserker_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_al_asad' to background loader
+Loaded Xmodel: body_complete_mp_al_asad
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: mtl_bodies_arab_regular
+Loaded Material: mtl_arab_regular_helmet_hands_sp
+Loaded Material: mtl_al_asad_head
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_elexis' to background loader
+Loaded Xmodel: body_complete_mp_elexis
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 43.0 ms
+Loaded Material: fmouth
+Loaded Material: face
+Loaded Material: pupil
+Loaded Material: body
+Loaded Material: boots
+Loaded Material: hair
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_price_woodland' to background loader
+Loaded Xmodel: body_complete_mp_price_woodland
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 50.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_price_col_sp.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_hat_hands_col.iwi: Can't OpenFile
+Load Material::IWI sas_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (6) materials
+
+
+Passing Xmodel: 'body_complete_mp_russian_farmer' to background loader
+Loaded Xmodel: body_complete_mp_russian_farmer
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 26.0 ms
+Loaded Material: mtl_farmer_cloth
+Loaded Material: mtl_farmer_head
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_boris' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_boris
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 34.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_demetry' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_demetry
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_vlad' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_vlad
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_yuri' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_yuri
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 35.0 ms
+Loaded Material: mtl_spetsnaz_body_sp
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_velinda_desert' to background loader
+Loaded Xmodel: body_complete_mp_velinda_desert
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 42.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'body_complete_mp_velinda_woodland' to background loader
+Loaded Xmodel: body_complete_mp_velinda_woodland
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 43.0 ms
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_velinda_eyelash_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_desert' to background loader
+Loaded Xmodel: body_complete_mp_zack_desert
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 46.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_desert_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_zack_woodland' to background loader
+Loaded Xmodel: body_complete_mp_zack_woodland
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 43.0 ms
+Load Material::IWI cobra_pilot_zack_sp_col.iwi: Can't OpenFile
+Load Material::IWI eye_highlight_col.iwi: Can't OpenFile
+Load Material::IWI mtl_cobra_pilot_sunglass_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodld_helmet_hands_sp_col.iwi: Can't OpenFile
+Load Material::IWI cobra_pilot_woodland_body_sp_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'body_complete_mp_zakhaev' to background loader
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 32.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Loaded Material: mtl_body_sp_zakhaev
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Saving Settings..
+ExportMA Time: 69.0 ms
+Moved: $identitynormalmap.iwi
+IWI Error: Error Number: 7
+Moved: body_zakhaev_clr.iwi
+IWI Error: Error Number: 7
+IWI Error: Error Number: 7
+IWI Error: Error Number: 7
+IWI Error: Error Number: 7
+-Moved Images Across
+
+
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1686 height: 954 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 640 height: 480 (0.000000ms)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1673 height: 953 (0.000000ms)
+Saving Settings..
+-GDT Dumped
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (50) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.976) : 24/5/2012 21:53:32 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Saving Settings..
+Saving Menu States..
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+GPU: ATI Radeon HD 5700 Series 
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Dump GDT:: File Not Loaded
+
+
+Saving Settings..
+Tried To Open Tags: Not Loaded
+-StaticTagFilesDumped
+
+
+Performing single pass listbox overflowcheck. (for '4476' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Saving Settings..
+Passing Xmodel: '4gf_logo_petx' to background loader
+Loaded Xmodel: 4gf_logo_petx
+Xmodel Loaded in: 29.0 ms
+Loaded Surface (0) in: 52.0 ms
+Load Material::IWI ap_chrome_col.iwi: Can't OpenFile
+Loaded Material: logo_4gf
+
+
+Passing Xmodel: 'body_complete_mp_zakhaev' to background loader
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 37.0 ms
+Loaded Surface (0) in: 50.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Load Material::IWI body_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 15.0 ms
+Loaded Material: item_dron_0
+Deleting (4) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 55.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_skulls' to background loader
+Loaded Xmodel: escape_body_skulls
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 41.0 ms
+Loaded Material: body_skulls_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 67.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 31.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 21.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 65.0 ms
+Loaded Material: body_beserker_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 32.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 54.0 ms
+Loaded Material: body_beserker_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 22.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 64.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_skulls' to background loader
+Loaded Xmodel: escape_body_skulls
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 48.0 ms
+Loaded Material: body_skulls_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 16.0 ms
+Loaded Material: item_dron_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 58.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 29.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 22.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 53.0 ms
+Loaded Material: body_beserker_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 16.0 ms
+Loaded Material: item_dron_0
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: '4gf_sgc_dhd' to background loader
+Loaded Xmodel: 4gf_sgc_dhd
+Xmodel Loaded in: 53.0 ms
+Loaded Surface (0) in: 101.0 ms
+Loaded Material: sgc_dhd_mtl_0
+Loaded Material: sgc_dhd_mtl_1
+Loaded Material: sgc_dhd_mtl_2
+Loaded Material: sgc_dhd_mtl_3_on
+Loaded Material: sgc_dhd_mtl_3_off
+Loaded Material: sgc_dhd_mtl_4_on
+Loaded Material: sgc_dhd_mtl_4_off
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 15.0 ms
+Loaded Material: item_dron_0
+Deleting (7) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 32.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: 'escape_item_dron' to background loader
+Loaded Xmodel: escape_item_dron
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 16.0 ms
+Loaded Material: item_dron_0
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 52.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_c4_mp' to background loader
+Loaded Xmodel: weapon_c4_mp
+Xmodel Loaded in: 67.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_c4_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_c4_obj' to background loader
+Loaded Xmodel: weapon_c4_obj
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_c4_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_c4_mp' to background loader
+Loaded Xmodel: weapon_c4_mp
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 11.0 ms
+Load Material::IWI weapon_c4_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_c4_detonator' to background loader
+Loaded Xmodel: weapon_c4_detonator
+Xmodel Loaded in: 20.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_claymore_detonator_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_c4_mp' to background loader
+Loaded Xmodel: weapon_c4_mp
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI weapon_c4_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: 'weapon_c4_detonator' to background loader
+Loaded Xmodel: weapon_c4_detonator
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 7.0 ms
+Load Material::IWI weapon_claymore_detonator_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_knife' to background loader
+Loaded Xmodel: viewmodel_knife
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_parabolic_knife' to background loader
+Loaded Xmodel: weapon_parabolic_knife
+Xmodel Loaded in: 31.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_knife' to background loader
+Loaded Xmodel: viewmodel_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_parabolic_knife' to background loader
+Loaded Xmodel: weapon_parabolic_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_knife' to background loader
+Loaded Xmodel: viewmodel_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_parabolic_knife' to background loader
+Loaded Xmodel: weapon_parabolic_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_knife' to background loader
+Loaded Xmodel: viewmodel_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_parabolic_knife' to background loader
+Loaded Xmodel: weapon_parabolic_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_knife' to background loader
+Loaded Xmodel: viewmodel_knife
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 2.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_parabolic_knife' to background loader
+Loaded Xmodel: weapon_parabolic_knife
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_parbolic_knife_col.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'body_complete_mp_zakhaev' to background loader
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 37.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Load Material::IWI body_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'viewmodel_ak47' to background loader
+Loaded Xmodel: viewmodel_ak47
+Xmodel Loaded in: 8.0 ms
+Loaded Surface (0) in: 33.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_mp
+Xmodel Loaded in: 19.0 ms
+Loaded Surface (0) in: 53.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'viewmodel_ak47' to background loader
+Loaded Xmodel: viewmodel_ak47
+Xmodel Loaded in: 1.0 ms
+Loaded Surface (0) in: 26.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_mp
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 41.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_grenadier_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_grenadier_mp
+Xmodel Loaded in: 10.0 ms
+Loaded Surface (0) in: 23.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_cmdtgr' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_cmdtgr
+Xmodel Loaded in: 8.0 ms
+Loaded Surface (0) in: 26.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_bshdwl' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_bshdwl
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 26.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 25.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_brock' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_brock
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 26.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_bshdwl' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_bshdwl
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_bwmrpt' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_bwmrpt
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 25.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_cmdtgr' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_cmdtgr
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 31.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_and_silencer_mp_stagger' to background loader
+Loaded Xmodel: viewmodel_ak47_and_silencer_mp_stagger
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 31.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_and_silencer_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_and_silencer_mp
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 31.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_grenadier_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_grenadier_mp
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 28.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_mp
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 34.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_grenadier_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_grenadier_mp
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_gold_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_gold_mp
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 40.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 25.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp_brock' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp_brock
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 29.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp_bshdwl' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp_bshdwl
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 21.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp_bwmrpt' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp_bwmrpt
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 24.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp_cmdtgr' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp_cmdtgr
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_grenadier_mp_stagger' to background loader
+Loaded Xmodel: viewmodel_ak47_grenadier_mp_stagger
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_mp
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 43.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_brock' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_brock
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 44.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp' to background loader
+Loaded Xmodel: viewmodel_ak47_mp
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 35.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_bshdwl' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_bshdwl
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 38.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_bwmrpt' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_bwmrpt
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 42.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_cmdtgr' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_cmdtgr
+Xmodel Loaded in: 17.0 ms
+Loaded Surface (0) in: 36.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_stagger' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_stagger
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 36.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_silencer' to background loader
+Loaded Xmodel: viewmodel_ak47_silencer
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 19.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_mp_stagger' to background loader
+Loaded Xmodel: viewmodel_ak47_mp_stagger
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 34.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_sight_col.iwi: Can't OpenFile
+Load Material::IWI weapon_red_dot_reflexsight.iwi: Can't OpenFile
+Load Material::IWI weapon_reflex_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'viewmodel_ak47_silencer' to background loader
+Loaded Xmodel: viewmodel_ak47_silencer
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 30.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (9) materials
+
+
+Passing Xmodel: 'weapon_ak47' to background loader
+Loaded Xmodel: weapon_ak47
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 17.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47sd_mp_brock' to background loader
+Loaded Xmodel: weapon_ak47sd_mp_brock
+Xmodel Loaded in: 7.0 ms
+Loaded Surface (0) in: 16.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_ak47sd_mp_bwmrpt' to background loader
+Loaded Xmodel: weapon_ak47sd_mp_bwmrpt
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 18.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47sd_mp_cmdtgr' to background loader
+Loaded Xmodel: weapon_ak47sd_mp_cmdtgr
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47sd_mp_stagger' to background loader
+Loaded Xmodel: weapon_ak47sd_mp_stagger
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_and_silencer_mp_bshdwl' to background loader
+Loaded Xmodel: weapon_ak47_and_silencer_mp_bshdwl
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_clip' to background loader
+Loaded Xmodel: weapon_ak47_clip
+Xmodel Loaded in: 38.0 ms
+Loaded Surface (0) in: 1.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier' to background loader
+Loaded Xmodel: weapon_ak47_grenadier
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 18.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (1) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_gold' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_gold
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 20.0 ms
+Load Material::IWI weapon_ak47_gold_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_mp_brock' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_mp_brock
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 21.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_mp_bshdwl' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_mp_bshdwl
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 20.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_mp_bwmrpt' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_mp_bwmrpt
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 19.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_mp_cmdtgr' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_mp_cmdtgr
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 20.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_grenadier_mp_stagger' to background loader
+Loaded Xmodel: weapon_ak47_grenadier_mp_stagger
+Xmodel Loaded in: 4.0 ms
+Loaded Surface (0) in: 19.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_grenadier_col.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_mp_brock' to background loader
+Loaded Xmodel: weapon_ak47_mp_brock
+Xmodel Loaded in: 30.0 ms
+Loaded Surface (0) in: 16.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (3) materials
+
+
+Passing Xmodel: 'weapon_ak47_mp_bshdwl' to background loader
+Loaded Xmodel: weapon_ak47_mp_bshdwl
+Xmodel Loaded in: 28.0 ms
+Loaded Surface (0) in: 11.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_ak47_mp_bwmrpt' to background loader
+Loaded Xmodel: weapon_ak47_mp_bwmrpt
+Xmodel Loaded in: 28.0 ms
+Loaded Surface (0) in: 9.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_ak47_mp_cmdtgr' to background loader
+Loaded Xmodel: weapon_ak47_mp_cmdtgr
+Xmodel Loaded in: 25.0 ms
+Loaded Surface (0) in: 10.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_ak47' to background loader
+Loaded Xmodel: weapon_ak47
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 16.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'viewmodel_ak47' to background loader
+Loaded Xmodel: viewmodel_ak47
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 29.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+Passing Xmodel: 'weapon_acog' to background loader
+Loaded Xmodel: weapon_acog
+Xmodel Loaded in: 5.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_acog' to background loader
+Loaded Xmodel: weapon_acog
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Saving Settings..
+Passing Xmodel: 'viewmodel_m4_silencer_acog' to background loader
+Loaded Xmodel: viewmodel_m4_silencer_acog
+Xmodel Loaded in: 13.0 ms
+Loaded Surface (0) in: 31.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_holographic_col.iwi: Can't OpenFile
+Load Material::IWI weapon_foregrip_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_suppressor_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'weapon_m4grunt_sp_silencer_acog' to background loader
+Loaded Xmodel: weapon_m4grunt_sp_silencer_acog
+Xmodel Loaded in: 20.0 ms
+Loaded Surface (0) in: 17.0 ms
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (7) materials
+
+
+Passing Xmodel: 'weapon_m4m203_acog' to background loader
+Loaded Xmodel: weapon_m4m203_acog
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 18.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'weapon_m4_acog' to background loader
+Loaded Xmodel: weapon_m4_acog
+Xmodel Loaded in: 6.0 ms
+Loaded Surface (0) in: 15.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'weapon_m4m203_acog' to background loader
+Loaded Xmodel: weapon_m4m203_acog
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 18.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'weapon_m4grunt_sp_silencer_acog' to background loader
+Loaded Xmodel: weapon_m4grunt_sp_silencer_acog
+Xmodel Loaded in: 3.0 ms
+Loaded Surface (0) in: 14.0 ms
+Load Material::IWI weapon_suppressor_b_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'weapon_acog' to background loader
+Loaded Xmodel: weapon_acog
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 6.0 ms
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Deleting (5) materials
+
+
+Passing Xmodel: 'viewmodel_m4_acog' to background loader
+Loaded Xmodel: viewmodel_m4_acog
+Xmodel Loaded in: 7.0 ms
+Loaded Surface (0) in: 35.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_holographic_col.iwi: Can't OpenFile
+Load Material::IWI weapon_foregrip_a_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (2) materials
+
+
+Passing Xmodel: 'viewmodel_m4m203_acog' to background loader
+Loaded Xmodel: viewmodel_m4m203_acog
+Xmodel Loaded in: 7.0 ms
+Loaded Surface (0) in: 40.0 ms
+Load Material::IWI weapon_m4_col.iwi: Can't OpenFile
+Load Material::IWI weapon_m203_grenade_col.iwi: Can't OpenFile
+Load Material::IWI weapon_laser_point_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_alpha_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_lens_col.iwi: Can't OpenFile
+Load Material::IWI weapon_acog_reticle_col.iwi: Can't OpenFile
+Deleting (8) materials
+
+
+Passing Xmodel: 'weapon_ak47' to background loader
+Loaded Xmodel: weapon_ak47
+Xmodel Loaded in: 2.0 ms
+Loaded Surface (0) in: 17.0 ms
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Load Material::IWI weapon_ak47_c.iwi: Can't OpenFile
+Deleting (7) materials
+
+
+Saving Settings..
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (50) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.976) : 31/5/2012 20:34:7 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+GPU: ATI Radeon HD 5700 Series 
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Performing single pass listbox overflowcheck. (for '4476' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Passing Xmodel: 'body_complete_onearm_sp_zakhaev' to background loader
+Loaded Xmodel: body_complete_onearm_sp_zakhaev
+Xmodel Loaded in: 230.0 ms
+Loaded Surface (0) in: 40.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Load Material::IWI body_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+
+
+Passing Xmodel: 'body_complete_mp_zakhaev' to background loader
+Loaded Xmodel: body_complete_mp_zakhaev
+Xmodel Loaded in: 68.0 ms
+Loaded Surface (0) in: 52.0 ms
+Load Material::IWI head_zakhaev_beard_clr.iwi: Can't OpenFile
+Load Material::IWI body_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Load Material::IWI head_zakhaev_clr.iwi: Can't OpenFile
+Deleting (4) materials
+
+
+Passing Xmodel: 'escape_body_beserker' to background loader
+Loaded Xmodel: escape_body_beserker
+Xmodel Loaded in: 51.0 ms
+Loaded Surface (0) in: 80.0 ms
+Loaded Material: body_beserker_0
+Deleting (4) materials
+
+
+Passing Xmodel: 'escape_body_goblin' to background loader
+Loaded Xmodel: escape_body_goblin
+Xmodel Loaded in: 100.0 ms
+Loaded Surface (0) in: 22.0 ms
+Loaded Material: escape_body_goblin_0
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_max' to background loader
+Loaded Xmodel: escape_body_max
+Xmodel Loaded in: 56.0 ms
+Loaded Surface (0) in: 69.0 ms
+Loaded Material: body_max
+Deleting (1) materials
+
+
+Passing Xmodel: 'escape_body_raam' to background loader
+Loaded Xmodel: escape_body_raam
+Xmodel Loaded in: 27.0 ms
+Loaded Surface (0) in: 68.0 ms
+Loaded Material: body_raam
+Deleting (1) materials
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+-Dumped Tags
+Displaying Tags In Browser
+-StaticTagFilesDumped
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (50) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.976) : 15/6/2012 19:43:29 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+GPU: ATI Radeon HD 5700 Series 
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Performing single pass listbox overflowcheck. (for '4476' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Downloaded Update
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.98) : 15/6/2012 19:43:47 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+GPU: ATI Radeon HD 5700 Series 
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Program 3 Validation results at: Validation successful.
+
+Performing single pass listbox overflowcheck. (for '4476' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1666 height: 973 (0.000000ms)
+Processcmd:: Blank (cmd || value) value
+Processcmd:: Blank (cmd || value) value
+Saving Settings..
+Processcmd:: Blank (cmd || value) value
+Processcmd:: Blank (cmd || value) value
+Passing Xmodel: 'aftermath_doodad_01' to background loader
+Loaded Xmodel: aftermath_doodad_01
+Xmodel Loaded in: 66.0 ms
+Loaded Surface (0) in: 0.0 ms
+IWI Error: me_ground_concrete_01_color.iwi
+Loaded Material: me_ground_concrete01
+
+
+Passing Xmodel: 'aftermath_power_stationthing3' to background loader
+Loaded Xmodel: aftermath_power_stationthing3
+Xmodel Loaded in: 31.0 ms
+Loaded Surface (0) in: 5.0 ms
+IWI Error: electrical_insulator_col.iwi
+Loaded Material: mtl_electric_insulator02
+Loaded Material: mtl_electric_insulator01
+
+
+Passing Xmodel: 'aftermath_transformer3' to background loader
+Loaded Xmodel: aftermath_transformer3
+Xmodel Loaded in: 78.0 ms
+Loaded Surface (0) in: 1.0 ms
+IWI Error: me_i_beam_col.iwi
+Loaded Material: me_i_beam
+IWI Error: me_asphalt_01.iwi
+Loaded Material: me_asphalt_01
+IWI Error: me_window1_col.iwi
+Loaded Material: me_window_01
+
+
+Passing Xmodel: 'atlantis_chev' to background loader
+Loaded Xmodel: atlantis_chev
+Xmodel Loaded in: 75.0 ms
+Loaded Surface (0) in: 20.0 ms
+Loaded Material: atl_chev_1
+Loaded Material: atl_chev_2
+
+
+Passing Xmodel: 'bc_militarytentceilinglight_on' to background loader
+Loaded Xmodel: bc_militarytentceilinglight_on
+Xmodel Loaded in: 70.0 ms
+Loaded Surface (0) in: 3.0 ms
+IWI Error: militarytentceilinglight_col#0.iwi
+Loaded Material: mtl_militarytentceilinglight
+
+
+Passing Xmodel: 'body_complete_mp_spetsnaz_yuri' to background loader
+Loaded Xmodel: body_complete_mp_spetsnaz_yuri
+Xmodel Loaded in: 66.0 ms
+Loaded Surface (0) in: 36.0 ms
+IWI Error: spetsnaz_body_col_sp.iwi
+Loaded Material: mtl_spetsnaz_body_sp
+IWI Error: spetsnaz_david_skimask_sp_col.iwi
+Loaded Material: mtl_spetsnaz_david_skimask_sp
+IWI Error: eye_highlight_col.iwi
+Loaded Material: mtl_eye_highlight
+IWI Error: spetsnaz_lod_col_sp.iwi
+Loaded Material: mtl_spetsnaz_lod_sp
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (51) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.98) : 8/7/2012 15:40:25 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.98) : 8/7/2012 15:40:35 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.98) : 8/7/2012 15:40:47 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+GPU: ATI Radeon HD 5700 Series 
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+Program 3 Validation results at: Validation successful.
+
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1666 height: 973 (0.000000ms)
+Performing single pass listbox overflowcheck. (for '4488' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Downloaded Update
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.987) : 8/7/2012 15:41:10 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Saving Settings..
+Saving Menu States..
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Loading Extensions..
+Ext (0)
+Extensions Loaded..
+GPU: ATI Radeon HD 5700 Series 
+TomGL Init
+Program 3 Validation results at: Validation successful.
+
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 800 height: 600 (0.000000ms)
+--- Program Ready ---
+
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1666 height: 973 (3.397949ms)
+ImageCheck:: 'raw/images' looks incomplete with only: '618 iwis' suggested user to run IWDToImages, Path: 'D:\CoD4 Tvorba Map\Call of Duty 4 - Mod ESCAPE\raw\images'
+------ WARNING: Processcmd:: Blank (cmd || value) value
+Saving Settings..
+Performing single pass listbox overflowcheck. (for '4488' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+------ WARNING: Processcmd:: Blank (cmd || value) value
+Saving Settings..
+Passing Xmodel: 'com_railpipe_bolts' to background loader
+^2Loaded Xmodel^7: com_railpipe_bolts (2.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_01 (2.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_02 (29.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_03' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_03 (5.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_04_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_04_d (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_05_d (16.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_06_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_06_d (25.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_07_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_07_d (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_bend (19.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_connector' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_connector (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (47.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_02 (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_03_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_03_d (6.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_04_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_04_d (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_05_d (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_bend (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_red_toolbox' to background loader
+^2Loaded Xmodel^7: com_red_toolbox (31.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_red_toolbox
+
+
+Passing Xmodel: 'com_railpipe_med_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_bend (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_bend (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_01 (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_02 (3.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_03_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_03_d (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_04_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_04_d (3.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_05_d (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_bend (2.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_05_d (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_07_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_07_d (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_05_d (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_01 (2.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_02 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_03' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_03 (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_04_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_04_d (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+
+
+Passing Xmodel: 'com_railpipe_large_07_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_07_d (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_large_connector' to background loader
+^2Loaded Xmodel^7: com_railpipe_large_connector (5.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_02 (2.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_01' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_01 (4.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_02' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_02 (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_03_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_03_d (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_04_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_04_d (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_05_d' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_05_d (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_railpipe_med_bend' to background loader
+^2Loaded Xmodel^7: com_railpipe_med_bend (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pipe_plate_sw
+^2Material^7: mtl_pipe_trim_sw
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_off' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_off (55.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+
+
+Passing Xmodel: 'com_red_toolbox' to background loader
+^2Loaded Xmodel^7: com_red_toolbox (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_red_toolbox
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_off' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_off (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_on' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_on (133.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+^2Material^7: mtl_restaurantceilinglamp_on
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_off' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_off (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_on' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_on (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+^2Material^7: mtl_restaurantceilinglamp_on
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_off' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_off (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+
+
+Passing Xmodel: 'com_restaurantceilinglamp_on' to background loader
+^2Loaded Xmodel^7: com_restaurantceilinglamp_on (2.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantceilinglamp_off
+^2Material^7: mtl_restaurantceilinglamp_on
+
+
+Passing Xmodel: 'com_restaurantchair_1' to background loader
+^2Loaded Xmodel^7: com_restaurantchair_1 (158.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurant_chair
+
+
+Passing Xmodel: 'com_restaurantchair_2' to background loader
+^2Loaded Xmodel^7: com_restaurantchair_2 (161.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurant_chair
+
+
+Passing Xmodel: 'com_restaurantkitchentable_1' to background loader
+^2Loaded Xmodel^7: com_restaurantkitchentable_1 (21.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantkitchentables
+
+
+Passing Xmodel: 'com_restaurantkitchentable_2' to background loader
+^2Loaded Xmodel^7: com_restaurantkitchentable_2 (167.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantkitchentables
+
+
+Passing Xmodel: 'com_restaurantkitchentable_3' to background loader
+^2Loaded Xmodel^7: com_restaurantkitchentable_3 (123.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantkitchentables
+
+
+Passing Xmodel: 'com_restaurantkitchentable_4' to background loader
+^2Loaded Xmodel^7: com_restaurantkitchentable_4 (12.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantkitchentables
+
+
+Passing Xmodel: 'com_restaurantkitchenvent' to background loader
+^2Loaded Xmodel^7: com_restaurantkitchenvent (122.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantkitchenvent
+
+
+Passing Xmodel: 'com_restaurantsink_1comp' to background loader
+^2Loaded Xmodel^7: com_restaurantsink_1comp (123.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurant_sink
+
+
+Passing Xmodel: 'com_restaurantsink_2comps' to background loader
+^2Loaded Xmodel^7: com_restaurantsink_2comps (235.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurant_sink
+
+
+Passing Xmodel: 'com_restaurantstainlessteelshelf_01' to background loader
+^2Loaded Xmodel^7: com_restaurantstainlessteelshelf_01 (124.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantstainlessteelshelf
+
+
+Passing Xmodel: 'com_restaurantstainlessteelshelf_02' to background loader
+^2Loaded Xmodel^7: com_restaurantstainlessteelshelf_02 (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurantstainlessteelshelf
+
+
+Passing Xmodel: 'com_restaurantstove' to background loader
+^2Loaded Xmodel^7: com_restaurantstove (7.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantstove
+
+
+Passing Xmodel: 'com_restaurantstovewithburner' to background loader
+^2Loaded Xmodel^7: com_restaurantstovewithburner (5.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurantstove
+
+
+Passing Xmodel: 'com_restaurant_sinktable_left' to background loader
+^2Loaded Xmodel^7: com_restaurant_sinktable_left (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_restaurant_sink
+
+
+Passing Xmodel: 'com_restaurant_sinktable_right' to background loader
+^2Loaded Xmodel^7: com_restaurant_sinktable_right (6.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_restaurant_sink
+
+
+Passing Xmodel: 'com_roofvent1' to background loader
+^2Loaded Xmodel^7: com_roofvent1 (32.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_roofvent
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (68) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.987) : 12/8/2012 18:33:22 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Loading Extensions..
+Ext (0)
+Extensions Loaded..
+GPU: ATI Radeon HD 5700 Series 
+TomGL Init
+Program 3 Validation results at: Validation successful.
+
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1666 height: 973 (0.000000ms)
+--- Program Ready ---
+
+Performing single pass listbox overflowcheck. (for '4493' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Passing Xmodel: '4gf_laser_emitor' to background loader
+^2Loaded Xmodel^7: 4gf_laser_emitor (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: com_black
+^2Material^7: ap_chrome
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (68) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.987) : 31/8/2013 23:13:37 ***
+
+Logging Mode: Sync every write
+----- Sound Info -----
+Listing Sound output Devices:
+	1. Generic Software(DEFAULT)
+
+Using: 'Generic Software'
+------------------
+
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Loading Extensions..
+Ext (0)
+Extensions Loaded..
+GPU: ATI Radeon HD 5700 Series
+TomGL Init
+Program 3 Validation results at: Validation successful.
+
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 1666 height: 973 (0.000000ms)
+--- Program Ready ---
+
+Performing single pass listbox overflowcheck. (for '4527' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Passing Xmodel: '4gf_laser_emitor' to background loader
+^2Loaded Xmodel^7: 4gf_laser_emitor (220.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: com_black
+^2Material^7: ap_chrome
+
+
+Passing Xmodel: '4gf_sgc_dhd' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_dhd (159.0 ms)
+^2Loaded Surface^7: 0, 16.0 ms
+^2Material^7: sgc_dhd_mtl_0
+^2Material^7: sgc_dhd_mtl_1
+^2Material^7: sgc_dhd_mtl_2
+^2Material^7: sgc_dhd_mtl_3_on
+^2Material^7: sgc_dhd_mtl_3_off
+^2Material^7: sgc_dhd_mtl_4_on
+^2Material^7: sgc_dhd_mtl_4_off
+
+
+Passing Xmodel: '4gf_sgc_gate' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_gate (128.0 ms)
+^2Loaded Surface^7: 0, 11.0 ms
+^2Material^7: sgc_base_mtl_0
+^2Material^7: sgc_base_mtl_1
+^2Material^7: sgc_base_mtl_2
+^2Material^7: sgc_chev_mtl_2
+^2Material^7: sgc_chev_mtl_2_on
+^2Material^7: sgc_chev_mtl_1
+^2Material^7: sgc_chev_mtl_0
+
+
+Passing Xmodel: '4gf_sgc_ring' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_ring (34.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: sgc_ring_mtl
+
+
+Passing Xmodel: '4gf_sgc_rings' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_rings (22.0 ms)
+^2Loaded Surface^7: 0, 3.0 ms
+^2Material^7: sgc_rings_mtl
+
+
+Passing Xmodel: 'ac130_foliage_tree_grey_oak' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_grey_oak (166.0 ms)
+^2Loaded Surface^7: 0, 3.0 ms
+^2Material^7: mtl_grey_oak_canopy
+^2Material^7: mtl_grey_oak
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ac130_foliage_tree_pine' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_pine (84.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pine
+^2Material^7: mtl_pine_canopy
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ac_ac130_pine01' to background loader
+^2Loaded Xmodel^7: ac_ac130_pine01 (73.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_ac130pine01
+
+
+Passing Xmodel: 'ac_car_part01' to background loader
+^2Loaded Xmodel^7: ac_car_part01 (70.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_car_parts01
+
+
+Passing Xmodel: 'ac_ac130_pine01' to background loader
+^2Loaded Xmodel^7: ac_ac130_pine01 (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_ac130pine01
+
+
+Passing Xmodel: 'ac_car_part02' to background loader
+^2Loaded Xmodel^7: ac_car_part02 (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_car_parts01
+
+
+Passing Xmodel: 'ac_car_part07' to background loader
+^2Loaded Xmodel^7: ac_car_part07 (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_car_parts01
+
+
+Passing Xmodel: 'ad_sodamachine' to background loader
+^2Loaded Xmodel^7: ad_sodamachine (87.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_ad_sodamachine
+^2Material^7: mtl_can_machine3_lit
+
+
+Passing Xmodel: 'aftermath_broken_building_01' to background loader
+^2Loaded Xmodel^7: aftermath_broken_building_01 (367.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_bottom_01
+^2Material^7: me_decal_plasterwall_04
+^2Material^7: me_door_01
+^2Material^7: me_door_05
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_decal_burned
+^2Material^7: me_door_09
+^2Material^7: me_windowfence_02
+^2Material^7: me_plaster_03
+
+
+Passing Xmodel: 'aftermath_cable_tower' to background loader
+^2Loaded Xmodel^7: aftermath_cable_tower (113.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_pinewood
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_ditch_railing_01' to background loader
+^2Loaded Xmodel^7: aftermath_ditch_railing_01 (17.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_doodad_01' to background loader
+^2Loaded Xmodel^7: aftermath_doodad_01 (48.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_ground_concrete01
+
+
+Passing Xmodel: 'aftermath_doodad_02' to background loader
+^2Loaded Xmodel^7: aftermath_doodad_02 (11.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_ground_concrete01
+
+
+Passing Xmodel: 'aftermath_ductbrace' to background loader
+^2Loaded Xmodel^7: aftermath_ductbrace (12.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_01' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_01 (18.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_top_01
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_metal_rust_01
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_01_b' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_01_b (4.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_plaster_01
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_02' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_02 (7.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_top_01
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_decal_burned
+^2Material^7: me_door_09
+^2Material^7: me_metal_rust_01
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_02_b' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_02_b (16.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_plaster_01
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_03' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_03 (4.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_top_01
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_metal_rust_01
+
+
+Passing Xmodel: 'aftermath_facade_destroyed_04' to background loader
+^2Loaded Xmodel^7: aftermath_facade_destroyed_04 (26.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_bottom_01
+^2Material^7: me_decal_plasterwall_04
+^2Material^7: me_door_01
+^2Material^7: me_door_05
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_decal_burned
+^2Material^7: me_door_09
+^2Material^7: me_windowfence_02
+^2Material^7: me_plaster_03
+
+
+Passing Xmodel: 'aftermath_garage_parkingbump' to background loader
+^2Loaded Xmodel^7: aftermath_garage_parkingbump (9.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_sidewalk_curb_yellow
+
+
+Passing Xmodel: 'aftermath_industrialframe_part1' to background loader
+^2Loaded Xmodel^7: aftermath_industrialframe_part1 (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_industrialframe_part2' to background loader
+^2Loaded Xmodel^7: aftermath_industrialframe_part2 (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_industrialframe_part3' to background loader
+^2Loaded Xmodel^7: aftermath_industrialframe_part3 (12.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_pillar_01' to background loader
+^2Loaded Xmodel^7: aftermath_pillar_01 (5.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_ground_concrete01
+
+
+Passing Xmodel: 'aftermath_pillar_02' to background loader
+^2Loaded Xmodel^7: aftermath_pillar_02 (5.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_plaster_03
+
+
+Passing Xmodel: 'aftermath_power_stationthing' to background loader
+^2Loaded Xmodel^7: aftermath_power_stationthing (71.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_wire_black
+^2Material^7: me_metal_garage_door_blue
+
+
+Passing Xmodel: 'aftermath_power_stationthing2' to background loader
+^2Loaded Xmodel^7: aftermath_power_stationthing2 (7.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_wire_black
+^2Material^7: me_metal_garage_door_blue
+
+
+Passing Xmodel: 'aftermath_power_stationthing3' to background loader
+^2Loaded Xmodel^7: aftermath_power_stationthing3 (119.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_electric_insulator02
+^2Material^7: mtl_electric_insulator01
+
+
+Passing Xmodel: 'aftermath_power_tower' to background loader
+^2Loaded Xmodel^7: aftermath_power_tower (161.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_fence_chainlink
+^2Material^7: me_trim_metal_01
+^2Material^7: me_asphalt_01
+
+
+Passing Xmodel: 'aftermath_rebar_group_01' to background loader
+^2Loaded Xmodel^7: aftermath_rebar_group_01 (47.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_metal_rust_02
+
+
+Passing Xmodel: 'aftermath_rebar_group_02' to background loader
+^2Loaded Xmodel^7: aftermath_rebar_group_02 (4.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_metal_rust_02
+
+
+Passing Xmodel: 'aftermath_rebar_group_03' to background loader
+^2Loaded Xmodel^7: aftermath_rebar_group_03 (15.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_metal_rust_02
+
+
+Passing Xmodel: 'aftermath_roadblock_01' to background loader
+^2Loaded Xmodel^7: aftermath_roadblock_01 (21.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_floor_concrete
+
+
+Passing Xmodel: 'aftermath_roadblock_02' to background loader
+^2Loaded Xmodel^7: aftermath_roadblock_02 (16.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_floor_concrete
+
+
+Passing Xmodel: 'aftermath_roadroperail' to background loader
+^2Loaded Xmodel^7: aftermath_roadroperail (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_metal_rust_01
+
+
+Passing Xmodel: 'aftermath_roadsign' to background loader
+^2Loaded Xmodel^7: aftermath_roadsign (49.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_fence_chainlink
+^2Material^7: me_asphalt_road1
+^2Material^7: me_door_02
+
+
+Passing Xmodel: 'aftermath_transformer3' to background loader
+^2Loaded Xmodel^7: aftermath_transformer3 (70.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: me_i_beam
+^2Material^7: me_asphalt_01
+^2Material^7: me_window_01
+
+
+Passing Xmodel: 'aftermath_transformer_base' to background loader
+^2Loaded Xmodel^7: aftermath_transformer_base (63.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_asphalt_01
+^2Material^7: me_blue_wall_01
+^2Material^7: me_window_01
+^2Material^7: me_asphalt_road1
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_transformer_doodad' to background loader
+^2Loaded Xmodel^7: aftermath_transformer_doodad (8.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_asphalt_01
+^2Material^7: me_blue_wall_01
+^2Material^7: me_i_beam
+^2Material^7: me_metal_garage_door_blue
+
+
+Passing Xmodel: 'aftermath_windowframe_01' to background loader
+^2Loaded Xmodel^7: aftermath_windowframe_01 (30.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_sidewalk_curb
+
+
+Passing Xmodel: 'aftermath_woodfence' to background loader
+^2Loaded Xmodel^7: aftermath_woodfence (6.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_pinewood
+
+
+Passing Xmodel: 'ap_airbus_seat_1' to background loader
+^2Loaded Xmodel^7: ap_airbus_seat_1 (96.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_airbus_passanger_seat
+
+
+Passing Xmodel: 'ap_airbus_seat_2' to background loader
+^2Loaded Xmodel^7: ap_airbus_seat_2 (46.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_meetingroom_seat
+
+
+Passing Xmodel: 'ap_air_mask' to background loader
+^2Loaded Xmodel^7: ap_air_mask (55.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_air_mask
+
+
+Passing Xmodel: 'ap_couch01' to background loader
+^2Loaded Xmodel^7: ap_couch01 (25.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_ap_couch
+
+
+Passing Xmodel: 'ap_food_cart' to background loader
+^2Loaded Xmodel^7: ap_food_cart (61.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_food_cart01
+
+
+Passing Xmodel: 'ap_interior_door_handle' to background loader
+^2Loaded Xmodel^7: ap_interior_door_handle (21.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_interior_door_handle
+
+
+Passing Xmodel: 'ap_luggage01' to background loader
+^2Loaded Xmodel^7: ap_luggage01 (54.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_luggage01
+
+
+Passing Xmodel: 'ap_luggage02' to background loader
+^2Loaded Xmodel^7: ap_luggage02 (13.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_luggage01
+
+
+Passing Xmodel: '4gf_sgc_dhd' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_dhd (10.0 ms)
+^2Loaded Surface^7: 0, 5.0 ms
+^2Material^7: sgc_dhd_mtl_0
+^2Material^7: sgc_dhd_mtl_1
+^2Material^7: sgc_dhd_mtl_2
+^2Material^7: sgc_dhd_mtl_3_on
+^2Material^7: sgc_dhd_mtl_3_off
+^2Material^7: sgc_dhd_mtl_4_on
+^2Material^7: sgc_dhd_mtl_4_off
+
+
+Passing Xmodel: '4gf_sgc_gate' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_gate (4.0 ms)
+^2Loaded Surface^7: 0, 15.0 ms
+^2Material^7: sgc_base_mtl_0
+^2Material^7: sgc_base_mtl_1
+^2Material^7: sgc_base_mtl_2
+^2Material^7: sgc_chev_mtl_2
+^2Material^7: sgc_chev_mtl_2_on
+^2Material^7: sgc_chev_mtl_1
+^2Material^7: sgc_chev_mtl_0
+
+
+Passing Xmodel: '4gf_sgc_ring' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_ring (3.0 ms)
+^2Loaded Surface^7: 0, 3.0 ms
+^2Material^7: sgc_ring_mtl
+
+
+Passing Xmodel: '4gf_sgc_rings' to background loader
+^2Loaded Xmodel^7: 4gf_sgc_rings (5.0 ms)
+^2Loaded Surface^7: 0, 3.0 ms
+^2Material^7: sgc_rings_mtl
+
+
+Passing Xmodel: 'ac130_foliage_tree_grey_oak' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_grey_oak (5.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: mtl_grey_oak_canopy
+^2Material^7: mtl_grey_oak
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ac130_foliage_tree_pine' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_pine (6.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_pine
+^2Material^7: mtl_pine_canopy
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ac_ac130_pine01' to background loader
+^2Loaded Xmodel^7: ac_ac130_pine01 (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_ac130pine01
+
+
+Passing Xmodel: 'ac_car_part01' to background loader
+^2Loaded Xmodel^7: ac_car_part01 (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_car_parts01
+
+
+Passing Xmodel: 'aftermath_ditch_railing_01' to background loader
+^2Loaded Xmodel^7: aftermath_ditch_railing_01 (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_industrialframe_part3' to background loader
+^2Loaded Xmodel^7: aftermath_industrialframe_part3 (3.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'aftermath_roadsign' to background loader
+^2Loaded Xmodel^7: aftermath_roadsign (8.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: me_fence_chainlink
+^2Material^7: me_asphalt_road1
+^2Material^7: me_door_02
+
+
+Passing Xmodel: 'ap_airbus_seat_2' to background loader
+^2Loaded Xmodel^7: ap_airbus_seat_2 (4.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_meetingroom_seat
+
+
+Passing Xmodel: 'ap_food_cart' to background loader
+^2Loaded Xmodel^7: ap_food_cart (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_food_cart01
+
+
+Passing Xmodel: 'aftermath_transformer_base' to background loader
+^2Loaded Xmodel^7: aftermath_transformer_base (4.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: me_asphalt_01
+^2Material^7: me_blue_wall_01
+^2Material^7: me_window_01
+^2Material^7: me_asphalt_road1
+^2Material^7: me_i_beam
+
+
+Passing Xmodel: 'ac130_foliage_tree_grey_oak' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_grey_oak (5.0 ms)
+^2Loaded Surface^7: 0, 2.0 ms
+^2Material^7: mtl_grey_oak_canopy
+^2Material^7: mtl_grey_oak
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ac130_foliage_tree_pine' to background loader
+^2Loaded Xmodel^7: ac130_foliage_tree_pine (1.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^2Material^7: mtl_pine
+^2Material^7: mtl_pine_canopy
+^2Material^7: mtl_tree_shadow_caster
+
+
+Passing Xmodel: 'ad_sodamachine' to background loader
+^2Loaded Xmodel^7: ad_sodamachine (1.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: mtl_ad_sodamachine
+^2Material^7: mtl_can_machine3_lit
+
+
+Passing Xmodel: 'aftermath_broken_building_01' to background loader
+^2Loaded Xmodel^7: aftermath_broken_building_01 (5.0 ms)
+^2Loaded Surface^7: 0, 1.0 ms
+^2Material^7: me_plaster_01
+^2Material^7: me_roof_01
+^2Material^7: me_decal_adobe_bottom_01
+^2Material^7: me_decal_plasterwall_04
+^2Material^7: me_door_01
+^2Material^7: me_door_05
+^2Material^7: ch_wall_floor_destroyed
+^2Material^7: me_decal_burned
+^2Material^7: me_door_09
+^2Material^7: me_windowfence_02
+^2Material^7: me_plaster_03
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (68) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.987) : 15/9/2014 13:51:34 ***
+
+Logging Mode: Sync every write
+------ WARNING: Failed to find OpenAL.dll (Sound will be disabled)
+Saving Settings..
+Saving Menu States..
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Loading Extensions..
+Ext (0)
+Extensions Loaded..
+GPU: GeForce GTX 750 Ti/PCIe/SSE2
+TomGL Init
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 800 height: 600 (0.000000ms)
+--- Program Ready ---
+
+ImageCheck:: 'raw/images' looks incomplete with only: '1754 iwis' suggested user to run IWDToImages, Path: 'D:\CoD4 Tvorba Map\Call of Duty 4 - Modern Warfare\raw\images'
+------ WARNING: Processcmd:: Blank (cmd || value) value
+Saving Settings..
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (68) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped
+Logging Mode Changed: Sync every write
+
+*** Application Started (Version 0.987) : 15/9/2014 13:52:51 ***
+
+Logging Mode: Sync every write
+------ WARNING: Failed to find OpenAL.dll (Sound will be disabled)
+Tray Icon Created
+XmodelScale SetTo: 2.54
+Background Xmodel thread started
+Saving Menu States..
+Loading Extensions..
+Ext (0)
+Extensions Loaded..
+GPU: GeForce GTX 750 Ti/PCIe/SSE2
+TomGL Init
+Loaded Font: 'Helvetica-Bold'
+Loaded Font: 'Bookman-Demi'
+
+TomGUI::ItemScale: Ajusting for new window size
+TomGUI::ItemScale: Done width: 800 height: 600 (0.000000ms)
+--- Program Ready ---
+
+Performing single pass listbox overflowcheck. (for '4720' items)
+Single pass listbox overflowcheck completed in: 0.000000ms (116 trimmed)
+Passing Xmodel: 'tag_origin' to background loader
+^2Loaded Xmodel^7: tag_origin (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_laser' to background loader
+^2Loaded Xmodel^7: tag_laser (10.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_origin' to background loader
+^2Loaded Xmodel^7: tag_origin (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_laser' to background loader
+^2Loaded Xmodel^7: tag_laser (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_flash' to background loader
+^2Loaded Xmodel^7: tag_flash (10.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_laser' to background loader
+^2Loaded Xmodel^7: tag_laser (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_flash' to background loader
+^2Loaded Xmodel^7: tag_flash (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_laser' to background loader
+^2Loaded Xmodel^7: tag_laser (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_origin' to background loader
+^2Loaded Xmodel^7: tag_origin (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_origin' to background loader
+^2Loaded Xmodel^7: tag_origin (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_laser' to background loader
+^2Loaded Xmodel^7: tag_laser (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+Passing Xmodel: 'tag_flash' to background loader
+^2Loaded Xmodel^7: tag_flash (0.0 ms)
+^2Loaded Surface^7: 0, 0.0 ms
+^1IWI Error(^4grey.iwi^7): Can't OpenFile
+^2Material^7: lambert1
+
+
+^5Dumped Tags
+^5Displaying Tags In Browser
+
+
+
+--- Closing Down ---
+OpenAL ShutDown
+Saving Menu States..
+TomGUI Deleteing (68) materials
+UnloadedFont: 'Helvetica-Bold.'
+UnloadedFont: 'Bookman-Demi'
+TomGUI Shutdown
+TrayIcon Removed
+TomOpenGL Shutdown
+Xmodel thread Stopped

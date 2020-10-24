@@ -1,0 +1,422 @@
+#include "ui/menudef.h"
+
+#define	MENU_TEXT(m_rect, m_align, m_text, m_size, m_color, m_vis ) \
+			itemDef { \
+				rect			m_rect 0 0 \
+				textscale		m_size \
+				textalign		m_align \
+				forecolor		m_color \
+				exp				text( m_text ); \
+				visible			m_vis \
+				decoration 		autowrapped \
+			}
+
+
+#define	MENU_DIAMANT(m_but, m_rect, m_act, m_focus ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_m_e_off" \
+			forecolor		1 1 1 1 \
+			visible			when( localVarInt( ui_button_focus ) != m_but && localVarInt( ui_button_class ) != m_but ) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_m_e_on" \
+			forecolor		1 1 1 1 \
+			visible			when( localVarInt( ui_button_focus ) == m_but || localVarInt( ui_button_class ) == m_but ) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( stat( int(tablelookup("mp/MonsterClassTable.csv", 0, m_but, 2)) ) == int(tablelookup("mp/MonsterClassTable.csv", 0, m_but, 3)) )  \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 50; } \
+			action { play "mouse_click"; setLocalVarInt ui_button_class m_but; m_act } \
+		}	
+
+#define	MENU_KNIFE(m_but, m_rect, m_shader, m_act, m_focus, m_vis ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			exp				material(m_shader) \
+			forecolor		1 1 1 0.7 \
+			visible			1 \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			exp				material(m_shader) \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis && localVarInt( ui_button_focus ) == m_but) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis ) \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 0; } \
+			action { play "mouse_click"; m_act } \
+		}
+
+#define	MENU_LEBKA(m_but, m_rect, m_act, m_focus, m_vis ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_ok_off" \
+			forecolor		1 1 1 1 \
+			visible			1 \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_ok_on" \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis && localVarInt( ui_button_focus ) == m_but) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis ) \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 0; } \
+			action { play "mouse_click"; m_act } \
+		}
+		
+{
+	menuDef
+	{
+		name			"zombies_character"
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		soundloop 		"music_connect_mp"
+		
+		backcolor		1 1 1 1
+		background		"menu_m_b"
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		
+		onOpen
+		{	
+			setLocalVarInt ui_button_class 0;
+			setLocalVarInt ui_button_focus 50;
+			scriptMenuResponse "monster:create:c:0";
+		}
+		
+		onEsc
+		{
+			play "mouse_click";
+			close self;
+			open "team_marinesopfor";
+		}
+		
+		// =========  POZADIE  ==========
+		
+		itemDef //obrazok postavy - ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			39 63 219 346 0 0
+			background		"menu_m_f" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		} 
+		
+		itemDef //papyrus - info ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			301 27 174 279 0 0
+			background		"menu_m_s" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //dreveny box - zbran ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			295 341 188 110 0 0
+			background		"menu_m_w" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}	
+
+		itemDef //papyrus - perk 1 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 29 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //papyrus - perk 2 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 184 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}		
+
+		itemDef //papyrus - perk 3 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 339 92 110 0 0
+			background		"menu_m_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+		
+		/* ====== Vyber Classu - Diamanty ======= */
+		MENU_DIAMANT(0, 59 18 30 36, scriptMenuResponse "monster:create:c:0";, ; )
+		MENU_DIAMANT(1, 96 18 30 36, scriptMenuResponse "monster:create:c:1";, ; )
+		MENU_DIAMANT(2, 133 18 30 36, scriptMenuResponse "monster:create:c:2";, ; )
+		MENU_DIAMANT(3, 170 18 30 36, scriptMenuResponse "monster:create:c:3";, ; )
+		MENU_DIAMANT(4, 207 18 30 36, scriptMenuResponse "monster:create:c:4";, ; )
+		
+		#define CLASS			localVarInt( ui_button_class ) //cislo riadku v table
+		#define POSTAVA			stat( int( tablelookup("mp/MonsterClassTable.csv", 0, CLASS, 4) ) ) //cislo riadku v table
+		
+		/* ===== Obrazok postavy ===== */
+		itemDef 
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			81 118 135 235 0 0 
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 11) ) 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+		
+		/* ========= Info box - Papyrus ========= */	
+		MENU_TEXT(321 92 134 500, ITEM_ALIGN_CENTER, "@"+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 4), FONTSCALE_BOLD, 0.5 0 0 1, 1 )
+		
+		MENU_TEXT(321 117 500 500, ITEM_ALIGN_LEFT, "HP: "+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 5), FONTSCALE_NORMAL, 0 0 0 1, 1 )
+		MENU_TEXT(321 137 500 500, ITEM_ALIGN_LEFT, "Speed: "+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 6), FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		MENU_TEXT(321 157 500 500, ITEM_ALIGN_LEFT, "Jump: "+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 7), FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		
+		MENU_TEXT(321 187 500 500, ITEM_ALIGN_LEFT, "Damage: "+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 14), FONTSCALE_NORMAL, 0 0 0 1, 1 )
+		MENU_TEXT(321 207 500 500, ITEM_ALIGN_LEFT, "Radius: "+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 15), FONTSCALE_NORMAL, 0 0 0 1, 1 )
+		
+		MENU_TEXT(321 237 134 50, ITEM_ALIGN_LEFT, "@"+tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 17), FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		
+		/* ===== Obrazok zbrane ===== */
+		itemDef 
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			305 351 168 90 0 0 
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, POSTAVA, 13) )
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}		
+		
+		/* === Dyka - knife - prepinanie postav === */
+		MENU_KNIFE(20, 39 412 94 50, "menu_m_sl", scriptMenuResponse "monster:create:back";, ;, 1 )
+		MENU_KNIFE(21, 164 412 94 50, "menu_m_sp", scriptMenuResponse "monster:create:next";, ;, 1 )
+		
+		/* ======= Odchod z menu - Lebka ======= */
+		MENU_LEBKA(22, 127 409 42 54, open "team_marinesopfor"; close self;, ;, 1 )
+		
+		#define PERK1 stat( int( tablelookup("mp/MonsterClassTable.csv", 0, CLASS, 5) ) )
+		/* ========= Perk 1 ========== */
+		itemDef 
+		{ 
+			name			perk1
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_SHADER 
+			rect			520 35 80 98 0 0
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, PERK1, 5) )
+			forecolor		1 1 1 0.8
+			visible			1
+			mouseEnter {  	play "mouse_over"; setitemcolor perk1 forecolor 1 1 1 1 }
+			mouseExit {  	setitemcolor perk1 forecolor 1 1 1 0.8 }
+			action { 		play "mouse_click"; scriptMenuResponse "monster:shop:perk_1"; open "shop_perks"; }	
+		}	
+
+		#define PERK2 stat( int( tablelookup("mp/MonsterClassTable.csv", 0, CLASS, 6) ) )
+		/* ========= Perk 2 ========== */
+		itemDef 
+		{ 
+			name 			perk2
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_SHADER 
+			rect			520 190 80 98 0 0
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, PERK2, 5) )
+			forecolor		1 1 1 0.8
+			visible			1 
+			mouseEnter {  	play "mouse_over"; setitemcolor perk2 forecolor 1 1 1 1 }
+			mouseExit {  	setitemcolor perk2 forecolor 1 1 1 0.8 }
+			action { 		play "mouse_click"; scriptMenuResponse "monster:shop:perk_2"; open "shop_perks"; }
+		}
+
+		#define PERK3 stat( int( tablelookup("mp/MonsterClassTable.csv", 0, CLASS, 7) ) )
+		/* ========= Perk 3 ========== */
+		itemDef 
+		{ 
+			name			perk3
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_SHADER 
+			rect			520 345 80 98 0 0
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, PERK3, 5) )
+			forecolor		1 1 1 0.8
+			visible			1
+			mouseEnter {  	play "mouse_over"; setitemcolor perk3 forecolor 1 1 1 1 }
+			mouseExit {  	setitemcolor perk3 forecolor 1 1 1 0.8 }
+			action { 		play "mouse_click"; scriptMenuResponse "monster:shop:perk_3"; open "shop_perks"; }
+		}		
+		
+		#include "ui/safearea.menu"
+	}
+	
+	// to be macro menu
+	menuDef	
+	{
+		name 			"shop_perks"
+		visible			0
+		fullscreen		0
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		focusColor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		popup	
+		onESC 
+		{
+			play "mouse_click";
+			close self;
+		}
+		onOpen 
+		{ 
+		}
+		onClose
+		{
+		}
+
+		itemDef //èierne pozadie
+		{
+			type			ITEM_TYPE_BUTTON
+			rect			0 0 640 480 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		0 0 0 0.5
+			background		"white"
+			visible			1
+			action { 		play "mouse_click"; close self; }
+		}
+		
+		itemDef //pozadie - papyrus
+		{
+			type			ITEM_TYPE_BUTTON
+			rect			100 76 440 328 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		1 1 1 1
+			background		"menu_m_s_r"
+			visible			1
+		}
+
+		/* ================================================================================================================ */
+		
+		#define ITEM			dvarint( shop_perks_item )		//aktuálna položka
+		
+		//názov položky
+		MENU_TEXT(174 103 313 33, ITEM_ALIGN_MIDDLE_CENTER, tablelookup("mp/MonsterClassTable.csv", 0, ITEM, 4), FONTSCALE_BIG, 0.5 0 0 1, 1 )
+		
+		itemDef //obrázok položky
+		{
+			rect			174 136 141 122 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		1 1 1 1
+			exp				material( tablelookup("mp/MonsterClassTable.csv", 0, ITEM, 5) )
+			visible			1
+		}
+		
+		//info o položke
+		MENU_TEXT(174 259 141 69, ITEM_ALIGN_TOP_LEFT, tablelookup("mp/MonsterClassTable.csv", 0, ITEM, 7), FONTSCALE_SMALL, 0 0 0 1, 1 )
+		
+		/* ================================================================================================================ */
+		
+		#define XP_VIS	( tablelookup("mp/MonsterClassTable.csv", 0, ITEM, 2) != tablelookup("mp/MonsterClassTable.csv", 0, ITEM, 3) )
+		itemDef //vertikálna èiara
+		{
+			rect			371 150 1 54 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		0 0 0 1
+			background		"white"
+			visible			when( XP_VIS )
+		}
+		
+		itemDef //horizontálna èiara
+		{
+			rect			342 164 139 2 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		0 0 0 1
+			background		"white"
+			visible			when( XP_VIS )
+		}
+		
+		//nápis LVL
+		MENU_TEXT(372 150 34 17, ITEM_ALIGN_MIDDLE_CENTER, "LVL", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		//nápis XP
+		MENU_TEXT(406 150 74 17, ITEM_ALIGN_MIDDLE_CENTER, "XP", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		//nápis your
+		MENU_TEXT(342 167 30 17, ITEM_ALIGN_MIDDLE_CENTER, "your", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		//nápis need
+		MENU_TEXT(342 184 30 17, ITEM_ALIGN_MIDDLE_CENTER, "need", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		
+		//môj LVL
+		MENU_TEXT(372 167 34 17, ITEM_ALIGN_MIDDLE_CENTER, stat( 251 )+1, 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		//moje XP
+		MENU_TEXT(406 167 74 17, ITEM_ALIGN_MIDDLE_CENTER, stat( 2301 ), 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )		
+		
+		//potrebný LVL
+		MENU_TEXT(372 184 34 17, ITEM_ALIGN_MIDDLE_CENTER, "10", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		//potrebné XP
+		MENU_TEXT(406 184 74 17, ITEM_ALIGN_MIDDLE_CENTER, "2000", 	FONTSCALE_SMALL, 0 0 0 1, when( XP_VIS ) )
+		
+		itemDef //tlaèidlo nákupu
+		{
+			name			button_buy
+			type			ITEM_TYPE_BUTTON
+			rect			349 259 116 43 0 0
+			style			WINDOW_STYLE_SHADER
+			forecolor		1 1 1 0.8
+			background		"menu_m_buy"
+			visible			when( XP_VIS )
+			mouseEnter {  	play "mouse_over"; setitemcolor button_buy forecolor 1 1 1 1 }
+			mouseExit {  	setitemcolor button_buy forecolor 1 1 1 0.8 }
+			action { 		play "mouse_click"; }
+		}		
+		
+		/* ================================================================================================================ */
+		
+		#define START_X 198
+		#define START_Y 321
+		/* === Dyka - knife - prepinanie položiek === */
+		MENU_KNIFE(200, START_X (3+START_Y) 94 50, "menu_m_sl", ;, ;, 1 )
+		MENU_KNIFE(201, (125+START_X) (3+START_Y) 94 50, "menu_m_sp", ;, ;, 1 )
+		
+		/* ======= Odchod z menu - Lebka ======= */
+		MENU_LEBKA(202, (88+START_X) START_Y 42 54, close self;, ;, 1 )
+	}
+}

@@ -1,0 +1,9 @@
+{
+"basepath" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Mod ESCAPE"
+"mapspath" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Mod ESCAPE\\map_source"
+"entitypath" ".\\cod4.def"
+"autosave" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Mod ESCAPE\\bin\\autosave.map"
+"game" ""
+"basegame" ""
+"layeredmaterials" "D:\\CoD4 Tvorba Map\\Call of Duty 4 - Mod ESCAPE\\bin\\cod4_layered_material_library.txt"
+}

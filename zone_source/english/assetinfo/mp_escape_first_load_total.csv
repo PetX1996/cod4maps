@@ -1,0 +1,26 @@
+index,zone,type,type,name,usage(KB),total(KB)
+1,mp_escape_first,  techset,techset,sm2/wc_l_sm_r0c0n0s0,20.9,20.9
+2,mp_escape_first,  techset,techset,sm2/wc_l_sm_r0c0,11.6,11.6
+3,mp_escape_first,  techset,techset,sm2/wc_l_hsm_r0c0,8.2,8.2
+4,mp_escape_first,  techset,techset,sm2/wc_l_hsm_r0c0n0,9.8,9.8
+5,mp_escape_first,  techset,techset,wc_l_sm_r0c0n0s0,32.6,32.6
+6,mp_escape_first,  techset,techset,wc_l_sm_r0c0,18.2,18.2
+7,mp_escape_first,  techset,techset,wc_l_sm_r0c0s0,18.0,18.0
+8,mp_escape_first,  techset,techset,wc_l_sm_r0c0n0,16.1,16.1
+9,mp_escape_first,  techset,techset,wc_l_hsm_r0c0,9.4,9.4
+10,mp_escape_first,  techset,techset,wc_l_hsm_r0c0s0,9.2,9.2
+11,mp_escape_first,  techset,techset,wc_l_hsm_r0c0n0,10.9,10.9
+12,mp_escape_first,  techset,techset,wc_l_hsm_r0c0n0s0,10.4,10.4
+13,mp_escape_first,  gfx_map,gfx_map,maps/mp/mp_escape_first.d3dbsp,5580.8,5581.7
+14,mp_escape_first,    map_ents,map_ents,maps/mp/mp_escape_first.d3dbsp,7.2,7.2
+15,mp_escape_first,  col_map_sp,col_map_sp,maps/mp/mp_escape_first.d3dbsp,41.2,48.4
+16,mp_escape_first,  impactfx,impactfx,,1.5,1.5
+17,mp_escape_first,  sound,sound,artillery_explosion,1.2,1.2
+18,mp_escape_first,  sound,sound,elm_metal_rattle,1.2,1.2
+19,mp_escape_first,  sound,sound,mortar_incoming,1.6,1.6
+20,mp_escape_first,  sound,sound,generic_death_arab_4,1.1,1.1
+21,mp_escape_first,assetlist,assetlist,,2.7,5858.1
+22,mp_escape_first,techset,techset,(misc),1.2,1.2
+23,mp_escape_first,sound,sound,(misc),35.5,35.5
+24,mp_escape_first,loaded_sound,loaded_sound,(misc),2.5,2.5
+25,mp_escape_first,fx,fx,(misc),3.1,3.1

@@ -1,0 +1,108 @@
+{
+	menuDef
+	{
+		name			"connect_4gf"
+		style			1
+		focuscolor		1 1 1 1
+		backcolor		0 0 0 0.5
+		background		"white"
+		rect			0 0 640 480 4 0
+		
+		onOpen
+		{
+			execnow "set cg_hudChatPosition 640 480"
+			setLocalVarInt ui_selected 0;
+		}
+		onClose
+		{
+			execnow "set cg_hudChatPosition 5 204"
+		}
+		onESC
+		{
+			close self;
+		}
+		
+		#define START ( 150 + 57 )
+		#define SERVER_SIZE 60
+		#define SERVER_COUNT 2
+		
+		//pozadie
+		itemDef
+		{
+			rect			180 150 285 0 0 0
+			exp				rect H( 57 + ( SERVER_SIZE * SERVER_COUNT ) )
+			style			3
+			forecolor		0 0 0 1
+			background		"white"
+			visible			1
+		}
+		
+		//hostname
+		itemDef
+		{
+			rect			185 155 275 55 0 0
+			forecolor		1 1 1 1
+			exp				text( dvarString( sv_hostname ) )
+			textscale		0.3750
+			textalign		5
+			visible			1
+			decoration		autowrapped
+		}
+		
+		#define SERVER( number, number2, serverName, ip ) \
+		itemDef \
+		{ \
+			rect			185 0 (SERVER_SIZE - 10) (SERVER_SIZE - 10) 0 0 \
+			exp				rect Y( START + 5 + ( SERVER_SIZE * number ) ) \
+			style			3 \
+			forecolor		1 1 1 0.75 \
+			background		"4gf_wheel" \
+			visible			1 \
+		} \
+		itemDef \
+		{ \
+			rect			(180 + SERVER_SIZE) 0 (285 - SERVER_SIZE - 10) (SERVER_SIZE - 10) 0 0 \
+			exp				rect Y( START + 5 +( SERVER_SIZE * number ) ) \
+			forecolor		1 1 1 0.75 \
+			text			serverName \
+			textscale		0.3750 \
+			textalign		5 \
+			visible			1 \
+			decoration		autowrapped \
+		} \
+		itemDef \
+		{ \
+			rect			180 0 285 SERVER_SIZE 0 0 \
+			exp				rect Y( START + ( SERVER_SIZE * number ) ) \
+			type			1 \
+			visible			1 \
+			mouseEnter { setLocalVarInt ui_selected number2; } \
+			mouseExit { setLocalVarInt ui_selected 0; } \
+			action { exec "disconnect; wait 50; connect "ip } \
+		}
+		
+		#define SLIDER( number ) \
+		itemDef \
+		{ \
+			rect			180 0 142.5 2 0 0 \
+			exp				rect Y( 205 + SERVER_SIZE * localVarInt( ui_selected ) ) \
+			style			3 \
+			forecolor		1 1 1 0.75 \
+			background		"gradient_fadein" \
+			visible			1 \
+		} \
+		itemDef \
+		{ \
+			rect			322.5 0 -142.5 2 0 0 \
+			exp				rect Y( 205 + SERVER_SIZE * localVarInt( ui_selected ) ) \
+			style			3 \
+			forecolor		1 1 1 0.75 \
+			background		"gradient_fadein" \
+			visible			1 \
+		}
+		
+		SLIDER( 0 )
+		SERVER( 0, 1, "4GF.CZ #55 | DeathRun | HARD-MEDIUM MAPS", "88.86.107.135:29550" )
+		SERVER( 1, 2, "4GF.CZ #56 | DeathRun | EASY-MEDIUM MAPS", "88.86.107.135:29560" )
+	}
+}

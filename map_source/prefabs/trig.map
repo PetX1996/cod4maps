@@ -1,0 +1,16 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+ ( -32 48 0 ) ( -192 48 0 ) ( -192 -96 0 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -192 -96 16 ) ( -192 48 16 ) ( -32 48 16 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -192 -96 16 ) ( -32 -96 16 ) ( -32 -96 0 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 -96 16 ) ( -32 48 16 ) ( -32 48 0 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -32 48 16 ) ( -192 48 16 ) ( -192 48 0 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -192 48 16 ) ( -192 -96 16 ) ( -192 -96 0 ) aa_default 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

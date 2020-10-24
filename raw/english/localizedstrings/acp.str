@@ -1,0 +1,76 @@
+// Note to translators:
+// If a sentence is the same in your language then please change it to "#same"
+//
+// eg:
+// LANG_ENGLISH  "HALT"
+// LANG_GERMAN   "#same"
+//
+// (This is so we can tell which strings have been signed-off as ok to be the same words for QA
+//  and because we do not store duplicate strings, which will then get exported again next time
+//  as being untranslated.)
+//
+VERSION             "1"
+CONFIG              "C:\trees\cod3\cod3\bin\StringEd.cfg"
+FILENOTES           ""
+
+REFERENCE           MAPS
+LANG_ENGLISH        "Option to set a map, restart and next."
+
+REFERENCE           PLAYERS
+LANG_ENGLISH        "Settings for the players."
+
+REFERENCE           OTHER
+LANG_ENGLISH        "4GF ^1Escape!!!"
+
+// maps section
+
+REFERENCE           FASTRESTART
+LANG_ENGLISH        "Restart round, information about players remain."
+
+REFERENCE           MAPRESTART
+LANG_ENGLISH        "Restart maps, information about the player will be deleted."
+
+REFERENCE           RUNNEXT
+LANG_ENGLISH        "Runs the next map in rotation."
+
+REFERENCE           SETNEXT
+LANG_ENGLISH        "Set your map selected as the next in rotation."
+
+REFERENCE           RUNMAP
+LANG_ENGLISH        "Start your chosen map."
+
+REFERENCE           ENDMAP
+LANG_ENGLISH        "Exits map will be displayed the winning table."
+
+REFERENCE           ENDROUND
+LANG_ENGLISH        "Ends the round, the winning hud shows."
+
+// player section
+
+REFERENCE           NEXTPAGE
+LANG_ENGLISH        "Go to next page."
+
+REFERENCE           BACKPAGE
+LANG_ENGLISH        "Go to previous page."
+
+REFERENCE           HUMANS
+LANG_ENGLISH        "Connect the player to the team Humans."
+
+REFERENCE           MONSTER
+LANG_ENGLISH        "Connect the player to the team Monster."
+
+REFERENCE           SPECTATOR
+LANG_ENGLISH        "Connect the player to the team Spectator."
+
+REFERENCE           KILL
+LANG_ENGLISH        "Kills player."
+
+REFERENCE           RESPAWN
+LANG_ENGLISH        "Respawn player."
+
+REFERENCE           CLASS
+LANG_ENGLISH        "Select the default player class."
+
+ENDMARKER
+
+

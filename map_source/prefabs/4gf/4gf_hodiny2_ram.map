@@ -1,0 +1,95 @@
+iwmap 4
+"000_Global" flags  active
+"The Map" flags 
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+  contents nonColliding;
+ ( 4 64 -68 ) ( -12 64 -68 ) ( -12 -64 -68 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -64 36 ) ( -12 64 36 ) ( 4 64 36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -12 -68 12 ) ( 4 -68 12 ) ( 4 -68 -20 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 -64 12 ) ( 4 64 12 ) ( 4 64 -20 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 4 68 12 ) ( -12 68 12 ) ( -12 68 -20 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 12 ) ( 0 -64 12 ) ( 0 -64 -20 ) icbm_missilebody 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+  contents nonColliding;
+ ( 0 68 -68 ) ( -8 68 -68 ) ( -8 64 -68 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 64 36 ) ( -8 68 36 ) ( 0 68 36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 64 28 ) ( 0 64 28 ) ( 0 64 -28 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 28 ) ( 0 68 28 ) ( 0 68 -28 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 68 28 ) ( -8 68 28 ) ( -8 68 -28 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 68 36 ) ( -8 64 36 ) ( -8 64 -20 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+  contents nonColliding;
+ ( 0 -64 -68 ) ( -8 -64 -68 ) ( -8 -68 -68 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -68 36 ) ( -8 -64 36 ) ( 0 -64 36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -68 28 ) ( 0 -68 28 ) ( 0 -68 -28 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -68 28 ) ( 0 -64 28 ) ( 0 -64 -28 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -64 -4 ) ( -8 -64 -4 ) ( -8 -64 -60 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -64 36 ) ( -8 -68 36 ) ( -8 -68 -20 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+  contents nonColliding;
+ ( 0 64 32 ) ( -8 64 32 ) ( -8 44 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 44 36 ) ( -8 64 36 ) ( 0 64 36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -64 36 ) ( 0 -64 36 ) ( 0 -64 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 44 36 ) ( 0 64 36 ) ( 0 64 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 36 ) ( -8 64 36 ) ( -8 64 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 64 36 ) ( -8 44 36 ) ( -8 44 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+  contents nonColliding;
+ ( 0 64 -36 ) ( -8 64 -36 ) ( -8 44 -36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 44 -32 ) ( -8 64 -32 ) ( 0 64 -32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -64 -32 ) ( 0 -64 -32 ) ( 0 -64 -36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 44 -32 ) ( 0 64 -32 ) ( 0 64 -36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 -32 ) ( -8 64 -32 ) ( -8 64 -36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 64 -32 ) ( -8 44 -32 ) ( -8 44 -36 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+  contents nonColliding;
+ ( 0 0 -32 ) ( -8 0 -32 ) ( -8 -4 -32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -2 32 ) ( -8 2 32 ) ( 0 2 32 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -2 32 ) ( 0 -2 32 ) ( 0 -2 12 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2 32 ) ( 0 2 32 ) ( 0 2 12 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2 32 ) ( -8 2 32 ) ( -8 2 12 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 2 32 ) ( -8 -2 32 ) ( -8 -2 12 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+ {
+  mesh
+  {
+  contents nonColliding;
+   death_counter
+   lightmap_gray
+   2 2 16 8
+   (
+	v -3.9994965 63.999992 -64 t 0 -0 4 4
+	v -3.9994965 63.999992 -36 t 0 -1024 4 2.25
+   )
+   (
+	v -4.0005093 -63.999996 -64 t 1024 -0 -4 4
+	v -4.0005093 -63.999996 -36 t 1024 -1024 -4 2.25
+   )
+  }
+ }
+// brush 7
+{
+  contents nonColliding;
+ ( 0 64 -68 ) ( -8 64 -68 ) ( -8 44 -68 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 44 -64 ) ( -8 64 -64 ) ( 0 64 -64 ) icbm_hazardstripe2 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 -64 -64 ) ( 0 -64 -64 ) ( 0 -64 -68 ) icbm_hazardstripe2 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 44 -64 ) ( 0 64 -64 ) ( 0 64 -68 ) icbm_hazardstripe2 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 64 -64 ) ( -8 64 -64 ) ( -8 64 -68 ) icbm_hazardstripe2 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -8 64 -64 ) ( -8 44 -64 ) ( -8 44 -68 ) icbm_hazardstripe2 64 64 0 32 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}

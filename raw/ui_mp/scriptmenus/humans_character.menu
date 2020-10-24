@@ -1,0 +1,216 @@
+#include "ui/menudef.h"
+
+#define	MENU_TEXT(m_rect, m_align, m_text, m_size, m_color, m_vis ) \
+			itemDef { \
+				rect			m_rect 0 0 \
+				textscale		m_size \
+				textalign		m_align \
+				forecolor		m_color \
+				exp				text( m_text ); \
+				visible			m_vis \
+				decoration 		autowrapped \
+			}
+
+
+#define	MENU_DIAMANT(m_but, m_rect, m_act, m_focus, m_vis ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_e_e_off" \
+			forecolor		1 1 1 1 \
+			visible			when( !m_vis || localVarInt( ui_button_focus ) != m_but) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_e_e_on" \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis && (localVarInt( ui_button_focus ) == m_but || localVarInt( ui_button_class ) == m_but)) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis ) \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 0; } \
+			action { play "mouse_click"; setLocalVarInt ui_button_class m_but; m_act } \
+		}	
+
+#define	MENU_KNIFE(m_but, m_rect, m_shader, m_act, m_focus, m_vis ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			exp				material(m_shader) \
+			forecolor		1 1 1 0.7 \
+			visible			1 \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			exp				material(m_shader) \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis && localVarInt( ui_button_focus ) == m_but) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis ) \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 0; } \
+			action { play "mouse_click"; m_act } \
+		}
+
+#define	MENU_LEBKA(m_but, m_rect, m_act, m_focus, m_vis ) \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_ok_off" \
+			forecolor		1 1 1 1 \
+			visible			1 \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			style			WINDOW_STYLE_SHADER \
+			rect			m_rect 0 0 \
+			background		"menu_ok_on" \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis && localVarInt( ui_button_focus ) == m_but) \
+			decoration \
+		} \
+		itemDef \
+		{ \
+			type			ITEM_TYPE_BUTTON \
+			rect			m_rect 0 0 \
+			forecolor		1 1 1 1 \
+			visible			when( m_vis ) \
+			onFocus { play "mouse_over"; setLocalVarInt ui_button_focus m_but; m_focus } \
+			leaveFocus { setLocalVarInt ui_button_focus 0; } \
+			action { play "mouse_click"; m_act } \
+		}
+		
+{
+	menuDef
+	{
+		name			"humans_character"
+		focuscolor		COLOR_FOCUSED
+		style			WINDOW_STYLE_FILLED
+		soundloop 		"music_connect_mp"
+		
+		backcolor		1 1 1 1
+		background		"menu_e_b"
+		rect			0 0 640 480 HORIZONTAL_ALIGN_FULLSCREEN 0
+		
+		onOpen
+		{	
+			
+			setLocalVarInt ui_button_class 1;
+		}
+		
+		onEsc
+		{
+			play "mouse_click";
+			close self;
+			open "team_marinesopfor";
+		}
+		
+		// =========  POZADIE  ==========
+		
+		itemDef //obrazok postavy - ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			39 63 219 346 0 0
+			background		"menu_e_f" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		} 
+		
+		itemDef //papyrus - info ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			301 27 174 279 0 0
+			background		"menu_e_s" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //dreveny box - zbran ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			295 341 188 110 0 0
+			background		"menu_e_w" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}	
+
+		itemDef //papyrus - perk 1 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 29 92 110 0 0
+			background		"menu_e_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+
+		itemDef //papyrus - perk 2 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 184 92 110 0 0
+			background		"menu_e_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}		
+
+		itemDef //papyrus - perk 3 ram
+		{ 
+			style			WINDOW_STYLE_SHADER 
+			rect			514 339 92 110 0 0
+			background		"menu_e_a" 
+			forecolor		1 1 1 1 
+			visible			1 
+			decoration 
+		}
+		
+		/* ====== Vyber Classu - Diamanty ======= */
+		MENU_DIAMANT(1, 59 18 30 36, ;, ;, 1 )
+		MENU_DIAMANT(2, 96 18 30 36, ;, ;, 1 )
+		MENU_DIAMANT(3, 133 18 30 36, ;, ;, 1 )
+		MENU_DIAMANT(4, 170 18 30 36, ;, ;, 1 )
+		MENU_DIAMANT(5, 207 18 30 36, ;, ;, 1 )
+
+		/* ========= Info box - Papyrus ========= */
+		MENU_TEXT(321 87 500 500, ITEM_ALIGN_LEFT, "HP: 5000", FONTSCALE_NORMAL, 0 0 0 1, 1 )
+		MENU_TEXT(321 107 500 500, ITEM_ALIGN_LEFT, "Damage: 75", FONTSCALE_NORMAL, 0 0 0 1, 1 )
+		MENU_TEXT(321 127 500 500, ITEM_ALIGN_LEFT, "Speed: 100%", FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		MENU_TEXT(321 147 500 500, ITEM_ALIGN_LEFT, "Jump: 100%", FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		
+		MENU_TEXT(321 187 134 50, ITEM_ALIGN_LEFT, "Ability  aa aaa a a a aaaa a a aaaa a a aaaaa a a a aaaa a aaaaa a a aaaa", FONTSCALE_NORMAL, 0 0 0 1, 1 ) 
+		
+		/* === Dyka - knife - prepinanie postav === */
+		MENU_KNIFE(20, 39 412 94 50, "menu_e_sl", ;, ;, 1 )
+		MENU_KNIFE(21, 164 412 94 50, "menu_e_sp", ;, ;, 1 )
+		
+		/* ======= Odchod z menu - Lebka ======= */
+		MENU_LEBKA(22, 127 409 42 54, open "team_marinesopfor"; close self;, ;, 1 )
+		
+		#include "ui/safearea.menu"
+	}
+}

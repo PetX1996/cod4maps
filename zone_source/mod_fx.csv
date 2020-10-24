@@ -1,0 +1,28 @@
+// TRAILS
+fx,trails/trail_blue_geo
+fx,trails/trail_gold_geo
+fx,trails/trail_green_geo
+fx,trails/trail_red_geo
+fx,trails/trail_white_geo
+
+fx,trails/trail_blue_pulse
+fx,trails/trail_gold_pulse
+fx,trails/trail_green_pulse
+fx,trails/trail_red_pulse
+fx,trails/trail_white_pulse
+
+fx,trails/trail_blue_spark
+fx,trails/trail_red_h_pulse
+fx,trails/trail_white_rotor
+
+fx,trails/post/trail_red_h_pulse
+fx,trails/post/trail_white_rotor
+
+// FX
+fx,deathrun/falling_teddys
+fx,deathrun/gib_splat
+fx,deathrun/blood_splat
+fx,deathrun/blood_splat2
+fx,deathrun/flesh_hit_knife
+fx,deathrun/bloodpool
+fx,deathrun/endgame_fx
