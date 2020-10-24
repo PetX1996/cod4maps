@@ -10,6 +10,9 @@ This respository contains all maps and their complete source codes developed by 
 2. Install official COD4 Mod Tools package to GAMEDIR folder
 3. Clone this repository to GAMEDIR folder (it will add a lot of new files and overwrite some existing one)
 
+## How do I commit changes?
+Before each commit run "generate-gitignore.bat" which creates new .gitignore file excluding all unmodified game files.
+
 ## How do I compile a map?
 Follow standard way of compiling. Some steps was modified to make it easier. Compiled map should be in usermaps folder.
 
